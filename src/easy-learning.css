@@ -1,0 +1,588 @@
+/* Progressive disclosure keeps the advanced material within reach. */
+.easy-chapter .compact-masthead {
+  padding-bottom: 12px;
+  gap: 14px;
+}
+.easy-chapter .compact-masthead code {
+  font-size: 22px;
+  margin-top: 0;
+  letter-spacing: 0;
+}
+.easy-chapter .atlas-metadata {
+  margin-top: 7px;
+  gap: 10px;
+}
+.study-tabs {
+  margin-bottom: 18px;
+  gap: 5px;
+  scroll-margin-top: 10px;
+}
+.study-tabs button {
+  flex: 1;
+  justify-content: center;
+  min-width: 0;
+  padding: 11px 10px;
+}
+.study-tabs button > span {
+  white-space: nowrap;
+}
+.study-panel {
+  padding-bottom: 14px;
+}
+.path-select {
+  margin: 0 0 20px;
+}
+.path-select label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  letter-spacing: 1.1px;
+  color: #a4bfd8;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.path-select label small {
+  font-size: 10px;
+  color: #efbd91;
+  letter-spacing: 0;
+}
+.path-select select {
+  width: 100%;
+  background: #13273b;
+  border-color: #3c5b78;
+  font-size: 13px;
+  padding: 11px;
+  color: #e1edfa;
+}
+.one-idea {
+  display: flex;
+  gap: 12px;
+  padding: 17px 19px;
+  border: 1px solid #6a574348;
+  border-radius: 10px;
+  background: #33291d24;
+  margin: 0 0 16px;
+}
+.one-idea > svg {
+  color: #efb87e;
+  margin-top: 2px;
+}
+.one-idea h3 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #f4dcc3;
+  margin-top: 5px;
+}
+.learning-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+}
+.learning-facts > div {
+  padding: 15px 17px;
+  border: 1px solid #304b65;
+  border-radius: 9px;
+  background: #102237;
+}
+.learning-facts p {
+  color: #d0dfef;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-top: 8px;
+  overflow-wrap: anywhere;
+}
+.easy-explanation {
+  padding: 17px 0;
+  margin: 0 !important;
+}
+.easy-explanation > p {
+  font-size: 14px;
+  line-height: 2;
+}
+.learning-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 16px 0 22px;
+}
+.compact-trap {
+  margin-bottom: 20px;
+}
+.study-disclosure {
+  margin: 16px 0;
+  border: 1px solid #324c66;
+  background: #101f31;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.study-disclosure > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 17px 18px;
+  list-style: none;
+  color: #dceaf9;
+  cursor: pointer;
+}
+.study-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+.study-disclosure > summary b {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+.study-disclosure > summary small {
+  display: block;
+  margin-top: 5px;
+  font-size: 11px;
+  color: #a5bcd3;
+  line-height: 1.6;
+}
+.study-disclosure > summary > svg {
+  color: #e8b17f;
+  transition: transform 0.2s;
+}
+.study-disclosure[open] > summary {
+  border-bottom: 1px solid #324c66;
+}
+.study-disclosure[open] > summary > svg {
+  transform: rotate(180deg);
+}
+.study-disclosure-body {
+  padding: 19px;
+}
+.study-disclosure-body .deep-study {
+  margin: 16px 0;
+}
+.study-disclosure-body .mini-lab {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+.study-disclosure-body .atlas-prose + .atlas-prose {
+  margin-top: 18px;
+}
+.mechanism-context {
+  padding: 15px 17px;
+  background: #132b3b;
+  border-left: 2px solid #85c8ec;
+  margin: 16px 0 22px;
+  border-radius: 0 8px 8px 0;
+}
+.mechanism-context .eyebrow {
+  line-height: 1.7;
+  letter-spacing: 0.7px;
+}
+.mechanism-context p {
+  font-size: 12px;
+  line-height: 1.85;
+  color: #b7d0e5;
+  margin-top: 8px;
+}
+.easy-chapter .atlas-mechanism {
+  margin-top: 20px;
+}
+.number-arrows {
+  font-size: 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mechanism-caption {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.mechanism-caption > span {
+  margin-left: auto;
+}
+.drawing-help {
+  padding: 0 17px 17px;
+  color: #a9c0d8;
+}
+.drawing-help summary {
+  font-size: 12px;
+  color: #a9d5ef;
+  cursor: pointer;
+}
+.drawing-help ul {
+  padding-left: 19px;
+  margin: 12px 0 0;
+  font-size: 12px;
+  line-height: 1.9;
+}
+.drawing-help li + li {
+  margin-top: 7px;
+}
+.drawing-help b {
+  color: #d6e8f8;
+}
+.arrow-number-note {
+  padding: 0 17px 13px;
+  color: #e7be91;
+  font-size: 11px;
+  line-height: 1.8;
+}
+.outcome-comparison {
+  margin: 20px 0;
+  min-width: 0;
+}
+.lab-panel > .outcome-comparison {
+  margin: 0 22px 22px;
+}
+.comparison-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 13px;
+}
+.comparison-heading h4 {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.comparison-heading .button {
+  font-size: 11px;
+}
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--comparison-count), minmax(0, 1fr));
+  gap: 13px;
+}
+.comparison-grid > article {
+  background: #0d1d30;
+  border: 1px solid #375473;
+  border-radius: 10px;
+  min-width: 0;
+  padding: 15px;
+}
+.comparison-grid > article:first-child {
+  border-color: #6aa8d3;
+}
+.comparison-grid label {
+  display: block;
+  color: #9ebdd7;
+  font-size: 9px;
+  letter-spacing: 1.2px;
+  margin-bottom: 8px;
+}
+.comparison-grid h5 {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #c8e2f7;
+  min-height: 39px;
+}
+.comparison-grid select {
+  width: 100%;
+  font-size: 11px;
+  margin-bottom: 5px;
+  padding: 9px;
+}
+.comparison-grid .comparison-product {
+  font-size: 14px;
+  color: #edc29d;
+  min-height: 0;
+  margin: 7px 0;
+}
+.comparison-grid dl {
+  margin-top: 13px;
+}
+.comparison-grid dt {
+  font-size: 10px;
+  letter-spacing: 0.6px;
+  color: #9fbeda;
+  margin-top: 13px;
+  font-weight: 600;
+}
+.comparison-grid dd {
+  font-size: 12px;
+  line-height: 1.85;
+  color: #bed1e6;
+  margin: 5px 0 0;
+  overflow-wrap: anywhere;
+}
+.comparison-grid details {
+  margin-top: 12px;
+  border-top: 1px solid #34495f;
+  padding-top: 10px;
+}
+.comparison-grid summary {
+  font-size: 11px;
+  color: #e4b392;
+  cursor: pointer;
+}
+.comparison-grid details p {
+  font-size: 12px;
+  line-height: 1.85;
+  color: #ddb3a9;
+  padding-top: 8px;
+}
+.comparison-grid .molecule-fragments {
+  gap: 2px;
+}
+.quiz-context-note {
+  display: block;
+  font-size: 12px;
+  line-height: 1.75;
+  color: #a8c1d9;
+  margin: 10px 0;
+}
+.recall-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 11px;
+  margin: 20px 0;
+}
+.recall-choices > button {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-height: 58px;
+  padding: 14px;
+  text-align: left;
+  color: #d7e5f6;
+  border: 1px solid #3a5672;
+  border-radius: 9px;
+  background: #12283e;
+  font-size: 13px;
+  line-height: 1.75;
+  transition:
+    background 0.15s,
+    border-color 0.15s;
+}
+.recall-choices > button > b {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  background: #284665;
+  color: #b8dcfc;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.recall-choices > button > span {
+  overflow-wrap: anywhere;
+  flex: 1;
+}
+.recall-choices > button:hover:enabled {
+  background: #1c3a55;
+  border-color: #85bde7;
+}
+.recall-choices > button:disabled {
+  opacity: 1;
+  cursor: default;
+}
+.recall-choices > button.correct {
+  background: #153b30;
+  border-color: #62b58e;
+  color: #c0f1d9;
+}
+.recall-choices > button.correct > b {
+  background: #235941;
+  color: #d8ffe9;
+}
+.recall-choices > button.incorrect {
+  background: #40262b;
+  border-color: #c58278;
+  color: #f6c5ba;
+}
+.recall-choices > button.incorrect > b {
+  background: #60343a;
+  color: #ffe0d4;
+}
+.recall-feedback {
+  border: 1px solid #647487;
+  background: #162a3d;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 18px 0;
+}
+.recall-feedback.correct {
+  border-color: #4a9b78;
+  background: #123329;
+}
+.recall-feedback.needs-review {
+  border-color: #8d6b51;
+  background: #2b251e;
+}
+.recall-feedback h3,
+.recall-feedback h4 {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+.recall-feedback p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #c3d8e9;
+}
+.recall-feedback details {
+  margin: 13px 0;
+}
+.recall-feedback summary {
+  font-size: 12px;
+  color: #eac296;
+  cursor: pointer;
+}
+.recall-feedback .text-button {
+  margin-top: 12px;
+}
+.reveal-without-answer {
+  margin: 0 0 20px;
+}
+.easy-chapter .dossier-notes {
+  margin-top: 0;
+}
+.easy-chapter .dossier-identity p {
+  font-size: 14px;
+  line-height: 2;
+}
+.easy-chapter .study-disclosure .dossier-notes > section:first-child {
+  padding-top: 0;
+}
+.easy-chapter .atlas-memory {
+  margin-top: 0;
+}
+@media (hover: hover) and (pointer: fine) {
+  .study-disclosure > summary,
+  .drawing-help summary,
+  .comparison-grid summary,
+  .recall-feedback summary {
+    cursor:
+      url("/cursors/chem-action.svg") 4 3,
+      pointer;
+  }
+}
+@media (max-width: 760px) {
+  .easy-chapter .compact-masthead code {
+    font-size: 19px;
+    line-height: 1.65;
+  }
+  .easy-chapter .atlas-metadata > span {
+    font-size: 10px;
+  }
+  .study-tabs {
+    gap: 4px;
+    padding: 9px 0;
+    margin-bottom: 16px;
+  }
+  .study-tabs button {
+    font-size: 11px;
+    padding: 10px 4px;
+    gap: 4px;
+  }
+  .study-tabs button > svg {
+    display: none;
+  }
+  .learning-facts {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+  .learning-facts > div {
+    padding: 13px 15px;
+  }
+  .one-idea {
+    padding: 14px;
+    gap: 10px;
+  }
+  .one-idea h3 {
+    font-size: 16px;
+  }
+  .learning-actions {
+    gap: 8px;
+  }
+  .learning-actions > .button {
+    font-size: 11px;
+    padding: 10px 11px;
+    flex: 1;
+  }
+  .study-disclosure > summary {
+    padding: 15px 13px;
+  }
+  .study-disclosure > summary b {
+    font-size: 13px;
+  }
+  .study-disclosure > summary small {
+    font-size: 11px;
+  }
+  .study-disclosure-body {
+    padding: 14px;
+  }
+  .path-select select {
+    font-size: 12px;
+  }
+  .mechanism-context p {
+    font-size: 12px;
+  }
+  .comparison-heading {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+  .comparison-grid h5 {
+    min-height: 0;
+  }
+  .lab-panel > .outcome-comparison {
+    margin: 15px 12px;
+  }
+  .comparison-grid > article {
+    padding: 15px;
+  }
+  .comparison-grid .molecule {
+    min-height: 155px !important;
+  }
+  .comparison-grid .molecule svg {
+    height: 155px !important;
+  }
+  .comparison-grid label {
+    font-size: 10px;
+  }
+  .comparison-grid select {
+    font-size: 12px;
+  }
+  .comparison-grid dd {
+    font-size: 13px;
+  }
+  .comparison-grid > article .molecule-fragments {
+    min-height: 155px;
+  }
+  .recall-choices {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+  .recall-choices > button {
+    padding: 13px;
+    font-size: 13px;
+    min-height: 56px;
+  }
+  .recall-feedback {
+    padding: 15px;
+  }
+  .quiz-context-note {
+    font-size: 11px;
+  }
+  .number-arrows {
+    font-size: 10px;
+    padding: 7px 9px;
+  }
+  .mechanism-caption > span {
+    margin-left: 0;
+  }
+  .drawing-help summary {
+    font-size: 12px;
+  }
+  .drawing-help ul {
+    font-size: 12px;
+  }
+  .arrow-number-note {
+    font-size: 11px;
+  }
+}

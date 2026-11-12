@@ -1,0 +1,985 @@
+[
+  {
+    "id": "ncert-book-soda-lime-decarboxylation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Soda-lime decarboxylation",
+    "pages": [
+      301
+    ],
+    "equation": "CH₃CH₂COONa + NaOH → CH₃CH₃ + Na₂CO₃",
+    "structures": [
+      {
+        "name": "Propanoate ion",
+        "smiles": "CCC(=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethane",
+        "smiles": "CC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "NaOH/CaO; heat",
+    "summary": "Carboxylate નું –COO⁻ carbon દૂર થાય છે એટલે one-carbon-shorter alkane મળે છે.",
+    "why": "Propanoate પાસે three carbons છે; ethane પાસે two. Product predict કરતી વખતે carboxyl carbon ને hydrocarbon chain માં count ન કરો.",
+    "steps": [
+      "Starting carboxylate માં carbon atoms count કરો.",
+      "–COO⁻ carbon અલગ કરો.",
+      "બાકી alkyl fragment ને H આપીને alkane બનાવો."
+    ],
+    "trap": "આ reduction of COOH to CH₂OH નથી; carbon count એકથી ઘટે છે.",
+    "quiz": {
+      "question": "Which alkane forms from sodium propanoate on soda-lime decarboxylation?",
+      "answer": "Ethane",
+      "distractors": [
+        "Propane",
+        "Methane",
+        "Butane"
+      ],
+      "level": "slot1"
+    },
+    "alsoIn": [
+      "carbonyl"
+    ]
+  },
+  {
+    "id": "ncert-book-methane-chlorination",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Methane chlorination: a radical chain",
+    "pages": [
+      302,
+      303
+    ],
+    "equation": "CH₄ + Cl₂ → CH₃Cl + HCl",
+    "structures": [
+      {
+        "name": "Methane",
+        "smiles": "C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Chloromethane",
+        "smiles": "CCl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Cl₂; light or heat",
+    "summary": "Light Cl–Cl bond ની homolysis શરૂ કરે છે. Radical chain માં propagation steps radical ને consume કરીને બીજો radical regenerate કરે છે.",
+    "why": "Cl• H abstract કરીને CH₃• આપે છે; CH₃• Cl₂ સાથે react કરીને CH₃Cl અને Cl• આપે છે. Further substitution થી mixture બની શકે છે.",
+    "steps": [
+      "Initiation માં light થી Cl–Cl bond homolysis થાય છે: Cl₂ → 2Cl•.",
+      "Propagation: Cl• + CH₄ → HCl + CH₃•; પછી CH₃• + Cl₂ → CH₃Cl + Cl•.",
+      "Termination માં બે radicals combine થાય છે."
+    ],
+    "trap": "Chlorination માત્ર chloromethane પર અટકે એવું universal નથી; further chlorination શક્ય છે.",
+    "quiz": {
+      "question": "Which step regenerates the chlorine radical?",
+      "answer": "CH₃• + Cl₂ → CH₃Cl + Cl•",
+      "distractors": [
+        "Cl₂ → 2Cl•",
+        "Cl• + Cl• → Cl₂",
+        "CH₃• + Cl• → CH₃Cl"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-ethane-conformations",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "structure",
+    "name": "Ethane: staggered vs eclipsed Newman views",
+    "pages": [
+      305
+    ],
+    "equation": "Staggered: dihedral angle 60°   |   Eclipsed: 0°",
+    "structures": [
+      {
+        "name": "Ethane",
+        "smiles": "CC",
+        "caption": "Connectivity; compare the Newman projections below.",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Rotation about a C–C single bond",
+    "summary": "C–C σ bond ની rotation થી conformations બદલાય છે; connectivity same રહે છે. Staggered ethane eclipsed કરતાં lower energy છે.",
+    "why": "Eclipsed form માં torsional strain વધારે હોય છે. Newman projection માં front carbon dot અને rear carbon circle તરીકે બતાવીએ છીએ.",
+    "steps": [
+      "C–C bond ની axis પરથી molecule જુઓ.",
+      "Front અને rear H–C bonds ની relative position compare કરો.",
+      "Eclipsed alignment માટે 0° અને staggered માટે 60° ઓળખો."
+    ],
+    "trap": "Conformers ને structural isomers ન ગણો; bond breaking જરૂરી નથી.",
+    "quiz": {
+      "question": "Which ethane conformation has lower torsional strain?",
+      "answer": "Staggered",
+      "distractors": [
+        "Eclipsed",
+        "Both always equal",
+        "Neither has a C–C bond"
+      ],
+      "level": "slot1"
+    },
+    "visual": "newman"
+  },
+  {
+    "id": "ncert-book-alkene-geometrical-isomerism",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "structure",
+    "name": "cis/trans and E/Z: but-2-ene",
+    "pages": [
+      307,
+      308
+    ],
+    "equation": "Restricted rotation about C=C permits geometrical isomerism.",
+    "structures": [
+      {
+        "name": "cis-(Z)-But-2-ene",
+        "smiles": "C/C=C\\C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "trans-(E)-But-2-ene",
+        "smiles": "C/C=C/C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Two different substituents on each double-bond carbon",
+    "summary": "C=C ની π bond free rotation રોકે છે. Each double-bond carbon પર two different groups હોય ત્યારે geometrical isomerism possible છે.",
+    "why": "But-2-ene માં same-side CH₃ groups cis/Z અને opposite-side CH₃ groups trans/E છે. General compounds માટે E/Z assign કરતી વખતે CIP priorities જોઈએ.",
+    "steps": [
+      "દરેક alkene carbon ના two substituents તપાસો.",
+      "Identical pair હોય તો E/Z applicable નથી.",
+      "Priority groups same side હોય તો Z, opposite હોય તો E."
+    ],
+    "trap": "Propene માટે E/Z નથી: terminal CH₂ carbon પર two H છે.",
+    "quiz": {
+      "question": "Which alkene can show geometrical isomerism?",
+      "answer": "But-2-ene",
+      "distractors": [
+        "Ethene",
+        "Propene",
+        "2-Methylpropene"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-alkene-bromination",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Bromine addition to an alkene",
+    "pages": [
+      309
+    ],
+    "equation": "CH₂=CH₂ + Br₂ → BrCH₂CH₂Br",
+    "structures": [
+      {
+        "name": "Ethene",
+        "smiles": "C=C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "1,2-Dibromoethane",
+        "smiles": "BrCCBr",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Br₂ in a non-nucleophilic solvent",
+    "summary": "Alkene ની π bond addition આપે છે; each alkene carbon પર Br જોડાય છે.",
+    "why": "Br₂ addition સામાન્ય રીતે bridged bromonium model અને backside attack થી anti addition આપે છે. Water solvent હોય તો bromohydrin competition આવે છે.",
+    "steps": [
+      "π bond electron-rich site ઓળખો.",
+      "Br₂ add થાય ત્યારે C=C single bond બને છે.",
+      "Product માં two new C–Br bonds count કરો."
+    ],
+    "trap": "Br₂/H₂O અને Br₂ in non-nucleophilic solvent ને same product rule થી predict ન કરો.",
+    "quiz": {
+      "question": "What is the main textbook product from ethene and Br₂ in a non-nucleophilic solvent?",
+      "answer": "1,2-Dibromoethane",
+      "distractors": [
+        "Bromoethane",
+        "Ethanol",
+        "Ethanal"
+      ],
+      "level": "slot1"
+    },
+    "mechanismPathId": "br2-alkene"
+  },
+  {
+    "id": "ncert-book-alkene-acid-hydration",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Acid-catalysed hydration of propene",
+    "pages": [
+      312,
+      313
+    ],
+    "equation": "CH₃CH=CH₂ + H₂O → CH₃CH(OH)CH₃",
+    "structures": [
+      {
+        "name": "Propene",
+        "smiles": "CC=C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propan-2-ol",
+        "smiles": "CC(O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Dilute acid; water",
+    "summary": "Water ના H અને OH alkene પર add થાય છે. Propene માટે ordinary acid hydration Markovnikov product propan-2-ol આપે છે.",
+    "why": "Protonation પછી more stable carbocation-like intermediate favoured છે; water attack અને deprotonation alcohol આપે છે. Suitable substrates માં rearrangements શક્ય છે.",
+    "steps": [
+      "Alkene protonation ના alternatives compare કરો.",
+      "Water electrophilic carbon પર attack કરે છે.",
+      "O-deprotonation acid catalyst regenerate કરે છે."
+    ],
+    "trap": "Acid hydration ને hydroboration–oxidation સાથે mix ન કરો; regiochemistry અલગ હોઈ શકે.",
+    "quiz": {
+      "question": "What is the usual product of acid-catalysed hydration of propene?",
+      "answer": "Propan-2-ol",
+      "distractors": [
+        "Propan-1-ol",
+        "Propanal",
+        "Propanoic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-baeyer-dihydroxylation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Cold alkaline KMnO₄: vicinal diol",
+    "pages": [
+      312
+    ],
+    "equation": "CH₂=CH₂ → HOCH₂CH₂OH",
+    "structures": [
+      {
+        "name": "Ethene",
+        "smiles": "C=C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethane-1,2-diol",
+        "smiles": "OCCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Cold, dilute alkaline KMnO₄",
+    "summary": "Mild permanganate oxidation માં C=C ના બંને carbons પર OH આવે છે. Ethene થી ethane-1,2-diol બને છે.",
+    "why": "Mild conditions માં vicinal dihydroxylation થાય છે; hot/concentrated oxidative conditions C–C cleavage તરફ લઈ જઈ શકે છે.",
+    "steps": [
+      "Reagent સાથે temperature અને concentration વાંચો.",
+      "Alkene carbons પર one OH each ઉમેરો.",
+      "Mild diol formation ને vigorous cleavage થી અલગ રાખો."
+    ],
+    "trap": "KMnO₄ લખેલું જોઈને દરેક question માં diol predict ન કરો.",
+    "quiz": {
+      "question": "Which product is expected from ethene with cold dilute alkaline KMnO₄?",
+      "answer": "Ethane-1,2-diol",
+      "distractors": [
+        "Ethanoic acid only",
+        "Ethane",
+        "Ethyne"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-alkene-ozonolysis",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Reductive ozonolysis: reconstruct the alkene",
+    "pages": [
+      312
+    ],
+    "equation": "CH₃CH=CHCH₃ → 2CH₃CHO",
+    "structures": [
+      {
+        "name": "But-2-ene",
+        "smiles": "CC=CC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Two ethanal molecules",
+        "smiles": "CC=O.CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "1. O₃  2. Zn/H₂O or another reductive work-up",
+    "summary": "C=C bond ને cut કરીને તેના બંને carbons ને carbonyl carbons બનાવો. But-2-ene ના બંને halves ethanal આપે છે.",
+    "why": "Each alkene carbon સાથે H હોય તો aldehyde બને છે; two carbon substituents હોય તો ketone. Oxidative work-up aldehyde endpoint બદલી શકે છે.",
+    "steps": [
+      "Original double bond ના બંને carbons mark કરો.",
+      "C=C cut કરીને each side C=O બનાવો.",
+      "Substituents/H પરથી aldehyde કે ketone classify કરો."
+    ],
+    "trap": "Work-up missing હોય તો aldehyde vs acid endpoint વિશે assumption સ્પષ્ટ કરો.",
+    "quiz": {
+      "question": "Reductive ozonolysis of but-2-ene gives which product?",
+      "answer": "Two ethanal molecules",
+      "distractors": [
+        "Two propanone molecules",
+        "One butanal molecule",
+        "Ethane-1,2-diol"
+      ],
+      "level": "slot1"
+    },
+    "mechanismPathId": "ozone-reductive"
+  },
+  {
+    "id": "ncert-book-ethene-polymerisation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Addition polymerisation of ethene",
+    "pages": [
+      313
+    ],
+    "equation": "nCH₂=CH₂ → [–CH₂–CH₂–]ₙ",
+    "structures": [
+      {
+        "name": "Ethene monomer",
+        "smiles": "C=C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Addition-polymerisation conditions; catalyst/process dependent",
+    "summary": "Many ethene units ની π bonds open થઈને long C–C backbone બનાવે છે. Repeat unit –CH₂–CH₂– છે.",
+    "why": "Addition polymerisation માં monomer ના atoms repeat unit માં રહે છે; water elimination જરૂરી નથી. Polymer ને એક small molecule નું fixed molecular mass ન આપો.",
+    "steps": [
+      "Monomer નું double bond ઓળખો.",
+      "C=C ને backbone C–C connectivity માં બદલો.",
+      "Repeat unit ને brackets અને n સાથે લખો."
+    ],
+    "trap": "Ethene monomer C₂H₄ છે; polyethene ની repeat-unit formula પણ C₂H₄ છે, પરંતુ whole polymer size variable છે.",
+    "quiz": {
+      "question": "What is the repeat unit of polyethene?",
+      "answer": "–CH₂–CH₂–",
+      "distractors": [
+        "–CH=CH–",
+        "–CO–NH–",
+        "–O–CH₂–"
+      ],
+      "level": "slot1"
+    },
+    "visual": "polyethene"
+  },
+  {
+    "id": "ncert-book-ethyne-from-carbide",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Calcium carbide to ethyne",
+    "pages": [
+      316
+    ],
+    "equation": "CaC₂ + 2H₂O → HC≡CH + Ca(OH)₂",
+    "structures": [
+      {
+        "name": "Ethyne",
+        "smiles": "C#C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Hydrolysis of calcium carbide; conceptual preparation",
+    "summary": "Calcium carbide માં carbide carbon pair છે. Hydrolysis થી two-carbon alkyne ethyne મળે છે.",
+    "why": "Balanced equation માં 2H₂O જોઈએ. CaC₂ ને calcium carbonate CaCO₃ સાથે confuse ન કરો; carbonate hydrolysis થી ethyne મળતું નથી.",
+    "steps": [
+      "CaC₂ માં two carbons count કરો.",
+      "Product HC≡CH identify કરો.",
+      "Ca(OH)₂ સાથે water balance કરો."
+    ],
+    "trap": "Carbide અને carbonate ના formulas તથા reactions અલગ છે.",
+    "quiz": {
+      "question": "Which reagent gives ethyne on hydrolysis?",
+      "answer": "CaC₂",
+      "distractors": [
+        "CaCO₃",
+        "CaCl₂",
+        "CaO"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-terminal-alkyne-acidity",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Terminal alkynes form acetylide ions",
+    "pages": [
+      316,
+      317
+    ],
+    "equation": "HC≡CH + NaNH₂ → HC≡C⁻ Na⁺ + NH₃",
+    "structures": [
+      {
+        "name": "Ethyne",
+        "smiles": "C#C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethynide ion",
+        "smiles": "[C-]#C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Strong base such as NaNH₂",
+    "summary": "Terminal alkyne ના sp carbon પરનો H alkene/alkane H કરતાં વધુ acidic છે. Strong base તેને remove કરીને acetylide બનાવે છે.",
+    "why": "sp orbital માં 50% s character electron pair ને nucleus નજીક રાખે છે. Internal alkyne માં terminal C≡C–H જ નથી.",
+    "steps": [
+      "Triple bond ના end પર H છે કે નહીં તપાસો.",
+      "Strong enough base પસંદ કરો.",
+      "Carbon skeleton same રાખીને terminal H દૂર કરો."
+    ],
+    "trap": "Ordinary aqueous OH⁻ ને terminal alkyne ની quantitative deprotonation માટે પૂરતું strong ન માનો.",
+    "quiz": {
+      "question": "Which compound can give an acetylide ion by terminal-H removal?",
+      "answer": "Prop-1-yne",
+      "distractors": [
+        "But-2-yne",
+        "Ethene",
+        "Ethane"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-alkyne-partial-hydrogenation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Lindlar vs Na/NH₃: choose Z or E alkene",
+    "pages": [
+      308,
+      317
+    ],
+    "equation": "But-2-yne → Z-but-2-ene or E-but-2-ene",
+    "structures": [
+      {
+        "name": "But-2-yne",
+        "smiles": "CC#CC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Z-But-2-ene",
+        "smiles": "C/C=C\\C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "E-But-2-ene",
+        "smiles": "C/C=C/C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "H₂/Lindlar → Z; Na/liquid NH₃ → E",
+    "summary": "Same alkyne reagent બદલતાં different alkene geometry આપી શકે છે. Lindlar catalyst syn H delivery આપે છે; dissolving-metal reduction E alkene favour કરે છે.",
+    "why": "Unpoisoned Ni/Pd/Pt સાથે complete hydrogenation alkane સુધી જઈ શકે છે. Z/E only applicable જ્યારે both alkene carbons પર different substituents હોય.",
+    "steps": [
+      "Internal alkyne ઓળખો.",
+      "Poisoned catalyst અને dissolving metal conditions અલગ વાંચો.",
+      "Z, E કે complete reduction endpoint પસંદ કરો."
+    ],
+    "trap": "Terminal alkyne થી terminal alkene મળે ત્યારે E/Z નામ આપવું ખોટું છે.",
+    "quiz": {
+      "question": "Which reagent usually gives Z-but-2-ene from but-2-yne?",
+      "answer": "H₂/Lindlar catalyst",
+      "distractors": [
+        "Na/liquid NH₃",
+        "Excess H₂/Ni",
+        "Hot KMnO₄"
+      ],
+      "level": "slot1"
+    },
+    "mechanismPathId": "lindlar-z"
+  },
+  {
+    "id": "ncert-book-alkyne-mercuric-hydration",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Hg²⁺-catalysed alkyne hydration",
+    "pages": [
+      317
+    ],
+    "equation": "CH₃C≡CH → CH₃C(OH)=CH₂ → CH₃COCH₃",
+    "structures": [
+      {
+        "name": "Propyne",
+        "smiles": "CC#C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Enol intermediate",
+        "smiles": "CC(O)=C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "HgSO₄, H₂SO₄, H₂O",
+    "summary": "Propyne માં hydration Markovnikov orientation થી enol આપે છે. Enol tautomerise થઈને propanone બને છે.",
+    "why": "Isolated product enol નહીં પરંતુ more stable carbonyl compound છે. Terminal alkynes સામાન્ય રીતે methyl ketone આપે છે; ethyne special case તરીકે ethanal આપે છે.",
+    "steps": [
+      "Water addition માં OH more substituted alkyne carbon પર મૂકો.",
+      "C=C–OH enol structure બનાવો.",
+      "Proton-transfer tautomerisation થી C=O product મેળવો."
+    ],
+    "trap": "Alkyne hydration નું final answer સામાન્ય રીતે vinylic alcohol તરીકે ન છોડો.",
+    "quiz": {
+      "question": "What is the final product of propyne hydration with HgSO₄/H₂SO₄/H₂O?",
+      "answer": "Propanone",
+      "distractors": [
+        "Propanal",
+        "Propan-1-ol",
+        "Propanoic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-alkyne-hydroboration",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Terminal alkyne hydroboration gives an aldehyde",
+    "pages": [
+      317
+    ],
+    "equation": "CH₃CH₂C≡CH → CH₃CH₂CH=CHOH → CH₃CH₂CH₂CHO",
+    "structures": [
+      {
+        "name": "But-1-yne",
+        "smiles": "CCC#C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Butanal",
+        "smiles": "CCCC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "1. Bulky dialkylborane  2. H₂O₂/OH⁻",
+    "summary": "B terminal carbon પર પહોંચે છે. Oxidation થી terminal enol અને પછી aldehyde બને છે; but-1-yne થી butanal મળે છે.",
+    "why": "Bulky borane second hydroboration ને limit કરે છે. Alkyne oxidation પછી tautomerisation જરૂરી છે; alkene hydroboration ની alcohol endpoint અહીં copy ન કરો.",
+    "steps": [
+      "B નું anti-Markovnikov placement ઓળખો.",
+      "C–B થી C–O conversion track કરો.",
+      "Enol ને carbonyl tautomer માં ફેરવો."
+    ],
+    "trap": "BH₃ અને bulky dialkylboranes દરેક terminal alkyne પર identical selectivity આપતા નથી.",
+    "quiz": {
+      "question": "Which product forms from but-1-yne by controlled hydroboration–oxidation?",
+      "answer": "Butanal",
+      "distractors": [
+        "Butan-2-one",
+        "Butan-1-ol",
+        "Butanoic acid"
+      ],
+      "level": "slot1"
+    },
+    "mechanismPathId": "bh3-alkyne",
+    "extension": true,
+    "externalReferences": [
+      {
+        "label": "NPTEL · alkyne hydroboration–oxidation",
+        "url": "https://archive.nptel.ac.in/content/storage2/courses/104103071/module4/lec9/4.html"
+      }
+    ]
+  },
+  {
+    "id": "ncert-book-ethyne-trimerisation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Ethyne trimerisation to benzene",
+    "pages": [
+      318,
+      321
+    ],
+    "equation": "3HC≡CH → C₆H₆",
+    "structures": [
+      {
+        "name": "Three ethyne molecules",
+        "smiles": "C#C.C#C.C#C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzene",
+        "smiles": "c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Red-hot iron tube; about 873 K in the textbook conversion",
+    "summary": "Three two-carbon ethyne molecules cyclic polymerisation થી six-carbon benzene ring આપે છે.",
+    "why": "આ ordinary hydrogenation નથી. Starting total six C અને six H, product benzene C₆H₆ સાથે match થાય છે.",
+    "steps": [
+      "Three ethyne units ના atoms count કરો.",
+      "Cyclic six-carbon skeleton બનાવો.",
+      "Product aromatic benzene છે તે ઓળખો."
+    ],
+    "trap": "Ethyne addition polymerisation અને cyclic trimerisation અલગ outcomes છે.",
+    "quiz": {
+      "question": "How many ethyne molecules form one benzene molecule in cyclic trimerisation?",
+      "answer": "3",
+      "distractors": [
+        "2",
+        "4",
+        "6"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-benzene-aromaticity",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "concept",
+    "name": "Benzene: aromaticity and delocalisation",
+    "pages": [
+      318,
+      320
+    ],
+    "equation": "Benzene: planar cyclic conjugation with 6 π electrons",
+    "structures": [
+      {
+        "name": "Benzene",
+        "smiles": "c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Cyclohexene",
+        "smiles": "C1=CCCCC1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Aromatic π system",
+    "summary": "Benzene ને three isolated double bonds ધરાવતું cyclohexatriene માનીને બધા alkene rules લાગુ ન કરો. Its π electrons delocalised છે.",
+    "why": "Aromaticity માટે cyclic, planar, continuously conjugated system અને 4n+2 π electrons જોઈએ. Benzene માટે n = 1, એટલે 6 π electrons.",
+    "steps": [
+      "દરેક ring atom પર p-orbital continuity જુઓ.",
+      "π-electron count કરો.",
+      "Planarity અને 4n+2 rule સાથે aromaticity check કરો."
+    ],
+    "trap": "4n+2 count એકલું પૂરતું નથી; cyclic conjugation અને planarity પણ જરૂરી છે.",
+    "quiz": {
+      "question": "How many π electrons are delocalised in benzene?",
+      "answer": "6",
+      "distractors": [
+        "3",
+        "8",
+        "12"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-benzene-nitration",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Benzene nitration: generate the electrophile",
+    "pages": [
+      322,
+      323
+    ],
+    "equation": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O",
+    "structures": [
+      {
+        "name": "Benzene",
+        "smiles": "c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Nitrobenzene",
+        "smiles": "O=[N+]([O-])c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Concentrated HNO₃/H₂SO₄; controlled nitration conditions",
+    "summary": "Mixed acid nitronium ion NO₂⁺ generate કરવામાં મદદ કરે છે. Benzene π electrons electrophile પર attack કરે છે.",
+    "why": "σ-complex બનતાં aromaticity temporarily જાય છે; ring proton remove થતાં aromaticity પાછી આવે છે. Overall H ને NO₂ replace કરે છે.",
+    "steps": [
+      "Electrophile NO₂⁺ ઓળખો.",
+      "C–N bond formation અને σ-complex સમજાવો.",
+      "Deprotonation થી substituted aromatic product મેળવો."
+    ],
+    "trap": "Product nitrobenzene છે; ring સાથે N જોડાયેલો છે, O નહીં.",
+    "quiz": {
+      "question": "What is the electrophile in ordinary benzene nitration?",
+      "answer": "NO₂⁺",
+      "distractors": [
+        "NO₂⁻",
+        "NO₃⁻",
+        "NH₄⁺"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-benzene-sulphonation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Benzene sulphonation is reversible",
+    "pages": [
+      322
+    ],
+    "equation": "C₆H₆ + H₂SO₄ ⇌ C₆H₅SO₃H + H₂O",
+    "structures": [
+      {
+        "name": "Benzene",
+        "smiles": "c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzenesulphonic acid",
+        "smiles": "O=S(=O)(O)c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Fuming H₂SO₄/SO₃; reverse direction favoured by hot aqueous acid/steam",
+    "summary": "Aromatic ring પર –SO₃H group electrophilic substitution થી આવે છે. Conditions બદલતાં desulphonation શક્ય છે.",
+    "why": "Sulphonation equilibrium અને medium પર sensitive છે. SO₃/protonated sulfur electrophile descriptions medium પર આધારિત છે.",
+    "steps": [
+      "Ring H ને SO₃H group થી replace કરો.",
+      "S directly aromatic carbon સાથે જોડાયેલો છે તે જુઓ.",
+      "Reverse reaction માટે aqueous heating નો role યાદ રાખો."
+    ],
+    "trap": "Sulphonic acid Ar–SO₃H અને sulfate ester Ar–O–SO₃H અલગ connectivity છે.",
+    "quiz": {
+      "question": "Which statement about aromatic sulphonation is correct?",
+      "answer": "It is reversible under suitable conditions",
+      "distractors": [
+        "It always destroys aromaticity permanently",
+        "It gives a sulfate ester only",
+        "It is a radical chain reaction"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-aromatic-directing-effects",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "concept",
+    "name": "Directing effects: activation and orientation",
+    "pages": [
+      324,
+      325
+    ],
+    "equation": "OH/OMe: ortho/para   |   NO₂/COOH: meta   |   Halogens: deactivating ortho/para",
+    "structures": [
+      {
+        "name": "Phenol",
+        "smiles": "Oc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Nitrobenzene",
+        "smiles": "O=[N+]([O-])c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Chlorobenzene",
+        "smiles": "Clc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Electrophilic aromatic substitution",
+    "summary": "Existing substituent ring ની reactivity અને new substitution ની position બંનેને affect કરે છે. Activating/deactivating અને directing બે અલગ questions છે.",
+    "why": "OH/OMe resonance donation થી ortho/para activation આપે છે. NO₂ strongly withdraw કરીને meta direction આપે છે. Halogens deactivating હોવા છતાં ortho/para directing છે.",
+    "steps": [
+      "Substituent નું resonance અને inductive effects ઓળખો.",
+      "Reaction rate effect ને orientation effect થી અલગ રાખો.",
+      "Steric effects અને major/minor products પણ જુઓ."
+    ],
+    "trap": "Halogen ને deactivating જોઈને meta-director ન લખો.",
+    "quiz": {
+      "question": "Which substituent is deactivating but ortho/para directing?",
+      "answer": "Cl",
+      "distractors": [
+        "NO₂",
+        "COOH",
+        "CHO"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-toluene-ring-sidechain",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Toluene: ring chlorination vs side-chain chlorination",
+    "pages": [
+      302,
+      322
+    ],
+    "equation": "Cl₂/hν → PhCH₂Cl   |   Cl₂/FeCl₃ → o-/p-chlorotoluene",
+    "structures": [
+      {
+        "name": "Toluene",
+        "smiles": "Cc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzyl chloride",
+        "smiles": "ClCc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "p-Chlorotoluene",
+        "smiles": "Cc1ccc(Cl)cc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Light: radical side-chain reaction; Lewis acid: ring substitution",
+    "summary": "Substrate same છે પરંતુ conditions reaction site બદલાવે છે. Light માં benzylic C–H substitution અને FeCl₃ સાથે aromatic substitution favour થાય છે.",
+    "why": "Benzylic radical resonance-stabilised છે. Ring pathway માં CH₃ ortho/para direction આપે છે; para drawing shown છે, ortho પણ બને છે.",
+    "steps": [
+      "hν/heat અને Lewis-acid catalyst વચ્ચે ફરક જુઓ.",
+      "Side-chain carbon અને ring carbon mark કરો.",
+      "Product માં Cl ની exact attachment check કરો."
+    ],
+    "trap": "Benzyl chloride Ph–CH₂Cl અને chlorotoluene Cl–C₆H₄–CH₃ isomeric પરંતુ chemically અલગ છે.",
+    "quiz": {
+      "question": "Which conditions favour side-chain chlorination of toluene?",
+      "answer": "Cl₂/hν",
+      "distractors": [
+        "Cl₂/FeCl₃ in the dark",
+        "Dilute NaOH",
+        "H₂/Ni"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-benzene-addition",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "hydrocarbons",
+    "kind": "reaction",
+    "name": "Benzene under forcing addition conditions",
+    "pages": [
+      324
+    ],
+    "equation": "C₆H₆ + 3H₂ → C₆H₁₂",
+    "structures": [
+      {
+        "name": "Benzene",
+        "smiles": "c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Cyclohexane",
+        "smiles": "C1CCCCC1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Hexachlorocyclohexane connectivity",
+        "smiles": "ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl",
+        "caption": "Connectivity only; stereoisomer is not specified.",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "H₂/Ni under forcing conditions; Cl₂/UV gives addition products",
+    "summary": "Benzene સામાન્ય રીતે substitution દ્વારા aromaticity રાખે છે; forcing conditions માં addition પણ થાય છે.",
+    "why": "Hydrogenation cyclohexane આપે છે. UV chlorination ring addition થી hexachlorocyclohexane isomeric products આપી શકે છે; generic connectivity ને specific γ-isomer ન કહો.",
+    "steps": [
+      "Aromaticity lose થાય છે તે ઓળખો.",
+      "Hydrogenation માટે three H₂ equivalents count કરો.",
+      "Photochemical Cl₂ addition ને Lewis-acid ring chlorination થી અલગ રાખો."
+    ],
+    "trap": "BHC/HCH ના generic formula ને automatically lindane ની specific stereochemistry સાથે equate ન કરો.",
+    "quiz": {
+      "question": "What forms on complete catalytic hydrogenation of benzene?",
+      "answer": "Cyclohexane",
+      "distractors": [
+        "Cyclohexene only",
+        "Hexane",
+        "Toluene"
+      ],
+      "level": "slot1"
+    }
+  }
+]

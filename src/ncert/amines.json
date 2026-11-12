@@ -1,0 +1,409 @@
+[
+  {
+    "id": "ncert-book-nitro-to-amine",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "amines",
+    "kind": "reaction",
+    "name": "Nitrobenzene reduction to aniline",
+    "pages": [
+      262
+    ],
+    "equation": "PhNO₂ → PhNH₂",
+    "structures": [
+      {
+        "name": "Nitrobenzene",
+        "smiles": "O=[N+]([O-])c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Aniline",
+        "smiles": "Nc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Sn/HCl or Fe/HCl, followed by base work-up; catalytic hydrogenation is another route",
+    "summary": "Nitro group reduction માં N aromatic carbon સાથે જોડાયેલો જ રહે છે; NO₂ થી NH₂ conversion થાય છે.",
+    "why": "Metal/acid conditions માં amine protonated salt રૂપે હોય શકે છે. Neutral aniline બતાવતાં basic work-up ધ્યાનમાં લો.",
+    "steps": [
+      "Ring–N bond retained રાખો.",
+      "Two O દૂર થઈ N–H bonds વધે છે તે જુઓ.",
+      "Medium પ્રમાણે anilinium salt કે free aniline લખો."
+    ],
+    "trap": "Nitro reduction ring પર NH₂ substitute કરતું direct aromatic amination નથી; existing N retained છે.",
+    "quiz": {
+      "question": "What organic product forms after nitrobenzene reduction and neutralisation?",
+      "answer": "Aniline",
+      "distractors": [
+        "Benzamide",
+        "Benzonitrile",
+        "Phenol"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-nitrile-amide-reduction",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "amines",
+    "kind": "reaction",
+    "name": "Nitrile vs amide reduction: count carbons",
+    "pages": [
+      263
+    ],
+    "equation": "Et–C≡N → Et–CH₂NH₂   |   CH₃CONH₂ → CH₃CH₂NH₂",
+    "structures": [
+      {
+        "name": "Propanenitrile",
+        "smiles": "CCC#N",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propan-1-amine",
+        "smiles": "CCCN",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Acetamide",
+        "smiles": "CC(N)=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethylamine",
+        "smiles": "CCN",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "LiAlH₄ and work-up; nitriles may also undergo catalytic hydrogenation",
+    "summary": "Nitrile carbon અને amide carbonyl carbon બંને reduction માં chain નો part રહે છે. તેથી nitrile/amide reduction one-carbon loss કરતું નથી.",
+    "why": "Hofmann rearrangement primary amide ને one-carbon-shorter amine આપે છે; LiAlH₄ reduction carbonyl carbon retain કરે છે.",
+    "steps": [
+      "Starting group નો functional carbon label કરો.",
+      "તે carbon ને product CH₂–N carbon સાથે match કરો.",
+      "Hofmann degradation સાથે carbon count compare કરો."
+    ],
+    "trap": "Acetamide થી LiAlH₄ સાથે methylamine નહીં, ethylamine મળે છે.",
+    "quiz": {
+      "question": "What does LiAlH₄ reduction of acetamide give?",
+      "answer": "Ethylamine",
+      "distractors": [
+        "Methylamine",
+        "Aniline",
+        "Acetonitrile"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-amine-basicity",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "amines",
+    "kind": "concept",
+    "name": "Amine basicity: gas phase vs water",
+    "pages": [
+      267,
+      269
+    ],
+    "equation": "Lower pKb = stronger base; aqueous order depends on solvation and alkyl group.",
+    "structures": [
+      {
+        "name": "Ammonia",
+        "smiles": "N",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethylamine",
+        "smiles": "CCN",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Diethylamine",
+        "smiles": "CCNCC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Aniline",
+        "smiles": "Nc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Specify solvent/phase before ranking",
+    "summary": "N lone pair ની availability amine basicity માટે મહત્વની છે. Alkyl +I donation basicity વધારી શકે છે, પરંતુ aqueous solvation અને steric effects order બદલી શકે છે.",
+    "why": "Aniline માં lone pair ring સાથે delocalise થાય છે, તેથી simple alkylamines કરતાં generally weaker base છે. Gas-phase order ને blindly aqueous order ન બનાવો.",
+    "steps": [
+      "Solvent/phase વાંચો.",
+      "Lone-pair resonance અને inductive effects જુઓ.",
+      "Conjugate-acid solvation અને steric factors consider કરો."
+    ],
+    "trap": "Aqueous methylamine અને ethylamine series માં 1°/3° relative order identical હોવો જરૂરી નથી.",
+    "quiz": {
+      "question": "Why is aniline generally less basic than ethylamine?",
+      "answer": "Its N lone pair is delocalised into the aromatic ring",
+      "distractors": [
+        "It has no lone pair",
+        "It is always positively charged",
+        "Its nitrogen is replaced by oxygen"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-aniline-protection-nitration",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "amines",
+    "kind": "reaction",
+    "name": "Protect aniline before controlled nitration",
+    "pages": [
+      269,
+      272,
+      273
+    ],
+    "equation": "Aniline → acetanilide → p-nitroacetanilide → p-nitroaniline",
+    "structures": [
+      {
+        "name": "Aniline",
+        "smiles": "Nc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Acetanilide",
+        "smiles": "CC(=O)Nc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "p-Nitroacetanilide",
+        "smiles": "CC(=O)Nc1ccc([N+](=O)[O-])cc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "p-Nitroaniline",
+        "smiles": "Nc1ccc([N+](=O)[O-])cc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "N-acetylation; nitration; then amide hydrolysis",
+    "summary": "NH₂ ને acetyl group થી protect કરતાં ring activation moderate થાય છે. Nitration પછી protecting group hydrolyse કરીને NH₂ પાછું મળે છે.",
+    "why": "Strong acid માં unprotected aniline protonate થઈ meta-directing anilinium character આપે છે અને product mixture બને છે. Acetanilide ortho/para directing છે; para product commonly favoured છે.",
+    "steps": [
+      "NH₂ → NHCOCH₃ protection કરો.",
+      "Nitration માં ring position control જુઓ.",
+      "Hydrolysis થી N-acetyl group દૂર કરો."
+    ],
+    "trap": "Protection પછી NHCOCH₃ group ને meta director ન કહો.",
+    "quiz": {
+      "question": "Why is aniline often acetylated before nitration?",
+      "answer": "To moderate activation and improve controlled ortho/para substitution",
+      "distractors": [
+        "To remove nitrogen permanently",
+        "To convert the ring to an alkene",
+        "To force meta substitution only"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-aniline-bromination",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "amines",
+    "kind": "reaction",
+    "name": "Aniline gives 2,4,6-tribromoaniline with bromine water",
+    "pages": [
+      272
+    ],
+    "equation": "PhNH₂ + 3Br₂ → 2,4,6-tribromoaniline + 3HBr",
+    "structures": [
+      {
+        "name": "Aniline",
+        "smiles": "Nc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "2,4,6-Tribromoaniline",
+        "smiles": "Nc1c(Br)cc(Br)cc1Br",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Bromine water",
+    "summary": "NH₂ strongly activates aromatic ring. Aqueous bromination readily ortho/para multiple substitution આપે છે.",
+    "why": "Controlled monobromination માટે N-protection strategy helpful છે. Product માં amino group retain થાય છે; bromination N removal નથી.",
+    "steps": [
+      "NH₂ ની ortho/para sites mark કરો.",
+      "2,4,6 substitution product દોરો.",
+      "Unprotected અને protected amine reactivity compare કરો."
+    ],
+    "trap": "Aniline + bromine water નું main textbook product p-bromoaniline only નથી.",
+    "quiz": {
+      "question": "What is the usual product from aniline and bromine water?",
+      "answer": "2,4,6-Tribromoaniline",
+      "distractors": [
+        "Bromobenzene",
+        "p-Bromoaniline only",
+        "Benzyl bromide"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-aliphatic-amine-nitrous-acid",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "amines",
+    "kind": "reaction",
+    "name": "Primary aliphatic amines with nitrous acid",
+    "pages": [
+      271
+    ],
+    "equation": "EtNH₂ + HNO₂ → EtOH + N₂ + H₂O",
+    "structures": [
+      {
+        "name": "Ethylamine",
+        "smiles": "CCN",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Nitrous acid generated in situ; conceptual reactivity comparison",
+    "summary": "Primary aliphatic amine ના diazonium-like intermediates unstable હોય છે; nitrogen evolution સાથે alcohol-containing products મળી શકે છે.",
+    "why": "Primary aromatic amines cold conditions માં relatively persistent diazonium salts બનાવી શકે છે. Aliphatic systems માં rearrangements/other products શક્ય છે; simple equation model છે.",
+    "steps": [
+      "Amine aliphatic છે કે aromatic તે ઓળખો.",
+      "Nitrogen gas loss ની driving force યાદ રાખો.",
+      "Stable isolated aromatic diazonium salt rule aliphatic case પર ન લગાવો."
+    ],
+    "trap": "Primary aliphatic diazonium salt ને ordinary stable bottled intermediate તરીકે ન બતાવો.",
+    "quiz": {
+      "question": "Which gas is characteristically evolved when a primary aliphatic amine reacts with nitrous acid?",
+      "answer": "N₂",
+      "distractors": [
+        "H₂",
+        "O₂",
+        "CO"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-diazonium-hydrolysis",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "amines",
+    "kind": "reaction",
+    "name": "Warm diazonium solution: make a phenol",
+    "pages": [
+      275,
+      276
+    ],
+    "equation": "PhN₂⁺Cl⁻ + H₂O → PhOH + N₂ + HCl",
+    "structures": [
+      {
+        "name": "Benzenediazonium chloride",
+        "smiles": "[Cl-].N#[N+]c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Phenol",
+        "smiles": "Oc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Warm aqueous medium",
+    "summary": "Aryl diazonium group OH થી replace થઈ શકે છે અને stable N₂ gas નીકળે છે. Aniline થી phenol route માં diazotisation useful bridge છે.",
+    "why": "Cold diazotisation conditions અને warm hydrolysis conditions ને અલગ રાખો. આ ordinary aryl SN2 નથી.",
+    "steps": [
+      "Starting Ar–N₂⁺ bond ઓળખો.",
+      "Diazonium group ની જગ્યાએ OH મૂકો.",
+      "Ring skeleton retained અને N₂ lost છે તે count કરો."
+    ],
+    "trap": "Cl⁻ counterion હોવા છતાં warm water route નો organic product necessarily chlorobenzene નથી.",
+    "quiz": {
+      "question": "What forms on warming an aqueous benzenediazonium salt solution?",
+      "answer": "Phenol",
+      "distractors": [
+        "Benzyl alcohol",
+        "Aniline",
+        "Benzonitrile"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-diazonium-iodide-hydrogen",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "amines",
+    "kind": "reaction",
+    "name": "Diazonium conversion map: KI or H₃PO₂",
+    "pages": [
+      275,
+      276
+    ],
+    "equation": "ArN₂⁺ → ArI with KI   |   ArN₂⁺ → ArH with H₃PO₂",
+    "structures": [
+      {
+        "name": "Benzenediazonium ion",
+        "smiles": "N#[N+]c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Iodobenzene",
+        "smiles": "Ic1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzene",
+        "smiles": "c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "KI: iodide replacement; H₃PO₂: reductive replacement by H",
+    "summary": "Diazonium group different reagents સાથે different substituents આપે છે. KI aryl iodide અને hypophosphorous acid Ar–H endpoint આપે છે.",
+    "why": "આ synthetic map માં N₂ leaving group છે. Sandmeyer, Balz–Schiemann અને azo coupling ના existing cards related alternatives તરીકે જુઓ.",
+    "steps": [
+      "Target group I કે H છે તે નક્કી કરો.",
+      "Corresponding reagent પસંદ કરો.",
+      "Starting ring substituents unchanged રાખો."
+    ],
+    "trap": "Aryl iodide formation માટે every case માં Cu(I) salt જરૂરી નથી; KI conversion અલગ textbook route છે.",
+    "quiz": {
+      "question": "Which reagent replaces an aryl diazonium group by hydrogen?",
+      "answer": "H₃PO₂",
+      "distractors": [
+        "KI",
+        "HBF₄ followed by heat",
+        "CuCN"
+      ],
+      "level": "slot1"
+    }
+  }
+]

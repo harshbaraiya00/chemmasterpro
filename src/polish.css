@@ -1,0 +1,1450 @@
+/* Clear type, midnight blue surfaces and warm copper accents. */
+.module-loading{padding:28px;border:1px solid #38516b;border-radius:12px;color:#bad5ed;background:#102033}
+.goc-entry-link{margin:14px 0;display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:14px;border:1px solid #3a6180;border-radius:10px;background:#122b413d}
+.goc-entry-link p{flex:1;margin:0;font-size:12px;line-height:1.8;color:#b9cee3}
+:root {
+  font-family: "Segoe UI Variable Text", "Segoe UI", Roboto, Arial, sans-serif;
+  color: #edf3fb;
+  background: #080e19;
+  --muted: #a4b5cb;
+  --cyan: #7cbdff;
+  --orange: #ffb77a;
+  --panel: #101d2e;
+  --border: #33465f;
+  color-scheme: dark;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: auto;
+}
+body {
+  color: #edf3fb;
+  line-height: 1.65;
+}
+::selection {
+  background: #285583;
+  color: #fff;
+}
+input,
+textarea {
+  caret-color: #ffbc82;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #edf4ff;
+  font-weight: 650;
+  text-shadow: none;
+}
+code,
+.mono {
+  font-variant-ligatures: none;
+  font-weight: 500;
+}
+.sidebar {
+  background: #0b1422;
+  border-color: #23354d;
+}
+.brand-symbol {
+  color: #9dcfff;
+  border-color: #42658b;
+  background: linear-gradient(145deg, #1b3b57, #14263b);
+}
+.brand small {
+  color: #a0b3cd;
+  font-size: 8px;
+  letter-spacing: 1.25px;
+}
+.brand-pro {
+  color: #ffbc82;
+}
+.nav-caption {
+  color: #92a7c2;
+  font-size: 10px;
+  letter-spacing: 1.35px;
+}
+.nav-item {
+  font-size: 13px;
+  font-weight: 500;
+  color: #aebed3;
+  padding: 12px;
+}
+.nav-item.active {
+  background: #16314b;
+  color: #aed6ff;
+  border-color: #365c81;
+}
+.nav-item.active:before {
+  background: #79bdff;
+  box-shadow: none;
+}
+.nav-active-dot {
+  background: #ffb77a;
+}
+.nav-item:hover {
+  color: #eff6ff;
+  background: #15283d;
+}
+.workspace-label {
+  font-size: 10px;
+  color: #adc0d7;
+}
+.sidebar-note p {
+  color: #a9bbd1;
+  font-weight: 400;
+}
+.sidebar-note p b {
+  color: #edf4fc;
+  font-weight: 600;
+}
+.sidebar-note .eyebrow {
+  font-size: 9px;
+  color: #b9cce0;
+}
+.creator-sidebar strong {
+  font-size: 12px;
+  font-weight: 600;
+  color: #dbe8f7;
+}
+.creator-sidebar small {
+  font-size: 10px;
+  color: #a2b5cd;
+}
+.sidebar-version {
+  color: #92a7c0;
+  font-size: 9px;
+}
+.topbar {
+  background: #0b1422;
+  border-color: #23354d;
+}
+.topbar-breadcrumb {
+  color: #a4b8d0;
+  font-size: 12px;
+}
+.topbar-breadcrumb b {
+  color: #d4e1f2;
+  font-weight: 500;
+}
+.search-trigger {
+  font-size: 12px;
+  color: #abc0d7;
+  border-color: #31455e;
+  width: 235px;
+}
+.search-trigger kbd,
+kbd {
+  color: #b4c7dd;
+}
+.portfolio-trigger {
+  font-size: 12px;
+  color: #c7d7ea;
+}
+.motion-toggle {
+  color: #adc2d9;
+}
+.hero {
+  min-height: 294px;
+}
+.hero h1 {
+  font-size: 38px;
+  font-weight: 650;
+  letter-spacing: -1.2px;
+  line-height: 1.25;
+}
+.hero h1 > span {
+  color: #90c7ff;
+}
+.hero p {
+  font-size: 13px;
+  color: #afc0d5;
+  line-height: 1.8;
+}
+.hero:after {
+  background: radial-gradient(ellipse, #2168a41b, transparent 68%);
+}
+.edition-label {
+  color: #ffbf89;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+}
+.edition-title {
+  color: #ffbf89;
+  text-shadow: none;
+  font-weight: 700;
+}
+.edition-label > span:first-child {
+  background: #ffb77a;
+}
+.edition-line {
+  background: #dd9c6360;
+}
+.creator-credit {
+  font-size: 11px;
+  color: #aebfd3;
+  flex-wrap: wrap;
+}
+.creator-credit b {
+  font-weight: 600;
+  color: #e2ebf7;
+}
+.creator-credit small {
+  font-size: 10px;
+  color: #aabbd0;
+}
+.hero-formula {
+  color: #b3d5f1;
+}
+.hero-formula > span {
+  font-size: 8px;
+  color: #9eb6ce;
+}
+.art-index {
+  color: #8ba8c4;
+}
+.level-switcher {
+  background: #0b1625f7;
+  border-color: #2c405b;
+}
+.level-switcher-label > span {
+  font-size: 9px;
+  color: #afc0d7;
+  letter-spacing: 0.9px;
+}
+.level-option {
+  border-color: #33475f;
+  background: #111f31;
+  padding: 10px 12px;
+}
+.level-option b {
+  font-size: 12px;
+  font-weight: 600;
+}
+.level-option small {
+  font-size: 10px;
+  letter-spacing: 0;
+  color: #a3b5cd;
+  margin-top: 4px;
+}
+.slot-number {
+  font-size: 10px;
+  color: #a5bad2;
+}
+.level-option.active {
+  color: #c3e1ff;
+  background: #193750;
+  border-color: #679fd2;
+  box-shadow: none;
+}
+.level-option.active small {
+  color: #bdd5ee;
+}
+.level-option.slot1.active {
+  color: #a1e6c5;
+  background: #16342b;
+  border-color: #4b9b7b;
+}
+.level-option.slot2.active {
+  color: #ffd0a4;
+  background: #35291f;
+  border-color: #bb875c;
+}
+.level-option.slot3.active {
+  color: #b8d6ff;
+  background: #1a2e4a;
+  border-color: #5d89c8;
+}
+.level-option.slot1.active small,
+.level-option.slot2.active small,
+.level-option.slot3.active small {
+  color: inherit;
+  opacity: 0.85;
+}
+.module-heading h2 {
+  font-size: 28px;
+  font-weight: 650;
+}
+.module-heading p {
+  font-size: 13px;
+  color: #afc0d7;
+}
+.eyebrow {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: #a5bbd3;
+}
+.text-cyan {
+  color: #8ecbff;
+}
+.text-amber {
+  color: #ffc18d;
+}
+.curated-label {
+  font-size: 11px;
+  color: #adbed4;
+}
+.module-search {
+  background: #101d2f;
+  border-color: #3a506c;
+  width: 235px;
+}
+.module-search input {
+  font-size: 12px;
+  padding: 10px 0;
+  color: #edf4ff;
+}
+input::placeholder {
+  color: #93a8c2;
+}
+.count-pill {
+  font-size: 11px;
+  color: #c4d7ec;
+  background: #15283d;
+  border-color: #324a67;
+}
+.section-heading h2 {
+  font-size: 23px;
+  font-weight: 650;
+}
+.section-heading .eyebrow {
+  font-size: 10px;
+}
+.lab-panel {
+  position: relative;
+  border-color: #405a78;
+  background: linear-gradient(115deg, #112135, #0d1829 70%);
+  box-shadow: 0 15px 40px #02071330;
+}
+.lab-panel:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #78baff, #467ba855 58%, #f6ae73);
+  pointer-events: none;
+}
+.lab-header {
+  background: linear-gradient(110deg, #18344e8c, #122034);
+  border-color: #2c425e;
+}
+.section-label h3 {
+  font-size: 17px;
+  font-weight: 650;
+}
+.section-label p,
+.lab-header .section-label p {
+  font-size: 12px;
+  color: #afc2d9;
+  line-height: 1.7;
+}
+.icon-tile {
+  color: #9bcfff;
+  background: #214b703d;
+  border-color: #44759a60;
+}
+.live-badge {
+  font-size: 9px;
+  color: #a5d8ec;
+  letter-spacing: 0.9px;
+  border-color: #47728f;
+}
+.select-wrap > span {
+  font-size: 10px;
+  color: #9db6d1;
+  letter-spacing: 1px;
+}
+/* Keep native menus readable even when the host defaults to a light popup. */
+select {
+  color-scheme: dark;
+  background-color: #111c2d;
+  color: #e2edfb;
+}
+select option,
+select optgroup {
+  background-color: #111c2d;
+  color: #e2edfb;
+}
+select option:checked {
+  background-color: #244f79;
+  color: #ffffff;
+}
+select option:disabled {
+  color: #95a9be;
+}
+.select-wrap select {
+  font-size: 13px;
+  background-color: #111c2d;
+  color: #e2edfb;
+}
+.button {
+  font-size: 12px;
+  font-weight: 600;
+}
+.button-primary {
+  color: #0a1b2c;
+  background: #8bc7ff;
+  box-shadow: inset 0 1px #d1e9ff88;
+}
+.button-primary:hover {
+  background: #b1dcff;
+}
+.button-secondary {
+  background: #162a40;
+  color: #d4e4f5;
+  border-color: #45627e;
+}
+.button-secondary:hover {
+  background: #203b54;
+  border-color: #7da9cc;
+}
+.button-quiet {
+  font-size: 11px;
+  color: #bed0e5;
+  border-color: #405874;
+}
+.button-quiet:hover,
+.button-quiet.active {
+  color: #d0e8ff;
+  border-color: #82b6e7;
+}
+.diagram-label {
+  font-size: 10px;
+  color: #9eb8d1;
+  letter-spacing: 1.1px;
+}
+.diagram-label small {
+  font-size: 11px;
+  color: #d5e4f3;
+}
+.structure-name {
+  font-size: 13px;
+  color: #dceafb;
+  font-weight: 500;
+}
+.lab-arrow > span {
+  font-size: 12px;
+  color: #ffc28f;
+}
+.lab-arrow small {
+  font-size: 10px;
+  color: #a9bed5;
+}
+.reaction-kind {
+  font-size: 10px;
+  color: #a7d5f5;
+}
+.reagent-picker > span {
+  font-size: 10px;
+  color: #9db7d2;
+  letter-spacing: 1px;
+}
+.reagent-choice > span {
+  font-size: 12px;
+  color: #e0ebf7;
+}
+.reagent-choice small {
+  font-size: 11px;
+  color: #a7bbd3;
+}
+.reagent-choice.selected {
+  border-color: #7abaff;
+  background: #183952;
+  color: #d1ebff;
+  box-shadow: inset 0 0 0 1px #6897bd26;
+}
+.reagent-choice.selected > span {
+  color: #b3dbff;
+}
+.reagent-choice.selected small {
+  color: #c3daed;
+}
+.lab-explanation .eyebrow {
+  font-size: 10px;
+}
+.lab-explanation p {
+  font-size: 13px;
+  line-height: 1.85;
+  color: #c2d3e5;
+}
+.lab-explanation small {
+  font-size: 11px;
+  color: #adc0d7;
+}
+.lab-footer {
+  font-size: 10px;
+  color: #a6b9cf;
+}
+.lab-footer > span {
+  font-size: 8px;
+  color: #a6b9cf;
+}
+.compare-panel h4 {
+  font-size: 14px;
+}
+.compare-panel p {
+  font-size: 12px;
+  color: #bdcfe3;
+  line-height: 1.8;
+}
+.compare-panel label {
+  font-size: 10px;
+  color: #9ab7d2;
+}
+.compare-panel select {
+  font-size: 12px;
+}
+.filter-chip {
+  font-size: 12px;
+  font-weight: 500;
+  color: #aec2d9;
+  border-color: #2f4660;
+  background: #101e30;
+}
+.filter-chip.selected {
+  color: #c4e3ff;
+  border-color: #6399c8;
+  background: #1a3750;
+}
+.filter-chip:hover {
+  color: #edf5ff;
+  border-color: #769ac0;
+}
+.reagent-card,
+.compound-card,
+.reaction-card,
+.tool-card {
+  border-color: #2e425b;
+  background: #101d2f;
+}
+.reagent-card:hover,
+.compound-card:hover,
+.reaction-card:hover {
+  border-color: #9b886e;
+  box-shadow: 0 10px 25px #02070f40;
+}
+.category-icon.purple,
+.icon-tile.purple {
+  color: #a2c8ff;
+  background: #274d7e2e;
+  border-color: #557cac40;
+}
+.card-title-button h3,
+.compound-copy .card-title-button h3 {
+  font-size: 18px;
+  font-weight: 650;
+  letter-spacing: -0.25px;
+  color: #f0f5fc;
+}
+.reagent-formula {
+  font-size: 14px;
+  color: #a8d1fc;
+}
+.conversion,
+.reagent-card .conversion {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #d2dfef;
+}
+.selectivity-tag,
+.reagent-card .selectivity-tag {
+  font-size: 11px;
+  color: #9fd9e2;
+}
+.info-row > span,
+.reagent-card .info-row > span,
+.reaction-card .info-row > span {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  color: #9db7d0;
+}
+.info-row p,
+.reagent-card .info-row p,
+.reaction-card .info-row p {
+  font-size: 13px;
+  line-height: 1.85;
+  color: #c3d2e5;
+}
+.trap {
+  background: #38212455;
+  border-color: #a969614d;
+}
+.trap p,
+.reagent-card .trap p,
+.reaction-card .trap p {
+  font-size: 12px;
+  line-height: 1.85;
+  color: #f0b1a5;
+}
+.trap > svg {
+  color: #f2b0a0;
+}
+.card-bottom > span,
+.reagent-card .card-bottom > span,
+.reference,
+.reaction-card .reference {
+  font-size: 10px;
+  color: #a3b8d0;
+  line-height: 1.65;
+}
+.chapter-card-hint {
+  font-size: 11px;
+  color: #acc5df;
+}
+.level-badge,
+.reagent-card .level-badge {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+.level-badge.slot3 {
+  color: #b9d8ff;
+  background: #25436a55;
+  border-color: #597faf70;
+}
+.compound-copy > .eyebrow {
+  font-size: 9px;
+  color: #a4bed8;
+  letter-spacing: 0.7px;
+}
+.compound-copy .iupac,
+.iupac {
+  font-size: 12px;
+  color: #b9cce1;
+  line-height: 1.7;
+}
+.compound-copy .mnemonic p,
+.mnemonic p {
+  font-size: 12px;
+  color: #c0d0e4;
+  line-height: 1.8;
+}
+.compound-trap {
+  font-size: 11px;
+  color: #e8b0a3;
+  line-height: 1.7;
+}
+.reaction-card > .card-top > .eyebrow {
+  font-size: 9px;
+}
+.reaction-scheme small {
+  font-size: 11px;
+  color: #c4d7e9;
+}
+.reaction-arrow span {
+  font-size: 11px;
+  color: #f4c08f;
+}
+.memory-banner p {
+  font-size: 12px;
+  color: #bed0e4;
+  line-height: 1.85;
+}
+.ncert-tag {
+  color: #a5e1d1;
+  font-size: 10px;
+}
+.tool-card .info-row p,
+.note p {
+  font-size: 13px;
+  color: #c0d1e5;
+}
+.subsection-title h4 {
+  font-size: 15px;
+}
+.subsection-title > span,
+.fine-print {
+  font-size: 11px;
+  color: #a6bad3;
+}
+.spectrum-row strong {
+  font-size: 13px;
+  color: #dfebf9;
+}
+.spectrum-row > div > span {
+  font-size: 12px;
+}
+.spectrum-row small {
+  font-size: 11px;
+  color: #a9bdd5;
+}
+th {
+  font-size: 10px;
+  color: #aac2d9;
+}
+td {
+  font-size: 12px;
+  color: #d1deee;
+}
+td small {
+  font-size: 11px;
+  color: #aabed4;
+}
+.quiz-prompt p,
+.revealed-answer p,
+.study-note > p,
+.tip-note p {
+  font-size: 13px;
+  color: #b7cbe1;
+  line-height: 1.8;
+}
+.quiz-modes > button {
+  font-size: 12px;
+}
+.grading-buttons small {
+  font-size: 10px;
+  color: #b1c7dc;
+}
+.small-stat {
+  font-size: 11px;
+  color: #b5c9de;
+}
+.workspace-footer > span {
+  font-size: 11px;
+  color: #abc0d6;
+}
+.workspace-footer > button {
+  font-size: 10px;
+  color: #a4b8cf;
+}
+.modal {
+  border-color: #45617e;
+  background: #0d192a;
+}
+.modal-header {
+  background: #12243a;
+  border-color: #314b68;
+}
+.modal-header h2 {
+  font-weight: 650;
+  letter-spacing: -0.5px;
+  color: #f0f6ff;
+}
+.modal-header > div > p:not(.eyebrow) {
+  font-size: 12px;
+  color: #acbfd6;
+}
+.modal .info-row p {
+  font-size: 14px;
+}
+.reagent-atlas,
+.chemical-dossier {
+  color: #d5e3f2;
+}
+.atlas-metadata > span {
+  font-size: 11px;
+  color: #b1c7dd;
+}
+.atlas-tabs > button {
+  font-size: 12px;
+  color: #b6cbe0;
+}
+.atlas-tabs > button[aria-selected="true"] {
+  background: #1c3b55;
+  border-color: #4b7398;
+  color: #c4e4ff;
+}
+.atlas-section-title h3 {
+  font-size: 20px;
+  font-weight: 650;
+}
+.atlas-foundation > p,
+.atlas-prose > p,
+.atlas-role-grid p,
+.atlas-explain-grid p,
+.atlas-trap p,
+.atlas-worked p,
+.deep-study-grid p,
+.deep-challenge p,
+.dossier-theory p,
+.dossier-focus p,
+.dossier-steps p,
+.dossier-case > .atlas-prose p,
+.ncert-explanation {
+  font-size: 14px;
+  line-height: 2;
+  color: #c7d8ea;
+}
+.atlas-trap p {
+  color: #efb8a9;
+}
+.atlas-role-grid span,
+.deep-study-grid h4 {
+  color: #aad1f4;
+}
+.atlas-path-selector > button {
+  font-size: 12px;
+  color: #c0d2e7;
+}
+.atlas-path-selector > button.selected {
+  background: #1b3a55;
+  border-color: #5c90ba;
+  color: #c8e5ff;
+}
+.mechanism-stage h4 {
+  font-size: 21px;
+  color: #f0f5ff;
+}
+.drawn-mechanism .mechanism-plain {
+  font-size: 14px;
+  color: #c6d8ea;
+}
+.mechanism-caption {
+  font-size: 12px;
+}
+.mechanism-legend {
+  font-size: 11px;
+  color: #abc2d9;
+}
+.atlas-reference span,
+.dossier-scope {
+  font-size: 11px;
+  line-height: 1.85;
+  color: #a0b7d0;
+}
+.atlas-question h4 {
+  font-size: 16px;
+}
+.atlas-options button {
+  font-size: 13px;
+  color: #d1e1f2;
+}
+.atlas-answer p {
+  font-size: 13px;
+}
+.atlas-viva summary,
+.all-steps summary,
+.deep-challenge summary {
+  font-size: 13px;
+  color: #d3e5f7;
+}
+.atlas-viva p {
+  font-size: 14px;
+  color: #c2d5e8;
+}
+.ncert-steps p {
+  font-size: 14px;
+  color: #c5d7e9;
+}
+.sheet-actions .button {
+  font-size: 12px;
+}
+.command-results strong {
+  font-size: 13px;
+}
+.command-results div > span {
+  font-size: 11px;
+  color: #acc3db;
+}
+:where(button, a, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid #9acfff;
+  outline-offset: 4px;
+}
+@media (hover: hover) and (pointer: fine) {
+  html,
+  body,
+  .app-shell {
+    cursor:
+      url("/cursors/chem-pointer.svg") 4 3,
+      default;
+  }
+  button,
+  a,
+  select,
+  summary,
+  [role="button"],
+  [role="tab"],
+  .reagent-card,
+  .compound-card,
+  .reaction-card {
+    cursor:
+      url("/cursors/chem-action.svg") 4 3,
+      pointer;
+  }
+  input,
+  textarea,
+  [contenteditable="true"] {
+    cursor: text;
+  }
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+}
+@media (min-width: 761px) and (max-width: 1100px) {
+  .level-switcher {
+    gap: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .level-switcher-label {
+    width: 82px;
+  }
+  .level-option {
+    padding: 9px;
+  }
+  .level-option b {
+    font-size: 11px;
+  }
+  .level-option small {
+    font-size: 9px;
+    margin-left: 0;
+  }
+  .hero h1 {
+    font-size: 33px;
+  }
+  .topbar-actions {
+    gap: 14px;
+  }
+  .search-trigger {
+    width: 200px;
+  }
+}
+@media (max-width: 760px) {
+  .hero h1 {
+    font-size: 31px;
+    letter-spacing: -0.8px;
+  }
+  .hero p {
+    font-size: 12px;
+  }
+  .creator-credit {
+    font-size: 10px;
+  }
+  .creator-credit small {
+    font-size: 9px;
+  }
+  .edition-label {
+    font-size: 10px;
+    letter-spacing: 1.25px;
+  }
+  .level-option {
+    padding: 10px 8px;
+  }
+  .level-option b {
+    font-size: 11px;
+  }
+  .level-option small {
+    font-size: 9px;
+    margin-left: 0;
+  }
+  .level-switcher-label > span {
+    font-size: 9px;
+  }
+  .module-heading h2 {
+    font-size: 26px;
+  }
+  .module-heading p {
+    font-size: 12px;
+  }
+  .module-search input {
+    font-size: 12px;
+  }
+  .lab-header .section-label h3 {
+    font-size: 15px;
+  }
+  .lab-header .section-label p {
+    font-size: 11px;
+  }
+  .lab-controls .button {
+    font-size: 10px;
+  }
+  .live-badge {
+    font-size: 8px;
+    letter-spacing: 0.6px;
+  }
+  .lab-arrow > span {
+    font-size: 10px;
+  }
+  .structure-name {
+    font-size: 12px;
+  }
+  .diagram-label {
+    font-size: 9px;
+    letter-spacing: 0.7px;
+  }
+  .diagram-label small {
+    font-size: 10px;
+  }
+  .lab-stage {
+    gap: 8px;
+  }
+  .reagent-picker > span {
+    font-size: 9px;
+  }
+  .reagent-choice > span {
+    font-size: 11px;
+  }
+  .reagent-choice small {
+    font-size: 10px;
+  }
+  .lab-explanation p {
+    font-size: 13px;
+  }
+  .lab-explanation small {
+    font-size: 11px;
+  }
+  .lab-explanation .eyebrow {
+    font-size: 10px;
+  }
+  .lab-footer {
+    font-size: 9px;
+    line-height: 1.8;
+  }
+  .lab-footer > span {
+    font-size: 8px;
+  }
+  .section-heading h2 {
+    font-size: 22px;
+  }
+  .filter-chip {
+    font-size: 11px;
+  }
+  .card-title-button h3 {
+    font-size: 18px;
+  }
+  .compound-copy .card-title-button h3 {
+    font-size: 16px;
+  }
+  .compound-copy > .eyebrow {
+    font-size: 8px;
+    line-height: 1.6;
+  }
+  .compound-card .level-badge {
+    font-size: 8px;
+  }
+  .compound-copy .iupac {
+    font-size: 11px;
+    min-height: 38px;
+  }
+  .compound-copy .mnemonic p {
+    font-size: 11px;
+  }
+  .compound-trap {
+    font-size: 10px;
+  }
+  .compound-copy {
+    padding: 13px;
+  }
+  .reaction-card > .card-title-button h3 {
+    font-size: 19px;
+  }
+  .reaction-card .level-badge {
+    font-size: 8px;
+  }
+  .reaction-card > .card-top > .eyebrow {
+    font-size: 8px;
+  }
+  .reaction-card .info-row p {
+    font-size: 13px;
+  }
+  .reaction-card .trap p {
+    font-size: 12px;
+  }
+  .reaction-card .reaction-scheme small,
+  .modal .reaction-scheme small {
+    font-size: 9px;
+  }
+  .reaction-card .reaction-arrow span,
+  .modal .reaction-scheme .reaction-arrow span {
+    font-size: 9px;
+  }
+  .compare-panel h4 {
+    font-size: 13px;
+  }
+  .compare-panel p {
+    font-size: 12px;
+  }
+  .compare-panel select {
+    font-size: 11px;
+  }
+  .tool-card .section-label h3 {
+    font-size: 15px;
+  }
+  .tool-card .section-label p {
+    font-size: 11px;
+  }
+  .tool-card .info-row p,
+  .note p {
+    font-size: 12px;
+  }
+  .tool-controls .eyebrow {
+    font-size: 9px;
+  }
+  .segmented > button {
+    font-size: 12px;
+  }
+  .segmented > button small {
+    font-size: 10px;
+  }
+  .rule-results span {
+    font-size: 9px;
+  }
+  .rule-results p {
+    font-size: 11px;
+  }
+  .orbital-caption {
+    font-size: 12px;
+  }
+  .orbital-caption span {
+    font-size: 10px;
+  }
+  .spectra-controls .filter-chip,
+  .spectra-controls select {
+    font-size: 11px;
+  }
+  .spectrum-row strong {
+    font-size: 12px;
+  }
+  .spectrum-row small {
+    font-size: 10px;
+  }
+  th {
+    font-size: 9px;
+  }
+  td {
+    font-size: 11px;
+  }
+  .fine-print {
+    font-size: 10px;
+  }
+  .quiz-prompt p,
+  .revealed-answer p,
+  .study-note > p,
+  .tip-note p {
+    font-size: 12px;
+  }
+  .quiz-modes > button {
+    font-size: 10px;
+  }
+  .grading-buttons small {
+    font-size: 10px;
+  }
+  .grading-buttons > button > span {
+    font-size: 13px;
+  }
+  .workspace-footer > span {
+    font-size: 11px;
+  }
+  .workspace-footer > button {
+    font-size: 9px;
+  }
+  .modal-header > div > p:not(.eyebrow) {
+    font-size: 11px;
+  }
+  .atlas-section-title h3 {
+    font-size: 18px;
+  }
+  .atlas-tabs > button {
+    font-size: 11px;
+  }
+  .atlas-foundation > p,
+  .atlas-prose > p,
+  .atlas-role-grid p,
+  .atlas-explain-grid p,
+  .atlas-trap p,
+  .atlas-worked p,
+  .deep-study-grid p,
+  .deep-challenge p,
+  .ncert-steps p {
+    font-size: 14px;
+  }
+  .atlas-options button {
+    font-size: 13px;
+  }
+  .drawn-mechanism .mechanism-plain {
+    font-size: 13px;
+  }
+  .mechanism-legend {
+    font-size: 10px;
+  }
+  .mechanism-caption {
+    font-size: 11px;
+  }
+  .creator-profile p {
+    font-size: 12px;
+  }
+  .creator-profile h2 {
+    font-size: 25px;
+  }
+  .portfolio-grid h3 {
+    font-size: 17px;
+  }
+  .command-results strong {
+    font-size: 12px;
+  }
+  .command-results div > span {
+    font-size: 11px;
+  }
+  .sheet-actions .button {
+    font-size: 11px;
+  }
+  .toast {
+    font-size: 11px;
+  }
+  .toast button {
+    font-size: 10px;
+  }
+}
+@media print {
+  html,
+  body,
+  button,
+  a {
+    cursor: auto !important;
+  }
+}
+
+.product-drawing .structure-name {
+  color: #ffc18f;
+}
+.card-title-button:hover h3 {
+  color: #ffca9f;
+}
+@media (max-width: 760px) {
+  .search-trigger {
+    width: 34px;
+    height: 34px;
+    padding: 7px;
+    justify-content: center;
+  }
+  .topbar-actions {
+    gap: 12px;
+    min-width: 0;
+  }
+  .level-options {
+    min-width: 0;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .level-option small {
+    white-space: normal;
+    line-height: 1.4;
+  }
+  .hero-copy {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .hero h1,
+  .hero h1 > span {
+    max-width: 100%;
+    overflow-wrap: normal;
+  }
+  .creator-credit small {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+
+
+/* === ChemMaster Pro v1.2 Upgrades: Guided Learning, Atom Explorer, Mechanism Practice, Transfer, Glossary, Zoom & Review === */
+.guided-learning-workspace,
+.practice-suite-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.guided-top-banner,
+.guided-recommendation-bar,
+.glossary-lang-bar,
+.electronic-distinction-banner,
+.review-status-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  background: rgba(16, 28, 46, 0.86);
+  border: 1px solid rgba(71, 202, 224, 0.24);
+}
+.guided-mode-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.guided-nodes-grid,
+.glossary-grid,
+.offline-packs-grid,
+.node-checks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1rem;
+}
+.mastery-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+.mastery-pill.state-recalled {
+  background: rgba(16, 185, 129, 0.16);
+  color: #6ee7b7;
+  border-color: rgba(16, 185, 129, 0.45);
+}
+.mastery-pill.state-practised,
+.mastery-pill.state-read {
+  background: rgba(56, 189, 248, 0.15);
+  color: #7dd3fc;
+  border-color: rgba(56, 189, 248, 0.4);
+}
+.mastery-pill.state-revision {
+  background: rgba(245, 158, 11, 0.18);
+  color: #fcd34d;
+  border-color: rgba(245, 158, 11, 0.45);
+}
+.explorer-stage-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.15fr) minmax(260px, 1fr);
+  gap: 1.2rem;
+  align-items: start;
+}
+@media (max-width: 820px) {
+  .explorer-stage-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.explorer-svg {
+  width: 100%;
+  max-height: 230px;
+  background: #0b1526;
+  border: 1px solid rgba(71, 202, 224, 0.22);
+  border-radius: 12px;
+}
+.explorer-atom-group,
+.explorer-bond-group {
+  cursor: pointer;
+}
+.explorer-atom-group:focus-visible circle,
+.explorer-bond-group:focus-visible rect {
+  outline: 2px solid #e9a96b;
+  stroke: #ffffff;
+}
+.explorer-quick-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.65rem;
+}
+.explorer-detail-panel,
+.node-explanation-box,
+.node-worked-example,
+.node-check-card,
+.transfer-worked-anchor,
+.transfer-challenge-box,
+.glossary-card,
+.offline-pack-card {
+  padding: 1rem 1.15rem;
+  border-radius: 12px;
+  background: rgba(12, 22, 38, 0.9);
+  border: 1px solid rgba(113, 133, 157, 0.24);
+}
+.explorer-kv-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.6rem;
+  margin: 0.75rem 0;
+}
+.explorer-kv-list > div {
+  padding: 0.5rem 0.65rem;
+  background: rgba(18, 32, 54, 0.7);
+  border-radius: 8px;
+}
+.explorer-kv-list span {
+  display: block;
+  font-size: 0.73rem;
+  color: #93a8c1;
+}
+.mech-select-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.75rem;
+  margin: 0.85rem 0;
+}
+.mech-select-grid label,
+.issue-desc-label,
+.backup-import-box label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.84rem;
+  color: #cbd5e1;
+}
+.mech-select-grid select,
+.issue-form input,
+.issue-form select,
+.issue-form textarea,
+.backup-import-box textarea {
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  background: #0b1526;
+  color: #f1f5f9;
+  border: 1px solid rgba(113, 133, 157, 0.38);
+}
+.mech-practice-actions,
+.diag-nav-row,
+.confidence-separate-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+  margin-top: 0.75rem;
+}
+.diagram-zoom-wrap {
+  position: relative;
+  overflow: auto;
+  border-radius: 12px;
+}
+.diagram-zoom-wrap.diagram-fullscreen {
+  position: fixed;
+  inset: 1.2rem;
+  z-index: 90;
+  background: #08111f;
+  padding: 1.2rem;
+  border: 1px solid #47cae0;
+}
+.diagram-zoom-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.55rem;
+}
+.zoom-readout {
+  font-size: 0.8rem;
+  color: #93a8c1;
+  min-width: 3rem;
+  text-align: center;
+}
+.offline-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.28rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  background: rgba(16, 185, 129, 0.14);
+  color: #6ee7b7;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+.offline-pill.is-offline {
+  background: rgba(245, 158, 11, 0.18);
+  color: #fcd34d;
+  border-color: rgba(245, 158, 11, 0.45);
+}
+.gujarati-body {
+  font-size: 0.94rem;
+  line-height: 1.65;
+}

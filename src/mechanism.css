@@ -1,0 +1,169 @@
+.drawn-mechanism {
+  grid-column: 1/-1;
+  min-width: 0;
+  border: 1px solid #37617475;
+  background: #0d1b2a;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.mechanism-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 13px 17px;
+  border-bottom: 1px solid #31445666;
+  font-size: 11px;
+}
+.mechanism-caption b {
+  color: #80d4e0;
+  font-weight: 500;
+}
+.mechanism-caption span {
+  color: #e7c49b;
+}
+.mechanism-svg-scroll {
+  overflow-x: auto;
+}
+.mechanism-svg-scroll svg {
+  display: block;
+  width: 100%;
+  min-width: 650px;
+  max-height: 330px;
+}
+.mechanism-legend {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  border-top: 1px solid #31445666;
+  padding: 11px 17px;
+  color: #8099ae;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.mechanism-legend i {
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+  background: #78d7e2;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.mechanism-legend .fish {
+  background: #e6ba84;
+}
+.drawn-mechanism .mechanism-plain {
+  margin: 0;
+  padding: 6px 17px 20px;
+  color: #b9ccdc;
+  font-size: 13px;
+  line-height: 2;
+}
+.mechanism-stage {
+  display: block !important;
+}
+.mechanism-stage > div:first-child {
+  margin-bottom: 16px;
+}
+.mini-lab {
+  margin: 25px 0;
+  padding: 20px;
+  border: 1px solid #4d72815e;
+  border-radius: 14px;
+  background: #0c1c2b;
+}
+.mini-lab select {
+  max-width: 100%;
+  width: 100%;
+  margin: 12px 0;
+  background: #122438;
+  border: 1px solid #3c536b;
+  padding: 12px;
+  border-radius: 8px;
+  color: #d6e4ed;
+}
+.mini-lab .reagent-picker {
+  padding: 14px 0;
+}
+.mini-lab .lab-stage {
+  background: #0d1b2a;
+}
+.ncert-tag {
+  display: inline-block;
+  color: #7bd9c4;
+  border: 1px solid #326b5d;
+  border-radius: 5px;
+  padding: 4px 7px;
+  font-size: 10px;
+  margin: 8px 0;
+}
+.ncert-explanation {
+  font-size: 14px;
+  line-height: 2.1;
+  color: #c1d5e3;
+}
+.ncert-steps {
+  display: grid;
+  gap: 12px;
+  margin: 20px 0;
+}
+.ncert-steps article {
+  padding: 18px;
+  background: #122132;
+  border: 1px solid #33495c;
+  border-radius: 10px;
+}
+.ncert-steps b {
+  color: #80d4e0;
+  font-size: 11px;
+}
+.ncert-steps p {
+  line-height: 2;
+  margin: 8px 0 0;
+  font-size: 13px;
+}
+.mechanism-index {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+.mechanism-index button {
+  background: #152637;
+  border: 1px solid #35506b;
+  color: #adc5d6;
+  padding: 9px 12px;
+  border-radius: 7px;
+  font-size: 12px;
+}
+.mechanism-index button.active {
+  color: #8be4dc;
+  border-color: #59ad9f;
+  background: #153237;
+}
+@media (max-width: 600px) {
+  .mechanism-caption {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .mini-lab {
+    padding: 12px;
+  }
+  .mechanism-svg-scroll svg {
+    min-width: 650px;
+  }
+  .drawn-mechanism .mechanism-plain {
+    font-size: 12px;
+  }
+}
+
+.mechanism-swipe {
+  display: none;
+}
+@media (max-width: 600px) {
+  .mechanism-swipe {
+    display: block;
+    color: #86aabd;
+    font-size: 10px;
+    padding: 10px 16px 0;
+  }
+}

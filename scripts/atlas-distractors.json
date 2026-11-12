@@ -1,0 +1,172 @@
+{
+  "pcc": [
+    "Jones always stops a primary alcohol at the aldehyde.",
+    "Dry PCC converts ordinary tertiary alcohols to ketones without C–C cleavage.",
+    "Water content cannot affect aldehyde overoxidation."
+  ],
+  "jones": [
+    "PCC and Swern require aqueous chromic acid.",
+    "Jones is normally chosen to preserve an aldehyde in water.",
+    "Primary alcohols and secondary alcohols always give carboxylic acids."
+  ],
+  "swern": [
+    "Swern uses DCC as its standard DMSO activator.",
+    "Moffatt requires a rhodium hydrogenation catalyst.",
+    "Unactivated DMSO alone reproduces every Swern oxidation."
+  ],
+  "moffatt": [
+    "Moffatt and Swern use identical activating reagents.",
+    "DCC supplies hydride to the alcohol carbon.",
+    "Activated-DMSO oxidations normally add an oxygen across an isolated alkene."
+  ],
+  "dmp": [
+    "DMP is a standard hydride reagent for ester reduction.",
+    "mCPBA and DMP give identical products for every substrate.",
+    "DMP normally converts all primary alcohols directly into carboxylic acids."
+  ],
+  "ibx": [
+    "IBX and DMP must have identical solubility and solvent requirements.",
+    "IBX is an iodine(I) reducing agent.",
+    "IBX transfers a methyl group like a Gilman reagent."
+  ],
+  "mcpba": [
+    "All epoxidations have identical electronic preferences.",
+    "Peracid epoxidation necessarily proceeds through a free alkyl carbocation.",
+    "mCPBA directly gives the same diol as OsO₄ hydrolysis."
+  ],
+  "oso4": [
+    "OsO₄ hydrolysis normally gives an epoxide as the final product.",
+    "Syn dihydroxylation makes every product meso.",
+    "Peracid epoxidation and syn dihydroxylation have identical final connectivity."
+  ],
+  "seo2": [
+    "SeO₂ always cleaves both carbons of every C=C bond.",
+    "Ozonolysis and allylic oxidation preserve identical connectivity.",
+    "Allylic oxidation requires a benzylic C–Br bond."
+  ],
+  "ozone": [
+    "Oxidative and reductive ozonolysis always give identical aldehyde products.",
+    "Me₂S work-up normally oxidizes every aldehyde to an acid.",
+    "Each alkene must give only one carbonyl molecule."
+  ],
+  "lialh4": [
+    "NaBH₄ and LiAlH₄ have identical reactivity toward ordinary esters.",
+    "LiAlH₄ normally stops every ester at the aldehyde.",
+    "DIBAL-H selectivity is independent of temperature and stoichiometry."
+  ],
+  "nabh4": [
+    "LiAlH₄ normally leaves all esters untouched.",
+    "NaBH₄ is guaranteed to reduce every isolated alkene.",
+    "CeCl₃ changes a Luche reduction into methyl conjugate addition."
+  ],
+  "dibal": [
+    "LiAlH₄ is the standard general aldehyde-stop reagent for esters.",
+    "Excess warm DIBAL-H can never overreduce an ester.",
+    "Nitrile-to-aldehyde conversion requires no hydrolytic work-up."
+  ],
+  "luche": [
+    "Luche adds methyl to the β-carbon of every enone.",
+    "Luche and Gilman reactions introduce the same new C–C bond.",
+    "CeCl₃ forces complete hydrogenation of every C=C bond."
+  ],
+  "birch": [
+    "Birch reduction always produces cyclohexane.",
+    "Dissolving-metal alkyne reduction is identical to Lindlar hydrogenation.",
+    "An arene substituent cannot affect Birch regiochemistry."
+  ],
+  "wilkinson": [
+    "Wilkinson catalyst supplies unlimited hydrogen without H₂.",
+    "Catalytic hydrogenation necessarily cleaves the alkene C–C bond.",
+    "A catalyst is consumed once for each alkene reduced."
+  ],
+  "clemmensen": [
+    "Wolff–Kishner uses Zn(Hg)/HCl.",
+    "Clemmensen conditions are strongly basic.",
+    "Acid-sensitive and base-sensitive substrates always tolerate both methods equally."
+  ],
+  "wolff": [
+    "Clemmensen and Wolff–Kishner require identical pH conditions.",
+    "Wolff–Kishner is normally run with mCPBA.",
+    "Clemmensen reduction normally requires hydrazone formation."
+  ],
+  "lindlar": [
+    "Lindlar and dissolving-metal reductions both favor E internal alkenes.",
+    "Lindlar hydrogenation is an anti hydride-ion addition.",
+    "A poisoned catalyst guarantees complete alkane formation."
+  ],
+  "grignard": [
+    "Ordinary Grignards are softer than organocuprates in every enone addition.",
+    "Water is an inert solvent for preparing a Grignard reagent.",
+    "Ordinary esters always stop after one Grignard addition."
+  ],
+  "gilman": [
+    "Gilman reagents are guaranteed to give only 1,2-addition to every enone.",
+    "RLi and organocuprates have identical basicity and selectivity.",
+    "An acyl chloride with a cuprate must always give a tertiary alcohol."
+  ],
+  "rli": [
+    "Organolithiums cannot deprotonate acidic O–H groups.",
+    "A softer organocuprate is always more basic than RLi.",
+    "RLi always gives conjugate addition regardless of substrate and conditions."
+  ],
+  "tbs": [
+    "THP protection creates a silicon–oxygen bond.",
+    "Fluoride deprotection and acetal hydrolysis use the same reactive center.",
+    "Every TBS ether is stable to all acid conditions."
+  ],
+  "thp": [
+    "THP is a silyl ether requiring Si–F formation for cleavage.",
+    "THP protection cannot create an additional stereocenter.",
+    "Acetals are generally hydrolyzed by aqueous base as readily as by aqueous acid."
+  ],
+  "boc": [
+    "Boc and Fmoc are routinely removed by identical conditions.",
+    "Boc protection of glycine necessarily gives the tert-butyl carboxyl ester.",
+    "Cbz can only be removed by fluoride attack at silicon."
+  ],
+  "fmoc": [
+    "Fmoc is routinely removed through the same tert-butyl fragmentation as Boc.",
+    "Boc and Fmoc contain identical alkoxy groups.",
+    "Fmoc cleavage requires hydrogenolysis of all aromatic rings."
+  ],
+  "cbz": [
+    "Cbz and benzoyl protection are identical structures.",
+    "Boc, Fmoc and Cbz have identical deprotection triggers.",
+    "Cbz removal is guaranteed to preserve every alkene under hydrogenation conditions."
+  ],
+  "acetic-acid": [
+    "AcOH alone cleaves an alkene by ozonolysis.",
+    "AcOH and Ac₂O are interchangeable acetylating reagents in every medium.",
+    "Zn/AcOH work-up normally oxidizes all aldehydes to acids."
+  ],
+  "acetic-anhydride": [
+    "AcOH and Ac₂O have identical acyl-transfer reactivity.",
+    "An amine with Ac₂O normally gives an ether.",
+    "An alcohol with Ac₂O normally gives a nitrile."
+  ],
+  "alcl3": [
+    "Friedel–Crafts acylation proceeds through a freely rearranging alkyl carbocation.",
+    "Friedel–Crafts alkylation can never polyalkylate.",
+    "An acyl group always activates the ring toward further Friedel–Crafts acylation."
+  ],
+  "ammonia": [
+    "NH₃ and a dissolving metal perform the same electron-transfer role.",
+    "Ammonia attacks an acyl chloride as a hydride donor.",
+    "Liquid ammonia alone supplies all reducing electrons in Li/NH₃ reduction."
+  ],
+  "borane": [
+    "Hydroboration and acid-catalyzed hydration always give identical regioisomers.",
+    "Hg²⁺ hydration of a terminal alkyne normally gives an aldehyde.",
+    "Unmodified BH₃ is guaranteed to give selective mono-hydroboration of every alkyne."
+  ],
+  "bromine": [
+    "Br₂/FeBr₃ necessarily brominates only the benzylic side chain.",
+    "All Br₂ reactions proceed through a bromonium ion regardless of substrate.",
+    "Radical bromination and aromatic substitution require identical activation conditions."
+  ],
+  "nbs": [
+    "NBS always gives allylic bromination in water without radical initiation.",
+    "Aqueous bromohydrin formation and radical bromination use identical elementary mechanisms.",
+    "Light and solvent cannot affect the pathway selected by NBS."
+  ]
+}

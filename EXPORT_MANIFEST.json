@@ -1,0 +1,966 @@
+{
+  "project": "ChemMaster Pro | Harsh Baraiya Edition",
+  "site_version": 22,
+  "exported_on": "2026-11-12",
+  "source_commit": "0efc9c63497f3309c4d5a3a2191afbf108a53649",
+  "offline_build_id": "87ee425441722ceb2494",
+  "source_files": 149,
+  "production_files": 41,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 55,
+      "sha256": "d1e2360ff0498137784799278f765af6f192bd962fd4b8f9c99b7d247ca9e41a"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 89,
+      "sha256": "5a7d2c085a0f3a73f5e31eaeee79c31ee858b14b386d89a6ef16e18268ea4367"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6925,
+      "sha256": "2644cb76c58bd8e529029a3ab884620ca66e2f5b4c812314b5eb6aec6ddaaca2"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3453,
+      "sha256": "4c6a4ec2dea8d773021ac54284deb6aa3088e561ae7aaf842b68c14246f11c29"
+    },
+    {
+      "path": "dist/.openai/hosting.json",
+      "bytes": 106,
+      "sha256": "ec13d94b2fbb404bb84052a0e61151c110a0a60a714aabd5263744b195b86af9"
+    },
+    {
+      "path": "dist/assets/AtomBondExplorer-82YVk6RH.js",
+      "bytes": 38934,
+      "sha256": "e193231b2bdaae6d52566ca8e7930d3fc10e6a0ff6393e6860e180a632130647"
+    },
+    {
+      "path": "dist/assets/ChemicalChapter-DZaER3Wi.js",
+      "bytes": 7120,
+      "sha256": "da6cdcb31b1eac26a088265e8d6af1d5b3df8761c266ceec3d27d37e3747777e"
+    },
+    {
+      "path": "dist/assets/GOCReference-0mYhU1nk.css",
+      "bytes": 17998,
+      "sha256": "16d9c57482f258de915f423941fef24bc258aba26dfc4f0cdfaf240b303738ba"
+    },
+    {
+      "path": "dist/assets/GOCReference-Dnn6xKxW.js",
+      "bytes": 56625,
+      "sha256": "21eae922b6adb185d6bcf976b1165cf108846a28e40cac5b4b7b013e05e82811"
+    },
+    {
+      "path": "dist/assets/GlossaryModal-C6vZSie2.js",
+      "bytes": 38484,
+      "sha256": "139e1a38e9bdd7ef2b6f1ada7d9da6a4aa5181dda25c6b3a70b7cd9c08de067a"
+    },
+    {
+      "path": "dist/assets/GuidedLearning-D90zViIp.js",
+      "bytes": 62131,
+      "sha256": "a1687eda68bf23f062a5c67565536bce1644d52d2ba98cbc42cfbd54ee1b8e09"
+    },
+    {
+      "path": "dist/assets/LearningUI-CLa3042Z.js",
+      "bytes": 1501,
+      "sha256": "a6b67a035886542ba76871fd63dae700fb9a7d3c53ff11b49e164e3e27ca96e4"
+    },
+    {
+      "path": "dist/assets/MechanismPlayer-BakpxNTQ.css",
+      "bytes": 11289,
+      "sha256": "d8362b2cf1ea3f279795ddb5ce04884fa257aa88d2c31650f238103f6d7fe3cd"
+    },
+    {
+      "path": "dist/assets/MechanismPlayer-deu1RekY.js",
+      "bytes": 148081,
+      "sha256": "96549810a3153e8cd1a7d9ff5cdc1474b6fdd989f04b22aeda3791a022cc2e23"
+    },
+    {
+      "path": "dist/assets/MechanismPractice-IY_gCQVu.js",
+      "bytes": 44743,
+      "sha256": "5987799e1c628b8a00c9ac99bc09d45e9901217e961148ea40779eb7a7019109"
+    },
+    {
+      "path": "dist/assets/MiniReagentLab-CKltck4K.js",
+      "bytes": 2183,
+      "sha256": "6fae6defb6fccb87e2ed32877e461a4b96581373629020aaccc4d0f6cb849107"
+    },
+    {
+      "path": "dist/assets/NCERTLibrary-Crs5LRWh.css",
+      "bytes": 14874,
+      "sha256": "44c835be62ac0eb31c87f2899f7a42e68b752425a282da3ed9849d048e7665d1"
+    },
+    {
+      "path": "dist/assets/NCERTLibrary-DBxIvCRs.js",
+      "bytes": 13786,
+      "sha256": "caca3afa79b4bd31859f732b76d4998a1742bb1068a6ae21b2868855f163884e"
+    },
+    {
+      "path": "dist/assets/NCERTReactionChapter-BUCk6_gT.js",
+      "bytes": 4393,
+      "sha256": "122da58e4ff389d014e662f6ee21ab7923f50a1b33d5ab6d4a97f7df8ba692eb"
+    },
+    {
+      "path": "dist/assets/NCERTTopicChapter-Bbi2S0_t.js",
+      "bytes": 12509,
+      "sha256": "4befb0e89579ed764d68a544dd58ae2d201fe7bc6fe63647a9d32854354fb2fd"
+    },
+    {
+      "path": "dist/assets/NameReactionTopicChapter-B8nNFCF4.js",
+      "bytes": 451,
+      "sha256": "6152fff97193fd64e3718181ae7e03377d1d5ffac258a61d987d334c4924716b"
+    },
+    {
+      "path": "dist/assets/NamesVault-CfjcUNxy.js",
+      "bytes": 3048,
+      "sha256": "92b2159ae5ce4ca68866063b5ebc0f3d3054c6b940ddd3cb455c6f968a92bca9"
+    },
+    {
+      "path": "dist/assets/ReactionLibrary-BlW75tN-.js",
+      "bytes": 2455,
+      "sha256": "d997088f0dec2df6dc11fb03e0b041c99aacba103a1ff66b1123e32c4f354fd5"
+    },
+    {
+      "path": "dist/assets/ReagentChapter-CmxCzYS8.js",
+      "bytes": 79497,
+      "sha256": "aff3733dad00dc426a9e1f805d39510b0ffbd552e170280e3797f1bf72311cfa"
+    },
+    {
+      "path": "dist/assets/RecallArena-NicRGdJG.js",
+      "bytes": 6282,
+      "sha256": "4f0f63778ac26e187d59fd1a348955a452b98abfd0a2fe13d0ef3e544958548b"
+    },
+    {
+      "path": "dist/assets/RecallCheck-B0OBio1z.js",
+      "bytes": 1194,
+      "sha256": "9f52e687705b1cb98c769cd495202a9386654f311349d71943368f1b93215c78"
+    },
+    {
+      "path": "dist/assets/ReviewWorkflowModal-mNjumOXh.js",
+      "bytes": 18476,
+      "sha256": "5fb762cf2456e91d4def8687b2ff887d79559f543045d0dac1f2c16319d436b3"
+    },
+    {
+      "path": "dist/assets/Rules-CQtGD8di.js",
+      "bytes": 10193,
+      "sha256": "da6ad43e56a944f55f58c2a1b4190df0bb10910d7a852ff43566fad363d7e0ff"
+    },
+    {
+      "path": "dist/assets/TransferLearning-B8DmYcdU.js",
+      "bytes": 40746,
+      "sha256": "9d1754a10bde20903882eb9b3928e922f6e8a682845f2265d37d0102f904330c"
+    },
+    {
+      "path": "dist/assets/WorkspaceDialogs-dREb4gfR.js",
+      "bytes": 10355,
+      "sha256": "97b4b4926e402a1661dc5fd1f2fa113d93a3ff81295bad6776894c396705fbed"
+    },
+    {
+      "path": "dist/assets/goc-practice-catalog-DefkRVwz.js",
+      "bytes": 44792,
+      "sha256": "02e6d547e1284f492e0da9296472b2eca9804a07fee2fc00be088ea509f1fa58"
+    },
+    {
+      "path": "dist/assets/icons-B4f_1BRA.js",
+      "bytes": 18565,
+      "sha256": "d754bdbf74caf6901b65de0746538e0dfdaee7aaae2047ab26903de1284ec9ee"
+    },
+    {
+      "path": "dist/assets/index-BjZURKlL.css",
+      "bytes": 140159,
+      "sha256": "7c87818a9c62f7d3522a0337a68f4e34600ace5cb38ae6dc52d4b5d6a3360b85"
+    },
+    {
+      "path": "dist/assets/index-Cb5Cnfem.js",
+      "bytes": 646333,
+      "sha256": "4d4e45ab8b99eb0084498af47e58c3b0b90dc9a7a64223bbb06e13fa00292ab2"
+    },
+    {
+      "path": "dist/assets/molecule-engine-C1eJOl9N.js",
+      "bytes": 181284,
+      "sha256": "71e321395a9e82c87631d16068aee8010bba88ae19633347bf19c27080ce9095"
+    },
+    {
+      "path": "dist/assets/molecule-renderer-BpAaMY2V.js",
+      "bytes": 4532,
+      "sha256": "2c61cb70b0d73e4b651f882e4c6a8b8a4bc92b068cf7435ae1dd48b74dd10ab4"
+    },
+    {
+      "path": "dist/assets/name-reaction-model-DXMvPsN5.js",
+      "bytes": 2809,
+      "sha256": "ada9414ef66c7c31d117d4ad4ef483452f1a146bd539a99da06b301dd9dc8d06"
+    },
+    {
+      "path": "dist/assets/react-runtime-BrJzwrZF.js",
+      "bytes": 186647,
+      "sha256": "3d52bc33616dbbb65906b41b1c4fcc5b12f352f3001221d34f23ca0cb34ad060"
+    },
+    {
+      "path": "dist/cursors/chem-action.svg",
+      "bytes": 412,
+      "sha256": "c4724d07cfd55c7ac23c26be2a3b41e24478f1dd70f1aa27d0dcefa1957885be"
+    },
+    {
+      "path": "dist/cursors/chem-pointer.svg",
+      "bytes": 412,
+      "sha256": "bd9a37c3c7d46a5f40f30318fb0c6cb651d0475bf5cad799c746842b33a97a35"
+    },
+    {
+      "path": "dist/fonts/LICENSE-Noto.txt",
+      "bytes": 5363,
+      "sha256": "4edf88611023f23989b4333f14a3bc888d75dad9aa5864f6ffc6a4d5c3569062"
+    },
+    {
+      "path": "dist/fonts/NotoSansGujarati-Regular.ttf",
+      "bytes": 205124,
+      "sha256": "4468a3a24516831874fb4a867b760a22257944584e478d32a97e3c4d4bfc6400"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 845,
+      "sha256": "429a5dd4312484e72afdced0ceb12a503dec231235201a11177c7b4188aae4bf"
+    },
+    {
+      "path": "dist/manifest.webmanifest",
+      "bytes": 402,
+      "sha256": "70c27579199a888e82eeb4a64ee2729e597db5be9c668e43d954d4f72df5c319"
+    },
+    {
+      "path": "dist/sw.js",
+      "bytes": 3173,
+      "sha256": "beff749ab5a5b454922748f99d8cba913b86c53fa38cc42cc9702785624aa563"
+    },
+    {
+      "path": "docs/fullscreen-scroll-fix-2026-11-11.md",
+      "bytes": 2913,
+      "sha256": "f632a82ed7c5225e201b27651bebf8e7853951693e7fe285a6059952ecbe9b92"
+    },
+    {
+      "path": "docs/goc-backup-release-2026-11-10.md",
+      "bytes": 2161,
+      "sha256": "62dd9d039e0e020b2d5a5cb8ea6a09d4a39cda25b9fe40c5158faec307de7d46"
+    },
+    {
+      "path": "docs/goc-iupac-release-2026-11-10.md",
+      "bytes": 3258,
+      "sha256": "9d0b66844393c8ac6f937937040db2cea0a92f9aead280b316c789e136b03dab"
+    },
+    {
+      "path": "docs/integration-review-2026-11-10.md",
+      "bytes": 3157,
+      "sha256": "3beda3f747a8d6c8a7f9788c9e0822e109ac66d958bee66524df8525314bbc4c"
+    },
+    {
+      "path": "docs/mechanism-review.md",
+      "bytes": 3181,
+      "sha256": "3d9e84cb73168db2549cb9cf32b6b5af7df26401e65c508f613138d06d17adba"
+    },
+    {
+      "path": "docs/name-reaction-source-filters-2026-11-11.md",
+      "bytes": 3190,
+      "sha256": "d30cdf10258a2afb94c5112d766b036f077036f162b22192579f61b41c51c870"
+    },
+    {
+      "path": "docs/ncert-source-map.md",
+      "bytes": 3458,
+      "sha256": "a8e9edbae2223736bed331d0959916758fc044ec383fb3390a3f7a596ace4a8f"
+    },
+    {
+      "path": "docs/performance-release-2026-11-10.md",
+      "bytes": 3480,
+      "sha256": "125a2e4f6640d0c90a53a35a227295dc2fc802e5e273750b8b16710602f4e757"
+    },
+    {
+      "path": "docs/reaction-reference-import.md",
+      "bytes": 4292,
+      "sha256": "0f8a64a3623f2423b12cfae97755cd1b5ec611660ac52eabcb299364ea276d4f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 592,
+      "sha256": "11948b30b7a2fbda382951c5c9a7026da03ca8dcd8055b0692865b9150023144"
+    },
+    {
+      "path": "package.json",
+      "bytes": 632,
+      "sha256": "2fc5ce02f5d9f7a5e5368663a6d0be51365e0146cc3ec7fb896987e956260c64"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 50688,
+      "sha256": "6edd76ac076398430573162120f305bae2faa177832e9828843a672e140f6d37"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 61,
+      "sha256": "52e2d83939a3676619d16e2b15c415c12f61ec65e642fa97fe2d18acb810a9b9"
+    },
+    {
+      "path": "public/cursors/chem-action.svg",
+      "bytes": 412,
+      "sha256": "c4724d07cfd55c7ac23c26be2a3b41e24478f1dd70f1aa27d0dcefa1957885be"
+    },
+    {
+      "path": "public/cursors/chem-pointer.svg",
+      "bytes": 412,
+      "sha256": "bd9a37c3c7d46a5f40f30318fb0c6cb651d0475bf5cad799c746842b33a97a35"
+    },
+    {
+      "path": "public/fonts/LICENSE-Noto.txt",
+      "bytes": 5363,
+      "sha256": "4edf88611023f23989b4333f14a3bc888d75dad9aa5864f6ffc6a4d5c3569062"
+    },
+    {
+      "path": "public/fonts/NotoSansGujarati-Regular.ttf",
+      "bytes": 205124,
+      "sha256": "4468a3a24516831874fb4a867b760a22257944584e478d32a97e3c4d4bfc6400"
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "bytes": 412,
+      "sha256": "c2ed9960a9ddc8966b58f45e31231f1047af205262abb2a5bf960a8d95975957"
+    },
+    {
+      "path": "public/sw.js",
+      "bytes": 1812,
+      "sha256": "38473a425f2848d6f969e7804b633ba8e612e5ed2c64c3ae53a1adb3fdcbe02e"
+    },
+    {
+      "path": "scripts/atlas-distractors.json",
+      "bytes": 7785,
+      "sha256": "ffcaabfad3b6ee5c953c873d48835a4c82831b785d4d399cb60982957a36be10"
+    },
+    {
+      "path": "scripts/build-atlas.py",
+      "bytes": 86057,
+      "sha256": "f3b9e439f92b7ef0f2f2b0865d083b060a0188c167f8ca5ecf6d3f13090208cd"
+    },
+    {
+      "path": "scripts/build-production.mjs",
+      "bytes": 1659,
+      "sha256": "ebba233e2a2547de65b881c4bb2c72a6da452eed2bd5a918754feff4dd736c25"
+    },
+    {
+      "path": "scripts/connect-ui.py",
+      "bytes": 5923,
+      "sha256": "97038657e1fac13c27f3925b2df3dc32bb527976ac26ed56b3ab9db4034945a8"
+    },
+    {
+      "path": "scripts/integrate-atlas.mjs",
+      "bytes": 1600,
+      "sha256": "f4d1a88480f119c075682d9e62e8efa46defe3eb1c968be15ba74d020fadc366"
+    },
+    {
+      "path": "scripts/restore-lab.py",
+      "bytes": 14690,
+      "sha256": "ffe8aeef64fb5e4b46a5098f367e2d2d7347b6432b097c7f36495bf28dac6914"
+    },
+    {
+      "path": "scripts/verify-offline-runtime.mjs",
+      "bytes": 3193,
+      "sha256": "52ddf0867f45c96902981155a756646466318c1b1d0709dfd7553f599f6a76f1"
+    },
+    {
+      "path": "scripts/verify-production.mjs",
+      "bytes": 1869,
+      "sha256": "fe838a5f848272d0f938b706acbb2a9e99e4c9bc5564b08a77aa0fc881575268"
+    },
+    {
+      "path": "src/AtomBondExplorer.jsx",
+      "bytes": 12089,
+      "sha256": "7f8e476f1e103239b51be419260ecbcad69dc3d6cbccadfe05098a8f08dd00a0"
+    },
+    {
+      "path": "src/ChemicalChapter.jsx",
+      "bytes": 12631,
+      "sha256": "17a00fad3b0abf26047dde5de03d55d55a20207efdf6248ea6ca76d08a958748"
+    },
+    {
+      "path": "src/DeepStudy.jsx",
+      "bytes": 2467,
+      "sha256": "eb4f97d6790224dd39014a8b00a253c9da2f943b314e52a9a9e984ffde175c9f"
+    },
+    {
+      "path": "src/DiagramZoom.jsx",
+      "bytes": 3689,
+      "sha256": "9f0a5ae51601df0024c9777491901341f44566cd115a022b18ffb4dfe51391b3"
+    },
+    {
+      "path": "src/ExplicitMolecule.jsx",
+      "bytes": 2724,
+      "sha256": "87aa10b2bc3517207730041561147fc9804b21b15c22d166c227dc42fffbf3fa"
+    },
+    {
+      "path": "src/GOCChargeComparison.jsx",
+      "bytes": 5451,
+      "sha256": "f144361aa37ec8f3fdec08337f3c65b735f61d6ddbd8798716e4195764ce2a86"
+    },
+    {
+      "path": "src/GOCReference.jsx",
+      "bytes": 23045,
+      "sha256": "506d61a0d21d001c15ea91d9b79cdf8fde344fd75ecd2d784a6275bc3afd5d6c"
+    },
+    {
+      "path": "src/GOCStructuralExplanation.jsx",
+      "bytes": 11109,
+      "sha256": "fc76093ffcfdd9f5398905923af3e09444a14ea29e58fd7136814a19e6c97194"
+    },
+    {
+      "path": "src/GlossaryModal.jsx",
+      "bytes": 4243,
+      "sha256": "b3bc3f441cd8d6b0f40321ef61b135efc597aa34b36282916c76e65c2cd8143d"
+    },
+    {
+      "path": "src/GuidedLearning.jsx",
+      "bytes": 19323,
+      "sha256": "15ba7c105da888487fbf64139ec531ed281483105f3212f23f81ec348853942e"
+    },
+    {
+      "path": "src/LearningUI.jsx",
+      "bytes": 2283,
+      "sha256": "2388da24a778e42be61f2bf56b79381701e92c70b65772593d43d154d6cd2816"
+    },
+    {
+      "path": "src/MechanismDiagram.jsx",
+      "bytes": 11637,
+      "sha256": "3e7604646f23704589812d4190df8db4de4411d79eb22e86ca9cf8d379714d90"
+    },
+    {
+      "path": "src/MechanismPlayer.jsx",
+      "bytes": 12013,
+      "sha256": "c4ccaee81cff9c494e57273a6741a9ac3f127cb15429ff1eddb4163c714581ad"
+    },
+    {
+      "path": "src/MechanismPractice.jsx",
+      "bytes": 16272,
+      "sha256": "39f5413d9df9ce496c91b9a4174b9e390b03390c1634bf113fce8bbbb55fc1f9"
+    },
+    {
+      "path": "src/MiniReagentLab.jsx",
+      "bytes": 3280,
+      "sha256": "08b1aeb4c00581f391f189dd3a751ac593cdb7179ef3d9ce4f5539ae8a0c70d7"
+    },
+    {
+      "path": "src/NCERTLibrary.jsx",
+      "bytes": 17861,
+      "sha256": "87cf429e9750808a4e1793b148cb2290277e16f12d4783e2a055516a1b69655f"
+    },
+    {
+      "path": "src/NCERTReactionChapter.jsx",
+      "bytes": 7454,
+      "sha256": "839729c62fdef96a5f55aaca9e564e6a1ea028da422750702c7652cf4ad363a0"
+    },
+    {
+      "path": "src/NCERTTopicChapter.jsx",
+      "bytes": 5208,
+      "sha256": "e2dbbf0ebe8b19990534ca89e121f27ea2177ef972f950d0090bb7d0f197e4d9"
+    },
+    {
+      "path": "src/NCERTVisuals.jsx",
+      "bytes": 10987,
+      "sha256": "7ef6664c2bd7c7cc34ed48a094a6ee20ff7053b3fd65dffe7e9a7e8a45930676"
+    },
+    {
+      "path": "src/NameReactionTopicChapter.jsx",
+      "bytes": 317,
+      "sha256": "23ab0a198ad26952bd6a06039f27f757339f9837abdc820753f40b14eae3944a"
+    },
+    {
+      "path": "src/NamesVault.jsx",
+      "bytes": 4783,
+      "sha256": "92ed40fbce3da2520aef63d796c4464e3475a486bd98ee8b6e755dae0cd37b2a"
+    },
+    {
+      "path": "src/OutcomeComparison.jsx",
+      "bytes": 2966,
+      "sha256": "64590d8a21ba671c2e456a5b0afb8ccb9b7c20ef69fc595c901b5fe7557959dc"
+    },
+    {
+      "path": "src/ReactionLibrary.jsx",
+      "bytes": 3631,
+      "sha256": "3526f587588507edbcc9339090d2b56320d3457bc8ce70854dc2fb14238dc03a"
+    },
+    {
+      "path": "src/ReactionReferenceCollection.jsx",
+      "bytes": 5105,
+      "sha256": "12169c73929cdc47f7912e1e295322ee4408b23bb1a86d65914805e98bf79f81"
+    },
+    {
+      "path": "src/ReactionReferenceNotes.jsx",
+      "bytes": 2547,
+      "sha256": "23a185480db277caca51adebcf4adab2362d3ade518754ace9b5a37118dc7856"
+    },
+    {
+      "path": "src/ReagentChapter.jsx",
+      "bytes": 15884,
+      "sha256": "9d5f906a2401362eecec633c0810fe88da857b230ce8602329bf0be1be8463c7"
+    },
+    {
+      "path": "src/RecallArena.jsx",
+      "bytes": 11500,
+      "sha256": "8ae345658ba1118e182f72528dedcb6e8a7e606ad798674d2e5a811dc61316e7"
+    },
+    {
+      "path": "src/RecallCheck.jsx",
+      "bytes": 1884,
+      "sha256": "7aebddf529f8acaa3c05f1ee9c8771bdcf13e0d385cbd9e60c41ae09926f5294"
+    },
+    {
+      "path": "src/ReviewWorkflowModal.jsx",
+      "bytes": 15202,
+      "sha256": "bde9e7eff2c68d6246ec91ff4f1c85e5fa275357e25ae8ce3194238c797991d1"
+    },
+    {
+      "path": "src/Rules.jsx",
+      "bytes": 15069,
+      "sha256": "1222fcc0042bc48294de48068fe20fd5fc43a4ce3a1a524943957321e3066a00"
+    },
+    {
+      "path": "src/StudyLoadBoundary.jsx",
+      "bytes": 581,
+      "sha256": "b1e85f6dede9be6bbaed5bdc1412c868343bc51eafa438af19a058e02f22f0b9"
+    },
+    {
+      "path": "src/TransferLearning.jsx",
+      "bytes": 10131,
+      "sha256": "5ca3628e5af3f876da77f65ce9159cf3f97fb618c62753f3a97e6fa8dfd1ce48"
+    },
+    {
+      "path": "src/WorkspaceDialogs.jsx",
+      "bytes": 15201,
+      "sha256": "fc990bd4e91afa81e67a4e22e5c9dda0a7e5d1498c4353136dea603ec8d2ea60"
+    },
+    {
+      "path": "src/atlas-data.js",
+      "bytes": 227002,
+      "sha256": "7493837ff9102f78425357a3c7c89e69ee1c75c8b4e64b2cb94134655955b253"
+    },
+    {
+      "path": "src/atlas.css",
+      "bytes": 26521,
+      "sha256": "e5807e45090b8827f74051f2f8d2dab66117494be3e5ef0e6888fe8562644e13"
+    },
+    {
+      "path": "src/atom-bond-data.js",
+      "bytes": 39127,
+      "sha256": "9837acd851b40a2d71187211f6074184ba830637e3cdbf2e5ff65e405399f839"
+    },
+    {
+      "path": "src/backup-validation.js",
+      "bytes": 4723,
+      "sha256": "63d9b3deb2e50be119aa458e522ba81a3c5be35a6c9c41c6f07e4716524b8f1d"
+    },
+    {
+      "path": "src/bounded-render-cache.js",
+      "bytes": 1366,
+      "sha256": "dc9677017726cdd622bd3f88d1c5040d710f2cc7b47266b71c90e21f1314bec6"
+    },
+    {
+      "path": "src/chemical-cases.json",
+      "bytes": 40585,
+      "sha256": "25b0cbf1993af1153ae924b1ce766a1488e04dceeadd371cb7316c551652caf8"
+    },
+    {
+      "path": "src/chemical-knowledge-seed.json",
+      "bytes": 74902,
+      "sha256": "8c34a01893baf38f5448e28327c588a9c93680e9384cebb6771556f43ca54799"
+    },
+    {
+      "path": "src/chemical-knowledge.js",
+      "bytes": 8367,
+      "sha256": "052ee29cafea67d6fe61753e4f163b8db25dc9fbdf17b630b256da13928e4064"
+    },
+    {
+      "path": "src/data.js",
+      "bytes": 59246,
+      "sha256": "284eed9f46bb6f8d3f1037dc75109d2ede772e4d1afcf42a0b1757945a91b093"
+    },
+    {
+      "path": "src/deep-study-data.js",
+      "bytes": 61213,
+      "sha256": "1b80f44ea1ba627ba52a1552126bbdb788b6163c864c975d06339d62d35e0015"
+    },
+    {
+      "path": "src/dossier.css",
+      "bytes": 6598,
+      "sha256": "5aa96e7a36ad916f75b96cb18e64b233d1a17e8fa0fde8d7373ae0887f60221d"
+    },
+    {
+      "path": "src/easy-learning.css",
+      "bytes": 11417,
+      "sha256": "3bd54b53d549f59466775c5e845e6aa056ece91d38613e3cff8bbc46e866dd25"
+    },
+    {
+      "path": "src/edition.css",
+      "bytes": 1836,
+      "sha256": "81391290a80b2f925a05c8a9b47e9ebe641703324e0a69c8a70836e4f2b678be"
+    },
+    {
+      "path": "src/explicit-small-molecules.js",
+      "bytes": 2989,
+      "sha256": "70f283ef9b65739cc1d9cfcea47aef02dc422df984fd2bd9750f81b37ecfd827"
+    },
+    {
+      "path": "src/glossary-data.js",
+      "bytes": 40154,
+      "sha256": "061dba551a13ae855d0123c87b126d575bdcf6590abb8bfc3f13ff1058c11817"
+    },
+    {
+      "path": "src/goc-clarity.css",
+      "bytes": 4553,
+      "sha256": "22da87b00db8fd1d73a5c211159b50cc8096079af5586ac0f732b309e600aa53"
+    },
+    {
+      "path": "src/goc-electronic-state.js",
+      "bytes": 972,
+      "sha256": "643103fd7a24dfda7c26240092672331a9a6c947265c14bc6c3b46f971b22f2f"
+    },
+    {
+      "path": "src/goc-learning-context.js",
+      "bytes": 2965,
+      "sha256": "6d75eecbe03f9764ebed6e176cf36d640882942e436d6022f12ca7956e8b770e"
+    },
+    {
+      "path": "src/goc-misconceptions.js",
+      "bytes": 5198,
+      "sha256": "07c773bc836e7d05661f4601d0789972b975c42aa6e77313809a4d2ba8853454"
+    },
+    {
+      "path": "src/goc-practice-catalog.js",
+      "bytes": 190,
+      "sha256": "87dd67b21c3888a81c6624cfd971d5bdc3400109c265a7f356c0a5395ae7f2a6"
+    },
+    {
+      "path": "src/goc-practice-session.js",
+      "bytes": 3235,
+      "sha256": "1cf1261f2bb6c1cb6037116146fdd3f8fdf76099c41a6a0d7338a4fd1127bdb4"
+    },
+    {
+      "path": "src/goc-practice-storage.js",
+      "bytes": 602,
+      "sha256": "1a60b934195b76e3948688d06d72ec068d7160b0d8276c354bd207c4a7f29f75"
+    },
+    {
+      "path": "src/goc-reference-data.js",
+      "bytes": 41277,
+      "sha256": "3d8e36536b39d28534ae04f795dec9dfe19201108d345c6344bbe65d78d0b643"
+    },
+    {
+      "path": "src/goc-reference.css",
+      "bytes": 8814,
+      "sha256": "262645291d7b64cf5fdc13af17a6838549d906f46fe99b8f1ffcbae6eeeea467"
+    },
+    {
+      "path": "src/goc-structure-data.js",
+      "bytes": 19747,
+      "sha256": "9e7f9966f30c862b5f9d5fe96336f63a37c2373e96b223ffecd57f77b451c83d"
+    },
+    {
+      "path": "src/goc-structure-layout.js",
+      "bytes": 1250,
+      "sha256": "9821a4e516af4e0b1a93b0b5e2a580aff0aca5412c49cb2210134aaa7d370667"
+    },
+    {
+      "path": "src/goc-structures.css",
+      "bytes": 4736,
+      "sha256": "63ba8902e3fca3988f1e257fc5c85c9e2329d650fcafe4f54253ef719db5201c"
+    },
+    {
+      "path": "src/guided-learning-data.js",
+      "bytes": 61920,
+      "sha256": "b8c3713a00d1a3d1f6ff6942029fa9d7bbbb47edc011143e4254bfd84a52a61b"
+    },
+    {
+      "path": "src/lab-data.js",
+      "bytes": 52994,
+      "sha256": "a6a9cf7809fd5c2bb44cde50a011cfc672344675e21194e298eb1940f7b681a8"
+    },
+    {
+      "path": "src/learning-model.js",
+      "bytes": 6610,
+      "sha256": "31cdf16acd4339c2487ba3da4dd8225cdc581d9238c63ffb55ff6b4656052fd3"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 59726,
+      "sha256": "c735bdc2b767628850112b9080d886c9879c63c7ed7b7ae8f4bfa1c4822b48fb"
+    },
+    {
+      "path": "src/master-mechanism-practice.js",
+      "bytes": 7730,
+      "sha256": "ad4f2802767d74e6580414685e1802de560c62893666f10a45f54b2060bc67cd"
+    },
+    {
+      "path": "src/mechanism-context.js",
+      "bytes": 11949,
+      "sha256": "f0f78f3aabb804a7e1eec726cf9dfb590fd802b843f7ec3123a73c92f75ecc7a"
+    },
+    {
+      "path": "src/mechanism-data.js",
+      "bytes": 142563,
+      "sha256": "f5b4cf6f9f1bba10865dd75a7f09be05b409e22eea7ecac6a698e42133edb327"
+    },
+    {
+      "path": "src/mechanism-practice-data.js",
+      "bytes": 34928,
+      "sha256": "defbe3c7a0a950c90a1529bd1298b15d231b67e8a639848e23dd29bdaa105545"
+    },
+    {
+      "path": "src/mechanism-sheet-data.js",
+      "bytes": 18183,
+      "sha256": "d19166f48d1ace4027392c152e1dcc2670ae9d0bd634ab96e1676634239928b2"
+    },
+    {
+      "path": "src/mechanism-sheet.css",
+      "bytes": 11549,
+      "sha256": "18eda4b855b180aaeb6e871921a6358250f77a11e7b53f86abdeca2bbce33c45"
+    },
+    {
+      "path": "src/mechanism.css",
+      "bytes": 3125,
+      "sha256": "d86c0fe807f822d3b70c5f29c3e09e82c7aef9b04e025b5fa117d7388375fdd5"
+    },
+    {
+      "path": "src/mobile.css",
+      "bytes": 12706,
+      "sha256": "a4d7ad5522efd8e12ed8db2dbb3fba4ca682ca3707405e1482a8a2a37f6a010c"
+    },
+    {
+      "path": "src/molecular-electronics.js",
+      "bytes": 3419,
+      "sha256": "e9d8d8bd9a92ca0d35bf4b19287d44d9309925e6849157334047ac2356d1f76f"
+    },
+    {
+      "path": "src/molecule-renderer.js",
+      "bytes": 3749,
+      "sha256": "3a20e1968153ab9a47e78b5d3e66bb517c97d40da43b32e4c9ac2a81251eed05"
+    },
+    {
+      "path": "src/name-reaction-model.js",
+      "bytes": 3943,
+      "sha256": "a8fcb570796d57782d00236d01a134adc6ffdaa9b183e046bb7a1b93788425fa"
+    },
+    {
+      "path": "src/ncert-library.css",
+      "bytes": 19424,
+      "sha256": "8e8b9ce005f257c8bf707834bedda9898bc02ce0f8f91d8cc649dd514cda1cca"
+    },
+    {
+      "path": "src/ncert-reactions-seed.json",
+      "bytes": 32880,
+      "sha256": "4251b6b2acde4ab48aba86da1af1a6b6158fc7a148d7fd2663c429eba1f9f971"
+    },
+    {
+      "path": "src/ncert-reactions.js",
+      "bytes": 1728,
+      "sha256": "1e936d11e6c70fbf7647988aa27eb0b5e5b5fcecfed049a3406a340799a35688"
+    },
+    {
+      "path": "src/ncert-textbook-data.js",
+      "bytes": 8414,
+      "sha256": "3f30cb5ac161678587af97bda5303a932f4818edee1381332255867c947d07df"
+    },
+    {
+      "path": "src/ncert/alcohols.json",
+      "bytes": 23072,
+      "sha256": "44837b8558fe9e015c58cdf7823c576e5166e48f5843690fa7503e33f4eddf59"
+    },
+    {
+      "path": "src/ncert/amines.json",
+      "bytes": 15402,
+      "sha256": "cfd991177fef65a6b28ba323bb074275114df1cebdf6e84f2661be6be8dd7111"
+    },
+    {
+      "path": "src/ncert/biomolecules.json",
+      "bytes": 26872,
+      "sha256": "a5ee7a27566ce790ae1d0ff11f21af16e86b5a6fd9d54c1ace4da44b49cb0f23"
+    },
+    {
+      "path": "src/ncert/carbonyl.json",
+      "bytes": 31139,
+      "sha256": "77900d547542b9adf97f382130b1eeb03d2fb95f3c542dead217890fa6677dfa"
+    },
+    {
+      "path": "src/ncert/haloalkanes.json",
+      "bytes": 24327,
+      "sha256": "f012b8a32f50840179923474f55a5113537ab931ca635fe0d8b74153d6185e38"
+    },
+    {
+      "path": "src/ncert/hydrocarbons.json",
+      "bytes": 37549,
+      "sha256": "f2be69d777e8908c6cffab5584bff654435117b258f0f848500fe789e1754539"
+    },
+    {
+      "path": "src/ncert/organic-basics.json",
+      "bytes": 23383,
+      "sha256": "bc39f871c313ac123bd5fb67c1377e4126e1d918678719990ecb4f2b9aabd476"
+    },
+    {
+      "path": "src/ncert/redox.json",
+      "bytes": 12099,
+      "sha256": "5f60cb9721668763ca731697a527dff1305cb2dfad7449bdc7df5aafc84f4541"
+    },
+    {
+      "path": "src/offline-status.js",
+      "bytes": 1641,
+      "sha256": "776860d35478c786f4f8695bd0813a42c69db89ffeb3be8012d5c35ab31639c0"
+    },
+    {
+      "path": "src/polish.css",
+      "bytes": 27198,
+      "sha256": "f477dfb48eba80eee7ee1ef8a673e2971ed27544004b26f2eee45d9a0bc943e8"
+    },
+    {
+      "path": "src/reaction-reference.js",
+      "bytes": 13209,
+      "sha256": "5d6a03ea73ee730dc094cf060e6a21ad151e5f95059ac7e842834914f8a881fe"
+    },
+    {
+      "path": "src/reference-mechanisms.js",
+      "bytes": 45688,
+      "sha256": "b2cb74171c0d4f1f37d48d08513cace08178da8fae0897ff899c66edfb034c7b"
+    },
+    {
+      "path": "src/reference-reactions.json",
+      "bytes": 13336,
+      "sha256": "72e85d5d48e11c4ffe60d5d373184cb022ef7ed896e356a6e9f1fe59f4fb55c9"
+    },
+    {
+      "path": "src/review-workflow.js",
+      "bytes": 8993,
+      "sha256": "84230a66db0e18da656f1c8dffbf31c5e67f1066bbce0c572f01d75bde7ffed4"
+    },
+    {
+      "path": "src/scroll-lock.js",
+      "bytes": 984,
+      "sha256": "191d7985285e63fbef4a1676a8af0c799d91b138dd6345b0acb493dfb0e0032c"
+    },
+    {
+      "path": "src/study-continuity.js",
+      "bytes": 1056,
+      "sha256": "485a2b02fd6e05afd29a11fcf88fd0dd21dd568e7b4a17e0d8b98f63eed6049a"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 90457,
+      "sha256": "3670682ca6e91f009962a45bd3d4ab5f27f7e2e1f4fbb3a77ab3573d52f2d5ac"
+    },
+    {
+      "path": "src/transfer-learning-data.js",
+      "bytes": 42339,
+      "sha256": "8978b42fbd8ee0d28af1010e487a370cf420b06bb31c8a0f7ca3bcbfbfd7cc5a"
+    },
+    {
+      "path": "src/useGOCPractice.js",
+      "bytes": 1599,
+      "sha256": "9c9be4fb0fe73b50d45fbea58f5537cae57b30bdb7a7af28b66e6285fb960514"
+    },
+    {
+      "path": "src/useStudyContinuity.js",
+      "bytes": 6131,
+      "sha256": "86adb80885d3dd6227f6dba6b16c0887a6a596721994cef6b98cd521a7ccba64"
+    },
+    {
+      "path": "src/what-if-data.js",
+      "bytes": 17997,
+      "sha256": "3085a83e7a996c44239b43c0891bde245ef16dd52fb2ed76f3b4648fcd55a5b1"
+    },
+    {
+      "path": "tests/atlas.test.mjs",
+      "bytes": 4741,
+      "sha256": "db06acb5612cc92f0d383701fb559a0b2dc74f5a414f652dbb16a72f35d8b902"
+    },
+    {
+      "path": "tests/chemistry.test.mjs",
+      "bytes": 4373,
+      "sha256": "c0d4ff01f7f9df955e7b1b87a5f93a1bb96559904da6a0f5ea0066ba56eef8d6"
+    },
+    {
+      "path": "tests/detail-coverage.test.mjs",
+      "bytes": 4680,
+      "sha256": "4f82d3a0c9079f4e2715f518ff31dee6d4a0e0a52a697f4e359f0359f5e9338d"
+    },
+    {
+      "path": "tests/goc-backup.test.mjs",
+      "bytes": 6274,
+      "sha256": "f3bd28584ee136a67c6c5ce2d982fa217360c98551dc5363f7e8b9799c7214fc"
+    },
+    {
+      "path": "tests/goc-clarity.test.mjs",
+      "bytes": 4230,
+      "sha256": "945d4df34a7487aca26383b9b6c49386d80e7297ff9dfa645f82950999c7945b"
+    },
+    {
+      "path": "tests/goc-practice-session.test.mjs",
+      "bytes": 3765,
+      "sha256": "540cc2ffba9fbe10db0f8c9b3b73eb99c5e05b685a8d5e69827869823caa54c1"
+    },
+    {
+      "path": "tests/goc-reference.test.mjs",
+      "bytes": 5150,
+      "sha256": "1b4cd2af794f89ddb85fa3f130a0b79956bc58110fd5f2b90b6b788ac3d973ef"
+    },
+    {
+      "path": "tests/goc-structures.test.mjs",
+      "bytes": 5522,
+      "sha256": "f2aea243ea3c2e9351a59e705f549946f9030c9cd54744ee0de18a0c621d6b05"
+    },
+    {
+      "path": "tests/integration-regressions.test.mjs",
+      "bytes": 4786,
+      "sha256": "5f61fada1f6151735a93516c4441c666c37db88bf03cdd4342a6b878344edce5"
+    },
+    {
+      "path": "tests/learning-flow.test.mjs",
+      "bytes": 4970,
+      "sha256": "265b46a6cd453543300acffa66f72ed26c2771d25ff33958dcc73b7d9f92865e"
+    },
+    {
+      "path": "tests/mechanism-lab.test.mjs",
+      "bytes": 5380,
+      "sha256": "55545f5f1394ce8794baa556f185725af575a7cb36f17a89b286f6429a7a302b"
+    },
+    {
+      "path": "tests/mechanism-sheet.test.mjs",
+      "bytes": 7613,
+      "sha256": "6f79e5f8f89dff5993a006b68055b3a03df1efd6e68c26855db202ed1814d868"
+    },
+    {
+      "path": "tests/name-reaction-library.test.mjs",
+      "bytes": 4048,
+      "sha256": "d1043d1ccdd6060681807f63137f14b70e6191574e885ba44430d35b94d1bb0b"
+    },
+    {
+      "path": "tests/ncert-textbooks.test.mjs",
+      "bytes": 5320,
+      "sha256": "2860abde077257e9ec314e626168eb693102e72552cae949de51301ca25ea280"
+    },
+    {
+      "path": "tests/new-platform-features.test.mjs",
+      "bytes": 11342,
+      "sha256": "8f529910b2b0616e43527ce7e5064de6b7cdf863e0bf376af85535417fad574e"
+    },
+    {
+      "path": "tests/reaction-reference.test.mjs",
+      "bytes": 7600,
+      "sha256": "40a242445eaaa2b23bde26a7bb7ea5ec7471b7c2087ab10c67e8b5513e625b97"
+    },
+    {
+      "path": "tests/render-cache.test.mjs",
+      "bytes": 2630,
+      "sha256": "da3cb73c9ec1f4ae6d811afdc4233d82a5e4035e0d77ef3982ce24d34c5f294a"
+    },
+    {
+      "path": "tests/scroll-lock.test.mjs",
+      "bytes": 2942,
+      "sha256": "4ee416cdf652ef938b1949c83824c313a48e22e4bd65b60d85a7702d6f898497"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 617,
+      "sha256": "447e87558beccb49581cc76f572b1c15789148e557523495dad03c6cf8205fdb"
+    }
+  ]
+}

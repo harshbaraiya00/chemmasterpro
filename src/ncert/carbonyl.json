@@ -1,0 +1,810 @@
+[
+  {
+    "id": "ncert-book-carbonyl-reactivity",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "concept",
+    "name": "Why aldehydes usually react faster than ketones",
+    "pages": [
+      230,
+      236
+    ],
+    "equation": "Typical simple-carbonyl addition trend: HCHO > RCHO > R₂CO",
+    "structures": [
+      {
+        "name": "Methanal",
+        "smiles": "C=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Compare analogous substrates and the same nucleophile",
+    "summary": "C=O polar bond માં carbon electrophilic અને O electron-rich છે. Nucleophile carbonyl carbon પર attack કરે છે.",
+    "why": "Alkyl groups electron donation અને steric crowding વધારતા હોવાથી simple ketones aldehydes કરતાં nucleophilic addition માં often less reactive હોય છે.",
+    "steps": [
+      "C=O carbon પર attached groups count કરો.",
+      "Steric hindrance અને +I donation compare કરો.",
+      "Same reagent/conditions હેઠળ trend apply કરો."
+    ],
+    "trap": "Aromatic conjugation અને substituent effects ને ignore કરીને universal numerical reactivity order ન આપો.",
+    "quiz": {
+      "question": "Which simple carbonyl is usually most reactive toward nucleophilic addition?",
+      "answer": "Methanal",
+      "distractors": [
+        "Ethanal",
+        "Propanone",
+        "Butan-2-one"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-dibal-aldehydes",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Controlled DIBAL-H reduction to aldehydes",
+    "pages": [
+      232
+    ],
+    "equation": "RCOOR′ or RCN → RCHO after controlled reduction/work-up",
+    "structures": [
+      {
+        "name": "Ethyl ethanoate",
+        "smiles": "CCOC(C)=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanenitrile",
+        "smiles": "CCC#N",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanal",
+        "smiles": "CCC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Controlled DIBAL-H; low temperature; aqueous work-up",
+    "summary": "DIBAL-H ester અથવા nitrile ને suitable controlled conditions માં aldehyde સુધી reduce કરી શકે છે.",
+    "why": "Ester અને nitrile ના intermediates અલગ છે: ester tetrahedral Al-bound species અને nitrile imine-like derivative આપે છે. Excess hydride/warming over-reduction કરી શકે છે.",
+    "steps": [
+      "Starting group ester છે કે nitrile તે ઓળખો.",
+      "Controlled one-stage reduction endpoint વિચારવો.",
+      "Work-up પછી aldehyde release થાય છે તે લખો."
+    ],
+    "trap": "Ester/nitrile carbonyl carbon અથવા nitrile carbon product માં retain થાય છે; one-carbon loss નથી.",
+    "quiz": {
+      "question": "Which product can be obtained from propanenitrile by controlled DIBAL-H reduction and hydrolysis?",
+      "answer": "Propanal",
+      "distractors": [
+        "Ethanal",
+        "Propanone",
+        "Ethylamine"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-gem-dihalide-hydrolysis",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Gem-dihalide hydrolysis to a carbonyl",
+    "pages": [
+      233
+    ],
+    "equation": "PhCHCl₂ + H₂O → PhCHO + 2HCl",
+    "structures": [
+      {
+        "name": "Benzal chloride",
+        "smiles": "ClC(Cl)c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzaldehyde",
+        "smiles": "O=Cc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Hydrolytic conditions; carbonyl formation from geminal halides",
+    "summary": "એક જ carbon પર two halogens હોય તો geminal dihalide કહેવાય. Hydrolysis અને gem-diol/carbonyl equilibration aldehyde અથવા ketone આપી શકે છે.",
+    "why": "Benzal chloride PhCHCl₂ માં H retained હોવાથી benzaldehyde મળે છે. Benzyl chloride PhCH₂Cl માં only one Cl છે; તેનું hydrolysis benzyl alcohol આપે છે.",
+    "steps": [
+      "Both halogens same carbon પર છે તે check કરો.",
+      "H/alkyl substituents પરથી aldehyde કે ketone નક્કી કરો.",
+      "Carbon skeleton unchanged રાખો."
+    ],
+    "trap": "Benzyl chloride, benzal chloride અને benzotrichloride અલગ starting compounds છે.",
+    "quiz": {
+      "question": "What does hydrolysis of benzal chloride give?",
+      "answer": "Benzaldehyde",
+      "distractors": [
+        "Benzyl alcohol",
+        "Phenol",
+        "Aniline"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-cyanohydrin-addition",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "HCN addition: cyanohydrin formation",
+    "pages": [
+      236,
+      237
+    ],
+    "equation": "PhCHO + HCN ⇌ PhCH(OH)CN",
+    "structures": [
+      {
+        "name": "Benzaldehyde",
+        "smiles": "O=Cc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Mandelonitrile connectivity",
+        "smiles": "N#CC(O)c1ccccc1",
+        "caption": "Stereochemistry unspecified; achiral conditions give a racemic product.",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "HCN with a suitable cyanide catalyst",
+    "summary": "CN⁻ carbonyl carbon પર attack કરે છે અને C=O pair O પર જાય છે. Alkoxide protonation થી cyanohydrin મળે છે.",
+    "why": "Carbonyl carbon planar હોવાથી two faces accessible હોઈ શકે છે. Benzaldehyde cyanohydrin માં new stereocentre બને છે; achiral conditions સામાન્ય રીતે racemic product આપે છે.",
+    "steps": [
+      "CN carbon થી new C–C bond બનાવો.",
+      "Former carbonyl O ને OH તરીકે retain કરો.",
+      "Product માં OH અને CN same carbon પર છે તે જુઓ."
+    ],
+    "trap": "Cyanohydrin માં CN group O સાથે નહીં પરંતુ former carbonyl carbon સાથે જોડાય છે.",
+    "quiz": {
+      "question": "Where are OH and CN attached in a cyanohydrin?",
+      "answer": "To the same former carbonyl carbon",
+      "distractors": [
+        "To two unrelated ring carbons",
+        "Both to oxygen",
+        "Both to nitrogen"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-bisulphite-adduct",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Sodium bisulphite addition compound",
+    "pages": [
+      237
+    ],
+    "equation": "CH₃CHO + NaHSO₃ ⇌ CH₃CH(OH)SO₃Na",
+    "structures": [
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Bisulphite addition product",
+        "smiles": "CC(O)S(=O)(=O)[O-].[Na+]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "NaHSO₃; suitable aldehyde/ketone",
+    "summary": "Bisulphite addition થી carbonyl compound crystalline addition product આપી શકે છે; equilibrium reversal purification/identification માં ઉપયોગી છે.",
+    "why": "Product માં C–S bond અને OH former carbonyl carbon પર હોય છે. Steric factors ને કારણે બધા ketones equally readily adduct નથી આપતા.",
+    "steps": [
+      "Carbonyl carbon પર sulfite-derived addition ઓળખો.",
+      "C=O ને C–OH માં ફેરવો.",
+      "Sulphonate group S દ્વારા carbon સાથે જોડાયેલો છે તે check કરો."
+    ],
+    "trap": "Adduct ને sulfate ester R–O–SO₃Na તરીકે ન દોરો.",
+    "quiz": {
+      "question": "Which new bond is present in a typical bisulphite–carbonyl adduct?",
+      "answer": "C–S",
+      "distractors": [
+        "C–Cl",
+        "C–Mg",
+        "N–N"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-acetal-protection",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Aldehyde + alcohol: hemiacetal to acetal",
+    "pages": [
+      237,
+      238
+    ],
+    "equation": "CH₃CHO + 2EtOH ⇌ CH₃CH(OEt)₂ + H₂O",
+    "structures": [
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "1,1-Diethoxyethane",
+        "smiles": "CCOC(C)OCC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Dry acid catalyst; excess alcohol/water removal",
+    "summary": "Alcohol carbonyl પર add કરીને hemiacetal બનાવે છે. Acid-catalysed further substitution થી same carbon પર two OR groups ધરાવતું acetal બને છે.",
+    "why": "Acetal formation reversible છે; aqueous acid hydrolysis carbonyl પાછું આપે છે. Hemiacetal માં OH અને OR; acetal માં two OR હોય છે.",
+    "steps": [
+      "Carbonyl activate કરવા O-protonation સમજાવો.",
+      "First alcohol addition પછી hemiacetal ઓળખો.",
+      "Water loss/second alcohol addition અને deprotonation થી acetal મેળવો."
+    ],
+    "trap": "Acetal formation ordinary strong-base catalysis થી efficiently થતું નથી.",
+    "quiz": {
+      "question": "Which groups are attached to the acetal carbon?",
+      "answer": "Two OR groups",
+      "distractors": [
+        "One OH and one OR only",
+        "Two carbonyl oxygens",
+        "One CN and one OH"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-cyclic-ketal-protection",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Ethylene glycol protects a ketone as a cyclic ketal",
+    "pages": [
+      238
+    ],
+    "equation": "Cyclohexanone + HOCH₂CH₂OH ⇌ cyclic ketal + H₂O",
+    "structures": [
+      {
+        "name": "Cyclohexanone",
+        "smiles": "O=C1CCCCC1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethylene glycol",
+        "smiles": "OCCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Cyclic ethylene ketal",
+        "smiles": "C1CCC2(CC1)OCCO2",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Acid catalyst; remove water; aqueous acid reverses protection",
+    "summary": "Diol ના બંને O same former carbonyl carbon સાથે જોડાઈ cyclic ketal બનાવે છે. Ethylene glycol five-membered O-containing protecting ring આપે છે.",
+    "why": "Ketal neutral/basic conditions માં carbonyl chemistry થી protection આપી શકે છે. Acid/water થી deprotection શક્ય છે.",
+    "steps": [
+      "Ketone carbonyl carbon track કરો.",
+      "Diol ના two O તેને connect કરો.",
+      "Former C=O ને two C–O single bonds ધરાવતા acetal centre તરીકે ઓળખો."
+    ],
+    "trap": "Cyclic ketal માં carbonyl carbon lose થતો નથી; ring topology ઓળખો.",
+    "quiz": {
+      "question": "Which reagent commonly gives a five-membered cyclic ketal with a ketone?",
+      "answer": "Ethylene glycol",
+      "distractors": [
+        "Ethanol only",
+        "Ammonia",
+        "Sodium borohydride"
+      ],
+      "level": "slot1"
+    },
+    "mechanismPathId": "dossier:ethylene-glycol:0"
+  },
+  {
+    "id": "ncert-book-carbonyl-nitrogen-derivatives",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Oxime, hydrazone and 2,4-DNP derivative",
+    "pages": [
+      238
+    ],
+    "equation": "R₂C=O + H₂N–Z → R₂C=N–Z + H₂O",
+    "structures": [
+      {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanone oxime",
+        "smiles": "CC(C)=NO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "2,4-DNP hydrazone of propanone",
+        "smiles": "CC(C)=NNc1ccc([N+](=O)[O-])cc1[N+](=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Suitable mildly acidic condensation conditions",
+    "summary": "Carbonyl compound nitrogen nucleophile સાથે addition પછી dehydration આપે છે. Reagent માં –NH₂ part new C=N linkage બનાવવા જરૂરી છે.",
+    "why": "NH₂OH થી oxime; NH₂NH₂ થી hydrazone; 2,4-DNPH થી coloured crystalline hydrazone મળે છે. Very strong acid nucleophile ને excessive protonate કરીને rate ઘટાડે શકે છે.",
+    "steps": [
+      "NH₂–Z માં nucleophilic N identify કરો.",
+      "Addition intermediate પછી water loss સમજાવો.",
+      "Product C=N–Z માં Z unchanged રાખો."
+    ],
+    "trap": "2,4-DNP test aldehyde vs ketone ને પોતે distinguish કરતું નથી; બંને positive આપી શકે છે.",
+    "quiz": {
+      "question": "Which derivative forms when a ketone reacts with hydroxylamine?",
+      "answer": "Oxime",
+      "distractors": [
+        "Acetal",
+        "Cyanohydrin",
+        "Ester"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-tollens-fehling",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Tollens vs Fehling: identify the exception",
+    "pages": [
+      239,
+      240
+    ],
+    "equation": "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O",
+    "structures": [
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Acetate ion",
+        "smiles": "CC(=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzaldehyde",
+        "smiles": "O=Cc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Tollens: ammoniacal Ag(I); Fehling: alkaline Cu(II) complex",
+    "summary": "Aldehyde oxidation metal-ion reduction સાથે જોડાય છે. Tollens માં silver mirror અને Fehling માં red Cu₂O precipitate observable છે.",
+    "why": "Simple aliphatic aldehydes બંને tests આપી શકે છે. Benzaldehyde Tollens positive છતાં ordinary Fehling test negative હોય છે. Reducing sugars/α-hydroxy ketones માટે exceptions યાદ રાખો.",
+    "steps": [
+      "Reagent metal oxidation-state change identify કરો.",
+      "Organic product basic medium માં carboxylate છે તે લખો.",
+      "Aromatic aldehyde અને sugar exceptions અલગ check કરો."
+    ],
+    "trap": "દરેક ketone negative અને દરેક aldehyde બંને tests positive એવો blanket rule ખોટો છે.",
+    "quiz": {
+      "question": "Which compound is typically Tollens-positive but Fehling-negative?",
+      "answer": "Benzaldehyde",
+      "distractors": [
+        "Propanone",
+        "Ethane",
+        "Diethyl ether"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-carbonyl-hydride-reduction",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Reduce aldehyde or ketone to the correct alcohol",
+    "pages": [
+      238,
+      239
+    ],
+    "equation": "PhCHO → PhCH₂OH   |   CH₃COCH₃ → CH₃CH(OH)CH₃",
+    "structures": [
+      {
+        "name": "Benzaldehyde",
+        "smiles": "O=Cc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzyl alcohol",
+        "smiles": "OCc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propan-2-ol",
+        "smiles": "CC(O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "NaBH₄ or LiAlH₄ under compatible conditions; work-up",
+    "summary": "Hydride carbonyl carbon પર add થાય છે. Alkoxide પછી protonation alcohol આપે છે. Aldehyde primary અને ketone secondary alcohol આપે છે.",
+    "why": "Carbon skeleton retain થાય છે; C=O oxygen product OH માં રહે છે. NaBH₄ અને LiAlH₄ ની substrate scope identical નથી.",
+    "steps": [
+      "Former carbonyl carbon અને O track કરો.",
+      "C=O ને C–OH માં ફેરવી carbon પર H ઉમેરો.",
+      "Aldehyde/ketone class પરથી alcohol class check કરો."
+    ],
+    "trap": "Carbonyl reduction ને Clemmensen/Wolff–Kishner deoxygenation સાથે confuse ન કરો.",
+    "quiz": {
+      "question": "What forms on NaBH₄ reduction of propanone?",
+      "answer": "Propan-2-ol",
+      "distractors": [
+        "Propane",
+        "Propanal",
+        "Propanoic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-carboxylic-acidity",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "concept",
+    "name": "Carboxylic acid strength: stabilise the conjugate base",
+    "pages": [
+      249,
+      251
+    ],
+    "equation": "Electron withdrawal generally increases carboxylic-acid acidity.",
+    "structures": [
+      {
+        "name": "Ethanoic acid",
+        "smiles": "CC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Chloroethanoic acid",
+        "smiles": "ClCC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Trichloroethanoic acid",
+        "smiles": "ClC(Cl)(Cl)C(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Compare conjugate-base stability",
+    "summary": "Acid strength compare કરવા H⁺ loss પછી બનેલા carboxylate ion ની stability જુઓ. Electron-withdrawing groups negative charge stabilise કરી acidity વધારી શકે છે.",
+    "why": "Carboxylate માં resonance charge બંને O પર delocalise કરે છે. Inductive effect distance સાથે weak થાય છે; aromatic substituent effects position પર depend કરે છે.",
+    "steps": [
+      "દરેક acid નું conjugate base દોરો.",
+      "−I/+I અને resonance effects compare કરો.",
+      "More stable conjugate base માટે stronger acid પસંદ કરો."
+    ],
+    "trap": "Stronger acid માટે smaller pKa હોય છે; pKa order ને acidity order સાથે reverse કરવો.",
+    "quiz": {
+      "question": "Which is usually strongest among the listed acids?",
+      "answer": "Trichloroethanoic acid",
+      "distractors": [
+        "Chloroethanoic acid",
+        "Ethanoic acid",
+        "Ethanol"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-benzylic-sidechain-oxidation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Alkylbenzene oxidation to benzoic acid",
+    "pages": [
+      245,
+      246
+    ],
+    "equation": "PhCH₃ → PhCOOH",
+    "structures": [
+      {
+        "name": "Toluene",
+        "smiles": "Cc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzoic acid",
+        "smiles": "O=C(O)c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "tert-Butylbenzene",
+        "smiles": "CC(C)(C)c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Strong benzylic oxidation; alkaline KMnO₄/heat then acidification",
+    "summary": "Alkylbenzene પાસે suitable benzylic H હોય તો vigorous oxidation side chain ને COOH group માં ફેરવી શકે છે.",
+    "why": "Toluene અને ethylbenzene benzoic acid endpoint આપી શકે છે. tert-Butylbenzene ના benzylic carbon પર H નથી; ordinary textbook side-chain oxidation rule તેમાં apply થતો નથી.",
+    "steps": [
+      "Ring સાથે directly જોડાયેલો benzylic carbon mark કરો.",
+      "તે carbon પર H છે કે નહીં જુઓ.",
+      "Eligible side chain ને COOH endpoint સાથે map કરો."
+    ],
+    "trap": "દરેક alkylbenzene ને કોઈ condition વિચાર્યા વગર benzoic acid ન બનાવો.",
+    "quiz": {
+      "question": "Which substrate lacks the benzylic H required for the usual side-chain oxidation rule?",
+      "answer": "tert-Butylbenzene",
+      "distractors": [
+        "Toluene",
+        "Ethylbenzene",
+        "Propylbenzene"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-nitrile-hydrolysis-acid",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Nitrile hydrolysis retains the nitrile carbon",
+    "pages": [
+      246
+    ],
+    "equation": "CH₃CH₂CN → CH₃CH₂COOH",
+    "structures": [
+      {
+        "name": "Propanenitrile",
+        "smiles": "CCC#N",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanoic acid",
+        "smiles": "CCC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Aqueous acid/heat, or basic hydrolysis followed by acidification",
+    "summary": "Nitrile carbon carboxyl carbon બને છે. Hydrolysis સામાન્ય રીતે amide stage મારફતે carboxylic acid/carboxylate સુધી જાય છે.",
+    "why": "Basic medium માં carboxylate મળે છે; acid work-up neutral acid આપે છે. Nitrogen-containing inorganic product medium પ્રમાણે NH₃/NH₄⁺ form માં હોય શકે છે.",
+    "steps": [
+      "C≡N carbon ને label કરો.",
+      "તેને product ના COOH carbon સાથે match કરો.",
+      "Work-up પ્રમાણે salt કે acid લખો."
+    ],
+    "trap": "Propanenitrile થી ethanoic acid લખશો તો એક carbon ખોટો ગુમાવી દો છો.",
+    "quiz": {
+      "question": "What acid forms by complete hydrolysis of propanenitrile?",
+      "answer": "Propanoic acid",
+      "distractors": [
+        "Ethanoic acid",
+        "Butanoic acid",
+        "Benzoic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-amide-hydrolysis",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Amide hydrolysis: acid or carboxylate?",
+    "pages": [
+      246,
+      247
+    ],
+    "equation": "CH₃CONH₂ → CH₃COOH (acidic) or CH₃COO⁻ (basic)",
+    "structures": [
+      {
+        "name": "Acetamide",
+        "smiles": "CC(N)=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanoic acid",
+        "smiles": "CC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Acetate ion",
+        "smiles": "CC(=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Aqueous acid or base; heating",
+    "summary": "Acyl C–N bond hydrolysis માં nitrogen replace થઈ carboxylic product મળે છે. Carbonyl carbon retain થાય છે.",
+    "why": "Acidic hydrolysis ammonium salt સાથે acid આપી શકે છે. Basic hydrolysis carboxylate અને ammonia આપે છે; neutral acid મેળવવા acidification જોઈએ.",
+    "steps": [
+      "Acyl carbon અને attached N ઓળખો.",
+      "Medium પ્રમાણે acid/salt endpoint નક્કી કરો.",
+      "Carbon count unchanged રાખો."
+    ],
+    "trap": "Amide hydrolysis અને Hofmann rearrangement માં carbon accounting અલગ છે.",
+    "quiz": {
+      "question": "What is the organic product of acetamide hydrolysis in basic solution before acidification?",
+      "answer": "Acetate ion",
+      "distractors": [
+        "Ethylamine",
+        "Methanamine",
+        "Ethanol"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-acid-derivative-conversions",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Carboxylic acid → acyl chloride, anhydride or amide",
+    "pages": [
+      251,
+      253
+    ],
+    "equation": "RCOOH → RCOCl / (RCO)₂O / RCONH₂",
+    "structures": [
+      {
+        "name": "Ethanoic acid",
+        "smiles": "CC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanoyl chloride",
+        "smiles": "CC(=O)Cl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanoic anhydride",
+        "smiles": "CC(=O)OC(C)=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Acetamide",
+        "smiles": "CC(N)=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "SOCl₂ for acyl chloride; dehydration for anhydride; NH₃ then heating for amide",
+    "summary": "Carboxyl group ના OH-containing part ને બદલી different acid derivatives બનાવી શકાય છે. Reagent પ્રમાણે product family બદલાય છે.",
+    "why": "NH₃ સાથે first ammonium carboxylate salt બને છે; suitable heating/dehydration પછી amide મળે છે. Acyl chloride formation માં carbonyl retained છે.",
+    "steps": [
+      "C=O group retained છે તે track કરો.",
+      "OH replacement/dehydration માટે reagent પસંદ કરો.",
+      "Salt intermediate અને covalent amide વચ્ચે ફરક રાખો."
+    ],
+    "trap": "Carboxylic acid + NH₃ mixing ને automatically complete amide formation ન કહો.",
+    "quiz": {
+      "question": "Which reagent commonly converts a carboxylic acid to its acyl chloride?",
+      "answer": "SOCl₂",
+      "distractors": [
+        "NaBH₄",
+        "Aqueous NaOH only",
+        "Bromine water"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-acid-lah-reduction",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "carbonyl",
+    "kind": "reaction",
+    "name": "Carboxylic acid reduction to a primary alcohol",
+    "pages": [
+      252
+    ],
+    "equation": "CH₃COOH → CH₃CH₂OH",
+    "structures": [
+      {
+        "name": "Ethanoic acid",
+        "smiles": "CC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "LiAlH₄; controlled aqueous work-up after reaction",
+    "summary": "Carboxylic acid નો carbonyl carbon primary alcohol ના CH₂OH carbon તરીકે retain થાય છે. One-carbon shortening નથી.",
+    "why": "NaBH₄ standard conditions માં ordinary carboxylic acids ને alcohol સુધી generally reduce કરતું નથી. Strong reducing system અને initial acid–base consumption ધ્યાનમાં લો.",
+    "steps": [
+      "COOH carbon product માં ક્યાં જાય છે તે mark કરો.",
+      "C=O/OH group ને CH₂OH endpoint માં map કરો.",
+      "Hydride scope અને work-up order check કરો."
+    ],
+    "trap": "Soda-lime decarboxylation અને acid reduction ને mix કરશો નહીં: અહીં carbon count same છે.",
+    "quiz": {
+      "question": "What is the product of ethanoic acid reduction with LiAlH₄?",
+      "answer": "Ethanol",
+      "distractors": [
+        "Methanol",
+        "Methane",
+        "Ethanal as the normal final product"
+      ],
+      "level": "slot1"
+    }
+  }
+]

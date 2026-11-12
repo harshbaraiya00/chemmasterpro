@@ -1,0 +1,91 @@
+/* A readable signature with a broad, slower glint in a 2.2-second cycle. */
+.edition-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  color: #e3c5a0;
+}
+.edition-title {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  text-shadow:
+    0 0 7px #8fdfff55,
+    0 0 14px #efb77b30;
+}
+.brand-flash {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    110deg,
+    transparent 30%,
+    #83e6ff 42%,
+    #ffffff 48%,
+    #ffffff 53%,
+    #ffc184 60%,
+    transparent 70%
+  );
+  background-size: 220% 100%;
+  background-repeat: no-repeat;
+  background-position: 115% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: none;
+  animation: edition-light-sweep 2.2s linear infinite;
+}
+@keyframes edition-light-sweep {
+  0% {
+    background-position: 115% 0;
+    opacity: 0;
+  }
+  6% {
+    opacity: 1;
+  }
+  68% {
+    background-position: -15% 0;
+    opacity: 1;
+  }
+  76%,
+  100% {
+    background-position: -15% 0;
+    opacity: 0;
+  }
+}
+.motion-paused .brand-flash {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand-flash {
+    display: none;
+    animation: none;
+  }
+}
+
+.brand-wordmark {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  color: #e7f5ff;
+  text-shadow: none;
+}
+.brand-flash .brand-pro {
+  -webkit-text-fill-color: transparent;
+}
+.mobile-wordmark {
+  display: none;
+}
+@media (max-width: 760px) {
+  .topbar-breadcrumb > .mobile-wordmark {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .topbar-breadcrumb > b,
+  .topbar-breadcrumb > svg {
+    display: none;
+  }
+}

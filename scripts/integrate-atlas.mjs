@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const dataPath=new URL('../src/data.js',import.meta.url);
+let data=fs.readFileSync(dataPath,'utf8');
+if(!data.includes('reagentAtlas')) data='import {reagentAtlas} from "./atlas-data.js";\nexport {reagentAtlas} from "./atlas-data.js";\n'+data;
+const defs=[['acetic-acid','Acetic acid','CH₃COOH','Acids & acylation'],['acetic-anhydride','Acetic anhydride','(CH₃CO)₂O','Acids & acylation'],['alcl3','Aluminium chloride','AlCl₃','Lewis acids'],['ammonia','Ammonia','NH₃','Nucleophiles'],['borane','Borane','BH₃ · THF','Reduction'],['bromine','Bromine','Br₂','Halogenation'],['nbs','N-Bromosuccinimide','NBS','Halogenation']];
+const {reagentAtlas}=await import('../src/atlas-data.js');
+const extras=defs.map(([id,name,formula,category])=>{const c=reagentAtlas[id],p=c.pathways[0];return {id,name,formula,category,level:c.level,conversion:p.title,selectivity:p.stereo,rule:p.why,trap:p.trap,conditions:p.conditions,reference:'Reference PDF syllabus · OpenStax Organic Chemistry',type:'reagent'};});
+if(!data.includes('baseReagents')) data=data.replace('export const reagents = [','const baseReagents = [').replace('const compound = (','export const reagents = [...baseReagents, ...'+JSON.stringify(extras,null,2)+'];\nconst compound = (');
+data=data.replace('export const catalog = [...reagents, ...compounds, ...reactions];','export const catalog = [...new Map([...compounds, ...reagents, ...reactions].map(x=>[x.id,x])).values()];');
+fs.writeFileSync(dataPath,data);
+console.log('Integrated 34 complete reagent chapters and canonical catalog IDs.');

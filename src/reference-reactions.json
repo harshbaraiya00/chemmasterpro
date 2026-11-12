@@ -1,0 +1,293 @@
+[
+  {
+    "id": "ref-perkin",
+    "name": "Perkin reaction",
+    "level": "slot2",
+    "category": "C–C bond formation",
+    "starting": "Benzaldehyde + acetic anhydride",
+    "reactant": "O=Cc1ccccc1.CC(=O)OC(C)=O",
+    "conditions": "Acetic anhydride, sodium acetate; heat; hydrolytic work-up",
+    "product": "Cinnamic acid",
+    "productSmiles": "O=C(O)/C=C/c1ccccc1",
+    "easy": "Aromatic aldehyde ને anhydride-derived enolate સાથે જોડીએ છીએ. Elimination અને hydrolysis પછી α,β-unsaturated carboxylic acid મળે છે.",
+    "insight": "Anhydride enolate addition is followed by oxygen acylation, elimination and hydrolysis. The acylated oxygen is a better leaving group than free hydroxide.",
+    "stereo": "The E cinnamic acid is the usual major isolated product in this example.",
+    "trap": "Perkin માં anhydride donor છે; Claisen condensation માં ester donor/acceptor અને crossed aldol માં aldehyde/ketone partners હોય છે.",
+    "mechanismSteps": [
+      {
+        "id": "ref-perkin:step:0",
+        "level": "slot2",
+        "body": "Anhydride ના α-H પરથી enolate બને છે."
+      },
+      {
+        "id": "ref-perkin:step:1",
+        "level": "slot2",
+        "body": "Enolate aromatic aldehyde પર C–C bond બનાવે છે."
+      },
+      {
+        "id": "ref-perkin:step:2",
+        "level": "slot2",
+        "body": "O-acylation પછી β-elimination unsaturated anhydride આપે છે."
+      },
+      {
+        "id": "ref-perkin:step:3",
+        "level": "slot2",
+        "body": "Hydrolytic work-up cinnamic acid આપે છે."
+      }
+    ],
+    "externalReferences": [
+      {
+        "label": "IIT Kanpur SATHEE · Perkin reaction",
+        "url": "https://sathee.iitk.ac.in/article/chemistry/name-reactions/"
+      }
+    ],
+    "type": "reaction",
+    "reference": "Uploaded Name Reactions reference · corrected study entry",
+    "referenceDetailed": true
+  },
+  {
+    "id": "ref-nitrosation",
+    "name": "Secondary-amine N-nitrosation",
+    "aliases": ["Liebermann nitroso test", "N-nitrosamine formation"],
+    "level": "slot2",
+    "category": "Nitrogen transformations",
+    "starting": "Dimethylamine + nitrous acid",
+    "reactant": "CNC.O=N(O)",
+    "conditions": "Nitrous acid in acidic medium; conceptual reaction",
+    "product": "N-Nitrosodimethylamine + water",
+    "productSmiles": "CN(C)N=O.O",
+    "easy": "Secondary amine ના N પરનો H nitroso group થી replace થાય છે. Product N–N=O ધરાવતો N-nitrosamine છે; diazonium salt નથી.",
+    "insight": "Nitrosating electrophile formation, amine attack at nitrogen, then deprotonation give an N-nitrosamine.",
+    "stereo": "No stereocentre is created in the dimethylamine example.",
+    "trap": "PDF માં માત્ર nitrosamine formation છે. Liebermann colour test માં subsequent phenol/acid chemistry અને acid–base colour changes પણ આવે છે; બંનેને એક elementary step ન ગણો.",
+    "mechanismSteps": [
+      {
+        "id": "ref-nitrosation:step:0",
+        "level": "slot2",
+        "body": "Acidic nitrous acid nitrosating electrophile આપે છે."
+      },
+      {
+        "id": "ref-nitrosation:step:1",
+        "level": "slot2",
+        "body": "Available amine lone pair electrophilic nitrogen પર attack કરે છે."
+      },
+      {
+        "id": "ref-nitrosation:step:2",
+        "level": "slot2",
+        "body": "N–H deprotonation neutral nitrosamine આપે છે."
+      },
+      {
+        "id": "ref-nitrosation:step:3",
+        "level": "slot2",
+        "body": "Liebermann colour response subsequent test chemistry છે."
+      }
+    ],
+    "externalReferences": [
+      {
+        "label": "IIT Kanpur SATHEE · secondary amines and Liebermann test",
+        "url": "https://sathee.iitk.ac.in/ncert-books/udaan/udaan-che-12/chem-12-unit-13-organic-compounds-containing-nitrogen/"
+      }
+    ],
+    "type": "reaction",
+    "reference": "Uploaded Name Reactions reference · corrected study entry",
+    "referenceDetailed": true
+  },
+  {
+    "id": "ref-hunsdiecker",
+    "name": "Hunsdiecker reaction",
+    "level": "slot2",
+    "category": "Radical & photochemical",
+    "starting": "Silver propanoate + bromine",
+    "reactant": "CCC(=O)[O-].[Ag+].BrBr",
+    "conditions": "Silver carboxylate, Br₂; classical thermal/photochemical conditions",
+    "product": "Bromoethane + carbon dioxide + silver bromide",
+    "productSmiles": "CCBr.O=C=O.[Ag+].[Br-]",
+    "easy": "Carboxyl group નો carbon CO₂ તરીકે નીકળે છે. બાકી alkyl fragment પર Br આવે છે; product માં starting acid કરતાં one carbon ઓછો રહે છે.",
+    "insight": "Acyl hypobromite formation, O–Br homolysis, decarboxylation and radical bromine-atom transfer form the classical chain model.",
+    "stereo": "A radical centre generally does not preserve a pre-existing stereocentre at that reacting carbon.",
+    "trap": "Propanoate gives bromoethane, not 1-bromopropane. Hunsdiecker and soda-lime decarboxylation have different products.",
+    "mechanismSteps": [
+      {
+        "id": "ref-hunsdiecker:step:0",
+        "level": "slot2",
+        "body": "Silver carboxylate થી acyl hypobromite બને છે."
+      },
+      {
+        "id": "ref-hunsdiecker:step:1",
+        "level": "slot2",
+        "body": "O–Br bond homolysis acyloxy radical આપે છે."
+      },
+      {
+        "id": "ref-hunsdiecker:step:2",
+        "level": "slot2",
+        "body": "CO₂ loss થી alkyl radical મળે છે."
+      },
+      {
+        "id": "ref-hunsdiecker:step:3",
+        "level": "slot2",
+        "body": "Bromine-atom transfer alkyl bromide આપે છે."
+      }
+    ],
+    "externalReferences": [
+      {
+        "label": "Yale Chemistry · Hunsdiecker radical chain",
+        "url": "https://oyc.yale.edu/chemistry/chem-125b/lecture-34"
+      }
+    ],
+    "type": "reaction",
+    "reference": "Uploaded Name Reactions reference · corrected study entry",
+    "referenceDetailed": true
+  },
+  {
+    "id": "ref-claisen-condensation",
+    "name": "Claisen condensation",
+    "level": "slot2",
+    "category": "C–C bond formation",
+    "starting": "Two ethyl ethanoate molecules",
+    "reactant": "CCOC(C)=O.CCOC(C)=O",
+    "conditions": "1. NaOEt / EtOH  2. Acid work-up",
+    "product": "Ethyl acetoacetate + ethanol",
+    "productSmiles": "CCOC(=O)CC(C)=O.CCO",
+    "easy": "એક ester નું enolate બીજા ester ના carbonyl પર attack કરે છે. Ethoxide નીકળે એટલે β-keto ester બને છે.",
+    "insight": "Acyl substitution, rather than simple aldol addition, follows the tetrahedral intermediate. Product deprotonation drives the equilibrium; acid work-up restores the neutral β-keto ester.",
+    "stereo": "No persistent stereocentre is created in ethyl acetoacetate.",
+    "trap": "A full equivalent of base is normally needed for this classical self-condensation. Match the alkoxide to the ester; Claisen rearrangement is a different pericyclic reaction.",
+    "mechanismSteps": [
+      {
+        "id": "ref-claisen-condensation:step:0",
+        "level": "slot2",
+        "body": "Ethoxide α-H કાઢીને ester enolate બનાવે છે."
+      },
+      {
+        "id": "ref-claisen-condensation:step:1",
+        "level": "slot2",
+        "body": "Enolate બીજા ester પર attack કરીને tetrahedral intermediate આપે છે."
+      },
+      {
+        "id": "ref-claisen-condensation:step:2",
+        "level": "slot2",
+        "body": "C=O restore થતાં ethoxide leaves."
+      },
+      {
+        "id": "ref-claisen-condensation:step:3",
+        "level": "slot2",
+        "body": "Doubly activated product deprotonation equilibrium આગળ ધપાવે છે."
+      },
+      {
+        "id": "ref-claisen-condensation:step:4",
+        "level": "slot2",
+        "body": "Acid work-up neutral β-keto ester આપે છે."
+      }
+    ],
+    "externalReferences": [
+      {
+        "label": "OpenStax · Claisen condensation mechanism",
+        "url": "https://openstax.org/books/organic-chemistry/pages/23-7-the-claisen-condensation-reaction"
+      }
+    ],
+    "type": "reaction",
+    "reference": "Uploaded Name Reactions reference · corrected study entry",
+    "referenceDetailed": true
+  },
+  {
+    "id": "ref-benzoin",
+    "name": "Benzoin condensation",
+    "level": "slot2",
+    "category": "C–C bond formation",
+    "starting": "Two benzaldehyde molecules",
+    "reactant": "O=Cc1ccccc1.O=Cc1ccccc1",
+    "conditions": "Catalytic CN⁻; aqueous alcoholic medium",
+    "product": "Benzoin",
+    "productSmiles": "O=C(c1ccccc1)C(O)c1ccccc1",
+    "easy": "Benzaldehyde પાસે α-H ન હોવા છતાં cyanide catalyst carbonyl carbon ને nucleophilic donor બનાવી શકે છે. આ polarity reversal ને umpolung કહે છે.",
+    "insight": "Cyanohydrin formation, carbon deprotonation, attack on a second aldehyde, proton transfers and cyanide elimination regenerate the catalyst.",
+    "stereo": "Achiral cyanide catalysis gives racemic benzoin; the new alcohol stereocentre is unspecified in the drawing.",
+    "trap": "આ ordinary enolate aldol નથી. Product α-hydroxy ketone છે; β-hydroxy carbonyl નથી. Catalyst CN⁻ final product માં retained રહેતું નથી.",
+    "mechanismSteps": [
+      {
+        "id": "ref-benzoin:step:0",
+        "level": "slot2",
+        "body": "CN⁻ aldehyde પર add થાય છે."
+      },
+      {
+        "id": "ref-benzoin:step:1",
+        "level": "slot2",
+        "body": "Proton transfers cyanohydrin-derived carbon nucleophile આપે છે."
+      },
+      {
+        "id": "ref-benzoin:step:2",
+        "level": "slot2",
+        "body": "તે બીજા benzaldehyde પર C–C bond બનાવે છે."
+      },
+      {
+        "id": "ref-benzoin:step:3",
+        "level": "slot2",
+        "body": "Solvent-mediated proton transfers પછી cyanide elimination C=O restore કરે છે."
+      }
+    ],
+    "externalReferences": [
+      {
+        "label": "Organic Syntheses · classical benzoin preparation",
+        "url": "https://www.orgsyn.org/demo.aspx?prep=CV1P0094"
+      },
+      {
+        "label": "University of Illinois · benzoin catalysis",
+        "url": "https://denmarkgroup.web.illinois.edu/wp-content/uploads/2021/09/gm-2002-11_12.pdf"
+      }
+    ],
+    "type": "reaction",
+    "reference": "Uploaded Name Reactions reference · corrected study entry",
+    "referenceDetailed": true
+  },
+  {
+    "id": "ref-diazotization",
+    "name": "Diazotization of aniline",
+    "level": "slot1",
+    "category": "Nitrogen transformations",
+    "starting": "Aniline",
+    "reactant": "Nc1ccccc1",
+    "conditions": "NaNO₂ / HCl, 273–278 K; aqueous medium",
+    "product": "Benzenediazonium chloride",
+    "productSmiles": "[Cl-].N#[N+]c1ccccc1",
+    "easy": "Primary aromatic amine નું –NH₂ group cold acidic nitrous acid થી –N₂⁺ group બને છે. Diazonium salt પછી substitution અથવા azo coupling માટે ઉપયોગી છે.",
+    "insight": "N-nitrosation, solvent-mediated tautomerization to diazohydroxide, O-protonation and dehydration form the diazonium ion.",
+    "stereo": "No tetrahedral stereocentre is involved in this aromatic example.",
+    "trap": "Primary aliphatic diazonium salts behave differently and decompose readily. Secondary amines form nitrosamines; they do not follow this same final step.",
+    "mechanismSteps": [
+      {
+        "id": "ref-diazotization:step:0",
+        "level": "slot1",
+        "body": "NaNO₂/HCl થી nitrous acid અને nitrosating species બને છે."
+      },
+      {
+        "id": "ref-diazotization:step:1",
+        "level": "slot1",
+        "body": "Aniline nitrogen પર N-nitrosation થાય છે."
+      },
+      {
+        "id": "ref-diazotization:step:2",
+        "level": "slot1",
+        "body": "Proton transfers થી diazohydroxide બને છે."
+      },
+      {
+        "id": "ref-diazotization:step:3",
+        "level": "slot1",
+        "body": "OH protonation તેને water leaving group બનાવે છે."
+      },
+      {
+        "id": "ref-diazotization:step:4",
+        "level": "slot1",
+        "body": "Water loss diazonium ion આપે છે; Cl⁻ counterion છે."
+      }
+    ],
+    "externalReferences": [
+      {
+        "label": "IIT Kanpur SATHEE · diazotization",
+        "url": "https://sathee.iitk.ac.in/ncert-books/udaan/udaan-che-12/chem-12-unit-13-organic-compounds-containing-nitrogen/"
+      }
+    ],
+    "type": "reaction",
+    "reference": "Uploaded Name Reactions reference · corrected study entry",
+    "referenceDetailed": true
+  }
+]

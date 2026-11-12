@@ -1,0 +1,624 @@
+[
+  {
+    "id": "ncert-book-carbohydrate-classification",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "concept",
+    "name": "Carbohydrates: mono-, oligo- and polysaccharides",
+    "pages": [
+      281,
+      282
+    ],
+    "equation": "Monosaccharide → one unit   |   Disaccharide → two units after hydrolysis",
+    "structures": [],
+    "conditions": "Classify by hydrolysis products and functional group",
+    "summary": "Monosaccharide simpler carbohydrate units માં hydrolyse થતું નથી. Disaccharide hydrolysis થી two monosaccharide units અને polysaccharide થી many units આપે છે.",
+    "why": "Aldose માં aldehyde-derived functionality અને ketose માં ketone-derived functionality હોય છે. Carbon count પ્રમાણે pentose/hexose names મળે છે.",
+    "steps": [
+      "Hydrolysis થી કેટલા units મળે છે તે જુઓ.",
+      "Carbonyl classification aldose કે ketose કરો.",
+      "Carbon count પરથી pentose/hexose identify કરો."
+    ],
+    "trap": "Sweet taste અથવા formula Cₓ(H₂O)ᵧ એકલું carbohydrate ની universal definition નથી.",
+    "quiz": {
+      "question": "Which carbohydrate is a monosaccharide?",
+      "answer": "Glucose",
+      "distractors": [
+        "Sucrose",
+        "Maltose",
+        "Cellulose"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-glucose-fischer",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "structure",
+    "name": "D-Glucose: read the Fischer projection",
+    "pages": [
+      283,
+      285
+    ],
+    "equation": "D-Glucose: OH pattern from C2 to C5 = right, left, right, right",
+    "structures": [],
+    "conditions": "Open-chain Fischer projection; the aqueous sugar is mainly cyclic",
+    "summary": "Fischer projection માં most oxidised CHO group top પર અને CH₂OH bottom પર રાખીએ છીએ. D-glucose માં C2 right, C3 left, C4 right અને C5 right OH છે.",
+    "why": "D/L relative configuration penultimate stereocentre પરથી નક્કી થાય છે. D label optical rotation નું + sign નથી; D-glucose માટે (+) experimentally known separate property છે.",
+    "steps": [
+      "CHO ને carbon-1 તરીકે number કરો.",
+      "Each chiral centre પર left/right OH વાંચો.",
+      "C5 OH right હોવાથી D configuration ઓળખો."
+    ],
+    "trap": "Fischer horizontal bonds viewer તરફ અને vertical bonds પાછળ જાય છે; D એટલે હંમેશાં dextrorotatory નથી.",
+    "quiz": {
+      "question": "Which OH pattern describes D-glucose from C2 to C5 in a standard Fischer projection?",
+      "answer": "Right–left–right–right",
+      "distractors": [
+        "Left–right–left–left",
+        "Right–right–right–right",
+        "Left–left–right–right"
+      ],
+      "level": "slot1"
+    },
+    "visual": "glucose-fischer"
+  },
+  {
+    "id": "ncert-book-glucose-reaction-evidence",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "reaction",
+    "name": "Glucose reactions reveal its functional groups",
+    "pages": [
+      283,
+      284
+    ],
+    "equation": "Br₂/H₂O → gluconic acid   |   HNO₃ oxidation → saccharic acid",
+    "structures": [
+      {
+        "name": "Glucose open-chain connectivity",
+        "smiles": "O=CC(O)C(O)C(O)C(O)CO",
+        "caption": "Connectivity only; retain the D-glucose configuration shown in the Fischer lesson.",
+        "level": "slot1"
+      },
+      {
+        "name": "Gluconic acid connectivity",
+        "smiles": "O=C(O)C(O)C(O)C(O)C(O)CO",
+        "caption": "Aldehyde end oxidised; stereochemistry retained.",
+        "level": "slot1"
+      },
+      {
+        "name": "Saccharic acid connectivity",
+        "smiles": "O=C(O)C(O)C(O)C(O)C(O)C(=O)O",
+        "caption": "Both terminal groups oxidised; stereochemistry not encoded in this connectivity view.",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Mild bromine-water oxidation vs stronger nitric-acid oxidation",
+    "summary": "Glucose ના aldehyde end નું mild oxidation gluconic acid આપે છે. Strong oxidation માં terminal CH₂OH પણ COOH બની dicarboxylic saccharic acid આપે છે.",
+    "why": "Hydroxylamine/HCN reactions carbonyl evidence અને acetylation five OH groups નું evidence આપે છે. Open-chain model બધા observations explain નથી કરતું; cyclic forms જરૂરી છે.",
+    "steps": [
+      "Oxidised carbon-1 end identify કરો.",
+      "Mild અને strong oxidation endpoints compare કરો.",
+      "Carbon skeleton અને stereocentre connectivity retain કરો."
+    ],
+    "trap": "Bromine water glucose ના aldehyde end ને oxidise કરે છે; ordinary simple ketose પર same direct rule ન લગાવો.",
+    "quiz": {
+      "question": "Which acid results from mild bromine-water oxidation of glucose?",
+      "answer": "Gluconic acid",
+      "distractors": [
+        "Saccharic acid",
+        "Benzoic acid",
+        "Acetic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-glucose-anomers",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "structure",
+    "name": "α- and β-D-glucopyranose",
+    "pages": [
+      285,
+      286
+    ],
+    "equation": "For D-glucose: α C1–OH is trans to CH₂OH; β is cis.",
+    "structures": [],
+    "conditions": "Haworth projections; six-membered hemiacetal ring",
+    "summary": "Open-chain glucose ના C1 carbonyl અને C5 OH intramolecular hemiacetal બનાવે છે. New stereocentre C1 anomeric carbon છે.",
+    "why": "D-glucopyranose ના conventional Haworth view માં C5–CH₂OH up છે. α form માં C1–OH down અને β form માં up છે; બંને C1 પર differ કરે છે.",
+    "steps": [
+      "Ring oxygen અને anomeric carbon C1 identify કરો.",
+      "CH₂OH reference orientation જુઓ.",
+      "C1 OH trans હોય તો α, cis હોય તો β for this D-sugar reference."
+    ],
+    "trap": "α/β ને D/L સાથે confuse ન કરો; anomers એક anomeric centre પર differ કરે છે.",
+    "quiz": {
+      "question": "At which carbon do α- and β-D-glucopyranose differ?",
+      "answer": "C1",
+      "distractors": [
+        "C2",
+        "C5",
+        "C6"
+      ],
+      "level": "slot1"
+    },
+    "visual": "glucose-haworth"
+  },
+  {
+    "id": "ncert-book-fructose-fischer",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "structure",
+    "name": "D-Fructose: a ketohexose",
+    "pages": [
+      286,
+      287
+    ],
+    "equation": "D-Fructose: C2 carbonyl; C3–C5 OH pattern = left, right, right",
+    "structures": [],
+    "conditions": "Open-chain Fischer model; cyclic furanose/pyranose forms also occur",
+    "summary": "Fructose six-carbon ketose છે. Standard open-chain drawing માં top CH₂OH પછી C2=O આવે છે; તેથી glucose જેવી CHO top group નથી.",
+    "why": "Cyclic forms માં anomeric carbon C2 બને છે. Alkaline reducing-sugar tests માં tautomerisationથી fructose positive આપી શકે છે.",
+    "steps": [
+      "C2 carbonyl અને six-carbon chain ઓળખો.",
+      "C3/C4/C5 OH pattern વાંચો.",
+      "Glucose C1-anomeric અને fructose C2-anomeric difference યાદ રાખો."
+    ],
+    "trap": "Fructose ketose છે એટલે Fehling/Tollens હંમેશાં negative એવું નથી.",
+    "quiz": {
+      "question": "Which carbon is the carbonyl carbon in open-chain fructose?",
+      "answer": "C2",
+      "distractors": [
+        "C1",
+        "C5",
+        "C6"
+      ],
+      "level": "slot1"
+    },
+    "visual": "fructose-fischer"
+  },
+  {
+    "id": "ncert-book-disaccharide-linkages",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "structure",
+    "name": "Sucrose, maltose and lactose: trace the linkage",
+    "pages": [
+      287,
+      288
+    ],
+    "equation": "Sucrose: Glc α(1→2)β Fru   |   Maltose: Glc α(1→4) Glc   |   Lactose: Gal β(1→4) Glc",
+    "structures": [],
+    "conditions": "Glycosidic-connectivity schematics",
+    "summary": "Disaccharide માં glycosidic bond કયા carbons ને જોડે છે તે જુઓ. Sucrose માં both anomeric centres linkage માં locked છે; તેથી non-reducing છે.",
+    "why": "Maltose અને lactose માં one anomeric centre free રહે છે; તેથી reducing sugars છે. Sucrose hydrolysis glucose + fructose આપે છે; lactose glucose + galactose આપે છે.",
+    "steps": [
+      "Each monosaccharide unit identify કરો.",
+      "Linkage numbers અને α/β notation વાંચો.",
+      "Free hemiacetal/anomeric centre છે કે નહીં check કરો."
+    ],
+    "trap": "બે monosaccharides છે એટલે disaccharide reducing જ હશે એવું નથી.",
+    "quiz": {
+      "question": "Which disaccharide is non-reducing?",
+      "answer": "Sucrose",
+      "distractors": [
+        "Maltose",
+        "Lactose",
+        "Both maltose and lactose only"
+      ],
+      "level": "slot1"
+    },
+    "visual": "glycosidic"
+  },
+  {
+    "id": "ncert-book-starch-cellulose",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "concept",
+    "name": "Starch vs cellulose: same monomer, different linkage",
+    "pages": [
+      288,
+      289
+    ],
+    "equation": "Starch: α-linked D-glucose   |   Cellulose: β(1→4)-linked D-glucose",
+    "structures": [],
+    "conditions": "Polymeric connectivity; repeat formula (C₆H₁₀O₅)ₙ",
+    "summary": "Starch અને cellulose બંને glucose-based polysaccharides છે, પરંતુ glycosidic configuration અલગ છે.",
+    "why": "Amylose mainly α(1→4) chains છે. Amylopectin માં α(1→4) chains અને α(1→6) branches છે. Cellulose β(1→4) unbranched chains ધરાવે છે.",
+    "steps": [
+      "Monomer D-glucose identify કરો.",
+      "α vs β linkage અને branching compare કરો.",
+      "Structure difference ને biological function સાથે connect કરો."
+    ],
+    "trap": "Same repeat formula હોય એટલે polymers same structure ધરાવે છે એવું નથી.",
+    "quiz": {
+      "question": "Which linkage characterises cellulose?",
+      "answer": "β(1→4)",
+      "distractors": [
+        "α(1→4) only",
+        "α(1→6) only",
+        "α(1→2)β"
+      ],
+      "level": "slot1"
+    },
+    "visual": "polysaccharides"
+  },
+  {
+    "id": "ncert-book-amino-acid-zwitterion",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "structure",
+    "name": "Amino acids and zwitterions",
+    "pages": [
+      290,
+      292
+    ],
+    "equation": "H₂N–CHR–COOH ⇌ ⁺H₃N–CHR–COO⁻",
+    "structures": [
+      {
+        "name": "Glycine neutral connectivity",
+        "smiles": "NCC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Glycine zwitterion",
+        "smiles": "[NH3+]CC(=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Alanine connectivity",
+        "smiles": "CC(N)C(=O)O",
+        "caption": "Stereochemistry unspecified; this view identifies functional groups.",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Protonation depends on pH",
+    "summary": "Amino acid માં basic amino group અને acidic carboxyl group છે. Internal proton transfer થી both charges ધરાવતો zwitterion બની શકે છે.",
+    "why": "Zwitterion નું net charge zero હોઈ શકે છે છતાં individual charges રહે છે. pH બદલતાં cationic અથવા anionic forms વધે છે.",
+    "steps": [
+      "Amino અને carboxyl groups locate કરો.",
+      "COOH થી N પર proton transfer વિચારો.",
+      "Net charge માટે positive અને negative charges add કરો."
+    ],
+    "trap": "Net-neutral zwitterion ને charge-free covalent structure સમાન ન માનો.",
+    "quiz": {
+      "question": "What is the net charge of ⁺H₃N–CH₂–COO⁻?",
+      "answer": "0",
+      "distractors": [
+        "+1",
+        "−1",
+        "+2"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-peptide-bond",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "reaction",
+    "name": "Peptide bond formation: glycylglycine",
+    "pages": [
+      292
+    ],
+    "equation": "2H₂NCH₂COOH → H₂NCH₂CONHCH₂COOH + H₂O",
+    "structures": [
+      {
+        "name": "Two glycine molecules",
+        "smiles": "NCC(=O)O.NCC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Glycylglycine",
+        "smiles": "NCC(=O)NCC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Condensation connectivity; biological synthesis uses activated pathways",
+    "summary": "એક amino acid ના carboxyl group અને બીજા ના amino group વચ્ચે –CO–NH– linkage peptide bond છે. Glycine pair થી glycylglycine connectivity મળે છે.",
+    "why": "Net condensation માં H₂O remove થાય છે. Simple solution mixing ને spontaneous efficient peptide synthesis માની ન લો; activation/biological machinery actual formation enable કરે છે.",
+    "steps": [
+      "Reacting COOH અને NH₂ groups ઓળખો.",
+      "New C(=O)–N bond connect કરો.",
+      "N-terminus અને C-terminus retained છે તે જુઓ."
+    ],
+    "trap": "Peptide bond –C–N– only નહીં; carbonyl-containing –CO–NH– unit છે.",
+    "quiz": {
+      "question": "Which linkage is a peptide bond?",
+      "answer": "–CO–NH–",
+      "distractors": [
+        "–O–O–",
+        "–C≡N",
+        "–S–S– only"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-protein-structure",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "concept",
+    "name": "Protein structure and denaturation",
+    "pages": [
+      292,
+      294
+    ],
+    "equation": "Primary → secondary → tertiary → quaternary structure",
+    "structures": [],
+    "conditions": "Structure levels describe different kinds of organisation",
+    "summary": "Primary structure amino-acid sequence છે. Secondary structure માં α-helix અને β-sheet backbone H-bond patterns મહત્વનાં છે. Tertiary structure overall folding બતાવે છે.",
+    "why": "Denaturation higher-order structure અને activity disrupt કરી શકે છે; ordinary denaturation primary peptide sequence ને generally cleave કરતું નથી. Quaternary structure multiple subunits ની arrangement છે.",
+    "steps": [
+      "Sequence અને folding ને અલગ રાખો.",
+      "H-bonding, disulfide અને other interactions નો role ઓળખો.",
+      "Denaturation પછી કયું structure level retained રહી શકે તે વિચારો."
+    ],
+    "trap": "α-helix અને β-sheet primary sequence ના alternate names નથી.",
+    "quiz": {
+      "question": "Which structural level is usually retained during ordinary protein denaturation?",
+      "answer": "Primary structure",
+      "distractors": [
+        "Tertiary structure in every case",
+        "Quaternary structure in every case",
+        "All levels remain unchanged"
+      ],
+      "level": "slot1"
+    },
+    "visual": "protein-levels"
+  },
+  {
+    "id": "ncert-book-enzymes-specificity",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "concept",
+    "name": "Enzymes: specificity and catalytic action",
+    "pages": [
+      295
+    ],
+    "equation": "E + S ⇌ ES → E + P",
+    "structures": [],
+    "conditions": "Biological catalysis; suitable temperature and pH",
+    "summary": "Enzyme substrate ને bind કરીને reaction pathway ની activation barrier ઘટાડે છે. Enzyme overall reaction માં consume થતું નથી.",
+    "why": "Specificity active-site interactions પર આધારિત છે. Temperature/pH બદલતાં activity અને folding affect થાય છે. Catalyst equilibrium position બદલતું નથી.",
+    "steps": [
+      "Enzyme–substrate complex identify કરો.",
+      "Product release પછી enzyme regenerated થાય છે તે જુઓ.",
+      "Rate change અને equilibrium change વચ્ચે ફરક રાખો."
+    ],
+    "trap": "Enzyme ΔG અથવા equilibrium constant ને બદલીને impossible equilibrium force કરતું નથી.",
+    "quiz": {
+      "question": "What does an enzyme lower for a reaction?",
+      "answer": "Activation energy",
+      "distractors": [
+        "The equilibrium constant directly",
+        "The total number of atoms",
+        "The final product mass"
+      ],
+      "level": "slot1"
+    },
+    "visual": "enzyme"
+  },
+  {
+    "id": "ncert-book-vitamins-reference",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "concept",
+    "name": "Vitamins: solubility and textbook deficiency pairs",
+    "pages": [
+      295,
+      297
+    ],
+    "equation": "Fat-soluble: A, D, E, K   |   Water-soluble: B group, C",
+    "structures": [],
+    "conditions": "Educational classification; deficiency associations are textbook references",
+    "summary": "Vitamins small amounts માં જરૂરી organic compounds છે. Solubility પ્રમાણે fat-soluble અને water-soluble groups યાદ રાખો.",
+    "why": "Textbook associations: A–night blindness, B₁–beriberi, C–scurvy, D–rickets, K–impaired blood clotting. આ reference diagnosis અથવા dosing guidance નથી.",
+    "steps": [
+      "A,D,E,K ને fat-soluble group તરીકે organise કરો.",
+      "B/C ને water-soluble group સાથે pair કરો.",
+      "Vitamin name અને deficiency association અલગ recall કરો."
+    ],
+    "trap": "Solubility classification થી પોતાની deficiency diagnose ન કરો; અહીં learning reference છે.",
+    "quiz": {
+      "question": "Which set contains the fat-soluble vitamins?",
+      "answer": "A, D, E, K",
+      "distractors": [
+        "B₁, B₂, B₆, C",
+        "A, B₁, C, K",
+        "C only"
+      ],
+      "level": "slot1"
+    },
+    "visual": "vitamins"
+  },
+  {
+    "id": "ncert-book-nucleobase-structures",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "structure",
+    "name": "Five nucleobases: recognise purine vs pyrimidine",
+    "pages": [
+      298
+    ],
+    "equation": "Purines: A, G   |   Pyrimidines: C, T, U",
+    "structures": [
+      {
+        "name": "Adenine",
+        "smiles": "Nc1ncnc2[nH]cnc12",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Guanine",
+        "smiles": "NC1=Nc2[nH]cnc2C(=O)N1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Cytosine",
+        "smiles": "C1=C(NC(=O)N=C1)N",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Thymine",
+        "smiles": "CC1=CNC(=O)NC1=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Uracil",
+        "smiles": "O=C1NC=CC(=O)N1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Neutral common tautomer connectivity; base-only structures",
+    "summary": "Adenine અને guanine fused two-ring purines છે. Cytosine, thymine અને uracil single six-membered-ring pyrimidines છે.",
+    "why": "Thymine uracil ની 5-methyl counterpart છે. Bases ને sugar/phosphate attached nucleosides/nucleotides સાથે confuse ન કરો.",
+    "steps": [
+      "Fused two-ring vs single-ring skeleton જુઓ.",
+      "Amino/carbonyl/methyl substituents compare કરો.",
+      "DNA માટે A,G,C,T અને RNA માટે A,G,C,U યાદ રાખો."
+    ],
+    "trap": "Nitrogenous base પોતે full nucleotide નથી.",
+    "quiz": {
+      "question": "Which pair consists of purine bases?",
+      "answer": "Adenine and guanine",
+      "distractors": [
+        "Cytosine and thymine",
+        "Thymine and uracil",
+        "Cytosine and uracil"
+      ],
+      "level": "slot1"
+    },
+    "externalReferences": [
+      {
+        "label": "RCSB PDB chemical components",
+        "url": "https://www.rcsb.org/ligand/ADE"
+      }
+    ]
+  },
+  {
+    "id": "ncert-book-nucleoside-nucleotide",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "concept",
+    "name": "Nucleoside vs nucleotide",
+    "pages": [
+      297,
+      299
+    ],
+    "equation": "Base + sugar = nucleoside   |   base + sugar + phosphate = nucleotide",
+    "structures": [],
+    "conditions": "N-glycosidic linkage and phosphate ester",
+    "summary": "Nitrogenous base pentose sugar સાથે જોડાય ત્યારે nucleoside બને છે. Phosphate group ઉમેરાય ત્યારે nucleotide બને છે.",
+    "why": "Purine base સામાન્ય રીતે N9 અને pyrimidine base N1 દ્વારા sugar C1′ સાથે જોડાય છે. Sugar numbering ને base numbering થી prime symbol દ્વારા અલગ પાડીએ છીએ.",
+    "steps": [
+      "Base અને sugar components identify કરો.",
+      "Phosphate હાજર છે કે નહીં જુઓ.",
+      "Sugar C1′ અને phosphodiester backbone positions track કરો."
+    ],
+    "trap": "Nucleoside માં phosphate હોવું જરૂરી નથી; nucleotide માં phosphate component હોય છે.",
+    "quiz": {
+      "question": "What additional component distinguishes a nucleotide from a nucleoside?",
+      "answer": "Phosphate group",
+      "distractors": [
+        "Another nitrogenous base",
+        "A peptide bond",
+        "A benzene ring"
+      ],
+      "level": "slot1"
+    },
+    "visual": "nucleotide"
+  },
+  {
+    "id": "ncert-book-dna-rna-pairing",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "structure",
+    "name": "DNA vs RNA: sugars, bases and pairing",
+    "pages": [
+      297,
+      300
+    ],
+    "equation": "DNA: A–T (2 H bonds), G–C (3 H bonds)   |   RNA commonly uses U instead of T",
+    "structures": [],
+    "conditions": "Canonical base-pairing schematic",
+    "summary": "DNA માં 2-deoxyribose અને RNA માં ribose sugar છે. RNA ના sugar C2′ પર OH હોય છે; DNA ના corresponding position પર H છે.",
+    "why": "Canonical DNA pairing માં A–T two અને G–C three H bonds છે. Backbone covalent phosphodiester bonds અને base-pair H bonds અલગ પ્રકારના connections છે.",
+    "steps": [
+      "Sugar C2′ difference ઓળખો.",
+      "T vs U base identity યાદ રાખો.",
+      "Backbone bond અને inter-base H bonds અલગ mark કરો."
+    ],
+    "trap": "A–T વચ્ચે peptide bond નથી; hydrogen bonds છે. H-bond count ને backbone covalent bond count સાથે mix ન કરો.",
+    "quiz": {
+      "question": "Which base pair has three hydrogen bonds in canonical DNA?",
+      "answer": "G–C",
+      "distractors": [
+        "A–T",
+        "A–A",
+        "T–T"
+      ],
+      "level": "slot1"
+    },
+    "visual": "dna"
+  },
+  {
+    "id": "ncert-book-hormones-chemistry",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "biomolecules",
+    "kind": "concept",
+    "name": "Hormones are chemical messengers",
+    "pages": [
+      300
+    ],
+    "equation": "Chemical messengers coordinate responses at target tissues.",
+    "structures": [],
+    "conditions": "Textbook biomolecule overview",
+    "summary": "Hormones endocrine signalling માં chemical messengers તરીકે કામ કરે છે. બધા hormones એક જ chemical class ના નથી.",
+    "why": "Insulin peptide/protein-type hormone છે; many sex/adrenal hormones steroid class માં આવે છે. Structure class, enzyme role અને messenger role અલગ concepts છે.",
+    "steps": [
+      "Signal-producing source અને target-response idea સમજો.",
+      "Peptide/protein અને steroid classes distinguish કરો.",
+      "Hormone ને vitamin અથવા digestive enzyme સાથે equate ન કરો."
+    ],
+    "trap": "બધા hormones steroids છે અથવા બધા enzymes hormones છે—બંને statements ખોટાં છે.",
+    "quiz": {
+      "question": "Which statement is correct?",
+      "answer": "Hormones can belong to different chemical classes",
+      "distractors": [
+        "All hormones are steroids",
+        "All vitamins are hormones",
+        "Every enzyme is a hormone"
+      ],
+      "level": "slot1"
+    }
+  }
+]

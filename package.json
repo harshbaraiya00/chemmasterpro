@@ -1,0 +1,25 @@
+{
+  "name": "chemmaster-pro",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/build-production.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "lucide-react": "0.468.0",
+    "smiles-drawer": "2.1.7"
+  },
+  "devDependencies": {
+    "vite": "6.3.5",
+    "@vitejs/plugin-react": "4.4.1",
+    "tailwindcss": "4.1.8",
+    "@tailwindcss/vite": "4.1.8"
+  }
+}

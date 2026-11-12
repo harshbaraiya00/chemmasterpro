@@ -1,0 +1,1026 @@
+{
+  "cases": {
+    "potassium-iodide": [
+      [
+        "Iodide SN2 substitution",
+        "1-Bromopropane",
+        "CCCBr",
+        "I⁻, suitable polar medium; substrate/solubility dependent",
+        "1-Iodopropane",
+        "CCCI",
+        "Iodide nucleophile primary sp³ carbon પર backside attack કરે છે. C–I bond બને છે અને C–Br bond તૂટે છે; carbon count જળવાય છે.",
+        [
+          "Primary carbon અને leaving group ઓળખો.",
+          "I⁻ electron pair electrophilic carbon તરફ આપે છે.",
+          "C–Br bond pair bromide પર જાય છે; SN2 એક concerted step છે.",
+          "Solvent, salt solubility અને equilibrium driving force ચેક કરો; classic NaI/acetone setupને KI સાથે identical ન માનો."
+        ]
+      ]
+    ],
+    "potassium-permanganate": [
+      [
+        "Mild alkene dihydroxylation",
+        "Propene",
+        "CC=C",
+        "Cold dilute alkaline permanganate; oxidative hydrolysis",
+        "Propane-1,2-diol",
+        "CC(O)CO",
+        "Mild alkene oxidation syn vicinal oxygen addition આપી શકે છે. Stronger/warmer oxidative conditionsમાં cleavage possible છે; one reagent nameથી same final product નહીં.",
+        [
+          "Alkeneના બે carbons mark કરો.",
+          "Cyclic manganese–oxygen intermediate same-face C–O formation સમજાવે છે.",
+          "Hydrolysis vicinal diol release કરે છે.",
+          "Medium અને oxidation severity વધે તો cleavage/overoxidation possibility તપાસો."
+        ]
+      ],
+      [
+        "Benzylic side-chain oxidation",
+        "Toluene",
+        "Cc1ccccc1",
+        "Oxidizing permanganate conditions; acidic isolation",
+        "Benzoic acid",
+        "O=C(O)c1ccccc1",
+        "Benzylic H ધરાવતી side chain carboxyl groupમાં oxidize થાય છે. Starting side chain લાંબી હોય તો carbon accounting અને removed fragments અલગ જોવાં.",
+        [
+          "Benzylic carbon aromatic ring સાથે જોડાયેલો છે તે ઓળખો.",
+          "આ carbon પર ઓછામાં ઓછો એક H ઉપલબ્ધ છે કે નહીં જુઓ.",
+          "Successive oxidation benzylic carbonને carboxyl oxidation level સુધી લઈ જાય છે.",
+          "Basic stageમાં carboxylate અને acidic isolationમાં neutral acid distinguish કરો."
+        ]
+      ]
+    ],
+    "sodium-dichromate": [
+      [
+        "Primary alcohol → acid",
+        "Propan-1-ol",
+        "CCCO",
+        "Acidic aqueous Cr(VI) oxidation",
+        "Propanoic acid",
+        "CCC(=O)O",
+        "Aldehyde intermediate hydrate થઈ further oxidize થાય છે. Waterની હાજરી aldehyde-stopની dry-reagent logic બદલે છે.",
+        [
+          "Alcohol oxygen chromium સાથે ester-like linkage બનાવે છે.",
+          "Carbinol C–H elimination aldehyde આપે છે.",
+          "Aldehyde hydrate gem-diol બનાવે છે.",
+          "Further oxidation acid આપે છે; Cr(VI) reduce થાય છે."
+        ]
+      ]
+    ],
+    "sodium-nitrite": [
+      [
+        "Primary arylamine diazotization",
+        "Aniline",
+        "Nc1ccccc1",
+        "NaNO₂ + mineral acid, cold aqueous medium",
+        "Benzenediazonium chloride",
+        "c1ccccc1[N+]#N.[Cl-]",
+        "Nitrite-derived nitrosating species amino nitrogen સાથે reaction શરૂ કરે છે. Diazonium પછી replacement/azo coupling માટે versatile handle બને છે.",
+        [
+          "Acid nitriteમાંથી nitrous-acid-derived nitrosating electrophile બનાવે છે.",
+          "Arylamine nitrogen nitrosation કરે છે; proton transfers follow થાય છે.",
+          "N-nitroso/diazohydroxide-derived sequence diazonium connectivity તરફ જાય છે.",
+          "Diazonium ionનું downstream product co-reagentથી પસંદ કરો; warming/conditions stabilityને affect કરે છે."
+        ]
+      ]
+    ],
+    "sodium-nitrate": [
+      [
+        "Nitrate versus nitrite: nitrogen accounting",
+        null,
+        null,
+        "Oxidation-state and acid–base comparison",
+        "NO₃⁻: N(+5); NO₂⁻: N(+3)",
+        null,
+        "Nitrate salt પોતે diazotizationનું nitrite replacement નથી. Appropriate strongly acidic contextમાં nitric-acid/nitrating chemistry relevant બને છે, ordinary neutral salt solutionમાં નહીં.",
+        [
+          "NaNO₃ને Na⁺ અને NO₃⁻માં તોડો.",
+          "O = −2 અને ion charge −1થી nitrogen +5 મેળવો.",
+          "NaNO₂માં એ જ accounting nitrogen +3 આપે છે.",
+          "Formulaમાં એક oxygenનો ફેરફાર reaction family બદલે છે; acid/co-reagent assumptions ઉમેરશો નહીં."
+        ]
+      ]
+    ],
+    "zinc-dust": [
+      [
+        "Nitroarene reduction",
+        "Nitrobenzene",
+        "O=[N+]([O-])c1ccccc1",
+        "Zn / acidic proton source; reduction context",
+        "Aniline",
+        "Nc1ccccc1",
+        "Zn electrons આપે છે અને proton source hydrogen equivalents આપે છે. Intermediate reduction levels exist, but suitable complete reduction leads to arylamine.",
+        [
+          "Nitro nitrogenનું oxidation level અને target amino group ઓળખો.",
+          "Zn(0)થી electron transfer સાથે nitro-derived species reduce થાય છે.",
+          "Nitroso/hydroxylamine-derived stages further proton/electron transfer કરે છે.",
+          "Acidic mediumમાં ammonium salt possible છે; drawing neutral parent દર્શાવે છે."
+        ]
+      ]
+    ],
+    "potassium-hydroxide": [
+      [
+        "β-Elimination comparison",
+        "2-Bromobutane",
+        "CC(Br)CC",
+        "Alcoholic KOH, elimination-favoring context",
+        "But-2-ene, major family",
+        "CC=CC",
+        "Secondary substrateમાં base β-H દૂર કરી C=C અને leaving-group departure coupled કરી શકે છે. But-1-ene અને stereoisomer competitionને exclusive answerથી ન છુપાવો.",
+        [
+          "Leaving carbon અને adjacent β-carbons શોધો.",
+          "Removable β-H અને antiperiplanar alignment તપાસો.",
+          "Base H લે છે, C=C બને છે અને Br⁻ નીકળે છે—concerted E2.",
+          "Regioisomers અને E/Z ratio substrate/conformation/conditionsથી બદલાય છે."
+        ]
+      ]
+    ],
+    "sodium-hydroxide": [
+      [
+        "Ester saponification",
+        "Ethyl acetate",
+        "CCOC(C)=O",
+        "Aqueous hydroxide",
+        "Acetate + ethanol",
+        "CC(=O)[O-].CCO",
+        "Hydroxide acyl carbon પર attack કરે છે. Carboxylic-acid-derived product deprotonate થવાથી carboxylate final basic-stage product બને છે.",
+        [
+          "OH⁻ carbonyl carbon પર attack કરે છે અને π pair O પર જાય છે.",
+          "Tetrahedral intermediate બને છે.",
+          "Collapse alkoxide leaving group release કરે છે.",
+          "Acid–base transfer carboxylate + alcohol આપે છે; acid work-up જરૂરી હોય તો separately દર્શાવો."
+        ]
+      ]
+    ],
+    "sodium-carbonate": [
+      [
+        "Acid neutralization and gas accounting",
+        null,
+        null,
+        "Carbonate + carboxylic acid",
+        "2 RCOOH + CO₃²⁻ → 2 RCOO⁻ + CO₂ + H₂O",
+        null,
+        "Equation atoms અને charge balanced છે. Carbonate bicarbonate કરતાં stronger base છે; classic bicarbonate carboxylic-acid testને carbonate માટે identical selectivity ન આપવી.",
+        [
+          "First proton transfer carbonateને bicarbonateમાં ફેરવે છે.",
+          "Second acid equivalent carbonic-acid-derived system આપે છે.",
+          "Carbonic acid water અને CO₂માં convert થઈ શકે છે.",
+          "Charge −2 બંને sides પર carboxylatesથી balanced છે; actual speciation pH dependent છે."
+        ]
+      ]
+    ],
+    "concentrated-hcl": [
+      [
+        "Amine salt formation",
+        "Aniline",
+        "Nc1ccccc1",
+        "Aqueous HCl",
+        "Anilinium chloride",
+        "[NH3+]c1ccccc1.[Cl-]",
+        "Amine lone pair proton accept કરે છે. This is protonation, not aryl chlorination; chloride counterion covalent ring chlorine નથી.",
+        [
+          "Nitrogen lone pair basic site ઓળખો.",
+          "H⁺ transferથી N–H bond બને છે.",
+          "Ammonium cation અને chloride counterion balance કરો.",
+          "Free-base regeneration માટે acid–base equilibrium સમજવો; bottle assay assumed નથી."
+        ]
+      ],
+      [
+        "Alkene hydrohalogenation",
+        "Propene",
+        "CC=C",
+        "HCl; ordinary ionic addition",
+        "2-Chloropropane",
+        "CC(Cl)C",
+        "Protonation more stabilized carbocation-like pathway favor કરે છે; chloride capture Markovnikov product આપે છે. HBr peroxide radical exception HCl પર copy ન કરવી.",
+        [
+          "Alkene protonationના alternative carbocation sites compare કરો.",
+          "More substituted carbocation-like intermediate favor થાય છે.",
+          "Cl⁻ cationic carbon પર attack કરે છે.",
+          "Rearrangement possible substratesમાં separately તપાસો; propeneમાં simple product મળે છે."
+        ]
+      ]
+    ],
+    "methanol": [
+      [
+        "Grignard quench",
+        null,
+        null,
+        "Protic methanol meets organomagnesium reagent",
+        "RMgX + CH₃OH → RH + CH₃OMgX",
+        null,
+        "Methanol solvent હોવા છતાં O–H proton organometallic carbonને protonate કરે છે. This competes with desired carbonyl addition.",
+        [
+          "O–H acidic proton ઓળખો.",
+          "Polarized C–Mg carbon proton accept કરે છે.",
+          "R–H અને magnesium methoxide-derived species બને છે.",
+          "Methanolને dry etherનો inert substitute ન ગણવો."
+        ]
+      ]
+    ],
+    "n-butanol": [
+      [
+        "Primary alcohol oxidation comparison",
+        "Butan-1-ol",
+        "CCCCO",
+        "Swern / suitable aldehyde-stop oxidation",
+        "Butanal",
+        "CCCC=O",
+        "Primary alcohol carbon aldehyde બને છે. Aqueous stronger chromium oxidationમાં final butanoic acid શક્ય હોવાથી medium વાંચવો.",
+        [
+          "OH-bearing terminal carbon mark કરો.",
+          "Activated alcohol intermediate બનાવો.",
+          "C–H removal અને C=O formation carbonyl આપે છે.",
+          "Water/oxidant contextથી aldehyde stop કે acid outcome distinguish કરો."
+        ]
+      ]
+    ],
+    "ethyl-acetate": [
+      [
+        "Full ester reduction and fragment count",
+        "Ethyl acetate",
+        "CCOC(C)=O",
+        "LiAlH₄; then appropriate work-up",
+        "Two ethanol molecules",
+        "CCO.CCO",
+        "Carbonyl-derived two-carbon unit અને original ethoxy two-carbon unit બંને ethanol આપે છે. One organic product drawing stoichiometric fragment count છુપાવી શકે છે.",
+        [
+          "Esterને acetyl અને ethoxy fragmentsમાં ઓળખો.",
+          "Hydride addition tetrahedral intermediate આપે છે.",
+          "Leaving-group departure પછી aldehyde-derived center further reduce થાય છે.",
+          "Work-up carbonyl-derived alkoxide અને ethoxy-derived alkoxide બંને protonate કરે છે."
+        ]
+      ]
+    ],
+    "thf": [
+      [
+        "Ether solvent supporting carbonyl addition",
+        "Propanone",
+        "CC(C)=O",
+        "CH₃MgBr in dry donor ether; then work-up",
+        "tert-Butanol",
+        "CC(C)(C)O",
+        "THF oxygen metal coordinationમાં મદદ કરે છે; methyl nucleophile reagentમાંથી આવે છે, THFમાંથી નહીં.",
+        [
+          "THFના ether oxygenને donor site તરીકે ઓળખો.",
+          "Organomagnesium reagentની solution coordination બદલાય છે.",
+          "Carbon nucleophile carbonyl પર attack કરે છે.",
+          "Work-up alcohol આપે છે; moisture/protic contaminants reagent quench કરી શકે છે."
+        ]
+      ]
+    ],
+    "dmf": [
+      [
+        "DMF as a formyl source",
+        "N,N-Dimethylformamide",
+        "CN(C)C=O",
+        "PhMgBr addition; hydrolytic work-up",
+        "Benzaldehyde",
+        "O=Cc1ccccc1",
+        "DMFમાં formyl carbonyl electrophilic છે. Organometallic addition પછી hydrolysis dimethylamine-derived leaving fragment સાથે aldehyde આપે છે.",
+        [
+          "DMF amide carbonyl અને formyl H ઓળખો.",
+          "Phenyl nucleophile carbonyl carbon પર add થાય છે.",
+          "Metal-bound tetrahedral intermediate બને છે.",
+          "Hydrolysis/collapse aldehyde આપે છે; DMF every strong nucleophile માટે inert નથી."
+        ]
+      ]
+    ],
+    "dioxane": [
+      [
+        "Cyclic ether or acetal?",
+        null,
+        null,
+        "Connectivity comparison",
+        "1,4-Dioxane is a diether; 1,3-dioxolane can be an acetal motif",
+        null,
+        "Oxygen atomsના positions અને intervening carbon connectivity acid hydrolysis behaviorને affect કરે છે. All cyclic ethersને protecting-group acetal ગણવું ખોટું છે.",
+        [
+          "Ringમાં oxygen positions 1 અને 4 mark કરો.",
+          "કોઈ carbon બે oxygens સાથે acetal રીતે જોડાયેલો છે કે નહીં જુઓ.",
+          "Donor-solvent roleને substrate transformationથી જુદો રાખો.",
+          "Exact medium, impurities અને grade supplier specificationથી verify કરો."
+        ]
+      ]
+    ],
+    "cyclohexane": [
+      [
+        "Conformation versus aromaticity",
+        null,
+        null,
+        "Chair interconversion / structural comparison",
+        "Cyclohexane: saturated ring; benzene: aromatic ring",
+        null,
+        "Chair flipping axial/equatorial positions interchange કરે છે; molecule aromatic બનતું નથી. Simple ring drawing bond-order information સાથે વાંચવું.",
+        [
+          "Six carbon ring અને C–C single bonds count કરો.",
+          "Chair conformationsમાં torsional/steric strain compare કરો.",
+          "Ring flip connectivity બદલે નહીં; axial/equatorial locations બદલાય છે.",
+          "Radical C–H chemistry અને aromatic substitutionનાં mechanisms અલગ છે."
+        ]
+      ]
+    ],
+    "carbon-tetrachloride": [
+      [
+        "Polar bonds, nonpolar molecule",
+        null,
+        null,
+        "Ideal tetrahedral dipole-vector comparison",
+        "Four C–Cl bond dipoles cancel by symmetry",
+        null,
+        "C–Cl bonds polar હોવા છતાં overall molecular dipole zero થઈ શકે છે. This does not imply absence of intermolecular forces or harmlessness.",
+        [
+          "Central carbonની tetrahedral geometry ઓળખો.",
+          "ચાર identical C–Cl bond dipole vectors દોરો.",
+          "Symmetric vector sum zero થાય છે.",
+          "CHCl₃માં symmetry તૂટે છે; same molecular-polarity result copy ન કરવો."
+        ]
+      ]
+    ],
+    "formaldehyde": [
+      [
+        "One-carbon extension to a primary alcohol",
+        "Methanal",
+        "C=O",
+        "CH₃MgBr; then work-up",
+        "Ethanol",
+        "CCO",
+        "Formaldehyde carbonyl carbon પર carbon substituent નથી. Methyl addition પછી OH-bearing carbon one-carbon R extension ધરાવે છે અને primary alcohol મળે છે.",
+        [
+          "HCHO carbonyl carbon સાથે two H છે તે નોંધો.",
+          "CH₃ nucleophile carbonyl carbon પર attack કરે છે.",
+          "C=O π electrons oxygen પર જઈ alkoxide આપે છે.",
+          "Protonationથી ethanol મળે છે; carbon count 1 + 1 = 2 છે."
+        ]
+      ],
+      [
+        "Cannizzaro disproportionation",
+        "Methanal",
+        "C=O",
+        "Suitable strongly basic aqueous conditions",
+        "Methanol + formate",
+        "CO.O=C[O-]",
+        "Non-enolizable aldehyde disproportionationમાં એક carbon oxidize અને બીજો reduce થાય છે. Two substrate moleculesનું material accounting જરૂરી છે.",
+        [
+          "Formaldehydeમાં α-carbon/α-H absent છે.",
+          "Hydroxide carbonyl addition-derived intermediate બનાવે છે.",
+          "Hydride transfer બીજા aldehyde moleculeને reduce કરે છે.",
+          "Alcohol અને carboxylate products મળે છે; exact ionic form medium dependent છે."
+        ]
+      ]
+    ],
+    "ethyl-acetoacetate": [
+      [
+        "Acetoacetic ester synthesis logic",
+        "Ethyl acetoacetate",
+        "CCOC(=O)CC(C)=O",
+        "Compatible enolate formation, methyl electrophile; then hydrolysis/decarboxylation",
+        "Butan-2-one",
+        "CCC(C)=O",
+        "Central active methylene alkylation પછી β-keto-acid-derived stage decarboxylate થાય છે. Final ketoneમાં carbon source bookkeeping સૌથી અગત્યનું છે.",
+        [
+          "બે carbonyl વચ્ચેના CH₂નું enolate બનાવો.",
+          "Suitable methyl electrophile પર carbon alkylationથી new C–C bond બને છે.",
+          "Ester hydrolysis β-keto-acid-derived intermediate આપે છે.",
+          "Decarboxylation અને tautomerization substituted methyl ketone આપે છે."
+        ]
+      ]
+    ],
+    "urea": [
+      [
+        "Hydrolysis: ideal net species",
+        null,
+        null,
+        "Hydrolysis / acid–base accounting",
+        "CO(NH₂)₂ + H₂O → 2 NH₃ + CO₂ (parent-species equation)",
+        null,
+        "Actual acid/base mediumમાં NH₄⁺, bicarbonate/carbonate જેવા forms હોઈ શકે છે. Neutral parent equationને every measured speciation ન માનો.",
+        [
+          "Ureaમાં one carbonyl carbon અને two nitrogens count કરો.",
+          "Carbonyl acyl-substitution hydrolysis sequence વિચારવો.",
+          "Carbamic-acid-derived fragment breakdown ammonia/CO₂-derived species આપે છે.",
+          "pH પરથી ammonium/carbonate forms અને balanced ionic equation પસંદ કરો."
+        ]
+      ]
+    ],
+    "thiourea": [
+      [
+        "Alkyl halide → thiol through thiourea",
+        "1-Bromobutane",
+        "CCCCBr",
+        "Thiourea; subsequent hydrolysis",
+        "Butane-1-thiol",
+        "CCCCS",
+        "Sulfur nucleophilic attackથી isothiouronium intermediate બને છે. Hydrolysis પછી alkyl thiol મળે છે; sulfur introduced from thiourea છે.",
+        [
+          "Primary alkyl halideનો electrophilic carbon ઓળખો.",
+          "Thiourea sulfur SN2 attack કરી S-alkylisothiouronium species આપે છે.",
+          "Hydrolytic cleavage thiolate/thiol-derived fragment release કરે છે.",
+          "Final protonation state check કરો; secondary/tertiary substratesમાં competing pathways વધે છે."
+        ]
+      ]
+    ],
+    "soluble-starch": [
+      [
+        "Iodine indicator process",
+        null,
+        null,
+        "Starch + iodine/polyiodide system",
+        "Blue-type host–guest color response",
+        null,
+        "Amylose helix સાથે polyiodide association color આપે છે. This is not a single fixed small-molecule product with one unique SMILES.",
+        [
+          "Starchને polymeric host તરીકે ઓળખો.",
+          "I₂/I⁻ equilibrium polyiodide species આપી શકે છે.",
+          "Helical association electronic/color response બદલે છે.",
+          "Color intensity sample/temperature/formulation dependent છે; unique molecular identityનો proof નથી."
+        ]
+      ]
+    ],
+    "potato-starch": [
+      [
+        "Repeating-unit versus molecular formula",
+        null,
+        null,
+        "Amylose / amylopectin distributions",
+        "(C₆H₁₀O₅)ₙ is a repeating-unit formula",
+        null,
+        "Unknown n અને branch distributionને કારણે exact single molar mass આપવી યોગ્ય નથી. Hydrolytic cleavage glycosidic bondsને target કરે છે.",
+        [
+          "Glucose-derived repeat units identify કરો.",
+          "Linear અને branched chain distributionsને અલગ સમજવો.",
+          "Glycosidic hydrolysis sugar-derived units release કરે છે.",
+          "Botanical grade અને soluble indicator grade એકસરખા physical products નથી."
+        ]
+      ]
+    ],
+    "silica-gel-g": [
+      [
+        "Rf calculation and interpretation",
+        null,
+        null,
+        "Illustrative TLC distances: spot 3 cm, solvent front 10 cm",
+        "Rf = 3 / 10 = 0.30",
+        null,
+        "Rf dimensionless ratio છે. More polar eluent normal-phase silica પર many compoundsનું elution/Rf વધારી શકે છે, પરંતુ exact behavior analyte interactions પર depend કરે છે.",
+        [
+          "Spot અને solvent-front distances same originથી માપો.",
+          "Rf માટે spot distance / front distance લો.",
+          "3/10થી 0.30 મેળવો; units cancel થાય છે.",
+          "Different plate/eluent/conditionsના Rf valuesને pure identity constants તરીકે compare ન કરવાં."
+        ]
+      ]
+    ],
+    "schiffs-reagent": [
+      [
+        "Aldehyde response interpretation",
+        null,
+        null,
+        "Fuchsin/sulfite/acid test formulation",
+        "Color response supports an aldehyde hypothesis",
+        null,
+        "Formulation-based analytical test છે. A slow/negative response, solubility issue અથવા interfering matrixને ધ્યાનમાં લીધા વિના definitive structure assign ન કરવી.",
+        [
+          "Reagent mixtureની identity અને control behavior ઓળખો.",
+          "Sampleનું aldehyde availability/solubility તપાસો.",
+          "Time-dependent color response observe થતું analytical outcome છે.",
+          "Resultને other structural/spectroscopic evidence સાથે combine કરો; one color unique molecule identify કરતું નથી."
+        ]
+      ]
+    ],
+    "triton-x100": [
+      [
+        "Micellar solubilization",
+        null,
+        null,
+        "Nonionic surfactant in suitable aqueous medium",
+        "Dynamic aggregate formation / solubilization",
+        null,
+        "Hydrophobic aromatic-alkyl portion અને polyether-rich hydrophilic chain amphiphilicity આપે છે. CMC અને aggregate behavior conditions dependent છે.",
+        [
+          "Hydrophobic અને hydrophilic molecular regions ઓળખો.",
+          "Concentration/temperatureથી aggregation equilibrium બદલાય છે.",
+          "Micellar domains nonpolar guestsને differently solvate કરી શકે છે.",
+          "Polydisperse productને one exact pure species અથવા fixed universal CMC ન આપવી."
+        ]
+      ]
+    ],
+    "tricresyl-phosphate": [
+      [
+        "Phosphate versus phosphine identity",
+        null,
+        null,
+        "Bonding / oxidation-level comparison",
+        "Triaryl phosphate ester ≠ phosphine ligand",
+        null,
+        "Tricresyl phosphateમાં P–O–aryl linkages અને P(V)-type phosphate center છે. BINAPમાં P(III) phosphine donors metal ligation માટે different electron-pair environment આપે છે.",
+        [
+          "P–O–aryl versus P–aryl connectivity ઓળખો.",
+          "Phosphate ester અને phosphineનું valence/oxidation bookkeeping compare કરો.",
+          "Commercial cresyl isomer distribution verify કરો.",
+          "Nameમાં phosphorus હોવાથી Pd ligand activity assume ન કરવી."
+        ]
+      ]
+    ],
+    "dabco": [
+      [
+        "Baylis–Hillman catalyst role",
+        "Methyl acrylate + benzaldehyde",
+        "C=CC(=O)OC.O=Cc1ccccc1",
+        "DABCO catalysis, appropriate reaction conditions",
+        "α-Methylene β-hydroxy ester",
+        "COC(=O)C(=C)C(O)c1ccccc1",
+        "DABCO activated alkene પર reversible nucleophilic addition કરીને enolate-like zwitterion બનાવે છે. Aldehyde C–C addition, proton transfers અને elimination catalyst regenerate કરે છે.",
+        [
+          "Activated alkene પર tertiary amine addition થાય છે.",
+          "Zwitterionic intermediate aldehyde carbonyl પર C–C attack કરે છે.",
+          "Proton-transfer network product release માટે intermediate ગોઠવે છે.",
+          "Amine elimination α-methylene product આપે છે; catalyst regenerated થાય છે."
+        ]
+      ]
+    ],
+    "dbu": [
+      [
+        "Strong base promoting elimination",
+        "2-Bromobutane",
+        "CC(Br)CC",
+        "DBU, elimination-compatible conditions",
+        "Butenes; regiochemistry condition dependent",
+        "CC=CC",
+        "Basicity, steric access અને antiperiplanar geometry E2 reasoningમાં combine થાય છે. A single representative but-2-ene connectivity all isomer ratios નથી બતાવતી.",
+        [
+          "β-H, leaving group અને rotatable conformation ઓળખો.",
+          "Base β-H accept કરે છે.",
+          "C=C formation અને leaving-group loss concerted થાય છે.",
+          "Substitution, regioisomer અને E/Z competition માટે actual substrate/medium તપાસો."
+        ]
+      ]
+    ],
+    "dbn": [
+      [
+        "Amidine conjugate-acid stabilization",
+        null,
+        null,
+        "Proton-transfer comparison",
+        "DBN + H–A ⇌ DBNH⁺ + A⁻",
+        null,
+        "Amidine conjugate acidમાં charge delocalization strong basicityને support કરે છે. Actual equilibrium solvent અને acid strength પર depend કરે છે.",
+        [
+          "Basic amidine site ઓળખો.",
+          "Acidનો transferable proton identify કરો.",
+          "Protonation પછી resonance-stabilized cation consider કરો.",
+          "Nucleophilicityને basicity સાથે identical ન ગણો; competing pathways શક્ય છે."
+        ]
+      ]
+    ],
+    "pyridine": [
+      [
+        "Base/nucleophilic assistance in acylation",
+        "Ethanol",
+        "CCO",
+        "Ac₂O / pyridine-type acylation context",
+        "Ethyl acetate",
+        "CCOC(C)=O",
+        "Pyridine acidic byproducts accept કરી શકે છે અને acyl-transfer intermediatesમાં participate કરી શકે છે. Acetyl group acylating reagentમાંથી આવે છે.",
+        [
+          "Alcohol nucleophile અને activated acyl donor identify કરો.",
+          "Base/proton-transfer role nitrogen lone pairથી સમજાવો.",
+          "Tetrahedral acyl-substitution intermediate form/collapse થાય છે.",
+          "Ester બને છે; pyridinium salt/byproduct state reaction mediumથી બદલાય છે."
+        ]
+      ]
+    ],
+    "binap": [
+      [
+        "Enantioselective catalytic environment",
+        null,
+        null,
+        "Chiral diphosphine + suitable transition-metal catalyst",
+        "Different enantiomeric pathways have different activation barriers",
+        null,
+        "Ligand's axial enantiomer, metal and substrate determine favored transition state. No universal R/S outcome assigned here.",
+        [
+          "Axial chirality અને two P donors ઓળખો.",
+          "Ligand metal coordination environment organize કરે છે.",
+          "Prochiral substrateના competing faces diastereomeric catalyst-bound pathways આપે છે.",
+          "Favored barrier enantiomeric ratio આપે છે; absolute configuration માટે specified system જોઈએ."
+        ]
+      ]
+    ],
+    "evans": [
+      [
+        "Auxiliary-controlled aldol planning",
+        null,
+        null,
+        "Specified Evans imide / metal enolate / aldehyde system",
+        "Diastereoselective aldol, dependent on enolate geometry and auxiliary",
+        null,
+        "Covalent auxiliary, metal and chair-like transition-state organization relative/absolute stereochemistry control કરે છે. A generic auxiliary name alone complete stereochemical assignment નથી.",
+        [
+          "Auxiliary attachment અને enolizable acyl unit ઓળખો.",
+          "Metal/enolate E/Z geometry specify કરો.",
+          "Aldehyde approach અને auxiliary shielding ધરાવતા transition states compare કરો.",
+          "Aldol productની relative/absolute assignment પછી auxiliary removal compatibility ચેક કરો."
+        ]
+      ]
+    ],
+    "hydrogen-peroxide": [
+      [
+        "Nucleophilic enone epoxidation",
+        "Cyclohex-2-en-1-one",
+        "O=C1C=CCCC1",
+        "H₂O₂ / OH⁻",
+        "2,3-Epoxycyclohexanone",
+        "O=C1C2OC2CCC1",
+        "Hydroperoxide conjugate addition અને intramolecular ring closure electron-poor enoneને epoxidize કરે છે. Isolated alkene સાથે catalyst વગર identical outcome નથી.",
+        [
+          "Base H₂O₂માંથી nucleophilic HOO⁻ બનાવે છે.",
+          "HOO⁻ enoneના β-carbon પર add થઈ enolate-derived intermediate આપે છે.",
+          "α-Carbon center peroxide oxygen પર intramolecular attack કરી epoxide ring close કરે છે.",
+          "O–O cleavageથી hydroxide-derived leaving group નીકળે છે; carbonyl functionality જળવાય છે."
+        ]
+      ]
+    ],
+    "ethylene-glycol": [
+      [
+        "Cyclic ketal installation",
+        "Cyclohexanone",
+        "O=C1CCCCC1",
+        "Ethylene glycol, acid-catalyzed equilibrium",
+        "Ethylene ketal of cyclohexanone",
+        "C1CCC2(CC1)OCCO2",
+        "Carbonyl oxygen-containing groupને cyclic acetal/ketalમાં mask કરવાથી ordinary carbonyl nucleophilic reductionથી protection મળે છે.",
+        [
+          "Carbonyl protonation electrophilicity વધારે છે.",
+          "Diolનો એક OH attack કરી hemiketal-derived intermediate આપે છે.",
+          "Proton transfers અને water departure oxocarbenium-like intermediate તરફ લઈ જાય છે.",
+          "બીજો OH intramolecular attack અને deprotonation કરીને five-membered cyclic ketal આપે છે."
+        ]
+      ],
+      [
+        "Ketal hydrolysis",
+        "Ethylene ketal of cyclohexanone",
+        "C1CCC2(CC1)OCCO2",
+        "Aqueous acid",
+        "Cyclohexanone + ethylene glycol",
+        "O=C1CCCCC1.OCCO",
+        "Ketal formation reversible છે. Aqueous acidic medium carbonyl અને diol release તરફ equilibrium લઈ જઈ શકે છે.",
+        [
+          "Acetal oxygen protonate થાય છે.",
+          "C–O cleavage oxocarbenium-like species આપે છે.",
+          "Water attack અને proton transfers hemiketal-derived connectivity આપે છે.",
+          "Diol-derived group છોડતાં carbonyl પુનઃસ્થાપિત થાય છે."
+        ]
+      ]
+    ]
+  },
+  "tools": [
+    [
+      "potassium-iodide",
+      "Nucleophiles",
+      "Iodide substitution / redox source"
+    ],
+    [
+      "potassium-permanganate",
+      "Oxidation",
+      "Alkene / benzylic / alcohol oxidation"
+    ],
+    [
+      "sodium-dichromate",
+      "Oxidation",
+      "Alcohol → carbonyl / acid"
+    ],
+    [
+      "sodium-nitrate",
+      "Inorganic reference",
+      "Nitrate identity / acid chemistry"
+    ],
+    [
+      "sodium-nitrite",
+      "Nitrosation & diazotization",
+      "Primary arylamine → diazonium"
+    ],
+    [
+      "zinc-dust",
+      "Reduction",
+      "Metal-mediated reduction / work-up"
+    ],
+    [
+      "potassium-hydroxide",
+      "Bases & acid–base",
+      "Substitution / elimination / hydrolysis"
+    ],
+    [
+      "sodium-hydroxide",
+      "Bases & acid–base",
+      "Ester → carboxylate + alcohol"
+    ],
+    [
+      "sodium-carbonate",
+      "Bases & acid–base",
+      "Acid neutralization / carbonate equilibria"
+    ],
+    [
+      "concentrated-hcl",
+      "Acids & acylation",
+      "Protonation / acid-mediated transformations"
+    ],
+    [
+      "methanol",
+      "Solvents & media",
+      "Protic medium / alcohol chemistry"
+    ],
+    [
+      "n-butanol",
+      "Solvents & media",
+      "Protic medium / primary alcohol"
+    ],
+    [
+      "ethyl-acetate",
+      "Solvents & media",
+      "Ester solvent / acyl substrate"
+    ],
+    [
+      "thf",
+      "Solvents & media",
+      "Ether donor medium"
+    ],
+    [
+      "dmf",
+      "Solvents & media",
+      "Polar aprotic medium / formyl source"
+    ],
+    [
+      "dioxane",
+      "Solvents & media",
+      "Cyclic diether medium"
+    ],
+    [
+      "cyclohexane",
+      "Solvents & media",
+      "Nonpolar hydrocarbon medium"
+    ],
+    [
+      "carbon-tetrachloride",
+      "Solvents & media",
+      "Historical nonpolar-solvent reference"
+    ],
+    [
+      "formaldehyde",
+      "Carbonyl synthons",
+      "One-carbon electrophile"
+    ],
+    [
+      "ethyl-acetoacetate",
+      "Carbonyl synthons",
+      "Active methylene → substituted ketones"
+    ],
+    [
+      "urea",
+      "Nitrogen & sulfur synthons",
+      "Carbonyl diamide / nitrogen synthon"
+    ],
+    [
+      "thiourea",
+      "Nitrogen & sulfur synthons",
+      "Sulfur nucleophile / thiol access"
+    ],
+    [
+      "soluble-starch",
+      "Indicators & materials",
+      "Iodine/polyiodide indicator"
+    ],
+    [
+      "potato-starch",
+      "Indicators & materials",
+      "Polysaccharide / host–guest reference"
+    ],
+    [
+      "silica-gel-g",
+      "Indicators & materials",
+      "Polar TLC stationary phase"
+    ],
+    [
+      "schiffs-reagent",
+      "Indicators & materials",
+      "Aldehyde color-test formulation"
+    ],
+    [
+      "triton-x100",
+      "Indicators & materials",
+      "Surfactant / micellar medium"
+    ],
+    [
+      "tricresyl-phosphate",
+      "Indicators & materials",
+      "Phosphate-ester material reference"
+    ],
+    [
+      "dabco",
+      "Bases & acid–base",
+      "Tertiary-amine nucleophilic catalysis"
+    ],
+    [
+      "dbu",
+      "Bases & acid–base",
+      "Strong amidine base"
+    ],
+    [
+      "dbn",
+      "Bases & acid–base",
+      "Strong amidine base"
+    ],
+    [
+      "pyridine",
+      "Bases & acid–base",
+      "Nitrogen base / acylation medium"
+    ],
+    [
+      "binap",
+      "Ligands & auxiliaries",
+      "Chiral diphosphine ligand"
+    ],
+    [
+      "evans",
+      "Ligands & auxiliaries",
+      "Covalent chiral-auxiliary control"
+    ],
+    [
+      "hydrogen-peroxide",
+      "Oxidation",
+      "Enone → α,β-epoxy ketone under base"
+    ],
+    [
+      "ethylene-glycol",
+      "Protecting groups",
+      "Carbonyl ↔ cyclic acetal / ketal"
+    ]
+  ],
+  "snapshots": {
+    "swern-primary": [
+      [
+        "Alcohol",
+        "CCCO"
+      ],
+      [
+        "Alkoxysulfonium connectivity",
+        "CCCO[S+](C)C"
+      ],
+      [
+        "Sulfur ylide connectivity",
+        "CCCO[S+](C)[CH2-]"
+      ],
+      [
+        "Carbonyl",
+        "CCC=O"
+      ]
+    ],
+    "moffatt-primary": [
+      [
+        "Alcohol",
+        "CCCO"
+      ],
+      [
+        "Alkoxysulfonium connectivity",
+        "CCCO[S+](C)C"
+      ],
+      [
+        "Sulfur ylide connectivity",
+        "CCCO[S+](C)[CH2-]"
+      ],
+      [
+        "Carbonyl",
+        "CCC=O"
+      ]
+    ],
+    "nb-ketone": [
+      [
+        "Ketone",
+        "CC(C)=O"
+      ],
+      [
+        "Alkoxide after hydride transfer",
+        "CC([O-])C"
+      ],
+      [
+        "Alcohol after protonation",
+        "CC(O)C"
+      ]
+    ],
+    "luche-enone": [
+      [
+        "Enone",
+        "O=C1C=CCCC1"
+      ],
+      [
+        "Allylic alkoxide",
+        "[O-]C1C=CCCC1"
+      ],
+      [
+        "Allylic alcohol",
+        "OC1C=CCCC1"
+      ]
+    ],
+    "grignard-ketone": [
+      [
+        "Ketone",
+        "CC(C)=O"
+      ],
+      [
+        "tert-Butoxide connectivity",
+        "CC(C)(C)[O-]"
+      ],
+      [
+        "Alcohol",
+        "CC(C)(C)O"
+      ]
+    ],
+    "grignard-co2": [
+      [
+        "Carbon dioxide",
+        "O=C=O"
+      ],
+      [
+        "Carboxylate connectivity",
+        "CC(=O)[O-]"
+      ],
+      [
+        "Acid after work-up",
+        "CC(=O)O"
+      ]
+    ],
+    "gilman-conjugate": [
+      [
+        "Enone",
+        "O=C1C=CCCC1"
+      ],
+      [
+        "O-enolate resonance contributor",
+        "[O-]C1=CC(C)CCC1"
+      ],
+      [
+        "Ketone after work-up",
+        "O=C1CC(C)CCC1"
+      ]
+    ],
+    "wk-hydrazone": [
+      [
+        "Ketone",
+        "CC(=O)c1ccccc1"
+      ],
+      [
+        "Hydrazone",
+        "CC(=NN)c1ccccc1"
+      ],
+      [
+        "Deoxygenated product",
+        "CCc1ccccc1"
+      ]
+    ],
+    "br2-alkene": [
+      [
+        "Alkene",
+        "C=C"
+      ],
+      [
+        "Bromonium connectivity",
+        "[Br+]1CC1"
+      ],
+      [
+        "Vicinal dibromide",
+        "BrCCBr"
+      ]
+    ],
+    "nbs-bromohydrin": [
+      [
+        "Alkene",
+        "CC=C"
+      ],
+      [
+        "Bromonium connectivity",
+        "C[CH]1C[Br+]1"
+      ],
+      [
+        "Bromohydrin",
+        "CC(O)CBr"
+      ]
+    ],
+    "fmoc-remove": [
+      [
+        "Protected amine",
+        "CCNC(=O)OCC1c2ccccc2-c2ccccc21"
+      ],
+      [
+        "Fluorenyl anion connectivity",
+        "CCNC(=O)OC[C-]1c2ccccc2-c2ccccc21"
+      ],
+      [
+        "Dibenzofulvene byproduct",
+        "C=C1c2ccccc2-c2ccccc21"
+      ],
+      [
+        "Amine parent",
+        "CCN"
+      ]
+    ]
+  }
+}

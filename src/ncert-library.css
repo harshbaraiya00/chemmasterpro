@@ -1,0 +1,982 @@
+.sidebar {
+  overflow-y: auto;
+}
+.ncert-library {
+  color: #dbe9f7;
+  min-width: 0;
+}
+.ncert-library-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  border: 1px solid #35526c;
+  border-radius: 15px;
+  padding: 28px;
+  background:
+    radial-gradient(ellipse at 100% 0%, #24517444, transparent 65%), #102236;
+}
+.ncert-library-intro h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  margin: 10px 0 13px;
+  color: #f0f6ff;
+}
+.ncert-library-intro p {
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 0;
+  max-width: 660px;
+  color: #bdd2e7;
+}
+.ncert-language-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 19px;
+}
+.ncert-language-tags span {
+  font-size: 10px;
+  color: #baddff;
+  background: #1c3a5266;
+  border: 1px solid #365b78;
+  border-radius: 5px;
+  padding: 6px 9px;
+}
+.ncert-library-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  gap: 17px;
+  align-content: center;
+}
+.ncert-library-stats div {
+  border-left: 1px solid #3b5871;
+  padding-left: 13px;
+}
+.ncert-library-stats b {
+  display: block;
+  color: #ffc08e;
+  font:
+    600 28px ui-monospace,
+    monospace;
+}
+.ncert-library-stats span {
+  display: block;
+  color: #abc3d9;
+  font-size: 10px;
+  line-height: 1.5;
+  margin-top: 6px;
+}
+.ncert-book-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 22px;
+  margin: 17px 3px 27px;
+}
+.ncert-book-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #a9cfff;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.ncert-book-links > span {
+  margin-left: auto;
+  color: #9bb5ce;
+  font-size: 10px;
+}
+.ncert-chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 13px;
+  margin-bottom: 30px;
+}
+.ncert-chapter-card {
+  min-width: 0;
+  text-align: left;
+  color: #d4e6f7;
+  border: 1px solid #324b63;
+  border-radius: 11px;
+  background: linear-gradient(150deg, #142b40, #102031);
+  padding: 17px 16px 14px;
+  transition:
+    border-color 0.18s,
+    transform 0.18s;
+}
+.ncert-chapter-card:hover,
+.ncert-chapter-card.selected {
+  border-color: #83b5e3;
+  transform: translateY(-2px);
+}
+.ncert-chapter-card:nth-child(even):hover,
+.ncert-chapter-card:nth-child(even).selected {
+  border-color: #e3ad7b;
+}
+.ncert-chapter-class {
+  display: flex;
+  justify-content: space-between;
+  color: #91bde6;
+  font:
+    10px ui-monospace,
+    monospace;
+  letter-spacing: 1px;
+}
+.ncert-chapter-class > span {
+  color: #ffbd84;
+}
+.ncert-chapter-card h3 {
+  color: #e8f1ff;
+  margin: 13px 0 9px;
+  font-size: 15px;
+  line-height: 1.5;
+  min-height: 45px;
+}
+.ncert-chapter-card > p {
+  color: #a8bfd4;
+  font-size: 11px;
+  line-height: 1.8;
+  margin: 0 0 14px;
+  min-height: 39px;
+}
+.ncert-chapter-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 9px;
+  color: #a3c0dc;
+}
+.ncert-chapter-footer span:last-child {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ncert-progress-track {
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-top: 13px;
+  border-radius: 8px;
+  background: #2c4154;
+  overflow: hidden;
+}
+.ncert-progress-track > span {
+  display: block;
+  height: 100%;
+  background: #ffb77a;
+}
+.ncert-content-browser {
+  scroll-margin-top: 110px;
+}
+.ncert-browser-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 17px;
+}
+.ncert-browser-heading h3 {
+  color: #edf4ff;
+  margin: 6px 0 0;
+  font-size: 23px;
+  line-height: 1.4;
+}
+.ncert-filter-controls {
+  display: flex;
+  gap: 13px;
+  padding: 15px;
+  border: 1px solid #30485f;
+  background: #102033;
+  border-radius: 10px;
+}
+.ncert-filter-controls label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #aac4de;
+  font-size: 11px;
+}
+.ncert-filter-controls label:last-child {
+  flex: 1;
+}
+.ncert-filter-controls select {
+  min-width: 0;
+  width: 100%;
+  background: #142b40;
+  color: #e2edfa;
+  border-color: #405e78;
+  font-size: 12px;
+}
+.ncert-kind-filters {
+  margin: 15px 0;
+}
+.ncert-mode-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding-bottom: 17px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #30465d;
+}
+.ncert-mode-bar > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #a8c3dd;
+  background: #112337;
+  border: 1px solid #314c65;
+  border-radius: 7px;
+  padding: 11px 14px;
+  font-size: 12px;
+}
+.ncert-mode-bar > button.active {
+  color: #eef7ff;
+  background: #204563;
+  border-color: #6598c0;
+}
+.ncert-mode-bar > span {
+  margin-left: auto;
+  color: #98b4ce;
+  font-size: 10px;
+}
+.ncert-lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  padding-top: 13px;
+}
+.ncert-lesson-card {
+  min-width: 0;
+  border: 1px solid #344b63;
+  border-radius: 11px;
+  background: #102033;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  transition: border-color 0.18s;
+}
+.ncert-lesson-card:hover {
+  border-color: #749bbf;
+}
+.ncert-lesson-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.ncert-kind-tag {
+  display: inline-flex;
+  align-items: center;
+  color: #b8d8f7;
+  border: 1px solid #3b5c7a;
+  background: #19334b;
+  border-radius: 5px;
+  padding: 4px 7px;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+.ncert-lesson-card .icon-btn.saved {
+  color: #ffbf87;
+}
+.ncert-card-chapter {
+  display: block;
+  color: #96b4cf;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  line-height: 1.8;
+  margin-top: 14px;
+}
+.ncert-card-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 9px;
+  background: none;
+  border: 0;
+  padding: 8px 0 0;
+  text-align: left;
+  color: #edf4ff;
+}
+.ncert-card-title h4 {
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: -0.2px;
+}
+.ncert-card-title svg {
+  flex-shrink: 0;
+  margin-top: 6px;
+  color: #ffb77a;
+}
+.ncert-card-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #b7cde1;
+  font-size: 12px;
+  line-height: 1.95;
+  margin: 11px 0 17px;
+}
+.ncert-canonical-note {
+  color: #e5b687;
+  font-size: 9px;
+  line-height: 1.7;
+  margin-top: 9px;
+}
+.ncert-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #2e465d;
+}
+.ncert-card-footer .text-button {
+  font-size: 10px;
+}
+.ncert-learn-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 0;
+  background: none;
+  color: #8faac4;
+  font-size: 9px;
+  padding: 4px 0;
+}
+.ncert-learn-button.complete {
+  color: #ffbd86;
+}
+.ncert-empty {
+  padding: 35px 22px;
+  border: 1px dashed #45617a;
+  border-radius: 11px;
+  text-align: center;
+  margin: 18px 0;
+}
+.ncert-empty h3 {
+  color: #e4f0fc;
+  font-size: 20px;
+}
+.ncert-empty p {
+  color: #a9c2d8;
+  font-size: 13px;
+  line-height: 1.9;
+}
+.ncert-structure-atlas {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 17px;
+}
+.ncert-structure-atlas > article {
+  min-width: 0;
+  border: 1px solid #36526c;
+  background: #102034;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.ncert-structure-atlas article > div:last-child {
+  padding: 14px;
+  border-top: 1px solid #2b435b;
+}
+.ncert-structure-atlas h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #e8f3ff;
+}
+.ncert-structure-atlas p {
+  font-size: 11px;
+  color: #a5bfd9;
+  line-height: 1.8;
+}
+.ncert-structure-atlas .text-button {
+  font-size: 10px;
+}
+.ncert-pagination,
+.ncert-practice-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 22px 0 5px;
+}
+.ncert-pagination > span,
+.ncert-practice-actions > span {
+  color: #9bb9d5;
+  font-size: 11px;
+  text-align: center;
+}
+.ncert-practice-area {
+  border: 1px solid #3c5870;
+  background: #102034;
+  border-radius: 11px;
+  padding: 22px;
+  margin-top: 18px;
+}
+.ncert-practice-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #ffbe89;
+  font-size: 10px;
+  align-items: center;
+}
+.ncert-practice-header .text-button {
+  font-size: 11px;
+}
+.ncert-scope-note {
+  border-top: 1px solid #294157;
+  color: #8faac4;
+  font-size: 11px;
+  line-height: 1.9;
+  margin: 30px 0 0;
+  padding-top: 15px;
+}
+.ncert-topic-page {
+  min-width: 0;
+}
+.ncert-topic-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.ncert-topic-top > div {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.ncert-equation {
+  border: 1px solid #466783;
+  border-left: 3px solid #ffb67e;
+  background: #132b40;
+  border-radius: 10px;
+  padding: 20px;
+}
+.ncert-equation > span {
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  color: #a9cced;
+}
+.ncert-equation > p {
+  color: #eef6ff;
+  font:
+    500 17px/1.9 ui-monospace,
+    monospace;
+  overflow-wrap: anywhere;
+  margin: 10px 0;
+}
+.ncert-equation small {
+  display: block;
+  color: #ffbf8a;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.ncert-simple-idea {
+  padding: 24px 2px 8px;
+}
+.ncert-simple-idea > p {
+  font-size: 16px;
+  line-height: 2;
+  color: #d1e2f3;
+  margin: 11px 0;
+}
+.ncert-topic-structures {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.ncert-topic-structures > figure {
+  min-width: 0;
+  margin: 0;
+  border: 1px solid #35516a;
+  background: #102033;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.ncert-topic-structures figcaption {
+  padding: 13px;
+  border-top: 1px solid #2e4860;
+}
+.ncert-topic-structures figcaption b {
+  display: block;
+  color: #dfeeff;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.ncert-topic-structures figcaption span {
+  display: block;
+  color: #97b3cc;
+  font-size: 10px;
+  line-height: 1.8;
+  margin-top: 5px;
+}
+.ncert-reasoning {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 24px;
+  margin: 27px 0;
+}
+.ncert-reasoning h3 {
+  margin: 8px 0;
+  color: #eaf4ff;
+  font-size: 23px;
+}
+.ncert-reasoning > div > p {
+  font-size: 14px;
+  line-height: 2;
+  color: #bdd2e6;
+  margin: 0;
+}
+.ncert-reasoning ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+.ncert-reasoning li {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  border: 1px solid #37516a;
+  border-radius: 9px;
+  padding: 14px;
+  background: #112539;
+}
+.ncert-reasoning li > span {
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  border: 1px solid #517ba1;
+  font:
+    12px ui-monospace,
+    monospace;
+  flex-shrink: 0;
+  color: #a8cfee;
+}
+.ncert-reasoning li > p {
+  font-size: 13px;
+  line-height: 1.95;
+  color: #c5daee;
+  margin: 0;
+}
+.ncert-exam-trap {
+  display: flex;
+  gap: 13px;
+  align-items: flex-start;
+  border: 1px solid #9b7153;
+  background: #b36e3610;
+  border-radius: 10px;
+  padding: 17px;
+  margin: 23px 0;
+  color: #ffbe88;
+}
+.ncert-exam-trap svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.ncert-exam-trap p {
+  color: #e5cfba;
+  font-size: 13px;
+  line-height: 1.95;
+  margin: 7px 0 0;
+}
+.ncert-linked-mechanism > p {
+  font-size: 11px;
+  line-height: 1.9;
+  color: #9db9d2;
+}
+.ncert-source-note {
+  background: #102234;
+  border: 1px solid #35526b;
+  border-radius: 10px;
+  padding: 17px;
+  margin-top: 24px;
+}
+.ncert-source-note .eyebrow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #9ec8ec;
+}
+.ncert-source-note > p {
+  color: #a8c0d8;
+  font-size: 11px;
+  line-height: 1.9;
+  margin: 9px 0;
+}
+.ncert-source-note > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #afd6ff;
+  font-size: 11px;
+  margin: 6px 19px 0 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.ncert-visual-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.ncert-precise-figure {
+  margin: 20px 0;
+  border: 1px solid #3a5872;
+  border-radius: 10px;
+  background: #101f31;
+  padding: 17px;
+  min-width: 0;
+}
+.ncert-visual-pair > figure {
+  margin: 0;
+}
+.ncert-precise-figure > figcaption {
+  color: #b6d7f5;
+  font-size: 13px;
+  line-height: 1.7;
+  font-weight: 600;
+}
+.ncert-precise-figure > svg {
+  display: block;
+  width: 100%;
+  max-height: 390px;
+  margin: 15px auto;
+}
+.ncert-precise-figure svg text {
+  fill: #e5f0fc;
+  font:
+    17px ui-monospace,
+    monospace;
+}
+.ncert-precise-figure svg line,
+.ncert-precise-figure svg path {
+  stroke: #afd0ed;
+  stroke-width: 2;
+}
+.ncert-precise-figure svg .front-bond {
+  stroke-width: 5;
+}
+.ncert-precise-figure svg .atom-index {
+  fill: #8faecb;
+  font-size: 10px;
+}
+.ncert-precise-figure svg .anomeric-oh {
+  fill: #ffbd86;
+}
+.ncert-precise-figure svg .rear-carbon {
+  stroke: #edb486;
+  stroke-width: 2;
+}
+.ncert-precise-figure svg .rear-bond line {
+  stroke: #d6a477;
+}
+.ncert-precise-figure svg .rear-bond text {
+  fill: #edb486;
+}
+.ncert-precise-figure > p {
+  color: #9eb9d2;
+  font-size: 10px;
+  line-height: 1.8;
+  margin: 10px 0 0;
+}
+.ncert-connectivity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 13px;
+  margin: 20px 0;
+}
+.ncert-connectivity-grid > figure {
+  margin: 0;
+}
+.ncert-node-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 25px 0;
+}
+.ncert-node-flow > span {
+  border: 1px solid #507492;
+  border-radius: 7px;
+  padding: 13px;
+  color: #d7eafd;
+  background: #19344d;
+  font:
+    12px/1.7 ui-monospace,
+    monospace;
+  text-align: center;
+}
+.ncert-node-flow > b {
+  font-size: 11px;
+  color: #ffc18c;
+}
+@media (max-width: 1150px) {
+  .ncert-chapter-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .ncert-library-intro {
+    grid-template-columns: 1fr;
+  }
+  .ncert-library-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .ncert-lesson-grid,
+  .ncert-structure-atlas,
+  .ncert-topic-structures {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .ncert-reasoning {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .ncert-library-intro {
+    padding: 20px;
+    gap: 22px;
+  }
+  .ncert-library-intro h2 {
+    font-size: 26px;
+  }
+  .ncert-chapter-grid {
+    gap: 10px;
+  }
+  .ncert-chapter-card {
+    padding: 13px;
+  }
+  .ncert-chapter-card h3 {
+    font-size: 13px;
+    min-height: 59px;
+  }
+  .ncert-chapter-class {
+    font-size: 8px;
+    letter-spacing: 0.6px;
+  }
+  .ncert-chapter-footer {
+    flex-direction: column;
+    font-size: 9px;
+  }
+  .ncert-lesson-grid,
+  .ncert-structure-atlas {
+    grid-template-columns: 1fr;
+  }
+  .ncert-filter-controls {
+    flex-direction: column;
+  }
+  .ncert-filter-controls label {
+    display: grid;
+    grid-template-columns: 55px minmax(0, 1fr);
+  }
+  .ncert-filter-controls label:first-child {
+    display: flex;
+  }
+  .ncert-browser-heading {
+    align-items: flex-start;
+  }
+  .ncert-browser-heading h3 {
+    font-size: 20px;
+  }
+  .ncert-browser-heading .button {
+    font-size: 9px;
+    padding: 8px;
+  }
+  .ncert-mode-bar button {
+    padding: 9px;
+    font-size: 10px;
+    gap: 6px;
+  }
+  .ncert-mode-bar > span {
+    width: 100%;
+    margin: 5px 0 0;
+  }
+  .ncert-book-links > span {
+    width: 100%;
+    margin-left: 0;
+  }
+  .ncert-topic-top > div {
+    margin-left: 0;
+    width: 100%;
+  }
+  .ncert-topic-top .button {
+    font-size: 10px;
+  }
+  .ncert-equation {
+    padding: 15px;
+  }
+  .ncert-equation > p {
+    font-size: 14px;
+  }
+  .ncert-simple-idea > p {
+    font-size: 15px;
+  }
+  .ncert-topic-structures,
+  .ncert-visual-pair,
+  .ncert-connectivity-grid {
+    grid-template-columns: 1fr;
+  }
+  .ncert-practice-area {
+    padding: 15px;
+  }
+  .ncert-practice-actions {
+    flex-wrap: wrap;
+  }
+  .ncert-practice-actions > span {
+    order: 3;
+    width: 100%;
+  }
+  .ncert-precise-figure svg text {
+    font-size: 18px;
+  }
+  .ncert-precise-figure svg .atom-index {
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ncert-chapter-card {
+    transition: none;
+  }
+  .ncert-chapter-card:hover {
+    transform: none;
+  }
+}
+
+.ncert-collection-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 24px;
+  flex-wrap: wrap;
+}
+.ncert-collection-tabs button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  border: 1px solid #3b536c;
+  border-radius: 9px;
+  background: #112235;
+  color: #c6d9ed;
+  font-weight: 600;
+}
+.ncert-collection-tabs button.active {
+  background: #1d3c54;
+  border-color: #8ebce5;
+  color: #f1f7ff;
+  box-shadow: inset 0 -2px #dbab7f;
+}
+.reference-collection-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 22px 0;
+  color: #a7bfd4;
+  font-size: 12px;
+}
+.reaction-reference-notes {
+  display: grid;
+  gap: 20px;
+  margin-top: 28px;
+}
+.reference-variant-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 18px;
+}
+.reference-variant-list > article {
+  border: 1px solid #39536a;
+  background: #102133;
+  border-radius: 12px;
+  padding: 20px;
+}
+.reference-variant-list h4 {
+  color: #c7e2f8;
+  margin-bottom: 10px;
+}
+.reference-variant-list p {
+  color: #b9cde0;
+  line-height: 1.8;
+  font-size: 13px;
+}
+.reference-correction {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px;
+  background: #29231f;
+  border: 1px solid #765a43;
+  border-radius: 9px;
+  color: #e8c4a4;
+}
+.reference-correction svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.reference-correction p {
+  font-size: 12px;
+  line-height: 1.8;
+}
+.reference-correction b {
+  display: block;
+  color: #f3c18e;
+}
+.reference-variant-list .reaction-scheme {
+  margin: 12px 0;
+}
+@media (max-width: 600px) {
+  .ncert-collection-tabs {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .reference-variant-list > article {
+    padding: 12px;
+  }
+}
+
+.explicit-molecule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+}
+.explicit-molecule > svg {
+  display: block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.explicit-molecule > small {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #9fbcd3;
+  text-align: center;
+  max-width: 290px;
+  padding: 0 12px 10px;
+}
+.molecule svg [data-radical-electrons="1"] text {
+  font-weight: 600;
+}
+.electronic-state-key {
+  font-size: 11px;
+  color: #e6bc8d;
+  line-height: 1.7;
+  margin: 12px 0;
+}

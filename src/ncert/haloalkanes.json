@@ -1,0 +1,630 @@
+[
+  {
+    "id": "ncert-book-haloalkane-classification",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "structure",
+    "name": "Alkyl, allylic, benzylic, vinylic & aryl halides",
+    "pages": [
+      160,
+      161
+    ],
+    "equation": "Classify the carbon directly bonded to X.",
+    "structures": [
+      {
+        "name": "Chloroethane",
+        "smiles": "CCCl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Allyl chloride",
+        "smiles": "C=CCCl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzyl chloride",
+        "smiles": "ClCc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Vinyl chloride",
+        "smiles": "C=CCl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Chlorobenzene",
+        "smiles": "Clc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "C–X attachment and hybridisation",
+    "summary": "Halogen પાસેના carbon ને જુઓ. X directly sp² carbon સાથે હોય તો vinylic/aryl; adjacent sp³ carbon પર હોય તો allylic/benzylic classification મળે છે.",
+    "why": "Classification substitution mechanism predict કરવામાં મદદ કરે છે. Benzyl chloride અને chlorobenzene માં Cl એક જ position પર જોડાયેલો નથી.",
+    "steps": [
+      "C–X bond ને mark કરો.",
+      "X-bearing carbon ની hybridisation ઓળખો.",
+      "Nearby C=C અથવા aromatic ring પ્રમાણે class આપો."
+    ],
+    "trap": "Ring પાસે Cl દેખાય એટલે aryl halide ન કહો; Ph–CH₂Cl benzylic છે.",
+    "quiz": {
+      "question": "Which compound is a benzylic halide?",
+      "answer": "C₆H₅CH₂Cl",
+      "distractors": [
+        "C₆H₅Cl",
+        "CH₂=CHCl",
+        "CH₃CH₂Cl"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-cx-bond-leaving-group",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "concept",
+    "name": "C–X bond strength and leaving-group ability",
+    "pages": [
+      163,
+      164
+    ],
+    "equation": "For comparable alkyl substrates: R–I generally reacts faster than R–Br > R–Cl >> R–F.",
+    "structures": [],
+    "conditions": "Compare otherwise similar substrates and conditions",
+    "summary": "C–X bond polar છે; carbon electrophilic બની શકે છે. Bond strength અને leaving-group ability reactivity ને affect કરે છે.",
+    "why": "C–F strong bond હોવાથી ordinary nucleophilic substitution મુશ્કેલ હોય છે. Substrate structure, solvent અને nucleophile બદલાય તો એક simple halogen order પૂરતું નથી.",
+    "steps": [
+      "Same alkyl skeleton ધરાવતાં halides compare કરો.",
+      "C–X bond cleavage અને X⁻ stability જુઓ.",
+      "SN1/SN2 અને solvent effects પણ consider કરો."
+    ],
+    "trap": "Aryl/vinyl halides ને ordinary primary-alkyl-halide order માં mechanically ન મૂકો.",
+    "quiz": {
+      "question": "Which bond is usually strongest among alkyl C–halogen bonds?",
+      "answer": "C–F",
+      "distractors": [
+        "C–Cl",
+        "C–Br",
+        "C–I"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-alcohol-to-chloride",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "Alcohol to alkyl chloride with SOCl₂",
+    "pages": [
+      164
+    ],
+    "equation": "CH₃CH₂OH + SOCl₂ → CH₃CH₂Cl + SO₂ + HCl",
+    "structures": [
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Chloroethane",
+        "smiles": "CCCl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "SOCl₂; auxiliary base/solvent depends on procedure",
+    "summary": "Alcohol નું OH poor leaving group છે; SOCl₂ તેને activate કરીને chloride formation શક્ય બનાવે છે.",
+    "why": "SO₂ અને HCl જેવા gaseous by-products removal purification માં મદદરૂપ થાય છે. Stereochemical outcome substrate અને use of pyridine/medium પર આધારિત છે.",
+    "steps": [
+      "OH activation નો role ઓળખો.",
+      "Product માં O બદલે Cl આવે છે તે track કરો.",
+      "Organic product અને inorganic by-products અલગ લખો."
+    ],
+    "trap": "SOCl₂ માટે દરેક substrate/medium માં એક જ inversion/retention rule ન આપો.",
+    "quiz": {
+      "question": "Which gaseous by-products accompany alcohol chlorination with SOCl₂?",
+      "answer": "SO₂ and HCl",
+      "distractors": [
+        "CO₂ and NH₃",
+        "H₂ and O₂",
+        "N₂ and Cl₂"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-sn2-aqueous-hydrolysis",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "SN2 hydrolysis of a primary haloalkane",
+    "pages": [
+      169,
+      171
+    ],
+    "equation": "CH₃CH₂Br + OH⁻ → CH₃CH₂OH + Br⁻",
+    "structures": [
+      {
+        "name": "Bromoethane",
+        "smiles": "CCBr",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Aqueous alkali; suitable primary substrate",
+    "summary": "OH⁻ carbon પર backside attack કરે છે અને C–Br bond same elementary event માં તૂટે છે.",
+    "why": "SN2 rate substrate અને nucleophile બંને પર depend કરે છે. Stereogenic reacting carbon હોય તો configuration inversion થાય છે; bromoethane પોતે chiral નથી.",
+    "steps": [
+      "Nucleophile અને X-bearing carbon ઓળખો.",
+      "Backside C–O formation સાથે C–Br cleavage જુઓ.",
+      "Rate law: rate = k[RX][Nu⁻] યાદ રાખો."
+    ],
+    "trap": "Aqueous અને alcoholic KOH ના outcomes mechanically same ન માનો.",
+    "quiz": {
+      "question": "What is the rate law of a simple SN2 reaction?",
+      "answer": "Rate = k[RX][Nu⁻]",
+      "distractors": [
+        "Rate = k[RX] only",
+        "Rate = k[Nu⁻] only",
+        "Rate is independent of concentration"
+      ],
+      "level": "slot1"
+    },
+    "mechanismPathId": "ncert-finkelstein"
+  },
+  {
+    "id": "ncert-book-sn1-hydrolysis",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "SN1: tertiary halide hydrolysis",
+    "pages": [
+      173,
+      174
+    ],
+    "equation": "(CH₃)₃CCl + H₂O → (CH₃)₃COH + HCl",
+    "structures": [
+      {
+        "name": "tert-Butyl chloride",
+        "smiles": "CC(C)(C)Cl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "tert-Butanol",
+        "smiles": "CC(C)(C)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Ionising polar protic medium; water",
+    "summary": "C–Cl ionisation carbocation intermediate આપે છે. પછી water attack અને O-deprotonation alcohol આપે છે.",
+    "why": "Rate-determining ionisation માં nucleophile directly સામેલ નથી; rate substrate concentration પર depend કરે છે. Suitable carbocations rearrange થઈ શકે છે.",
+    "steps": [
+      "C–X heterolysis થી carbocation અને X⁻ બતાવો.",
+      "Water lone pair carbocation પર attack કરે છે.",
+      "Oxonium deprotonate કરીને alcohol મેળવો."
+    ],
+    "trap": "SN1 racemisation stereogenic substrates માટે useful tendency છે; ion-pair effects થી perfect 50:50 હંમેશાં જરૂરી નથી.",
+    "quiz": {
+      "question": "What is the usual rate law of a simple SN1 reaction?",
+      "answer": "Rate = k[RX]",
+      "distractors": [
+        "Rate = k[RX][Nu⁻]",
+        "Rate = k[Nu⁻]²",
+        "Rate = k[product]"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-cyanide-ambident",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "KCN vs AgCN: nitrile or isocyanide",
+    "pages": [
+      170,
+      171
+    ],
+    "equation": "EtBr + KCN → Et–C≡N   |   EtBr + AgCN → Et–N≡C",
+    "structures": [
+      {
+        "name": "Bromoethane",
+        "smiles": "CCBr",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanenitrile",
+        "smiles": "CCC#N",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethyl isocyanide",
+        "smiles": "CC[N+]#[C-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "KCN: mainly nitrile; AgCN: mainly isocyanide in textbook cases",
+    "summary": "CN⁻ ambident nucleophile છે. KCN સામાન્ય રીતે carbon-end bonding થી nitrile આપે છે; AgCN સાથે nitrogen-end product isocyanide favour થાય છે.",
+    "why": "CN group નો carbon product skeleton માં ઉમેરાય છે. Isocyanide માં organic group N સાથે અને nitrile માં C સાથે જોડાય છે.",
+    "steps": [
+      "R–X ના R fragment ને unchanged રાખો.",
+      "C-end કે N-end attachment પસંદ કરો.",
+      "Final connectivity અને carbon count check કરો."
+    ],
+    "trap": "R–CN અને R–NC એક જ compound ના alternate names નથી.",
+    "quiz": {
+      "question": "Which product is expected from bromoethane with KCN?",
+      "answer": "Propanenitrile",
+      "distractors": [
+        "Ethyl isocyanide",
+        "Ethanenitrile",
+        "Ethylamine"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-nitrite-ambident",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "KNO₂ vs AgNO₂: nitrite or nitro compound",
+    "pages": [
+      170
+    ],
+    "equation": "EtBr + KNO₂ → Et–O–N=O   |   EtBr + AgNO₂ → Et–NO₂",
+    "structures": [
+      {
+        "name": "Ethyl nitrite",
+        "smiles": "CCON=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Nitroethane",
+        "smiles": "CC[N+](=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Alkali nitrite vs silver nitrite; textbook ambident-nucleophile comparison",
+    "summary": "Nitrite ion O-end અથવા N-end દ્વારા bond બનાવી શકે છે. તેથી nitrite ester અને nitroalkane અલગ products છે.",
+    "why": "Textbook comparison માં KNO₂ mainly alkyl nitrite અને AgNO₂ mainly nitroalkane આપે છે. Organic carbon O સાથે જોડાયો છે કે N સાથે તે જુઓ.",
+    "steps": [
+      "Reagent cation અને nucleophile ઓળખો.",
+      "R–O–N=O અને R–NO₂ ની connectivity compare કરો.",
+      "Formal charges nitro resonance notation માં સાચા રાખો."
+    ],
+    "trap": "Nitrite ester ને nitrate ester R–O–NO₂ સાથે confuse ન કરો.",
+    "quiz": {
+      "question": "Which product is favoured by AgNO₂ with a suitable primary alkyl halide?",
+      "answer": "Nitroalkane",
+      "distractors": [
+        "Alkyl nitrate",
+        "Alkyl nitrite only",
+        "Amide"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-ammonolysis-haloalkane",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "Ammonolysis: make an amine, control over-alkylation",
+    "pages": [
+      170,
+      262
+    ],
+    "equation": "CH₃CH₂Br → CH₃CH₂NH₂",
+    "structures": [
+      {
+        "name": "Bromoethane",
+        "smiles": "CCBr",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethylamine",
+        "smiles": "CCN",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Excess alcoholic NH₃; subsequent acid–base steps",
+    "summary": "NH₃ nucleophile તરીકે alkyl halide પર substitution કરે છે. Initially ammonium species બને છે; deprotonation primary amine આપે છે.",
+    "why": "New amine ફરી alkylate થઈ શકે છે. Excess NH₃ primary-amine formation favour કરવામાં મદદ કરે છે, પરંતુ perfect selectivity universal નથી.",
+    "steps": [
+      "N lone pair થી C–N bond formation જુઓ.",
+      "Ammonium intermediate નું charge ઓળખો.",
+      "Proton transfer થી neutral amine બનાવો."
+    ],
+    "trap": "Ammonolysis માં secondary/tertiary amines અને quaternary ammonium salts પણ બની શકે છે.",
+    "quiz": {
+      "question": "Why is excess NH₃ often used in haloalkane ammonolysis?",
+      "answer": "To favour primary amine formation",
+      "distractors": [
+        "To force complete quaternisation",
+        "To remove a carbon atom",
+        "To form a nitrile directly"
+      ],
+      "level": "slot1"
+    },
+    "alsoIn": [
+      "amines"
+    ]
+  },
+  {
+    "id": "ncert-book-e2-dehydrohalogenation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "Alcoholic KOH: β-elimination and Zaitsev preference",
+    "pages": [
+      178,
+      179
+    ],
+    "equation": "CH₃CHBrCH₂CH₃ → CH₃CH=CHCH₃ + HBr (net)",
+    "structures": [
+      {
+        "name": "2-Bromobutane",
+        "smiles": "CC(Br)CC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "But-2-ene connectivity",
+        "smiles": "CC=CC",
+        "caption": "E/Z ratio depends on conditions.",
+        "level": "slot1"
+      },
+      {
+        "name": "But-1-ene",
+        "smiles": "CCC=C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Alcoholic KOH; heat",
+    "summary": "Base β-H કાઢે છે અને C–X bond તૂટતાં C=C બને છે. 2-Bromobutane થી but-2-ene સામાન્ય રીતે more substituted major alkene છે.",
+    "why": "E2 માં anti-periplanar H/C/C/X arrangement મહત્વનું છે. Base size, substrate અને accessible conformations product distribution બદલાવે છે.",
+    "steps": [
+      "X-bearing α carbon અને adjacent β carbons mark કરો.",
+      "Possible β-H removals પરથી alkenes દોરો.",
+      "Substitution/steric factors અને conformation થી major product વિચારવો."
+    ],
+    "trap": "Zaitsev rule universal નથી; bulky bases અને geometric constraints exceptions આપે છે.",
+    "quiz": {
+      "question": "Which alkene is commonly major from 2-bromobutane with alcoholic KOH?",
+      "answer": "But-2-ene",
+      "distractors": [
+        "But-1-ene only",
+        "Ethene",
+        "Propene"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-grignard-formation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "Make a Grignard reagent; exclude proton donors",
+    "pages": [
+      180
+    ],
+    "equation": "CH₃CH₂Br + Mg → CH₃CH₂MgBr",
+    "structures": [
+      {
+        "name": "Bromoethane",
+        "smiles": "CCBr",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethylmagnesium bromide",
+        "smiles": "CC[Mg]Br",
+        "caption": "Formal monomer connectivity; aggregation/solvation omitted.",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Mg; dry ether",
+    "summary": "Mg insertion C–Mg bond ધરાવતો organometallic reagent આપે છે. C–Mg bond carbon પર nucleophilic character આપે છે.",
+    "why": "Water, alcohol અને acids reagent ને protonate/quench કરે છે. તેથી dry conditions અને compatible functional groups જરૂરી છે.",
+    "steps": [
+      "Starting C–Br bond ને C–MgBr connection માં ફેરવો.",
+      "Carbon nucleophilicity ઓળખો.",
+      "Substrate માં O–H/N–H જેવી acidic sites તપાસો."
+    ],
+    "trap": "Wet ether માત્ર solvent બદલાવ નથી; reagent નષ્ટ થઈ શકે છે.",
+    "quiz": {
+      "question": "Why is dry ether required for Grignard reagent formation/use?",
+      "answer": "Proton donors quench the reagent",
+      "distractors": [
+        "Water strengthens the C–Mg bond",
+        "Ether supplies an aldehyde oxygen",
+        "MgBr₂ is the organic product"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-aryl-chloride-hydrolysis",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "Chlorobenzene needs harsh hydrolysis conditions",
+    "pages": [
+      181,
+      182
+    ],
+    "equation": "C₆H₅Cl → C₆H₅ONa → C₆H₅OH",
+    "structures": [
+      {
+        "name": "Chlorobenzene",
+        "smiles": "Clc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Phenol",
+        "smiles": "Oc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Aqueous NaOH; about 623 K and 300 atm; then acidification",
+    "summary": "Aryl C–Cl bond ordinary alkyl chloride કરતાં substitution માટે resistant છે. Chlorobenzene ને harsh conditions જોઈએ છે.",
+    "why": "Resonance partial double-bond character અને sp² carbon ordinary SN1/SN2 behaviour અટકાવે છે. First phenoxide બને છે; acid work-up neutral phenol આપે છે.",
+    "steps": [
+      "Aryl C–X ને alkyl C–X થી અલગ identify કરો.",
+      "High temperature/pressure conditions ધ્યાનમાં લો.",
+      "Basic product salt અને acidified phenol અલગ લખો."
+    ],
+    "trap": "આ conversion ને ordinary primary-haloalkane SN2 તરીકે curved arrows થી ન બતાવો.",
+    "quiz": {
+      "question": "What is obtained after acidifying the basic hydrolysis product of chlorobenzene?",
+      "answer": "Phenol",
+      "distractors": [
+        "Aniline",
+        "Benzyl alcohol",
+        "Cyclohexanol"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-snar-nitro-activation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "reaction",
+    "name": "Ortho/para NO₂ activates nucleophilic aromatic substitution",
+    "pages": [
+      182,
+      183
+    ],
+    "equation": "p-NO₂–C₆H₄–Cl → p-NO₂–C₆H₄–OH",
+    "structures": [
+      {
+        "name": "p-Chloronitrobenzene",
+        "smiles": "O=[N+]([O-])c1ccc(Cl)cc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "p-Nitrophenol",
+        "smiles": "O=[N+]([O-])c1ccc(O)cc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "OH⁻; heating; acidification of phenoxide when needed",
+    "summary": "Leaving group ની ortho/para position પર NO₂ group nucleophilic addition intermediate ને resonance દ્વારા stabilise કરી શકે છે.",
+    "why": "Meta NO₂ same stabilisation આપતું નથી. Activated SNAr addition–elimination ને ordinary backside alkyl SN2 સાથે mix ન કરો.",
+    "steps": [
+      "Leaving group અને NO₂ ની relative position mark કરો.",
+      "Anionic intermediate માટે resonance stabilisation જુઓ.",
+      "X ની જગ્યાએ OH મૂકી work-up state check કરો."
+    ],
+    "trap": "દરેક electron-withdrawing group/position identical activation આપતું નથી.",
+    "quiz": {
+      "question": "Where does NO₂ most effectively activate an aryl halide for addition–elimination SNAr?",
+      "answer": "Ortho or para to the leaving group",
+      "distractors": [
+        "Only meta",
+        "Only on a remote alkyl chain",
+        "Position never matters"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-polyhalogenated-compounds",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "haloalkanes",
+    "kind": "structure",
+    "name": "Polyhalogenated compounds: names and connectivity",
+    "pages": [
+      187,
+      189
+    ],
+    "equation": "CHCl₃: chloroform   |   CCl₄: carbon tetrachloride   |   CCl₂F₂: Freon-12",
+    "structures": [
+      {
+        "name": "Chloroform",
+        "smiles": "ClC(Cl)Cl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Carbon tetrachloride",
+        "smiles": "ClC(Cl)(Cl)Cl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Freon-12",
+        "smiles": "FC(F)(Cl)Cl",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "DDT connectivity",
+        "smiles": "ClC(Cl)(Cl)C(c1ccc(Cl)cc1)c1ccc(Cl)cc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Textbook structures and environmental context",
+    "summary": "Multiple halogens ધરાવતા compounds ના common names અને molecular connectivity connect કરો. Formula માં Cl/F count ધ્યાનથી જુઓ.",
+    "why": "Freon-12 માં two Cl અને two F central carbon સાથે જોડાય છે. DDT માં trichloromethyl-containing unit અને two p-chlorophenyl rings છે.",
+    "steps": [
+      "Common name ને formula સાથે pair કરો.",
+      "Carbon valency અને halogen count check કરો.",
+      "Uses સાથે persistence/environmental effects પણ યાદ રાખો."
+    ],
+    "trap": "DDT નું structure BHC/HCH ના six-membered chlorinated ring જેવું નથી.",
+    "quiz": {
+      "question": "What is the formula of Freon-12?",
+      "answer": "CCl₂F₂",
+      "distractors": [
+        "CHCl₃",
+        "CCl₄",
+        "C₆H₆Cl₆"
+      ],
+      "level": "slot1"
+    }
+  }
+]

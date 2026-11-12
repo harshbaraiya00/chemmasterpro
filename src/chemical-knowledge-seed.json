@@ -1,0 +1,862 @@
+{
+  "families": {
+    "phenol": {
+      "name": "Phenol chemistry",
+      "foundation": "Phenol માં O lone pair aromatic ring સાથે conjugate થાય છે. Phenoxide anion resonanceથી stabilize થવાથી phenol ordinary aliphatic alcohol કરતાં વધુ acidic હોય છે. Ring substituents acidity અને electrophilic substitution બંને બદલે છે.",
+      "mechanism": "Base O–H proton દૂર કરીને phenoxide બનાવે છે. Suitable primary alkyl electrophile સાથે oxygen nucleophile SN2થી aryl–alkyl ether આપી શકે છે. Electrophilic aromatic substitutionમાં unprotonated OH ringને activate કરીને ortho/para direction આપે છે.",
+      "conditions": "Electron-withdrawing NO₂ groups acidity વધારી શકે છે; ortho/para resonance અને meta inductive contributions અલગ સમજો. Intramolecular hydrogen bonding solubility/association બદલે છે. Phenolic C–O bond પર ordinary alkyl-halide SN2 template ન લગાડવો.",
+      "viva": "Phenoxide is resonance-stabilized; alkoxide has no equivalent aromatic delocalization. Position, protonation state and competing substituents determine the observed chemistry.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols"
+    },
+    "arene": {
+      "name": "Aromatic substrate chemistry",
+      "foundation": "Aromaticity માટે cyclic conjugation અને appropriate π-electron occupancy જરૂરી છે. Benzeneના π bonds isolated alkene જેવી independent bonds નથી; substitution aromatic systemને preserve કરે છે.",
+      "mechanism": "Electrophile attack aromatic σ-complex બનાવે છે; deprotonation aromaticity પાછી લાવે છે. Substituents intermediate stabilization અને steric accessibilityથી orientation બદલે છે. Benzylic radical/oxidation side-chain chemistry અલગ reaction center વાપરે છે.",
+      "conditions": "Activating/deactivating અને directing effects બે અલગ properties છે. Halogens deactivate છતાં ortho/para direct કરી શકે છે. Nitro group strong deactivating/meta-directing છે; benzylic oxidation માટે suitable benzylic Hનું મહત્વ જુદું છે.",
+      "viva": "Aromatic ring substitution, benzylic substitution and alkene addition must be distinguished by the bond actually changing.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/16-4-substituent-effects-in-electrophilic-substitutions"
+    },
+    "acid": {
+      "name": "Carboxylic acid chemistry",
+      "foundation": "Carboxylic acidના conjugate baseમાં charge બે oxygens પર delocalize થાય છે. Acidity માટે resonance, inductive effects, solvent અને substituent position ધ્યાનમાં લેવા. Carbonyl અને acidic O–H જુદા reactive sites છે.",
+      "mechanism": "Base સાથે acid–base reaction carboxylate આપે છે. Acid-catalyzed esterificationમાં carbonyl activation, alcohol addition, proton transfers અને water loss થાય છે. Strong hydride/appropriate borane reductionથી primary alcohol મળી શકે છે; ordinary NaBH₄ scope અલગ છે.",
+      "conditions": "Carboxylate અને neutral acidનું drawing work-upના pH પરથી નક્કી કરો. Strong nucleophile/Grignard સાથે acidic proton quench થઈ શકે છે. COOHને every reagent હેઠળ aldehyde/ketone carbonyl જેવી reactivity આપવી ખોટી છે.",
+      "viva": "Carboxylate is a resonance-stabilized anion. Electron withdrawal can stabilize it further, but positional effects and solvation require a substrate-specific comparison.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/20-2-structure-and-properties-of-carboxylic-acids"
+    },
+    "amine": {
+      "name": "Amine / arylamine chemistry",
+      "foundation": "Amine nitrogenનો lone pair basicity અને nucleophilicity આપે છે. Anilineમાં lone pair ring સાથે conjugate થવાથી aliphatic amineની સરખામણીમાં availability ઘટે છે. Protonated ammonium salt અને free amineની ring effects સરખી નથી.",
+      "mechanism": "Acid protonation ammonium salt આપે છે; acylation nitrogenને amideમાં mask કરે છે. Primary arylamine + nitrous-acid system diazonium salt આપે છે. Diazonium replacement અને azo couplingથી વિવિધ aromatic products બનાવી શકાય છે.",
+      "conditions": "Primary aromatic, primary aliphatic અને secondary amines nitrous acid સામે જુદા outcomes આપે છે. Direct strongly acidic ring nitrationમાં amino-group protonationથી orientation બદલાઈ શકે છે; protected anilideનું logic જુદું છે.",
+      "viva": "Aniline basicity depends on lone-pair delocalization and substituents. A group can donate to a ring while its protonated form is strongly withdrawing.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/24-8-reactions-of-arylamines"
+    },
+    "amide": {
+      "name": "Amide / imide chemistry",
+      "foundation": "Amide nitrogenનો lone pair carbonyl સાથે resonance કરે છે. C–N bondમાં partial double-bond character અને lower nitrogen basicity મળે છે. Imidesમાં nitrogen બે carbonyl-derived groups સાથે જોડાયેલો હોવાથી acidity/reactivity વધુ બદલાય છે.",
+      "mechanism": "Hydrolysis યોગ્ય acid/base conditions હેઠળ acyl substitutionથી acid/carboxylate અને amine/ammonium products આપે છે. LiAlH₄ reduction carbonyl carbon retain કરીને amine આપે છે. Primary amideનું Hofmann rearrangement carbonyl carbon ગુમાવતું અલગ pathway છે.",
+      "conditions": "Amide, amine અને nitrileને structural labelથી અલગ ઓળખો. Acid/base medium final ionic form નક્કી કરે છે. Every amide Hofmann rearrangementનો ordinary substrate નથી; standard reaction માટે primary RCONH₂ motif જોઈએ.",
+      "viva": "Amide reduction retains the carbonyl carbon; Hofmann rearrangement removes it. Resonance reduces nitrogen basicity and changes acyl-substitution reactivity.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/21-7-chemistry-of-amides"
+    },
+    "carbonyl": {
+      "name": "Aldehyde / ketone chemistry",
+      "foundation": "C=O polarized bondમાં carbon electrophilic અને oxygen electron-rich છે. Nucleophilic addition પછી tetrahedral alkoxide/intermediate મળે છે. Carbonyl carbon સામાન્ય રીતે trigonal planar હોવાથી facial attack stereochemistry મહત્વની છે.",
+      "mechanism": "Hydride transfer alcohol આપે છે; carbon nucleophile addition C–C bond બનાવે છે. α-H હોય તો enol/enolate chemistry શક્ય છે. Carbonyl condensation, reduction, oxidation અને α-substitution જુદા reaction centers/oxidation-level changes છે.",
+      "conditions": "Aldehydeનું oxidation ketoneની સરખામણીમાં સામાન્ય રીતે સરળ છે. α-H absence/availabilityથી aldol અને Cannizzaro-type choices બદલાય છે. Enoneમાં 1,2 vs 1,4 addition માટે nucleophile અને conditions જોવી.",
+      "viva": "First identify the electrophilic carbonyl carbon and then ask whether the reagent adds hydride, carbon, nitrogen or removes oxygen.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/19-4-nucleophilic-addition-reactions-of-aldehydes-and-ketones"
+    },
+    "solvent": {
+      "name": "Solvent and medium effects",
+      "foundation": "Solvent merely a background label નથી. Polarity, hydrogen-bond donation, Lewis basicity અને ion solvationથી rate/selectivity બદલાય છે. Polar protic, polar aprotic અને nonpolar labels different molecular interactions દર્શાવે છે.",
+      "mechanism": "Protic solvents anionsને hydrogen-bond solvate કરે છે અને strong organometallic reagentsને proton આપી quench કરી શકે છે. Aprotic donor solvents cations/metals સાથે coordinate કરે છે. None of these labels guarantees universal chemical inertness.",
+      "conditions": "Solventનું donor atom, exchangeable proton અને reactive functional group જુદાં તપાસો. Ether solvent dry છે કે wet તે નામ પરથી નક્કી થતું નથી. Water, acid/base અને temperature actual reaction mediumનો ભાગ છે.",
+      "viva": "A polar aprotic solvent can favor many SN2 reactions, but substrate structure, counterion, nucleophile and competing elimination still matter.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/11-3-characteristics-of-the-sn2-reaction"
+    },
+    "inorganic": {
+      "name": "Ionic reagent / redox / acid–base reasoning",
+      "foundation": "Ionic formulaને constituent ionsમાં તોડો, oxidation states ગણો અને actual active ion ઓળખો. Counterion, medium અને protonation state product predictionમાં relevant હોઈ શકે છે; formula alone complete reaction instruction નથી.",
+      "mechanism": "Redox માટે electron-transfer half-reactions, acid–base માટે proton transfer, અને substitution માટે nucleophile/electrophile roles જુદાં લખો. Oxidizing agent electrons accept કરે છે; reducing agent donate કરે છે. Hydroxide OH⁻, hydride H⁻ અને iodide I⁻ interchangeable નથી.",
+      "conditions": "Acidic/basic/neutral medium reduction products અને substrate ionization બદલી શકે છે. Hydrate, concentration અને commercial formulation bottle-specific છે. અહીં chemical principles અને educational examples છે, complete preparation/handling protocol નહીં.",
+      "viva": "Balance atoms, charge and electrons separately. A reagent's oxidation state and a substrate's functional-group change must be consistent.",
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-1-balancing-oxidation-reduction-reactions"
+    },
+    "material": {
+      "name": "Material, formulation or mixture",
+      "foundation": "આ entry માટે એક unique small-molecule structure આપવી યોગ્ય નથી. Polymer, adsorption material, commercial mixture અથવા unconfirmed label માટે composition/grade identity પહેલું પગલું છે. Average formula exact molecular entity સમાન નથી.",
+      "mechanism": "Observed effect adsorption, complex formation, micellization અથવા formulation-dependent chemistryથી આવી શકે છે. દરેક changeને covalent organic reaction તરીકે arrow-pushingથી બતાવવું scientific રીતે ખોટું છે; relevant physical/chemical process સમજવો.",
+      "conditions": "Grade, water content, polymer distribution અથવા formulation પ્રમાણે behavior બદલાય છે. Structural ambiguity હોય ત્યાં arbitrary SMILES અને exact molecular mass ન ગોઠવો. Source label અને supplier SDS/grade specification verify કરવું જરૂરી છે.",
+      "viva": "A molecular formula, repeating-unit formula and commercial formulation describe different levels of chemical identity.",
+      "url": "https://www.sigmaaldrich.com/US/en/technical-documents/technical-article/analytical-chemistry/thin-layer-chromatography/tlc-silica-gel-60g-plates-with-gypsum"
+    },
+    "carbohydrate": {
+      "name": "Carbohydrate structure and reducing behavior",
+      "foundation": "Carbohydrateનું cyclic drawing અને open-chain carbonyl equilibrium જોડાયેલા છે. Free anomeric hemiacetal center ring opening કરી શકે છે; glycosidic acetal formation reducing behavior બદલે છે.",
+      "mechanism": "Mutarotation anomeric configuration બદલતી ring-opening/reclosure process છે. Glycosidic hydrolysis sugar units release કરે છે. Reducing-sugar tests reagent conditions પર depend કરે છે; alkaline enediol rearrangement અને mild bromine oxidationને એકસરખું ન ગણવું.",
+      "conditions": "D/L configuration, α/β anomer અને (+)/(−) optical rotation જુદા descriptors છે. Sugarનું ring structure જોઈ free reducing end ઓળખો. Formaldehyde/ketone carbonyl ruleને blocked glycoside પર સીધો લાગુ ન કરવો.",
+      "viva": "A nonreducing disaccharide lacks a free anomeric hemiacetal; hydrolysis can release monosaccharides with different test behavior.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides"
+    },
+    "heterocycle": {
+      "name": "Heteroaromatic / heterocyclic reactivity",
+      "foundation": "Ringમાં N/O/S છે એટલા માટે તમામ lone pairs equally basic નથી. Aromatic sextetમાં participating lone pair અને ring planeમાં available lone pair અલગ ઓળખવા. Saturated heterocycle માટે aromatic rules લાગતા નથી.",
+      "mechanism": "Pyrrole-type lone pair aromatic sextetમાં ભાગ લે છે; pyridine-type nitrogenનો lone pair અલગ orbitalમાં રહે છે. Electron-rich five-membered rings electrophilic substitution માટે અને electron-poor azaarenes જુદી substitutions માટે responsive હોઈ શકે છે.",
+      "conditions": "Protonation site, tautomerism અને ring position પ્રમાણે selectivity બદલાય છે. Fused ringsમાં common numbering diagramથી ચેક કરવું. Strong acidથી sensitive heteroaromaticsમાં side reactions થઈ શકે છે.",
+      "viva": "Count π electrons before assigning basicity or aromaticity. Not every nitrogen atom contributes its lone pair to the aromatic sextet.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/15-5-aromatic-heterocycles-pyridine-and-pyrrole"
+    },
+    "cage": {
+      "name": "Bridged and conformational chemistry",
+      "foundation": "Bridged/cage structureમાં connectivity અને three-dimensional geometry અલગ રીતે વાંચો. Bridgeheads વચ્ચેના paths count કરીને bicyclic nomenclature બને છે. Flat skeletal drawing બધા bonds coplanar છે એવું નથી બતાવતું.",
+      "mechanism": "Ring strain, restricted rotation અને accessible faces reaction rate/stereochemistryને affect કરે છે. Bredt-type constraints bridgehead alkene geometry સાથે જોડાય છે; ruleને every ring size માટે absolute ban ન ગણવો.",
+      "conditions": "Endo/exo, cis/trans અને enantiomer descriptors અલગ structural questionsના answers છે. A rigid cage and a chiral auxiliary share rigidity, but do not have the same chemical role.",
+      "viva": "Identify bridgeheads, count each bridge excluding bridgeheads, and include the two bridgehead carbons in the total atom count.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/4-9-conformations-of-polycyclic-molecules"
+    },
+    "base": {
+      "name": "Organic base / nucleophilic catalyst",
+      "foundation": "Brønsted basicity proton acceptanceનું equilibrium છે, જ્યારે nucleophilicity electrophilic carbon સાથે reaction rateનો મુદ્દો છે. Steric hindrance, resonance અને solventને કારણે strong base necessarily strongest nucleophile નથી.",
+      "mechanism": "Amidine bases conjugate acidમાં charge delocalizationથી strong basicity આપે છે. Tertiary amine catalysts reversible nucleophilic addition/acyl transferમાં participate કરી શકે છે. Base catalytic cycleમાં regenerated થાય છે કે salt બને છે તે mechanism પરથી નક્કી કરો.",
+      "conditions": "DBU/DBNને every conditionમાં completely non-nucleophilic ન ગણો. Elimination માટે leaving group, β-H અને geometry જરૂરી છે. Catalyst/product protonation state અને counterion reaction courseને અસર કરે છે.",
+      "viva": "A base can remove a proton without transferring a carbon group. Basicity and steric access must both be considered in elimination versus substitution.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/11-8-the-e2-reaction-and-the-deuterium-isotope-effect"
+    },
+    "ligand": {
+      "name": "Chiral ligand and asymmetric catalysis",
+      "foundation": "Ligand metalને donate કરીને coordination environment બદલે છે. Chiral ligand enantiomeric transition statesને diastereomeric pathwaysમાં ફેરવે છે; activation free-energy difference enantioselectivity આપે છે.",
+      "mechanism": "Metal-binding donor atoms, bite geometry અને ligand conformation substrate approach control કરે છે. Ligand alone productમાં reducing atoms supply કરતો નથી. Absolute product configuration માટે ligand enantiomer, catalyst and substrate model સ્પષ્ટ જોઈએ.",
+      "conditions": "Chiral ligand નામથી universal R/S answer ન મળે. Ligand purity, metal source, substrate coordination અને conditions selectivityને affect કરે છે. Ligand અને chiral auxiliaryની attachment strategy જુદી છે.",
+      "viva": "Axial chirality is not encoded by simply drawing wedge bonds on an arbitrary tetrahedral atom.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2001/summary/"
+    },
+    "auxiliary": {
+      "name": "Chiral auxiliary control",
+      "foundation": "Chiral auxiliary substrate સાથે covalently attach થાય છે અને reactionના competing transition statesને diastereomeric બનાવે છે. Reaction પછી auxiliary remove/recover કરવાની strategy synthesisનો ભાગ છે.",
+      "mechanism": "Evans-type oxazolidinone enolatesમાં metal, enolate geometry અને chair-like transition-state organization aldol stereochemistry control કરી શકે છે. Z/E enolate, aldehyde face અને auxiliary face independently identify કરવાં પડે.",
+      "conditions": "Universal syn/anti અથવા absolute R/S rule auxiliary nameથી એકલું ન લખવું. Metal enolate and conditions specify કરો. Auxiliary removal substrate stereocentersને affect ન કરે તેવી route compatibility જરૂરી છે.",
+      "viva": "A chiral auxiliary is consumed as a temporary covalent attachment; a chiral ligand usually stays bound to the catalyst.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/23-1-carbonyl-condensations-the-aldol-reaction"
+    },
+    "alcohol": {
+      "name": "Alcohol and diol chemistry",
+      "foundation": "Alcoholમાં OH-bearing carbon primary, secondary કે tertiary છે તે ઓળખો. Oxidation માટે carbinol C–H, substitution માટે OH activation અને acid–base chemistry માટે O–H proton મહત્વનાં જુદા મુદ્દા છે.",
+      "mechanism": "Primary alcohol aldehyde/acid અને secondary alcohol ketone આપી શકે છે. Tertiary alcohol સામાન્ય carbinol-H oxidation pathway નથી અનુસરતું. Vicinal diolsમાં acid-promoted rearrangement અલગ chemistry છે.",
+      "conditions": "OH poor leaving group છે, તેથી substitution માટે activation/protonation જરૂરી થઈ શકે છે. Protic alcohol strong organometallic reagent quench કરી શકે છે. Solvent અને substrate roles context પ્રમાણે જુદા છે.",
+      "viva": "Oxidation, substitution and dehydration change different bonds. Check the OH-bearing carbon and available hydrogens first.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/17-7-oxidation-of-alcohols"
+    },
+    "sulfur": {
+      "name": "Thiocarbonyl and sulfur nucleophile chemistry",
+      "foundation": "Thioureaમાં C=S અને two nitrogensનું resonance network છે. Sulfur polarizable nucleophilic site તરીકે વર્તે છે; oxygen analogue urea સાથે identical behavior ન માનો.",
+      "mechanism": "Suitable alkyl halide પર sulfur attack isothiouronium intermediate આપે છે. Hydrolysisથી thiol-derived product મળે છે. α-Haloketone સાથે aminothiazole synthesisમાં sulfur અને nitrogen જુદા roles ભજવે છે.",
+      "conditions": "SN2 accessibility, electrophile structure અને protonation state તપાસો. Thiol preparation અને heterocycle synthesis અલગ pathways છે.",
+      "viva": "Replacing oxygen by sulfur changes polarizability and donor preference; the two reagents are not interchangeable.",
+      "url": "https://openstax.org/books/organic-chemistry/pages/18-summary"
+    }
+  },
+  "facts": [
+    [
+      "o-nitrophenol",
+      "Acidic phenol / positional-isomer substrate",
+      "OH અને NO₂ adjacent હોવાથી intramolecular hydrogen bonding શક્ય છે. Neutral moleculeની association p-isomerથી અલગ થાય છે; acidityને માત્ર hydrogen-bond sloganથી rank ન કરવી, solvation અને conjugate-base stabilization પણ જોવાં.",
+      "o- vs p-nitrophenolમાં intramolecular અને intermolecular associationનો ભેદ સમજાવો."
+    ],
+    [
+      "p-nitrophenol",
+      "Electron-poor phenol / acid–base indicator example",
+      "Para NO₂ phenoxide charge delocalizationને stabilize કરવામાં મદદ કરે છે. Ortho isomer જેવી adjacent intramolecular OH···O interaction અહીં નથી; neutral and ionized formsના electronic spectra જુદાં હોઈ શકે છે.",
+      "Nitro group ringને electrophilic substitution માટે deactivate કરે છે, છતાં phenolic OHનો directing contribution જુદો છે."
+    ],
+    [
+      "resorcinol",
+      "Meta-dihydroxybenzene substrate",
+      "Benzene-1,3-diolમાં બંને OH groups વચ્ચે meta relationship છે. OH substitution strong ring activation આપે છે; catechol 1,2 અને hydroquinone 1,4 સાથે positioning ગૂંચવશો નહીં.",
+      "Resorcinolને catechol જેવી direct ortho-quinone structure તરીકે ન દોરવી."
+    ],
+    [
+      "p-chlorophenol",
+      "Halophenol substrate",
+      "OH અને Cl para છે. OH ringને strongly activate કરી શકે છે; Cl inductively withdraw અને resonanceથી donate કરી શકે છે. Net directing effectને માત્ર Cl electron-withdrawing છે એટલા પરથી meta ન લખવું.",
+      "Phenolic O–H deprotonation અને aryl C–Cl substitution અલગ reactions છે."
+    ],
+    [
+      "o-chlorophenol",
+      "Halophenol substrate",
+      "Adjacent OH/Cl steric environment p-isomerથી અલગ છે. Aryl C–Cl sp² carbon પર હોય છે; ordinary primary alkyl chloride જેવી facile SN2 reaction ન માનો.",
+      "Ortho isomerનું naming position 2 છે; O–Cl bond નથી."
+    ],
+    [
+      "pcresol",
+      "Alkyl-substituted phenol",
+      "4-Methylphenolમાં OH અને methyl opposite છે. Phenol O–H acidity, aromatic substitution અને benzylic methyl oxidation જુદા reactive handles છે.",
+      "Benzylic oxidation conditions phenolic ringને પણ affect કરી શકે; guaranteed one-site oxidationનો દાવો ન કરવો."
+    ],
+    [
+      "ocresol",
+      "Alkyl-substituted phenol",
+      "2-Methylphenolમાં methyl OHની બાજુમાં છે. Steric accessibility અને electronic activation electrophilic substitutionનું major site બદલાવી શકે છે.",
+      "Cresol phenolic alcohol છે; benzyl alcoholમાં OH side-chain carbon પર હોય છે."
+    ],
+    [
+      "mcresol",
+      "Alkyl-substituted phenol",
+      "3-Methylphenolમાં OH/methyl meta છે. બંને substituentsના directing maps superimpose કરીને competing positions જુઓ; nameમાં m OHનો methylથી relationship દર્શાવે છે.",
+      "Ring numbering અને benzylic carbon numberingને ગૂંચવશો નહીં."
+    ],
+    [
+      "acetanilide",
+      "Amine-protecting derivative / aromatic substrate",
+      "Anilineનું acetyl protection nitrogenને amideમાં ફેરવે છે. Lone pair carbonyl સાથે delocalize થતાં ring activation free aniline કરતાં ઘટે છે; substituted amide group છતાં ortho/para directing રહી શકે છે.",
+      "Nitrationમાં para product ઘણીવાર favored છે, પરંતુ steric/medium effects અને byproductsને અવગણશો નહીં."
+    ],
+    [
+      "acetamide",
+      "Primary aliphatic amide",
+      "CH₃CONH₂ અને CH₃NH₂ અલગ functional groups છે. LiAlH₄ reduction ethylamine આપી carbonyl carbon retain કરે છે; Hofmann rearrangement methylamine આપી એક carbon ઓછો કરે છે.",
+      "Amide nitrogenને ordinary amine જેટલું basic ન ગણવું."
+    ],
+    [
+      "benzamide",
+      "Primary aromatic amide",
+      "PhCONH₂માં carbonyl carbon ringની બહાર છે. Hofmann rearrangement aniline આપે છે; LiAlH₄ reduction benzylamine આપે છે—આ pair carbon accountingનું અગત્યનું exam comparison છે.",
+      "Benzamide, benzanilide અને anilineનું nitrogen connectivity અલગ છે."
+    ],
+    [
+      "benzanilide",
+      "Secondary aromatic amide",
+      "PhCONHPhમાં nitrogen એક phenyl અને એક acyl unit વચ્ચે છે. Hydrolysisથી benzoic-acid-derived અને aniline-derived fragments મળે છે; તે PhCH₂NHPh જેવી amine structure નથી.",
+      "Standard primary-amide Hofmann shortcut secondary amide પર ન લગાડવો."
+    ],
+    [
+      "potassium-iodide",
+      "Iodide nucleophile / reducing-ion source",
+      "Active ion I⁻ છે, I₂ નથી. Iodide alkyl substitutionમાં nucleophile અથવા redox chemistryમાં electron donor બની શકે છે. Classic NaI/acetone precipitation-driven Finkelstein conditionsને KI માટે આપમેળે interchangeable ન ગણવી.",
+      "Iodide oxidationથી iodine બને છે; iodine–starch color માટે iodine/polyiodide species જોઈએ."
+    ],
+    [
+      "potassium-permanganate",
+      "Strong medium-dependent oxidant",
+      "Mn(VII) reduction acidic mediumમાં Mn²⁺, many neutral/weakly basic systemsમાં MnO₂ અને suitable strongly basic one-electron conditionsમાં manganate તરફ થઈ શકે છે. Cold mild alkene dihydroxylation અને stronger cleavage અલગ outcomes છે.",
+      "Benzylic oxidation માટે benzylic H જુઓ; tert-butylbenzeneને ordinary side-chain ruleથી benzoic acid ન લખવું."
+    ],
+    [
+      "sodium-dichromate",
+      "Cr(VI) oxidant",
+      "Dichromateમાં each Cr +6 છે. Acidic aqueous oxidation primary alcohol/aldehydeને acid અને secondary alcoholને ketone તરફ લઈ જઈ શકે છે. Commercial hydrate અને anhydrous formula વચ્ચે mass calculation જુદું છે.",
+      "Dry PCC aldehyde-stop logic aqueous dichromate પર ન લગાડવો."
+    ],
+    [
+      "sodium-metabisulphate-label",
+      "Unconfirmed chemical identity",
+      "Photoમાં લખાયેલું નામ exact salt identity નક્કી કરતું નથી. Sodium metabisulfite Na₂S₂O₅ અને sodium pyrosulfate Na₂S₂O₇ જુદા sulfur oxidation states અને reactivity ધરાવે છે; CAS/label verification પહેલાં કોઈ reaction assign કરવી નહીં.",
+      "Ambiguous label માટે fabricated SMILES, exact molar mass અથવા specific reducing role આપેલું નથી."
+    ],
+    [
+      "sodium-nitrate",
+      "Nitrate salt / nitrogen-oxidation-state reference",
+      "NO₃⁻માં N +5 છે. Nitrate અને nitriteનું acid chemistry જુદું છે. Nitrate salt એકલું ordinary diazotization reagent નથી; nitrating species માટે appropriate strong-acid/dehydrating context જરૂરી છે.",
+      "NaNO₃ ને NaNO₂ અથવા HNO₃ તરીકે substitute ન વાંચવું."
+    ],
+    [
+      "sodium-nitrite",
+      "Nitrosating / diazotization precursor",
+      "NO₂⁻માં N +3 છે. Acidification nitrous-acid-derived nitrosating species આપે છે; primary arylamines cold acidic conditionsમાં arenediazonium salts આપે છે. Aliphatic diazonium ions much less persistent હોય છે.",
+      "Secondary amine nitrosation, primary aromatic diazotization અને nitrate nitration અલગ pathways છે."
+    ],
+    [
+      "zinc-dust",
+      "Metal reductant / electron donor",
+      "Zinc metal Zn(0) electron supply કરી Zn(II) તરફ જાય છે. Nitro reduction, reductive work-up અને dehalogenationનો outcome co-reagent, pH અને substrateથી બદલાય છે. Dust physical form છે, amalgamation નથી.",
+      "Zn dust, Zn/HCl અને Zn(Hg)/HClને એક જ reagent system ન ગણવું."
+    ],
+    [
+      "potato-starch",
+      "Polysaccharide material / iodine host",
+      "Potato starch amylose/amylopectin distributions ધરાવે છે; repeat-unit formula whole moleculeની exact formula નથી. Amylose helixમાં polyiodide association blue-type color આપી શકે છે.",
+      "Botanical starch grade અને soluble indicator gradeને duplicate chemical entries તરીકે merge કર્યાં નથી."
+    ],
+    [
+      "soluble-starch",
+      "Iodine/polyiodide indicator material",
+      "Processed soluble starch iodine-related color response માટે indicator તરીકે વપરાય છે. Color host–guest/polyiodide association સાથે જોડાયેલો છે; starch iodineનો universal oxidizing/reducing reagent નથી.",
+      "Starch test aloneથી all carbohydrate identity અથવા purity નક્કી થતી નથી."
+    ],
+    [
+      "silica-gel-g",
+      "Polar TLC stationary phase",
+      "Surface silanol groups analyte સાથે adsorption interactions કરે છે. G gradeમાં gypsum binder છે; F₂₅₄ fluorescence indicator અલગ specification છે. Normal-phase TLCમાં polarity/adsorption અને mobile-phase strength સાથે Rf બદલાય છે.",
+      "Rf compoundનો universal constant નથી; same plate/eluent/conditionsમાં comparison કરો."
+    ],
+    [
+      "potassium-hydroxide",
+      "Strong hydroxide base / nucleophile",
+      "KOHનું OH⁻ proton removal અને substitution બંને કરી શકે છે. Aqueous conditions hydrolysis/substitution અને alcoholic heated conditions elimination favor કરી શકે છે, પરંતુ substrate structure અને competing SN2/E2 બંને તપાસવા.",
+      "Alcoholic KOH જોઈ every substrate માટે exclusive alkene ન લખવું."
+    ],
+    [
+      "sodium-hydroxide",
+      "Strong hydroxide base / hydrolysis reagent",
+      "NaOH ester saponificationમાં carboxylate અને alcohol આપે છે. Base final acid productને deprotonate કરે છે, તેથી irreversible net direction મળે છે; acidic work-up પછી neutral acid દોરી શકાય છે.",
+      "NaOH hydride donor નથી; carbonyl reductionને NaBH₄/LiAlH₄ સાથે ગૂંચવશો નહીં."
+    ],
+    [
+      "o-nitrotoluene",
+      "Nitroarene / benzylic substrate",
+      "Methyl અને NO₂ ortho છે. Nitro reduction amino group આપે છે; benzylic oxidation methylને carboxyl groupમાં ફેરવી શકે છે. Reaction center ઓળખ્યા પછી જ product લખવો.",
+      "NO₂ ring carbon સાથે જોડાયેલો છે, methyl carbon સાથે નહીં."
+    ],
+    [
+      "nitrobenzene",
+      "Nitroarene reduction substrate",
+      "Nitro group strong ring deactivation અને meta direction આપે છે. Reductionનો oxidation level conditionsથી nitroso, hydroxylamine અથવા aniline derivatives તરફ બદલાય શકે છે; acidic metal reductionનું common final product aniline છે.",
+      "Nitrobenzeneને activated Friedel–Crafts substrate ન ગણવું."
+    ],
+    [
+      "benzene",
+      "Aromatic parent / substitution substrate",
+      "Six π electrons conjugated cyclic systemમાં delocalized છે. EAS aromaticity restore કરે છે; ordinary alkene bromination conditionsને benzene પર સીધી રીતે લાગુ ન કરવી.",
+      "A benzene skeletal hexagon has six carbon vertices; inner circle is aromatic delocalization notation."
+    ],
+    [
+      "methanol",
+      "Polar protic solvent / one-carbon alcohol",
+      "Methanolમાં O–H proton છે, તેથી Grignard/RLi જેવા reagentsને quench કરી શકે છે. Oxidation formaldehyde અને stronger conditionsમાં further oxidized products આપી શકે છે.",
+      "Methanolમાંથી ordinary dehydrationથી alkene નહીં મળે: β-carbon જ નથી."
+    ],
+    [
+      "n-butanol",
+      "Primary alcohol / protic solvent",
+      "Butan-1-olનું OH terminal carbon પર છે. Mild aldehyde-stop oxidation butanal, aqueous stronger oxidation butanoic acid અને suitable substitution butyl derivative આપી શકે છે.",
+      "n-Butyl alcohol અને tert-butanolની substitution/elimination behavior જુદી છે."
+    ],
+    [
+      "o-toluidine",
+      "Primary arylamine substrate",
+      "2-Methylanilineમાં amino group અને methyl adjacent છે. Diazotization N-containing groupને replace કરવાની synthetic handle આપે છે; sterics free amine chemistryને affect કરે છે.",
+      "Toluidine has NH₂; nitrotoluene has NO₂. Printed Toludine spelling aliasથી search થાય છે."
+    ],
+    [
+      "m-toluidine",
+      "Primary arylamine substrate",
+      "3-Methylanilineમાં NH₂/methyl meta છે. Free amino group strong ring donation આપી શકે છે; acidic mediumમાં ammonium formની electronic effect અલગ છે.",
+      "Meta relationship starting substituentsનું છે; future substitutionનું universal meta direction નથી."
+    ],
+    [
+      "tricresyl-phosphate",
+      "Triaryl-phosphate commercial material",
+      "Three cresyl-derived oxygens phosphate center સાથે જોડાય છે. Commercial isomer composition specified નથી; એને single positional isomer અથવા phosphine ligand તરીકે રજૂ કરવું ખોટું છે.",
+      "Phosphate ester P(V) અને BINAP-type phosphine P(III) donor chemistry અલગ છે."
+    ],
+    [
+      "acetic-acid",
+      "Weak carboxylic acid / reaction medium",
+      "CH₃COOH acid–base, esterification અને co-reagent medium તરીકે જુદા roles આપે છે. Zn/AcOH work-upમાં reducing electron zinc આપે છે; AcOH alkene-cleaving ozone નથી.",
+      "AcOH અને Ac₂O interchangeable acetyl donors નથી."
+    ],
+    [
+      "o-dichlorobenzene",
+      "Halogenated aromatic solvent / substrate",
+      "Two chlorines adjacent aromatic carbons પર છે. Molecular polarity/isomer properties substitution patternથી બદલાય છે; aryl C–Cl bonds ordinary alkyl chlorides જેવી SN2 reactivity ધરાવતા નથી.",
+      "o-, m-, p-dichlorobenzene positional isomersને one moleculeમાં ભેળવશો નહીં."
+    ],
+    [
+      "benzoic-acid",
+      "Aromatic carboxylic acid",
+      "COOH aromatic ringથી સીધું જોડાયેલું છે અને EASમાં deactivating/meta-directing substituent છે. Benzylic alcohol oxidationથી benzoic acid મળવાનું carbon accounting અલગ route બતાવે છે.",
+      "Benzoic acid PhCOOH અને phenylacetic acid PhCH₂COOH જુદા છે."
+    ],
+    [
+      "p-aminobenzoic-acid",
+      "Bifunctional arylamine / carboxylic acid",
+      "NH₂ અને COOH para છે. Acid/base conditionsથી amine ammonium અને acid carboxylate forms બદલાય છે; zwitterionic descriptions condition dependent છે.",
+      "Diazotization amino group પર અને esterification carboxyl group પર થાય છે—site selectivity અલગ વિચારવી."
+    ],
+    [
+      "m-aminobenzoic-acid",
+      "Bifunctional arylamine / carboxylic acid",
+      "NH₂/COOH meta relationshipમાં electronic effects અને ionization behavior p-isomerથી જુદાં હોઈ શકે છે. Amine protection અને acid derivatization independent synthetic choices છે.",
+      "One functional groupનું reagent rule આખા moleculeની sole reaction તરીકે ન લખવું."
+    ],
+    [
+      "o-nitrobenzoic-acid",
+      "Electron-poor aromatic acid",
+      "Adjacent NO₂ અને COOHથી steric, inductive અને solvation effects જોડાય છે. Nitro reductionથી anthranilic-acid connectivity મળે છે; COOH carbon ringની બહાર જ રહે છે.",
+      "Ortho effectsને માત્ર simple resonance rankingથી explain કરવું અધૂરું છે."
+    ],
+    [
+      "p-nitrobenzoic-acid",
+      "Electron-poor aromatic acid",
+      "Para nitro group acid conjugate-base stabilizationમાં electron withdrawal આપે છે. Nitro reduction amino acid derivative આપે છે; esterification COOH handle પર થાય છે.",
+      "Acidic COOH Grignard reagent consume કરી શકે છે; NO₂ પણ compatibility issue છે."
+    ],
+    [
+      "m-nitrobenzoic-acid",
+      "Electron-poor aromatic acid",
+      "Meta NO₂ના effectમાં inductive/field contributions અગત્યનાં છે. Para સાથેનો comparison direct resonance stabilization pathwaysનો ભેદ શીખવે છે.",
+      "All nitrobenzoic isomers have the same formula; formula alone substitution position બતાવતી નથી."
+    ],
+    [
+      "p-hydroxybenzoic-acid",
+      "Phenolic aromatic acid",
+      "Phenolic OH અને carboxylic acid બંને acidic sites છે, પણ same acidity નથી. Esterification carboxyl handleને બદલે છે; phenolic protection અલગથી કરવી પડે છે.",
+      "Phenolic O-alkylation અને carboxyl esterificationના product connectivity જુદા છે."
+    ],
+    [
+      "cinnamic",
+      "Conjugated unsaturated aromatic acid",
+      "Ph–CH=CH–COOHમાં aromatic ring, alkene અને acid conjugated frameworkમાં છે. Common cinnamic acid E form સાથે જોડાય છે; hydrogenation alkeneને reduce કરી acid handle retain કરી શકે છે.",
+      "Cinnamic acidમાં extra CH=CH unit છે; benzoic acid સાથે carbon count ગૂંચવશો નહીં."
+    ],
+    [
+      "o-chlorobenzoic-acid",
+      "Halogenated aromatic acid",
+      "COOH અને Cl adjacent છે. Carboxyl deactivation અને aryl halide activation/positionનો અભ્યાસ સાથે આવે છે; ordinary alkyl-halide substitution rule પૂરતો નથી.",
+      "Acid–base extraction carboxylate formation આધારિત છે, aromatic chlorine cleavage નહીં."
+    ],
+    [
+      "hippuric-acid",
+      "N-Benzoylglycine / bifunctional amide acid",
+      "PhCONHCH₂COOHમાં amide અને free carboxyl group બંને છે. Hydrolysisના fragments benzoic-acid-derived અને glycine-derived છે; methyl/phenyl groupsને wrong carbon પર ન મૂકો.",
+      "Hippuric acid benzanilide નથી; amino-acid CH₂COOH unit મહત્વનો છે."
+    ],
+    [
+      "phthalic-acid",
+      "Ortho aromatic dicarboxylic acid",
+      "Two adjacent COOH groups suitable dehydrationથી cyclic anhydride આપી શકે છે. Ortho geometryને isophthalic/meta અને terephthalic/para analoguesથી અલગ સમજવી.",
+      "Five-membered anhydride ring formation માટે functional-group spacing decisive છે."
+    ],
+    [
+      "picric-acid",
+      "Strongly electron-poor phenol / identity reference",
+      "2,4,6-Trinitrophenolમાં nitro groups phenoxide stabilization વધારી phenolic acidity ખૂબ બદલે છે. Structural comparison phenol vs nitrophenol series માટે ઉપયોગી છે.",
+      "Hazard-sensitive material: practical handling/storage guidance અહીં આપેલી નથી; exact grade and current SDS જરૂરી છે."
+    ],
+    [
+      "succinic",
+      "Four-carbon dicarboxylic acid",
+      "HOOC–CH₂–CH₂–COOHમાં બે methylene groups છે. OMSGAP seriesમાં S = succinic; carboxyl carbons સહિત total carbon count ચાર છે.",
+      "Suitable dehydrationથી five-membered succinic anhydride motif શક્ય છે; every diacid same ring size નથી આપતું."
+    ],
+    [
+      "sulfanilic-acid",
+      "Aminobenzenesulfonic acid / azo-dye precursor",
+      "p-Aminobenzenesulfonic acidમાં SO₃H carboxylic acid નથી. Amino/sulfonic acid ionizationથી zwitterionic character અને solubility behavior બદલાય છે; diazotization azo coupling માટે handle આપે છે.",
+      "Sulfonic-acid group S-based છે; COOH esterification template અહીં સીધો લાગતો નથી."
+    ],
+    [
+      "salicylic-acid",
+      "Ortho-hydroxybenzoic acid",
+      "Phenolic OH અને adjacent COOH intramolecular hydrogen bonding આપી શકે છે. Phenolic O-acetylationથી acetylsalicylic acid connectivity મળે છે; COOHનું esterification અલગ છે.",
+      "Aspirin-type acetylation phenolic oxygen પર છે; methyl salicylate carboxyl ester છે."
+    ],
+    [
+      "p-anisic-acid",
+      "p-Methoxybenzoic acid",
+      "Methoxy group અને COOH para છે. OMe aromatic ether છે, free phenolic OH નથી; acid handle esterification/neutralization માટે available છે.",
+      "Anisic acid, anisole અને anisidineમાં acid, ether-only અને amine functionality જુદી છે."
+    ],
+    [
+      "phthalimide",
+      "Cyclic imide / protected nitrogen source",
+      "Imide N–H બે carbonylsથી activated છે. Deprotonated phthalimide suitable primary alkyl halide સાથે Gabriel-type alkylation આપે છે; release પછી primary amine મળે છે.",
+      "Secondary/tertiary alkyl halidesમાં simple SN2 Gabriel scope મર્યાદિત છે."
+    ],
+    [
+      "benzophenone",
+      "Diaryl ketone / carbonyl substrate",
+      "Ph₂C=Oમાં α-carbon bearing hydrogens નથી, તેથી ordinary self-aldol enolate template લાગતું નથી. Hydride reduction benzhydrol આપે છે; carbonyl carbon planar છે.",
+      "Benzophenone PhCOPh અને acetophenone PhCOCH₃ વચ્ચે enolizationનો અગત્યનો ભેદ છે."
+    ],
+    [
+      "naphthalene",
+      "Fused aromatic substrate",
+      "Two fused rings share two carbons; total carbon count દસ છે. EAS selectivity σ-complex stabilizationથી analyze થાય છે; common electrophilic substitutionમાં α-position preference useful છે, universal all-condition answer નહીં.",
+      "Naphthalene બે independent benzene molecules નથી."
+    ],
+    [
+      "m-dinitrobenzene",
+      "Strongly deactivated nitroarene",
+      "NO₂ groups 1,3 positions પર છે. Strong deactivation છતાં nitration of nitrobenzeneમાં meta directing logic આ pattern સમજાવે છે. Reduction conditions એક કે બંને nitro groupsને affect કરી શકે છે.",
+      "Identical formulaથી o/m/p isomer position નક્કી થતી નથી."
+    ],
+    [
+      "dextrose",
+      "D-Glucose / reducing monosaccharide",
+      "Dextrose D-glucoseનું common name છે. Cyclic hemiacetal open-chain aldehyde સાથે equilibriumમાં હોવાથી reducing behavior આવે છે; D label configuration છે, merely clockwise rotationનો અર્થ નથી.",
+      "Anhydrous grade અને hydrate gradeની mass-to-mole calculation જુદી છે."
+    ],
+    [
+      "sucrose",
+      "Nonreducing disaccharide",
+      "Glucose અને fructoseના બંને anomeric centers glycosidic bondમાં સામેલ છે, તેથી free reducing hemiacetal નથી. Hydrolysis પછી liberated sugarsનું behavior original sucroseથી બદલાય છે.",
+      "Fructose unit present હોવાથી intact sucroseને reducing sugar કહેવો ખોટું છે."
+    ],
+    [
+      "p-nitroacetanilide",
+      "Protected nitroarylamine derivative",
+      "Para NO₂ અને NHCOCH₃ substituentsના directing/deactivating effects સાથે આવે છે. Amide hydrolysis p-nitroaniline connectivity આપે છે; nitro reduction બીજી functional-group transformation છે.",
+      "N-deacetylationને nitro reduction સાથે ન ગૂંચવવું."
+    ],
+    [
+      "p-bromoacetanilide",
+      "Protected haloarylamine derivative",
+      "Acetanilide-based ortho/para direction અને para steric accessibility brominated derivative સમજાવે છે. Hydrolysisથી p-bromoaniline મળે છે; aryl Br generally separate synthetic handle છે.",
+      "Ring bromination અને side-chain radical bromination જુદા sites છે."
+    ],
+    [
+      "p-toluidine",
+      "Primary methylarylamine substrate",
+      "4-Methylanilineમાં NH₂ અને methyl para છે. Diazotization પછી amino group replacementથી otherwise difficult substitution patterns accessible થઈ શકે છે.",
+      "Amine protonation, N-acyl protection અને ring directing effects condition dependent છે."
+    ],
+    [
+      "p-anisidine",
+      "Methoxyarylamine substrate",
+      "4-Methoxyanilineમાં two donor groups ring reactivity affect કરે છે. Amino nitrogen protonation/acylation અને methoxy ether chemistryને અલગ સમજો.",
+      "Anisidine NH₂ ધરાવે છે; anisoleમાં amino group નથી."
+    ],
+    [
+      "m-anisidine",
+      "Methoxyarylamine substrate",
+      "3-Methoxyanilineમાં donor groups meta relationshipમાં છે. Future substitution માટે બંને directing maps અને steric access compare કરો; nameનું meta direct reaction instruction નથી.",
+      "OMe groupનો oxygen free OH proton ધરાવતો નથી."
+    ],
+    [
+      "p-nitrotoluene",
+      "Nitroarene / benzylic substrate",
+      "Methyl અને NO₂ para છે. Benzylic oxidation carboxyl group આપે છે; nitro reduction p-toluidine આપે છે. Same moleculeના બે reaction handles product family બદલે છે.",
+      "Benzyl nitrite/nitrate જેવી O-linked structures સાથે NO₂ connectivity ન ગૂંચવવું."
+    ],
+    [
+      "urea",
+      "Carbonyl diamide / nitrogen-containing synthon",
+      "H₂NCONH₂માં બંને nitrogens carbonyl resonanceમાં ભાગ લે છે. It is not simply two free amines. Hydrolysisની ideal net products ammonia/CO₂-derived species છે; pH પ્રમાણે ammonium/carbonate forms બદલાય છે.",
+      "Urea, thiourea અને ammonium cyanate જુદા structures છે."
+    ],
+    [
+      "thiourea",
+      "Sulfur nucleophile / heterocycle synthon",
+      "Thiocarbonyl C=S અને two amino nitrogens છે. Alkyl halide સાથે S-alkylisothiouronium intermediate પછી hydrolysisથી thiol access કરી શકાય છે; α-haloketone સાથે aminothiazole synthesis પણ અગત્યની છે.",
+      "Thioureaનું sulfur-centered reactivity ordinary urea oxygen chemistry સમાન નથી."
+    ],
+    [
+      "sodium-carbonate",
+      "Moderate inorganic base",
+      "CO₃²⁻ acid accept કરીને bicarbonate અને further acidificationમાં carbonic-acid/CO₂ system આપે છે. Carboxylic acid neutralization અને carbonate buffer reasoningમાં ઉપયોગી છે.",
+      "Na₂CO₃ અને NaHCO₃ interchangeable acid–phenol differentiation reagents નથી; carbonate phenolsને partially deprotonate કરી શકે છે."
+    ],
+    [
+      "ethyl-acetate",
+      "Ester solvent / acyl-derivative substrate",
+      "EtOAc polar aprotic ester solvent છે, inert under every reagent નથી. Saponification acetate + ethanol આપે છે; LiAlH₄ reductionમાં carbonyl-derived અને ethoxy-derived બંને fragments ethanol છે.",
+      "Standard NaBH₄ often leaves an ordinary ester; strong organometallics with EtOAc can react."
+    ],
+    [
+      "carbon-tetrachloride",
+      "Nonpolar tetrahedral solvent reference",
+      "CCl₄માં C–Cl bonds polar છે, પણ ideal tetrahedral vector symmetryથી molecular dipole cancel થાય છે. C–H bond નથી; CHCl₃ સાથે acidic-proton chemistry સમાન નથી.",
+      "Historical solvent examplesને present-day handling recommendation તરીકે ન વાંચવું; current SDS-based controls જરૂરી છે."
+    ],
+    [
+      "triton-x100",
+      "Nonionic surfactant formulation",
+      "Octylphenol ethoxylate distribution ધરાવે છે; ethoxylation average product mixture બતાવે છે, exact single molecule નહીં. Hydrophobic/hydrophilic balanceથી micellization અને solubilization behavior આવે છે.",
+      "Average chain lengthથી one exact SMILES અથવા fixed pure-compound molar mass assign કરેલું નથી."
+    ],
+    [
+      "cyclohexane",
+      "Nonpolar saturated hydrocarbon solvent",
+      "Cyclohexane chair conformations ધરાવે છે; benzene જેવી aromatic π system નથી. Normal ionic organic reactionsમાં relatively unreactive medium તરીકે વર્તી શકે છે, પરંતુ radical C–H chemistry માટે substrate પણ છે.",
+      "Cyclohexane અને cyclohexeneમાં એક double bondનો મોટો mechanistic ફરક છે."
+    ],
+    [
+      "ethyl-acetoacetate",
+      "β-Keto ester / active-methylene synthon",
+      "CH₃COCH₂CO₂Etનો central methylene બે carbonylsથી stabilized enolate આપે છે. Alkylation પછી hydrolysis/decarboxylationથી substituted methyl ketones મળી શકે છે; ketone and ester reduction selectivity જુદી છે.",
+      "Enolate alkylationમાં appropriate electrophile જોઈએ; tertiary halide સાથે clean SN2 નહીં થાય."
+    ],
+    [
+      "formaldehyde",
+      "One-carbon aldehyde electrophile",
+      "HCHO carbonyl carbon પર carbon substituent નથી. Grignard addition પછી primary alcohol મળે છે; α-H નથી એટલે ordinary self-aldol enolate નથી. Aqueous formulationsમાં hydration/polymer-derived species હોઈ શકે છે.",
+      "Formalin solution અને dry monomeric HCHO એક જ physical formulation નથી."
+    ],
+    [
+      "o-chloroaniline",
+      "Haloarylamine substrate",
+      "NH₂ અને Cl ortho છે. Amine nitrous-acid chemistry અને aryl-halide chemistry અલગ handles છે; steric effects basicity/coordination comparisonsને complicate કરી શકે છે.",
+      "Ring-bound Clને ordinary alkyl chloride SN2 substrate ન માનો."
+    ],
+    [
+      "m-chloroaniline",
+      "Haloarylamine substrate",
+      "NH₂/Cl meta patternમાં inductive and resonance maps અલગ પડે છે. Amino group protection અથવા protonation ring substitution orientationને બદલી શકે છે.",
+      "Unprotonated anilineનું directing rule anilinium salt પર સીધું લાગતું નથી."
+    ],
+    [
+      "p-chloroaniline",
+      "Haloarylamine substrate",
+      "Para chloro substituentવાળી primary arylamine diazotizationથી further aromatic transformations માટે useful handle આપે છે. Free amine and ammonium formsની properties અલગ છે.",
+      "Chloroanilineમાં covalent aromatic chlorine છે; aniline hydrochlorideમાં counterion chloride છે."
+    ],
+    [
+      "o-anisidine",
+      "Methoxyarylamine substrate",
+      "2-Methoxyanilineમાં NH₂ અને OMe adjacent છે. Lone-pair donation, protonation અને steric effects સાથે સમજવા; methoxy groupને free phenolની acid–base rule ન આપવી.",
+      "o-Anisidine અને o-aminophenolમાં O–CH₃ bondનો structural ભેદ છે."
+    ],
+    [
+      "thf",
+      "Polar aprotic ether donor solvent",
+      "THFનું oxygen metal/cation સાથે coordinate કરી Grignard/RLi solution chemistryને support કરે છે. O–H નથી, છતાં moisture અથવા solvent decomposition compatibility independent issues છે.",
+      "Dry THF કોઈ reducing reagent નથી; H₂O-containing THF organometallics quench કરી શકે છે."
+    ],
+    [
+      "schiffs-reagent",
+      "Aldehyde color-test formulation",
+      "Fuchsin/sulfite/acid-based formulation aldehyde response માટે વપરાય છે. Color restoration analytical observation છે; reagentને one pure Schiff-base molecule તરીકે દોરવું ખોટું છે.",
+      "A negative/slow test aloneથી all ketones/aldehydesની identity conclusively નક્કી નથી થતી."
+    ],
+    [
+      "dmf",
+      "Polar aprotic amide solvent / formyl source",
+      "DMFનું oxygen donor coordination અને high polarity anionic reactionsને affect કરે છે. Strong organometallic reagent DMF carbonyl પર attack કરીને hydrolytic work-up પછી aldehyde આપી શકે છે.",
+      "Aprotic એટલે universally inert નહીં; DMF પોતે electrophilic amide carbonyl ધરાવે છે."
+    ],
+    [
+      "dioxane",
+      "Cyclic diether solvent",
+      "1,4-Dioxaneમાં two ether oxygens 1,4 positions પર છે; તે 1,3-dioxolane acetal protecting group સમાન નથી. Donor-solvent behavior reaction mediumને affect કરી શકે છે.",
+      "Ether formulation/condition-specific safety માટે supplier SDS જોઈએ; every cyclic etherને identical hydrolysis rule ન આપવી."
+    ],
+    [
+      "concentrated-hcl",
+      "Strong acid / chloride medium",
+      "Aqueous HCl protonation, acid-catalyzed reactions અને amine salt formation માટે medium આપે છે. Bottle concentration listed નથી, તેથી exact assay/molarity assume કરેલું નથી.",
+      "HCl alkene hydration reagentનું નામ નથી; peroxide effectની classic HBr exception HCl માટે copy ન કરવી."
+    ],
+    [
+      "cumene",
+      "Benzylic aromatic substrate",
+      "Isopropylbenzeneમાં benzylic carbon પર one H છે. Cumene hydroperoxide rearrangement industrial phenol/acetone chemistry સાથે જોડાય છે; this is not simple ring hydroxylation.",
+      "Cumene, propylbenzene અને mesitylene C₉ aromatic isomersની connectivity જુદી છે."
+    ],
+    [
+      "anisole",
+      "Aryl ether / activated arene",
+      "Methoxybenzeneમાં O lone pair aromatic ring donation આપે છે, તેથી unprotonated methoxy group ortho/para directing છે. It is not phenol; free O–H proton નથી.",
+      "Anisole અને benzyl methyl etherમાં oxygen-ring connectivity બદલાય છે."
+    ],
+    [
+      "catechol",
+      "Ortho-dihydroxybenzene",
+      "Benzene-1,2-diolનું adjacent O donors metal chelation અને ortho-quinone oxidation chemistry સમજવામાં મદદ કરે છે.",
+      "Catechol 1,2, resorcinol 1,3, hydroquinone 1,4—position પ્રથમ ઓળખો."
+    ],
+    [
+      "hydroquinone",
+      "Para-dihydroxybenzene",
+      "Benzene-1,4-diol redox chemistryમાં p-benzoquinone સાથે સંબંધિત છે. Phenolic OH oxidationને alcohol→ketoneનો isolated carbinol-H template ન આપવો.",
+      "Hydroquinone અને resorcinol પાસે same formula છતાં oxidation/connectivity pathways જુદા છે."
+    ],
+    [
+      "mesitylene",
+      "Symmetrical trialkylbenzene",
+      "1,3,5-Trimethylbenzeneનું symmetry unique aromatic proton environments ઘટાડે છે. Methyl substituents ring activation અને benzylic chemistry બંને આપે છે.",
+      "Three methyl substituentsને one isopropyl substituent સાથે ગૂંચવશો નહીં."
+    ],
+    [
+      "styrene",
+      "Conjugated aryl alkene",
+      "Vinylbenzeneમાં alkene aromatic ring સાથે conjugated છે. Side-chain alkene addition અને aromatic ring substitution અલગ centers છે; benzylic stabilization addition pathwaysને affect કરી શકે છે.",
+      "Styrene PhCH=CH₂ અને ethylbenzene PhCH₂CH₃ની π connectivity અલગ છે."
+    ],
+    [
+      "benzaldehyde",
+      "Non-enolizable aromatic aldehyde",
+      "PhCHOમાં carbonyl α-position પર enolizable sp³ C–H નથી. Suitable strong-base conditionsમાં Cannizzaro disproportionation શક્ય છે; cross-aldolમાં enolate donor બીજું carbonyl હોઈ શકે છે.",
+      "Benzaldehydeનું aldehydic H α-H નથી."
+    ],
+    [
+      "acetophenone",
+      "Enolizable aromatic methyl ketone",
+      "PhCOCH₃માં methyl α-H enol/enolate chemistry આપે છે. It is a methyl ketone, hence appropriate haloform conditions relevant છે; hydride reduction 1-phenylethanol આપે છે.",
+      "Acetophenone અને benzophenoneમાં α-H availability જુદી છે."
+    ],
+    [
+      "oxalic",
+      "Two-carbon dicarboxylic acid",
+      "HOOC–COOHમાં carboxyl groups વચ્ચે methylene નથી. OMSGAP seriesનો zero-CH₂ member છે; redox/titration chemistry carboxylate structure સાથે જોડાય છે.",
+      "Total carbon count બે છે, zero નથી—zero ફક્ત intervening methylene count છે."
+    ],
+    [
+      "malonic",
+      "Active-methylene dicarboxylic acid",
+      "HOOC–CH₂–COOHમાં એક intervening methylene છે. Malonate-ester enolate alkylation અને later decarboxylation synthetic chain buildingમાં અગત્યના છે.",
+      "Malonic acid, malonic ester અને methylmalonic acid જુદા substrates છે."
+    ],
+    [
+      "glutaric",
+      "Five-carbon dicarboxylic acid",
+      "HOOC–(CH₂)₃–COOHમાં ત્રણ methylene અને બે carboxyl carbons છે. Functional-group spacing cyclic derivative ring-size reasoningમાં અગત્યનું છે.",
+      "OMSGAPમાં G = glutaric; total carbon count પાંચ છે."
+    ],
+    [
+      "adipic",
+      "Six-carbon dicarboxylic acid",
+      "HOOC–(CH₂)₄–COOH polymer chemistry અને difunctional monomer reasoningમાં useful છે. Both acid groups chemically relevant છે.",
+      "Four methylene carbons સાથે two carboxyl carbons ઉમેરતાં total છ થાય છે."
+    ],
+    [
+      "pimelic",
+      "Seven-carbon dicarboxylic acid",
+      "HOOC–(CH₂)₅–COOH OMSGAP seriesનો પાંચ methylene member છે. Chain length અને two acid ends independently identify કરો.",
+      "Pimelic total seven-carbon acid છે; pivalic acid branched monocarboxylic acid છે."
+    ],
+    [
+      "maleic",
+      "Z-Butenedioic acid",
+      "COOH groups C=Cની same side પર છે. Geometry intramolecular interactions અને cyclic anhydride formation propensityને fumaric acidથી અલગ બનાવે છે.",
+      "Maleic Z/cis અને fumaric E/transનો સંબંધ aromatic ortho/para numbering નથી."
+    ],
+    [
+      "fumaric",
+      "E-Butenedioic acid",
+      "COOH groups opposite sides પર છે. Trans geometry maleic acid જેવી immediate close approach આપતી નથી; physical/chemical differences formulaથી છુપાય છે.",
+      "E/Z assignment માટે priority groups identify કરવાં; all geometric isomers same properties નથી ધરાવતા."
+    ],
+    [
+      "crotonic",
+      "Unsaturated aliphatic acid",
+      "Common crotonic acid સામાન્ય રીતે (E)-but-2-enoic acid માટે વપરાય છે. Conjugated C=C–COOH electrophilic/nucleophilic addition selectivityને affect કરે છે.",
+      "Crotonic acid અને methacrylic acid constitutional isomers છે."
+    ],
+    [
+      "acrolein",
+      "α,β-Unsaturated aldehyde",
+      "CH₂=CH–CHOમાં carbonyl carbon અને β-carbon બંને electrophilic sites છે. Hard/soft nucleophile અને conditions 1,2 vs 1,4 outcome બદલે છે.",
+      "Acroleinમાં aldehyde અને alkene બંને છે; ordinary allyl alcohol structure ન દોરવી."
+    ],
+    [
+      "pinacol",
+      "Vicinal diol / rearrangement substrate",
+      "2,3-Dimethylbutane-2,3-diol acid-promoted pinacol rearrangementમાં carbocation formation પછી migrationથી carbonyl આપે છે. Migratory aptitude સાથે stereoelectronic alignment પણ relevant છે.",
+      "Pinacol diol છે; pinacolone rearranged ketone છે."
+    ],
+    [
+      "pyrrole",
+      "Electron-rich heteroaromatic",
+      "Nitrogen lone pair aromatic sextetમાં contributes કરે છે, તેથી pyridineની જેમ freely available basic lone pair નથી. Electrophilic substitution સામાન્ય રીતે C2 preference બતાવે છે.",
+      "Pyrrole N–H હાજરી અને weak nitrogen basicity અલગ observations છે."
+    ],
+    [
+      "furan",
+      "Oxygen heteroaromatic",
+      "One oxygen lone pair aromatic sextetમાં contributes કરે છે; ring electron-rich છે. Electrophilic substitution અને Diels–Alder-type diene behavior જુદા contextsમાં આવે છે.",
+      "Furan unsaturated aromatic ring છે; THF saturated ether છે."
+    ],
+    [
+      "thiophene",
+      "Sulfur heteroaromatic",
+      "Five-membered sulfur heteroaromatic ring six π-electron system છે. Common electrophilic substitution C2 preference useful છે; sulfur oxidation અલગ chemistry છે.",
+      "Thiopheneને saturated tetrahydrothiophene સાથે ન ગૂંચવવું."
+    ],
+    [
+      "indole",
+      "Fused pyrrole–benzene heteroaromatic",
+      "Pyrrole-like N lone pair aromatic systemમાં છે. Electrophilic substitution ઘણીવાર C3 પર favored છે; simple pyrrole C2 shortcutને indole પર copy ન કરવી.",
+      "Indole અને isoindole fused connectivity અલગ છે."
+    ],
+    [
+      "quinoline",
+      "Fused azaaromatic",
+      "Benzopyridineમાં pyridine-like nitrogen lone pair aromatic sextetથી અલગ orbitalમાં રહે છે. N protonation અને ring substitution site selectivity જુદા વિષયો છે.",
+      "Quinoline અને isoquinoline nitrogen positionથી જુદાં constitutional isomers છે."
+    ],
+    [
+      "isoquinoline",
+      "Fused azaaromatic",
+      "Benzopyridine frameworkમાં Nનો position quinolineથી બદલાય છે. Pyridine-type basic lone pair રહે છે, પરંતુ numbering અને reactive positions independently ઓળખવા પડે છે.",
+      "Ring nitrogenનું location બદલીને same SMILES label રાખવો ખોટો છે."
+    ],
+    [
+      "pyridine",
+      "Aromatic nitrogen base / acylation medium",
+      "Nitrogen lone pair aromatic π sextetમાં નથી, તેથી protonationથી pyridinium બની શકે છે અને aromaticity retain થાય છે. Acylation chemistryમાં base/nucleophilic role આપી શકે છે.",
+      "Pyridine base અને pyrrole-type lone-pair aromaticity અલગ છે."
+    ],
+    [
+      "pyrimidine",
+      "Diazaaromatic heterocycle",
+      "1,3-Diazineમાં two ring nitrogens electron density ઘટાડે છે; basicity/reactivity pyridineથી બદલાય છે. Ring numbering amino-acid/nucleobase contextsમાં અગત્યનું છે.",
+      "Pyrimidine, pyridazine અને pyrazine N positionsથી જુદાં છે."
+    ],
+    [
+      "imidazole",
+      "Mixed-nitrogen heteroaromatic",
+      "એક pyridine-like N અને એક pyrrole-like N હોવાથી lone-pair roles જુદા છે. Protonation અને tautomerism બંને explain કરો; બંને nitrogens identical electronic roles નથી ધરાવતા.",
+      "Numbering/tautomer labels બદલાય ત્યારે connectivity અને proton location ધ્યાનમાં લો."
+    ],
+    [
+      "thiazole",
+      "N/S heteroaromatic",
+      "Sulfur અને pyridine-like nitrogenવાળી five-membered aromatic ring છે. C2 chemistry neighboring heteroatomsથી affected થાય છે; thiopheneનું simple electron-rich template પૂરતું નથી.",
+      "Thiazole અને isothiazoleમાં heteroatom positions બદલાય છે."
+    ],
+    [
+      "morpholine",
+      "Saturated heterocyclic secondary amine",
+      "Six-membered saturated ringમાં O અને NH opposite છે. It is not aromatic; nitrogen basicity adjacent electronic/solvation effectsથી ordinary piperidineથી જુદી હોઈ શકે છે.",
+      "Morpholineમાં N–H proton છે, N-methylmorpholineમાં નથી."
+    ],
+    [
+      "norbornane",
+      "Bridged bicyclic hydrocarbon",
+      "Bicyclo[2.2.1]heptaneના બે bridgeheads વચ્ચે paths 2,2,1 atoms ધરાવે છે. Rigid geometry face approach અને endo/exo descriptions માટે reference છે.",
+      "Norbornane saturated છે; norborneneમાં double bond હોય છે."
+    ],
+    [
+      "adamantane",
+      "Rigid diamondoid cage",
+      "Tricyclo[3.3.1.1³,⁷]decane rigid cage અને high symmetry ધરાવે છે. Two-dimensional crossing linesને extra atoms તરીકે count ન કરવાં.",
+      "Adamantaneમાં ten carbon atoms છે; it is not an aromatic polycycle."
+    ],
+    [
+      "dabco",
+      "Tertiary-amine nucleophilic catalyst",
+      "1,4-Diazabicyclo[2.2.2]octaneમાં two tertiary nitrogens છે. Baylis–Hillman-type catalysisમાં activated alkene પર reversible nucleophilic additionથી zwitterionic intermediate બનાવી શકે છે.",
+      "DABCOને universally non-nucleophilic base ન ગણવું."
+    ],
+    [
+      "dbu",
+      "Strong bicyclic amidine base",
+      "Conjugate acid resonance stabilization strong basicityમાં મદદ કરે છે. Elimination અને deprotonation માટે ઉપયોગી છે; steric/electronic contextથી nucleophilic side reactions પણ શક્ય છે.",
+      "Strong baseનો અર્થ દરેક substrateમાં exclusive E2 અથવા no nucleophilicity નથી."
+    ],
+    [
+      "dbn",
+      "Strong bicyclic amidine base",
+      "DBN અને DBU related amidine bases છે, પણ ring size અને physical/reactivity properties identical નથી. Proton transferથી conjugate-acid resonance stabilization મળે છે.",
+      "DBNને DBUનું spelling variant ન ગણી canonical IDs અલગ રાખ્યાં છે."
+    ],
+    [
+      "binap",
+      "Axially chiral diphosphine ligand",
+      "Binaphthyl axis અને two PPh₂ donors asymmetric metal catalysis માટે chiral environment આપે છે. Absolute product configuration ligand enantiomer, substrate અને catalytic modelથી નક્કી થાય છે.",
+      "Ordinary connectivity SVG axial Rₐ/Sₐ assignmentનું full 3D proof નથી."
+    ],
+    [
+      "evans",
+      "Covalently attached chiral auxiliary",
+      "Oxazolidinone-derived auxiliary enolate geometry અને ordered transition stateથી aldol diastereoselectivity control કરે છે. Attachment, reaction અને removal ત્રણ અલગ synthesis stages છે.",
+      "Evans auxiliary ligandની જેમ catalyst પર ફક્ત coordinate થતો નથી."
+    ],
+    [
+      "enone",
+      "Conjugated ketone substrate",
+      "Cyclohex-2-en-1-oneમાં carbonyl C અને β-carbon competing electrophilic sites છે. Luche, Grignard અને Gilman વચ્ચે product connectivityનો comparison 1,2/1,4 distinction શીખવે છે.",
+      "An enone reduction and carbon conjugate addition share a substrate but transfer different groups."
+    ],
+    [
+      "ketoester",
+      "Chemoselectivity test substrate",
+      "Ethyl 4-oxocyclohexanecarboxylateમાં ketone અને ester છે. Standard NaBH₄ ketone reduce કરીને ester retain કરી શકે છે; LiAlH₄ broader reduction આપે છે.",
+      "DIBAL-Hથી ester-only reductionની guarantee નથી, કારણ કે ketone પણ reducible છે."
+    ],
+    [
+      "hydrogen-peroxide",
+      "Oxidant / nucleophilic epoxidation precursor",
+      "Peroxideમાં oxygen oxidation state −1 છે. Basic mediumમાં HOO⁻ enoneના β-carbon પર nucleophilic addition કરીને α,β-epoxy ketone આપી શકે છે; isolated alkene માટે same uncatalyzed rule નથી.",
+      "H₂O₂/OH⁻ અને mCPBA opposite electronic preferences ધરાવે છે; catalyst/activation changes scope."
+    ],
+    [
+      "ethylene-glycol",
+      "Diol / cyclic ketal protecting reagent",
+      "HOCH₂CH₂OHના two OH groups carbonyl સાથે acid-catalyzed cyclic acetal/ketal બનાવે છે. Ketone mask થવાથી later basic/hydride reactionsમાં chemoselective planning શક્ય બને છે.",
+      "Ketal formation માટે equilibrium/water activity અને deprotection માટે aqueous acid context જરૂરી છે."
+    ]
+  ]
+}

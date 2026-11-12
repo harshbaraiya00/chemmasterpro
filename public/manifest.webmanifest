@@ -1,0 +1,10 @@
+{
+  "name": "ChemMaster Pro | Harsh Baraiya Edition",
+  "short_name": "ChemMaster Pro",
+  "description": "Offline-ready interactive chemistry learning workspace by Harsh Baraiya. Explore reagents, mechanisms, NCERT XI-XII in Gujarati & English, and active recall.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080e1b",
+  "theme_color": "#080e1b",
+  "lang": "en"
+}

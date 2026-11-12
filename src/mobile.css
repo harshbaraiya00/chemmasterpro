@@ -1,0 +1,156 @@
+/* Phone and tablet layouts keep the same chemistry and study state. */
+.molecule{position:relative}.molecule-loading{position:absolute;inset:0;display:grid;place-items:center;color:#aec4d9;font-size:12px;pointer-events:none}
+.mobile-tools-trigger,.mobile-nav-close,.mobile-level-picker{display:none}
+.topbar-utilities{display:flex;align-items:center;gap:14px}
+.goc-backup-summary{padding:15px;margin:14px 0;border:1px solid #436c87;border-radius:10px;background:#122b40}.goc-backup-summary b{color:#c2e2fb}.goc-backup-summary p{font-size:14px;line-height:1.8;margin:7px 0}.goc-backup-summary small,.backup-file-label small{display:block;color:#aec4d9;font-size:12px;line-height:1.8}.backup-file-label{display:grid;gap:8px;margin:18px 0}.backup-file-label input{display:block;max-width:100%;width:100%;padding:10px;border:1px solid #42627e;border-radius:8px;background:#0c1b2b;font-size:13px}.backup-file-label input::file-selector-button{min-height:44px;padding:8px 12px;margin-right:12px;border:1px solid #577c9b;border-radius:6px;background:#193b57;color:#e5f2ff}
+.study-resume{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 39px 0;padding:14px 16px;background:#10283a;border:1px solid #3e6580;border-radius:10px}.study-resume>span{color:#a6c8e3;font-size:12px;margin-right:auto}.study-resume .button{font-size:12px;text-align:left;white-space:normal}
+.topbar{position:relative}
+.diagram-scroll-viewport{min-width:0;overflow:auto;overscroll-behavior-x:contain;overscroll-behavior-y:auto;-webkit-overflow-scrolling:touch}
+.diagram-zoom-wrap.diagram-fullscreen{position:fixed;inset:12px;z-index:220;display:flex;flex-direction:column;overflow:hidden;max-height:calc(100dvh - 24px);outline:none}
+.diagram-fullscreen>.diagram-zoom-toolbar{flex-shrink:0;padding:8px;background:#08111f}
+.diagram-fullscreen>.diagram-scroll-viewport{flex:1;min-height:0;overscroll-behavior-y:contain}
+@media(max-width:1200px){
+  .topbar{gap:10px}
+  .topbar-breadcrumb{min-width:0;flex:1}
+  .topbar-breadcrumb>b{overflow:hidden;text-overflow:ellipsis}
+  .topbar-actions{gap:8px;flex-shrink:0}
+  .mobile-tools-trigger{display:inline-flex;width:44px;height:44px;flex-shrink:0}
+  .topbar-utilities{display:none;position:absolute;right:16px;top:calc(100% + 8px);z-index:65;width:min(310px,calc(100vw - 32px));padding:14px;border:1px solid #456581;border-radius:12px;background:#102137;box-shadow:0 12px 35px #0008}
+  .topbar-utilities.is-open{display:grid;gap:10px}
+  .topbar-utilities .motion-control{width:100%;min-height:44px;display:flex;align-items:center;justify-content:flex-start;gap:12px;padding:10px 12px;border:1px solid #3a5873;border-radius:8px;font-size:13px}
+  .topbar-utilities .motion-control span{display:inline}
+  .topbar-utilities .offline-pill{justify-content:center;min-height:38px;font-size:12px}
+}
+@media(max-width:900px){
+  .study-resume{margin:14px 16px 0;padding:12px}.study-resume>span{flex-basis:100%;font-size:12px}.study-resume .button{width:100%;justify-content:flex-start;font-size:13px}
+  :root{scroll-padding-top:82px}
+  body{-webkit-text-size-adjust:100%}
+  .main-shell{margin-left:0;min-width:0}
+  .sidebar{transform:translateX(-100%);width:min(320px,calc(100vw - 32px));padding:64px 18px max(12px,env(safe-area-inset-bottom));height:100dvh;overflow-y:auto;overscroll-behavior:contain;transition:transform .2s}
+  .sidebar.mobile-open{transform:translateX(0)}
+  .sidebar-overlay{display:block;position:fixed;inset:0;z-index:60;background:#020812bd;backdrop-filter:none}
+  .mobile-nav-close{display:flex;position:absolute;right:14px;top:max(10px,env(safe-area-inset-top));width:44px;height:44px}
+  .sidebar .nav-item,.sidebar.mobile-open .nav-item{font-size:14px;min-height:48px;padding:12px;gap:12px}
+  .sidebar .nav-caption{font-size:10px}
+  .sidebar .brand small{font-size:8px}
+  .sidebar .workspace-label{font-size:10px}
+  .topbar{height:64px;padding:0 max(12px,env(safe-area-inset-right)) 0 max(12px,env(safe-area-inset-left));gap:8px}
+  .topbar-breadcrumb{gap:5px;min-width:0}
+  .topbar-breadcrumb>b,.topbar-breadcrumb>svg,.topbar-breadcrumb>span:not(.mobile-wordmark){display:none}
+  .topbar-breadcrumb>.mobile-wordmark{display:inline-block;font-size:18px;white-space:nowrap}
+  .mobile-menu{display:inline-flex!important;width:44px;height:44px;margin:0;flex-shrink:0}
+  .topbar-actions{gap:4px}
+  .topbar .search-trigger{display:flex;width:44px;height:44px;min-width:44px;justify-content:center;padding:10px;border:0;background:transparent}
+  .topbar .search-trigger>span,.topbar .search-trigger>kbd,.topbar-avatar,.portfolio-trigger{display:none}
+  .hero{margin:0 16px;min-height:0;overflow:hidden;contain:paint}
+  .hero-copy{padding:24px 0;max-width:100%;min-width:0}
+  .hero h1{font-size:clamp(25px,5vw,34px);line-height:1.3}
+  .hero p{font-size:13px;line-height:1.8}
+  .hero-art{pointer-events:none}
+  .creator-credit{white-space:normal;text-align:left;min-height:44px;font-size:11px;line-height:1.65;max-width:100%}
+  .creator-credit small{display:block;margin:3px 0 0;padding:0;border:0;font-size:10px}
+  .level-switcher{padding:8px max(12px,env(safe-area-inset-right)) 8px max(12px,env(safe-area-inset-left));gap:0;backdrop-filter:none}
+  .level-switcher>.level-switcher-label,.level-switcher>.level-options{display:none}
+  .mobile-level-picker{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:center;width:100%;font-size:11px;color:#bad1e6}
+  .mobile-level-picker select{width:100%;min-width:0;min-height:44px;font-size:16px;background:#132b41;border:1px solid #4b7896;border-radius:8px;color:#e3efff;padding:8px 28px 8px 10px;color-scheme:dark}
+  .mobile-level-picker option{color:#e3efff;background:#132b41}
+  .workspace-content{padding:24px 16px 0;min-width:0}
+  .module-heading{display:block}
+  .module-heading h2{font-size:26px}
+  .module-heading p{font-size:13px;line-height:1.8;max-width:100%}
+  .module-heading>.module-heading-right{min-width:0;display:flex;flex-direction:column;align-items:stretch!important;gap:10px;margin-top:14px}
+  .module-heading .eyebrow{font-size:10px;letter-spacing:1px}
+  .curated-label{font-size:11px;white-space:normal}
+  .module-search{width:100%;min-height:46px;min-width:0}
+  .module-search input{min-width:0;font-size:16px}
+  input:not([type=checkbox]):not([type=radio]),select,textarea{font-size:16px!important;max-width:100%}
+  button,.button,.icon-btn{min-height:44px;min-width:44px;touch-action:manipulation}
+  button:disabled{touch-action:auto}
+  .filter-row{display:flex;flex-wrap:nowrap;overflow-x:auto;max-width:100%;gap:8px;padding:2px 1px 9px;scrollbar-width:thin;overscroll-behavior-x:contain}
+  .filter-row>.filter-chip{flex:0 0 auto;white-space:nowrap;min-height:44px;font-size:12px}
+  .workspace-footer{flex-wrap:wrap;gap:12px;padding-bottom:max(20px,env(safe-area-inset-bottom))}
+  .workspace-footer button{padding:10px 12px}
+  .lab-controls{flex-wrap:wrap;gap:12px}
+  .lab-controls label{flex:1;min-width:0;width:100%}
+  .lab-controls select{width:100%;min-height:46px}
+  .lab-controls .button{font-size:12px;min-height:44px}
+  .lab-header{flex-wrap:wrap;gap:10px}
+  .lab-header .section-label{min-width:0;flex:1}
+  .lab-header .section-label h3{font-size:16px;line-height:1.5}
+  .lab-header .section-label p{font-size:12px;max-width:none;line-height:1.8}
+  .live-badge{font-size:9px;letter-spacing:.5px}
+  .reagent-choice>span{font-size:12px}.reagent-choice small{font-size:11px}
+  .structure-name{font-size:13px}.lab-explanation p{font-size:13px;line-height:1.85}
+  .reagent-card .card-top .icon-btn,.compound-card .icon-btn,.reaction-card .icon-btn{width:44px;min-height:44px}
+  .reagent-card .info-row p,.reaction-card .info-row p{font-size:13px;line-height:1.8}
+  .reagent-card .trap p,.reaction-card .trap p{font-size:12px;line-height:1.85}
+  .card-title-button h3,.compound-copy .card-title-button h3{font-size:17px;line-height:1.5}
+  .level-badge,.reagent-card .level-badge,.compound-card .level-badge,.reaction-card .level-badge{font-size:9px;line-height:1.5}
+  .guided-nodes-grid,.glossary-grid,.offline-packs-grid,.node-checks-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+  .mech-select-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr))}
+  .quiz-modes button{white-space:normal;font-size:12px}
+  .goc-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .goc-tabs button{min-width:0;font-size:13px;min-height:46px}
+  .goc-intro{padding:18px}
+  .goc-workspace .goc-context,.goc-workspace .goc-detail-copy,.goc-workspace .goc-structure-reason{font-size:13px;line-height:1.9}
+  .goc-workspace .goc-structure-heading button{font-size:12px;min-height:44px}
+  .goc-workspace .goc-structure-figure figcaption{font-size:14px}
+  .goc-workspace .goc-structure-figure>p,.goc-workspace .goc-structure-metric{font-size:13px}
+  .goc-workspace .goc-structure-legend{font-size:11px}
+  .goc-order-card summary{font-size:13px;padding:14px 0;min-height:44px}
+  .goc-rank-list button{width:44px;height:44px;flex-shrink:0}
+  .goc-references a{padding:10px;min-height:44px;font-size:11px}
+  .goc-structure-view-control{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .goc-structure-view-control button{font-size:12px;padding:10px;white-space:normal}
+  .study-tabs button{min-height:46px;font-size:12px}
+  .diagram-zoom-toolbar .button{min-width:44px;min-height:44px;font-size:12px}
+  .diagram-zoom-wrap.diagram-fullscreen{inset:0;max-height:100dvh;height:100dvh;border-radius:0;padding:12px max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))}
+  .mechanism-sheet-header{flex-direction:column;padding:16px;gap:12px}
+  .mechanism-sheet-actions{justify-content:flex-start;width:100%}
+  .mechanism-sheet .button{font-size:12px;min-height:44px;white-space:normal}
+  .mechanism-pathway{padding:0 10px 20px}
+  .mechanism-event-title{min-height:48px;text-align:left}
+  .mechanism-map-note{font-size:13px;line-height:1.85}
+  .mechanism-state-svg{min-width:0;max-width:100%}
+  .toast{max-width:calc(100vw - 24px);bottom:max(16px,env(safe-area-inset-bottom));font-size:13px}
+}
+.workflow-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.workflow-tabs>button{min-width:0;white-space:normal;line-height:1.6}.backup-status-msg{overflow-wrap:anywhere}.backup-import-box{display:grid;gap:12px}.backup-import-box textarea{width:100%;min-width:0;min-height:140px;resize:vertical}.backup-import-box>.button{justify-self:start;white-space:normal}
+@media(max-width:600px){
+  .workflow-tabs{grid-template-columns:1fr}.workflow-tabs>button{min-height:44px;font-size:13px}
+  .hero-art{display:none}
+  .hero h1{font-size:28px}
+  .mobile-level-picker>span{font-size:11px}
+  .modal-backdrop,.drawer-backdrop{padding:0;align-items:stretch}
+  .modal,.modal.modal-wide,.modal.drawer{width:100%;max-width:100%;height:100dvh;max-height:100dvh;border-radius:0;margin:0}
+  .modal-header{padding:max(12px,env(safe-area-inset-top)) 14px 12px;flex-shrink:0;gap:10px}
+  .modal-header>div{min-width:0}
+  .modal-header h2{font-size:21px;overflow-wrap:anywhere}
+  .modal-header>.icon-btn{flex-shrink:0;width:44px;height:44px}
+  .modal-body,.drawer .modal-body{padding:16px 14px max(20px,env(safe-area-inset-bottom));min-height:0;overscroll-behavior:contain}
+  .modal-body :is(.compact-masthead,.atlas-metadata,.learning-actions){flex-wrap:wrap}
+  .modal-body .study-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));position:static}
+  .modal-body .study-tabs button{font-size:13px;min-height:46px}
+  .easy-chapter .compact-masthead code{font-size:18px;overflow-wrap:anywhere}
+  .goc-order-card{padding:14px}
+  .goc-workspace .goc-structure-svg{min-height:0;max-height:250px}
+  .goc-workspace .goc-enlarge-label{font-size:12px;min-height:36px}
+  .goc-structure-grid{gap:14px}
+  .lab-stage{grid-template-columns:1fr;gap:12px}
+  .lab-arrow{min-height:70px;transform:none}
+  .lab-arrow>svg{transform:rotate(90deg)}
+  .lab-arrow>span{font-size:12px}
+  .lab-header .live-badge{display:none}
+  .lab-reagents{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .reagent-choice{overflow-wrap:anywhere}
+  .reagent-choice>span{font-size:12px}
+  .goc-intro h2{font-size:26px}
+}
+@media(max-width:350px){
+  .topbar-breadcrumb>.mobile-wordmark{font-size:16px}
+  .topbar{padding-left:6px;padding-right:6px;gap:2px}
+  .topbar-actions{gap:0}
+  .workspace-content{padding-left:12px;padding-right:12px}
+  .hero{margin:0 12px}
+  .mobile-level-picker>span{display:none}
+  .mobile-level-picker{grid-template-columns:minmax(0,1fr)}
+}

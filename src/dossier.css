@@ -1,0 +1,348 @@
+.modal:has(.chemical-dossier) {
+  max-width: 1050px;
+  max-height: 94dvh;
+}
+.modal:has(.chemical-dossier) > .modal-body {
+  padding: 0;
+}
+.chemical-dossier {
+  padding: 26px 28px 0;
+  background: #0d1929;
+}
+.dossier-intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  align-items: center;
+  padding-bottom: 22px;
+}
+.dossier-intro h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 12px;
+  color: #c3e1e8;
+}
+.dossier-intro .button {
+  flex-shrink: 0;
+}
+.chemical-dossier .atlas-tabs {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.chemical-dossier .atlas-tabs button {
+  flex-shrink: 0;
+}
+.dossier-identity {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 22px;
+  align-items: center;
+  border: 1px solid #35516b;
+  padding: 19px;
+  border-radius: 9px;
+  margin-bottom: 23px;
+}
+.dossier-identity h4 {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 12px 0;
+  color: #cbdfe7;
+}
+.dossier-identity code {
+  display: block;
+  font-size: 16px;
+  color: #d6b791;
+  margin-bottom: 15px;
+}
+.dossier-identity p,
+.dossier-notes p,
+.dossier-case .atlas-prose p,
+.dossier-steps p,
+.dossier-memory p,
+.deep-study p,
+.deep-challenge h4 {
+  font:
+    13px/2.05 "Noto Gujarati",
+    sans-serif;
+  color: #b2c6d4;
+}
+.dossier-notes {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 23px;
+}
+.dossier-notes section {
+  border: 1px solid #35516b66;
+  padding: 22px;
+  border-radius: 8px;
+  background: #172d3e33;
+}
+.dossier-notes h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #a9d6e3;
+  margin: 12px 0;
+}
+.dossier-memory {
+  display: flex;
+  gap: 13px;
+  align-items: flex-start;
+  margin: 22px 0;
+  padding: 20px;
+  background: #aa8b4b0b;
+  border: 1px solid #a58a4540;
+  border-radius: 7px;
+  color: #d6b47f;
+}
+.dossier-memory p {
+  margin-top: 8px;
+}
+.dossier-case {
+  border: 1px solid #35516b88;
+  padding: 22px;
+  border-radius: 9px;
+  margin: 18px 0 24px;
+}
+.dossier-case > h3 {
+  font-size: 19px;
+  line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 18px;
+  color: #d0e3ec;
+}
+.dossier-case > h4 {
+  font-size: 14px;
+  color: #9ad1df;
+  margin: 23px 0 14px;
+}
+.dossier-equation {
+  border: 1px solid #40708388;
+  background: #153a4826;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow-wrap: anywhere;
+}
+.dossier-equation > p {
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 15px 0;
+  color: #c5e7ec;
+}
+.dossier-equation > small {
+  font-size: 11px;
+  color: #b9a785;
+  line-height: 1.8;
+}
+.dossier-steps {
+  display: grid;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+.dossier-steps > li {
+  display: flex;
+  gap: 15px;
+  border-left: 1px solid #4a84987a;
+  padding: 14px 16px;
+  background: #1c34452b;
+}
+.dossier-steps > li > span {
+  display: grid;
+  place-items: center;
+  border: 1px solid #4d7784;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  font-size: 11px;
+  color: #a4dfec;
+}
+.dossier-scope {
+  font-size: 10px;
+  line-height: 1.8;
+  color: #7a94a9;
+  margin-top: 20px;
+}
+.chemical-dossier > .button {
+  margin-bottom: 15px;
+}
+.chemical-dossier .atlas-reference {
+  margin-top: 30px;
+}
+.deep-study {
+  margin: 28px 0 32px;
+}
+.deep-study .eyebrow {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.deep-study-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.deep-study-grid > article {
+  border: 1px solid #38647966;
+  background: linear-gradient(140deg, #19334255, #12213166);
+  border-radius: 8px;
+  padding: 22px;
+}
+.deep-study h4 {
+  font-size: 13px;
+  line-height: 1.8;
+  font-weight: 500;
+  color: #9ad5e2;
+  margin-bottom: 11px;
+}
+.deep-challenge {
+  border: 1px solid #aa884c55;
+  background: #a57d2b0a;
+  border-radius: 8px;
+  padding: 18px 21px;
+  margin-top: 16px;
+}
+.deep-challenge summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #d1b78e;
+  font-size: 12px;
+}
+.deep-challenge summary > svg:last-child {
+  margin-left: auto;
+}
+.deep-challenge[open] summary > svg:last-child {
+  transform: rotate(90deg);
+}
+.deep-challenge h4 {
+  color: #d3e4ed;
+  margin: 20px 0 12px;
+}
+.molecular-sequence {
+  border: 1px solid #46728466;
+  background: #132c3b33;
+  border-radius: 8px;
+  padding: 19px;
+  margin: 24px 0;
+}
+.molecular-strip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 13px 0;
+}
+.molecular-strip > article {
+  min-width: 155px;
+  flex: 1;
+  text-align: center;
+  border: 1px solid #3c586b55;
+  border-radius: 6px;
+  background: #0b1724;
+}
+.molecular-strip .molecule {
+  min-width: 145px;
+}
+.molecular-strip > article > span {
+  display: block;
+  min-height: 45px;
+  padding: 9px;
+  font-size: 10px;
+  line-height: 1.65;
+  color: #9ac8d7;
+}
+.molecular-step-arrow {
+  font-size: 21px;
+  color: #7ccad8;
+}
+.molecular-sequence > p {
+  font-size: 10px;
+  line-height: 1.8;
+  color: #7d9bb1;
+  margin-top: 10px;
+}
+.lab-study-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 22px 20px;
+}
+.lab-study-links .button {
+  font-size: 10px;
+}
+@media (max-width: 700px) {
+  .modal:has(.chemical-dossier) {
+    width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    border-radius: 0;
+  }
+  .chemical-dossier {
+    padding: 20px 17px 0;
+  }
+  .dossier-intro {
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .dossier-intro h3 {
+    font-size: 17px;
+  }
+  .dossier-intro .button {
+    font-size: 9px;
+    padding: 9px;
+  }
+  .dossier-identity {
+    grid-template-columns: 1fr;
+    padding: 16px;
+    gap: 8px;
+  }
+  .dossier-identity .molecule {
+    max-height: 190px;
+  }
+  .dossier-notes section,
+  .dossier-case {
+    padding: 17px;
+  }
+  .deep-study-grid {
+    grid-template-columns: 1fr;
+  }
+  .deep-study-grid > article {
+    padding: 18px;
+  }
+  .deep-study p,
+  .dossier-identity p,
+  .dossier-notes p,
+  .dossier-steps p {
+    font-size: 13px;
+  }
+  .deep-study .atlas-section-title h3 {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .molecular-sequence {
+    padding: 14px;
+  }
+  .molecular-strip > article {
+    min-width: 170px;
+  }
+  .dossier-equation {
+    padding: 19px;
+  }
+  .dossier-equation > p {
+    font-size: 14px;
+  }
+  .lab-study-links {
+    padding: 0 15px 16px;
+  }
+  .chemical-dossier .atlas-reference {
+    gap: 10px;
+  }
+}
+
+.compound-card {
+  cursor: pointer;
+}

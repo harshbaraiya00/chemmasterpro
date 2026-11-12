@@ -1,0 +1,285 @@
+[
+  {
+    "id": "ncert-book-redox-electrons",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "redox",
+    "kind": "concept",
+    "name": "Redox: electron transfer & reagent roles",
+    "pages": [
+      235,
+      238
+    ],
+    "equation": "Zn + Cu²⁺ → Zn²⁺ + Cu",
+    "structures": [],
+    "conditions": "Aqueous Zn/Cu²⁺ model",
+    "summary": "Zn electrons આપે છે એટલે oxidation થાય છે. Cu²⁺ એ electrons સ્વીકારે છે એટલે reduction થાય છે.",
+    "why": "Electron donor reducing agent છે અને પોતે oxidise થાય છે. Electron acceptor oxidising agent છે અને પોતે reduce થાય છે.",
+    "steps": [
+      "Zn → Zn²⁺ + 2e⁻ લખો.",
+      "Cu²⁺ + 2e⁻ → Cu લખો.",
+      "બંને half-reactions જોડો; electrons cancel થાય છે."
+    ],
+    "trap": "Oxidising agent ને oxidised થતું species સમજી ન લેવું.",
+    "quiz": {
+      "question": "Which species is the reducing agent in Zn + Cu²⁺ → Zn²⁺ + Cu?",
+      "answer": "Zn",
+      "distractors": [
+        "Cu²⁺",
+        "Zn²⁺",
+        "Cu"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-oxidation-number",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "redox",
+    "kind": "concept",
+    "name": "Oxidation number: rules & exceptions",
+    "pages": [
+      239,
+      241
+    ],
+    "equation": "KMnO₄: (+1) + x + 4(−2) = 0 ⇒ Mn = +7",
+    "structures": [],
+    "conditions": "Formal electron-accounting rules",
+    "summary": "Oxidation number formal bookkeeping છે; દરેક atom નો actual ionic charge હોવો જરૂરી નથી.",
+    "why": "Neutral compound માં oxidation numbers નો sum zero અને ion માં તેના charge જેટલો હોય છે. O સામાન્ય રીતે −2; peroxide માં −1. H સામાન્ય રીતે +1; metal hydride માં −1.",
+    "steps": [
+      "Elemental form માટે oxidation number zero રાખો.",
+      "Known atoms ના values મૂકો અને unknown માટે x લો.",
+      "Total charge સાથે sum સરખાવી x શોધો."
+    ],
+    "trap": "OF₂ માં O = +2 છે; oxygen હંમેશાં −2 નથી.",
+    "quiz": {
+      "question": "What is the oxidation number of Mn in KMnO₄?",
+      "answer": "+7",
+      "distractors": [
+        "+2",
+        "+4",
+        "−7"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-redox-types",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "redox",
+    "kind": "concept",
+    "name": "Combination, decomposition & displacement",
+    "pages": [
+      241,
+      243
+    ],
+    "equation": "2Mg + O₂ → 2MgO   |   Fe + Cu²⁺ → Fe²⁺ + Cu",
+    "structures": [],
+    "conditions": "Compare oxidation numbers before and after",
+    "summary": "Reaction નું નામ માત્ર જોઈને redox નક્કી ન કરો. ઓછામાં ઓછા બે oxidation-number changes તપાસો.",
+    "why": "Combination, decomposition અને displacement reactions redox હોઈ શકે છે. પરંતુ દરેક decomposition redox નથી: CaCO₃ → CaO + CO₂ માં oxidation numbers બદલાતા નથી.",
+    "steps": [
+      "Reactants અને products માં relevant atoms ના numbers લખો.",
+      "Increase ને oxidation અને decrease ને reduction કહો.",
+      "કોઈ change ન હોય તો acid–base અથવા non-redox conversion હોઈ શકે."
+    ],
+    "trap": "Gas નીકળે છે એટલે reaction redox છે એવું નથી.",
+    "quiz": {
+      "question": "Which decomposition is NOT a redox reaction?",
+      "answer": "CaCO₃ → CaO + CO₂",
+      "distractors": [
+        "2KClO₃ → 2KCl + 3O₂",
+        "2HgO → 2Hg + O₂",
+        "2H₂O₂ → 2H₂O + O₂"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-disproportionation-peroxide",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "redox",
+    "kind": "reaction",
+    "name": "Disproportionation of hydrogen peroxide",
+    "pages": [
+      243,
+      244
+    ],
+    "equation": "2H₂O₂ → 2H₂O + O₂",
+    "structures": [
+      {
+        "name": "Hydrogen peroxide",
+        "smiles": "OO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Water",
+        "smiles": "O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Oxygen",
+        "smiles": "O=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Decomposition; catalyst may accelerate the process",
+    "summary": "એક જ reactant માંનું O એક ભાગમાં reduce અને બીજા ભાગમાં oxidise થાય છે.",
+    "why": "H₂O₂ માં O = −1 છે. Water માં −2 અને O₂ માં 0 બને છે; એટલે same oxidation state બે અલગ directions માં જાય છે.",
+    "steps": [
+      "Reactant O નું −1 ઓળખો.",
+      "Water માટે reduction અને O₂ માટે oxidation mark કરો.",
+      "2H₂O₂ → 2H₂O + O₂ માં atoms check કરો."
+    ],
+    "trap": "એક જ element ની oxidation અને reduction જરૂરી છે; માત્ર two products પૂરતા નથી.",
+    "quiz": {
+      "question": "Which oxidation-number changes occur in H₂O₂ disproportionation?",
+      "answer": "−1 to −2 and 0",
+      "distractors": [
+        "−2 to −1 only",
+        "0 to −2 only",
+        "+1 to −1 and 0"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-balance-oxidation-method",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "redox",
+    "kind": "concept",
+    "name": "Balancing by oxidation-number change",
+    "pages": [
+      244,
+      246
+    ],
+    "equation": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O",
+    "structures": [],
+    "conditions": "Acidic medium",
+    "summary": "Mn +7 થી +2 આવે એટલે 5 electrons લે છે. Fe²⁺ થી Fe³⁺ દરેક Fe 1 electron આપે છે; તેથી 5 Fe²⁺ જોઈએ.",
+    "why": "Electron loss અને gain equal કર્યા પછી O ને H₂O અને H ને H⁺ થી balance કરો. છેલ્લે total charge પણ balance હોવો જોઈએ.",
+    "steps": [
+      "Mn નો decrease 5 અને Fe નો increase 1 ગણો.",
+      "Fe²⁺ અને Fe³⁺ માટે coefficient 5 મૂકો.",
+      "4H₂O અને 8H⁺ ઉમેરી atoms તથા charge તપાસો."
+    ],
+    "trap": "Atoms balanced હોવા છતાં charge unbalanced હોય તો ionic equation ખોટી છે.",
+    "quiz": {
+      "question": "How many Fe²⁺ ions reduce one MnO₄⁻ to Mn²⁺ in acid?",
+      "answer": "5",
+      "distractors": [
+        "2",
+        "3",
+        "7"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-half-reaction-acid",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "redox",
+    "kind": "concept",
+    "name": "Ion–electron method in acidic medium",
+    "pages": [
+      246,
+      248
+    ],
+    "equation": "Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O",
+    "structures": [],
+    "conditions": "Acidic medium; half-reaction accounting",
+    "summary": "મોટી redox equation ને oxidation અને reduction ની બે half-reactions માં વહેંચો.",
+    "why": "Cr₂O₇²⁻ ના બે Cr કુલ 6 electrons લે છે. Fe²⁺ ની oxidation half-reaction ને 6 થી multiply કરવાથી electrons cancel થાય છે.",
+    "steps": [
+      "Cr₂O₇²⁻ → 2Cr³⁺ માં O માટે 7H₂O ઉમેરો.",
+      "H માટે 14H⁺ અને charge માટે 6e⁻ ઉમેરો.",
+      "6Fe²⁺ → 6Fe³⁺ + 6e⁻ જોડીને electrons cancel કરો."
+    ],
+    "trap": "Final equation માં free electrons બાકી ન રહેવા જોઈએ.",
+    "quiz": {
+      "question": "How many electrons are gained by Cr₂O₇²⁻ when both Cr become Cr³⁺?",
+      "answer": "6",
+      "distractors": [
+        "2",
+        "3",
+        "14"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-half-reaction-base",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "redox",
+    "kind": "concept",
+    "name": "Ion–electron method in basic medium",
+    "pages": [
+      247,
+      248
+    ],
+    "equation": "2MnO₄⁻ + I⁻ + H₂O → 2MnO₂ + IO₃⁻ + 2OH⁻",
+    "structures": [],
+    "conditions": "Basic medium; illustrative balanced example",
+    "summary": "Basic equation માં final answer માં H⁺ બાકી ન રાખો. જરૂર હોય તો acidic balance પછી બંને બાજુ OH⁻ ઉમેરો.",
+    "why": "Mn +7 થી +4 થાય છે અને I −1 થી +5 જાય છે. 2 Mn કુલ 6 electrons લે છે; એક iodide 6 electrons આપે છે.",
+    "steps": [
+      "Half-reactions માં electron gain/loss equal કરો.",
+      "H⁺ હોય ત્યાં બંને sides OH⁻ ઉમેરી H₂O બનાવો.",
+      "Common H₂O cancel કરીને atoms અને net charge ફરી check કરો."
+    ],
+    "trap": "Medium પ્રમાણે MnO₄⁻ નો reduction product બદલાય છે; Mn²⁺ universal product નથી.",
+    "quiz": {
+      "question": "Which species may remain in a correctly balanced basic-medium equation?",
+      "answer": "OH⁻",
+      "distractors": [
+        "Uncancelled H⁺",
+        "Uncancelled electrons",
+        "Extra unbalanced oxygen"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-galvanic-direction",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "redox",
+    "kind": "concept",
+    "name": "Galvanic cell: anode, cathode & electron flow",
+    "pages": [
+      249,
+      251
+    ],
+    "equation": "Anode: Zn → Zn²⁺ + 2e⁻   |   Cathode: Cu²⁺ + 2e⁻ → Cu",
+    "structures": [],
+    "conditions": "Spontaneous Zn/Cu galvanic-cell model",
+    "summary": "Anode પર oxidation અને cathode પર reduction થાય છે. External wire માં electrons Zn થી Cu electrode તરફ જાય છે.",
+    "why": "Salt bridge solution માં charge balance રાખે છે; electrons salt bridge માંથી પસાર થતા નથી. Galvanic cell માં anode negative અને cathode positive હોય છે.",
+    "steps": [
+      "Oxidation half-cell ને anode કહો.",
+      "Reduction half-cell ને cathode કહો.",
+      "Electron flow અને ionic migration ને અલગ track કરો."
+    ],
+    "trap": "Anode = oxidation હંમેશાં સાચું છે; electrode નું sign galvanic અને electrolytic cells માં અલગ હોઈ શકે.",
+    "quiz": {
+      "question": "Through which path do electrons travel in a galvanic cell?",
+      "answer": "The external wire",
+      "distractors": [
+        "The salt bridge",
+        "Only the electrolyte",
+        "From cathode to anode through solution"
+      ],
+      "level": "slot1"
+    }
+  }
+]

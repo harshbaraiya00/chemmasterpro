@@ -1,0 +1,586 @@
+[
+  {
+    "id": "ncert-book-skeletal-language",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "structure",
+    "name": "Read skeletal structures without guessing",
+    "pages": [
+      258,
+      260
+    ],
+    "equation": "Line ends and unlabelled corners represent carbon atoms.",
+    "structures": [
+      {
+        "name": "Butane",
+        "smiles": "CCCC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Cyclohexane",
+        "smiles": "C1CCCCC1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Prop-1-yne",
+        "smiles": "CC#C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Skeletal notation",
+    "summary": "Skeletal drawing માં unlabelled corner અને line end carbon બતાવે છે. Carbon ના H સામાન્ય રીતે લખાતા નથી; O, N અને halogens લખાય છે.",
+    "why": "Carbon ની valency four છે. Single, double અને triple bonds ગણ્યા પછી બાકીની valency જેટલા H પૂરા કરો.",
+    "steps": [
+      "દરેક corner અને end ને carbon તરીકે count કરો.",
+      "Multiple bonds ને bond order પ્રમાણે ગણો.",
+      "Heteroatoms અને તેમના attached H અલગ ઓળખો."
+    ],
+    "trap": "Ring ની અંદર લખાયેલું circle અલગ atom નથી; aromatic π system નું shorthand છે.",
+    "quiz": {
+      "question": "How many carbon atoms are represented by a simple six-cornered hexagon?",
+      "answer": "6",
+      "distractors": [
+        "5",
+        "7",
+        "12"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-functional-groups",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "structure",
+    "name": "Recognise the functional group first",
+    "pages": [
+      261,
+      262
+    ],
+    "equation": "Alcohol: R–OH   |   Aldehyde: R–CHO   |   Ketone: R–CO–R′",
+    "structures": [
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanoic acid",
+        "smiles": "CC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Functional-group identification",
+    "summary": "Molecule માં reactive part functional group છે. માત્ર O atom જોઈને alcohol ન કહો; તેની bonding જુઓ.",
+    "why": "OH aromatic ring સાથે હોય તો phenol; carbonyl carbon સાથે હોય તો carboxylic acid. Aldehyde ના carbonyl carbon સાથે ઓછામાં ઓછો એક H જોડાયેલો હોય છે.",
+    "steps": [
+      "સૌપ્રથમ C=O, OH, NH₂ અથવા C–X શોધો.",
+      "તેની આસપાસ જોડાયેલા atoms તપાસો.",
+      "પછી compound family અને possible reaction type નક્કી કરો."
+    ],
+    "trap": "Carboxylic acid નું –OH ordinary alcohol જેવું વર્તતું નથી.",
+    "quiz": {
+      "question": "Which functional group is present in CH₃CHO?",
+      "answer": "Aldehyde",
+      "distractors": [
+        "Ketone",
+        "Alcohol",
+        "Ether"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-iupac-priority",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "concept",
+    "name": "IUPAC: parent chain, suffix & locants",
+    "pages": [
+      262,
+      269
+    ],
+    "equation": "CH₃COCH₂COOH = 3-oxobutanoic acid",
+    "structures": [
+      {
+        "name": "3-Oxobutanoic acid",
+        "smiles": "CC(=O)CC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Basic IUPAC naming workflow",
+    "summary": "Principal functional group ધરાવતી parent chain પસંદ કરો. તેની suffix અને smallest appropriate locant પરથી numbering શરૂ કરો.",
+    "why": "આ example માં carboxylic acid principal group છે; ketone ને oxo prefix તરીકે લખીએ છીએ. –COOH carbon chain નો carbon-1 છે.",
+    "steps": [
+      "Principal functional group શોધો.",
+      "તેને સામેલ કરતી યોગ્ય longest chain લો.",
+      "Numbering પછી substituent, multiple bond અને suffix ગોઠવો."
+    ],
+    "trap": "દરેક molecule માં માત્ર longest chain જોવાથી સાચી parent chain મળતી નથી; functional-group inclusion જરૂરી છે.",
+    "quiz": {
+      "question": "What is the IUPAC name of CH₃COCH₂COOH?",
+      "answer": "3-Oxobutanoic acid",
+      "distractors": [
+        "2-Oxobutanoic acid",
+        "Butan-2-ol",
+        "3-Hydroxybutanal"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-constitutional-isomers",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "structure",
+    "name": "Structural isomerism: same formula, new connectivity",
+    "pages": [
+      270,
+      271
+    ],
+    "equation": "C₂H₆O: ethanol and dimethyl ether",
+    "structures": [
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Dimethyl ether",
+        "smiles": "COC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Butane",
+        "smiles": "CCCC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "2-Methylpropane",
+        "smiles": "CC(C)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Constitutional isomerism",
+    "summary": "Same molecular formula હોવા છતાં atoms ની connectivity અલગ હોય તો structural isomers બને છે.",
+    "why": "Ethanol અને dimethyl ether functional isomers છે. Butane અને 2-methylpropane chain isomers છે; તેમને conformers સાથે mix ન કરો.",
+    "steps": [
+      "Molecular formulas સરખાવો.",
+      "Atoms કયા atoms સાથે જોડાયેલા છે તે જુઓ.",
+      "Chain, position અથવા functional-group difference classify કરો."
+    ],
+    "trap": "Single bond rotation થી બનેલી conformations structural isomers નથી.",
+    "quiz": {
+      "question": "Ethanol and dimethyl ether are examples of which isomerism?",
+      "answer": "Functional isomerism",
+      "distractors": [
+        "Optical isomerism",
+        "Conformational isomerism",
+        "Geometrical isomerism"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-bond-cleavage",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "concept",
+    "name": "Homolysis vs heterolysis",
+    "pages": [
+      271,
+      272
+    ],
+    "equation": "Cl–Cl → 2Cl•   |   R–Br → R⁺ + Br⁻",
+    "structures": [],
+    "conditions": "Homolysis: one electron each; heterolysis: both electrons to one fragment",
+    "summary": "Bond તૂટે ત્યારે electrons ક્યાં જાય છે તે સૌથી પહેલો પ્રશ્ન છે. Homolysis માં each fragment ને એક electron મળે છે; heterolysis માં pair એક fragment ને મળે છે.",
+    "why": "Homolysis radicals બનાવે છે. Heterolysis ions બનાવે છે. Fishhook arrow એક electron અને full curved arrow electron pair દર્શાવે છે.",
+    "steps": [
+      "Bond ના બે electrons ઓળખો.",
+      "Equal split હોય તો બે fishhook arrows વિચારો.",
+      "Pair એક side જાય તો full curved arrow અને charges લખો."
+    ],
+    "trap": "Curved arrow atom ની movement બતાવતો નથી; electrons ની movement બતાવે છે.",
+    "quiz": {
+      "question": "Which species are formed by homolytic cleavage of Cl₂?",
+      "answer": "Two chlorine radicals",
+      "distractors": [
+        "Cl⁺ and Cl⁻",
+        "Two chloride ions",
+        "Two chlorine cations"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-nucleophile-electrophile",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "concept",
+    "name": "Nucleophile & electrophile: follow the electron pair",
+    "pages": [
+      272,
+      273
+    ],
+    "equation": "Nu: + E → Nu–E",
+    "structures": [
+      {
+        "name": "Hydroxide",
+        "smiles": "[OH-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ammonia",
+        "smiles": "N",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Methyl cation",
+        "smiles": "[CH3+]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Electron-pair donor vs electron-pair acceptor",
+    "summary": "Nucleophile electron pair આપે છે; electrophile electron pair સ્વીકારે છે. Positive/negative charge clue છે, સંપૂર્ણ definition નથી.",
+    "why": "NH₃ neutral હોવા છતાં N lone pair ને કારણે nucleophile છે. Carbonyl carbon partial positive હોવાથી electrophilic છે.",
+    "steps": [
+      "Lone pair, π bond અથવા negative charge શોધો.",
+      "Electron-poor atom અને leaving group ઓળખો.",
+      "Arrow electron-rich site થી electron-poor site તરફ દોરો."
+    ],
+    "trap": "દરેક neutral molecule non-nucleophilic નથી; NH₃ અને H₂O important examples છે.",
+    "quiz": {
+      "question": "Why can NH₃ act as a nucleophile?",
+      "answer": "Nitrogen has a lone pair",
+      "distractors": [
+        "It has a positive charge",
+        "It contains a π bond",
+        "It must first become NH₄⁺"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-reactive-intermediates",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "structure",
+    "name": "Carbocations, carbanions & radicals",
+    "pages": [
+      272,
+      274
+    ],
+    "equation": "Carbocation: electron-deficient   |   Carbanion: electron-rich",
+    "structures": [
+      {
+        "name": "tert-Butyl cation",
+        "smiles": "[C+](C)(C)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Methyl anion",
+        "smiles": "[CH3-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzyl cation",
+        "smiles": "[CH2+]c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Methyl radical",
+        "smiles": "[CH3]",
+        "caption": "The dot marks one unpaired electron on carbon.",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethyl radical",
+        "smiles": "C[CH2]",
+        "caption": "The radical dot is on the terminal CH₂ carbon.",
+        "level": "slot1"
+      },
+      {
+        "name": "tert-Butyl radical",
+        "smiles": "[C](C)(C)C",
+        "caption": "The radical dot is on the central carbon; this species has no formal charge.",
+        "level": "slot1"
+      },
+      {
+        "name": "Isopropyl carbanion",
+        "smiles": "C[CH-]C",
+        "caption": "The formal − charge is on the middle carbon.",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Reactive-intermediate models",
+    "summary": "Carbocation ના electron-deficient carbon પાસે સામાન્ય રીતે six valence-shell electrons હોય છે. Simple carbocation approximately trigonal planar હોય છે.",
+    "why": "Carbanion પાસે lone pair છે; simple alkyl carbanion સામાન્ય રીતે pyramidal હોય છે. Resonance હોય તો geometry અને stability બંને બદલાય શકે.",
+    "steps": [
+      "Charge કે unpaired electron ધરાવતો carbon શોધો.",
+      "Hybridisation માટે lone pair અને π conjugation જુઓ.",
+      "Inductive effect, resonance અને hyperconjugation થી stability compare કરો."
+    ],
+    "trap": "3° > 2° > 1° order simple carbocations માટે છે; બધા carbanions માટે નહીં. Radical dot એક unpaired electron છે; +/− formal charges છે. બંને એક અર્થનાં symbols નથી.",
+    "quiz": {
+      "question": "What is the usual geometry of a simple carbocation centre?",
+      "answer": "Trigonal planar",
+      "distractors": [
+        "Tetrahedral with four σ bonds",
+        "Linear",
+        "Octahedral"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-inductive-effect",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "concept",
+    "name": "Inductive effect: electron withdrawal through σ bonds",
+    "pages": [
+      274,
+      275
+    ],
+    "equation": "FCH₂COOH is more acidic than CH₃COOH.",
+    "structures": [
+      {
+        "name": "Fluoroethanoic acid",
+        "smiles": "FCC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanoic acid",
+        "smiles": "CC(=O)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "−I and +I effects",
+    "summary": "Electronegativity ના કારણે σ-bond framework માં electron density ખેંચાય અથવા ધકેલાય છે. આ inductive effect distance સાથે ઝડપથી ઓછો થાય છે.",
+    "why": "F નો −I effect carboxylate conjugate base ને stabilise કરે છે; તેથી fluoroethanoic acid, ethanoic acid કરતાં stronger acid છે.",
+    "steps": [
+      "Electron-withdrawing substituent ઓળખો.",
+      "Charged/reactive site થી તેનું distance જુઓ.",
+      "Effect conjugate base ને stabilise કરે છે કે destabilise તે નક્કી કરો."
+    ],
+    "trap": "−I effect અને resonance effect એક જ phenomenon નથી.",
+    "quiz": {
+      "question": "Why is fluoroethanoic acid stronger than ethanoic acid?",
+      "answer": "The −I effect stabilises its conjugate base",
+      "distractors": [
+        "F donates a proton directly",
+        "It has fewer oxygen atoms",
+        "Its carbon chain is longer"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-resonance-rules",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "concept",
+    "name": "Resonance: contributors are not separate molecules",
+    "pages": [
+      275,
+      276
+    ],
+    "equation": "CH₃COO⁻: negative charge is delocalised over both oxygen atoms.",
+    "structures": [
+      {
+        "name": "Acetate ion",
+        "smiles": "CC(=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Phenoxide ion",
+        "smiles": "[O-]c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Conjugated p orbitals; fixed atomic connectivity",
+    "summary": "Resonance contributors માં atom positions બદલાતા નથી; માત્ર electron placement બદલાય છે. Actual species resonance hybrid છે.",
+    "why": "Equivalent acetate contributors માં બંને C–O bonds equivalent બને છે. Phenoxide માં negative charge aromatic system સાથે delocalise થઈ શકે છે.",
+    "steps": [
+      "Atomic skeleton અને overall charge same રાખો.",
+      "Lone pair અને π electrons જ move કરો.",
+      "Valid octets, bond orders અને formal charges check કરો."
+    ],
+    "trap": "Resonance arrow ↔ equilibrium arrow નથી; contributors isolated intermediates નથી.",
+    "quiz": {
+      "question": "What remains unchanged between resonance contributors?",
+      "answer": "Atomic connectivity",
+      "distractors": [
+        "All formal charges on every atom",
+        "Every π-bond position",
+        "Every lone-pair position"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-hyperconjugation",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "concept",
+    "name": "Hyperconjugation: why alkyl groups stabilise cations",
+    "pages": [
+      277
+    ],
+    "equation": "Simple alkyl carbocations: 3° > 2° > 1° > CH₃⁺",
+    "structures": [
+      {
+        "name": "Ethyl cation",
+        "smiles": "C[CH2+]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Isopropyl cation",
+        "smiles": "C[CH+]C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "tert-Butyl cation",
+        "smiles": "C[C+](C)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "σ(C–H) donation into an adjacent empty p orbital",
+    "summary": "Adjacent C–H σ bond ના electrons empty p orbital સાથે interact કરી શકે છે. આ hyperconjugation simple alkyl carbocation ને stabilise કરે છે.",
+    "why": "Useful overlap માટે adjacent carbon પર suitable σ bonds જોઈએ. Resonance-stabilised benzyl/allyl cations ને માત્ર alkyl-count rule થી rank ન કરો.",
+    "steps": [
+      "Charged carbon અને adjacent carbons mark કરો.",
+      "Adjacent C–H bonds તથા p-orbital overlap જુઓ.",
+      "Inductive અને hyperconjugative effects સાથે compare કરો."
+    ],
+    "trap": "Carbocation પરના H count કરતાં adjacent carbon ના suitable C–H bonds મહત્વના છે.",
+    "quiz": {
+      "question": "Hyperconjugation in an alkyl carbocation involves donation from which bond?",
+      "answer": "An adjacent σ(C–H) bond",
+      "distractors": [
+        "A remote O–H bond",
+        "Only an aromatic π bond",
+        "A metal–metal bond"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-purification-methods",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "concept",
+    "name": "Choose a purification method logically",
+    "pages": [
+      278,
+      283
+    ],
+    "equation": "Distillation ↔ volatility   |   Crystallisation ↔ solubility",
+    "structures": [],
+    "conditions": "Crystallisation, sublimation, distillation, extraction & chromatography",
+    "summary": "Purification method impurity અને desired compound ના physical-property difference પર આધારિત છે.",
+    "why": "Close boiling liquids માટે fractional distillation મદદરૂપ છે. Heat-sensitive high-boiling liquid માટે reduced-pressure distillation ઉપયોગી છે. Chromatography માં stationary/mobile phases પ્રત્યે different affinities separation આપે છે.",
+    "steps": [
+      "Solid છે કે liquid તે ઓળખો.",
+      "Solubility, volatility અને thermal stability compare કરો.",
+      "Property difference ને યોગ્ય technique સાથે જોડો."
+    ],
+    "trap": "TLC માં higher Rf હંમેશાં more polar compound બતાવતું નથી; stationary phase અને solvent system matter કરે છે.",
+    "quiz": {
+      "question": "Which method helps distil a heat-sensitive, high-boiling liquid?",
+      "answer": "Reduced-pressure distillation",
+      "distractors": [
+        "Strong heating at atmospheric pressure",
+        "Sublimation in every case",
+        "Simple filtration"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-elemental-analysis",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "organic-basics",
+    "kind": "concept",
+    "name": "Elemental analysis: Lassaigne & C/H accounting",
+    "pages": [
+      284,
+      289
+    ],
+    "equation": "C% = (12/44)(mCO₂/msample)×100   |   H% = (2/18)(mH₂O/msample)×100",
+    "structures": [],
+    "conditions": "Qualitative fusion tests and quantitative combustion analysis",
+    "summary": "Organic compound ના covalently bound N, S અને halogens ને sodium fusion soluble ionic forms માં ફેરવે છે. તેથી qualitative tests શક્ય બને છે.",
+    "why": "Combustion analysis માં CO₂ mass પરથી C અને H₂O mass પરથી H ગણીએ છીએ. Kjeldahl method બધા nitrogen compounds માટે applicable નથી.",
+    "steps": [
+      "Qualitative identification અને quantitative percentage અલગ રાખો.",
+      "C/H માટે product mass ને corresponding element mass માં convert કરો.",
+      "Sample mass થી divide કરી ×100 કરો."
+    ],
+    "trap": "Halogen test પહેલાં CN⁻/S²⁻ interference દૂર કરવું જરૂરી છે; Kjeldahl method nitro/azo/ring-N માટે universal નથી.",
+    "quiz": {
+      "question": "What mass fraction of CO₂ corresponds to carbon?",
+      "answer": "12/44",
+      "distractors": [
+        "44/12",
+        "2/18",
+        "18/2"
+      ],
+      "level": "slot1"
+    }
+  }
+]

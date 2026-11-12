@@ -1,0 +1,627 @@
+[
+  {
+    "id": "ncert-book-alcohol-phenol-acidity",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Alcohol vs phenol: Na and NaOH behave differently",
+    "pages": [
+      204,
+      207
+    ],
+    "equation": "2ROH + 2Na → 2RONa + H₂   |   PhOH + NaOH → PhONa + H₂O",
+    "structures": [
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Phenol",
+        "smiles": "Oc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Sodium phenoxide",
+        "smiles": "[Na+].[O-]c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Compare sodium metal with aqueous sodium hydroxide",
+    "summary": "Alcohol અને phenol sodium metal સાથે H₂ આપી શકે છે. Phenol aqueous NaOH સાથે salt બનાવે છે; ordinary ethanol માટે આ equilibrium strongly favour થતું નથી.",
+    "why": "Phenoxide resonance-stabilised છે; ethoxide માં aromatic delocalisation નથી. આ conjugate-base difference phenol ને વધુ acidic બનાવે છે.",
+    "steps": [
+      "Reagent Na છે કે NaOH તે જુઓ.",
+      "Conjugate base ethoxide/phenoxide compare કરો.",
+      "Acidity પરથી salt formation predict કરો."
+    ],
+    "trap": "Phenol અને carboxylic acid સમાન strength ના નથી; phenol સામાન્ય રીતે NaHCO₃ સાથે CO₂ આપતું નથી.",
+    "quiz": {
+      "question": "Which compound readily forms its sodium salt with aqueous NaOH?",
+      "answer": "Phenol",
+      "distractors": [
+        "Ethanol",
+        "Ethane",
+        "Diethyl ether"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-ethanol-dehydration-temperature",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Ethanol dehydration: ether or alkene?",
+    "pages": [
+      208,
+      215
+    ],
+    "equation": "413 K → Et–O–Et   |   443 K → CH₂=CH₂",
+    "structures": [
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Diethyl ether",
+        "smiles": "CCOCC",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethene",
+        "smiles": "C=C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Concentrated H₂SO₄; textbook temperature comparison for ethanol",
+    "summary": "Same alcohol અને acid સાથે temperature બદલવાથી intermolecular ether formation કે elimination favour થઈ શકે છે.",
+    "why": "Ethanol માટે about 413 K પર diethyl ether અને about 443 K પર ethene textbook products છે. Secondary/tertiary alcohols પર આ exact ether-forming rule universal નથી.",
+    "steps": [
+      "Starting alcohol primary છે કે નહીં જુઓ.",
+      "Temperature અને conditions વાંચો.",
+      "Ether માં two ethyl groups અને alkene માં one two-carbon unit track કરો."
+    ],
+    "trap": "413 K/443 K shortcut દરેક alcohol માટે blindly લાગુ ન કરો.",
+    "quiz": {
+      "question": "What is favoured from ethanol with concentrated H₂SO₄ at about 443 K?",
+      "answer": "Ethene",
+      "distractors": [
+        "Diethyl ether",
+        "Ethanal",
+        "Ethanoic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-alcohol-oxidation-class",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Primary, secondary and tertiary alcohol oxidation",
+    "pages": [
+      210
+    ],
+    "equation": "1° → aldehyde/acid   |   2° → ketone   |   3° resists ordinary oxidation",
+    "structures": [
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propan-2-ol",
+        "smiles": "CC(O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "tert-Butanol",
+        "smiles": "CC(C)(C)O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Oxidant and medium determine the endpoint",
+    "summary": "OH-bearing carbon પર કેટલા carbon groups અને H છે તે alcohol class નક્કી કરે છે. 1° alcohol aldehyde અને further oxidation થી acid આપી શકે છે; 2° ketone આપે છે.",
+    "why": "Ordinary oxidation માટે carbinol C–H મહત્વનું છે. Tertiary alcohol પાસે આ H નથી; vigorous conditions માં C–C cleavage સાથે different chemistry થઈ શકે છે.",
+    "steps": [
+      "OH-bearing carbon ને locate કરો.",
+      "તે carbon પર carbon substituents અને H count કરો.",
+      "Oxidant/medium પરથી aldehyde vs acid endpoint નક્કી કરો."
+    ],
+    "trap": "Primary alcohol નું oxidation હંમેશાં aldehyde પર અટકે એવું નથી.",
+    "quiz": {
+      "question": "What is the normal oxidation product of propan-2-ol?",
+      "answer": "Propanone",
+      "distractors": [
+        "Propanal",
+        "Propanoic acid",
+        "Propene"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-alcohol-copper-573",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Hot copper: dehydrogenation vs dehydration",
+    "pages": [
+      210
+    ],
+    "equation": "CH₃CH₂OH → CH₃CHO + H₂",
+    "structures": [
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propan-2-ol",
+        "smiles": "CC(O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Cu; about 573 K",
+    "summary": "Heated copper પર 1°/2° alcohols dehydrogenation આપી શકે છે. Primary alcohol aldehyde અને secondary alcohol ketone આપે છે.",
+    "why": "Tertiary alcohol પાસે carbinol H નથી; textbook comparison માં dehydration to alkene મહત્વનું છે. Reagent conditions ને ordinary acid dehydration થી અલગ વાંચો.",
+    "steps": [
+      "Alcohol class identify કરો.",
+      "Carbinol C–H અને O–H removal થી C=O formation જુઓ.",
+      "Tertiary example માટે elimination possibility check કરો."
+    ],
+    "trap": "H₂ removal અને H₂O removal અલગ transformations છે.",
+    "quiz": {
+      "question": "Which small molecule is removed when ethanol is dehydrogenated to ethanal?",
+      "answer": "H₂",
+      "distractors": [
+        "H₂O",
+        "CO₂",
+        "NH₃"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-cumene-phenol-process",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Cumene process: phenol plus propanone",
+    "pages": [
+      202,
+      203
+    ],
+    "equation": "Cumene → cumene hydroperoxide → phenol + propanone",
+    "structures": [
+      {
+        "name": "Cumene",
+        "smiles": "CC(C)c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Phenol",
+        "smiles": "Oc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Air/O₂ oxidation; then acid-catalysed cleavage",
+    "summary": "Cumene ને oxidise કરતાં hydroperoxide બને છે. Acidic cleavage માં phenol અને acetone બંને products મળે છે.",
+    "why": "Phenyl group અને side-chain carbon atoms ક્યાં જાય છે તે count કરો. Phenol only product લખવાથી carbon accounting અધૂરું રહે છે.",
+    "steps": [
+      "Cumene ના benzylic tertiary centre ઓળખો.",
+      "Hydroperoxide intermediate નો role યાદ રાખો.",
+      "Phenol સાથે propanone co-product લખો."
+    ],
+    "trap": "Cumene process માં benzene ring નો carbon lose થતો નથી.",
+    "quiz": {
+      "question": "Which useful co-product forms with phenol in the cumene process?",
+      "answer": "Propanone",
+      "distractors": [
+        "Ethanal",
+        "Methanol",
+        "Ethanoic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-phenol-bromine-water",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Phenol and bromine water",
+    "pages": [
+      212
+    ],
+    "equation": "Phenol + 3Br₂ → 2,4,6-tribromophenol + 3HBr",
+    "structures": [
+      {
+        "name": "Phenol",
+        "smiles": "Oc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "2,4,6-Tribromophenol",
+        "smiles": "Oc1c(Br)cc(Br)cc1Br",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Bromine water",
+    "summary": "OH group ring ને strongly activate કરે છે. Aqueous bromine સાથે ortho અને para sites પર multiple substitution થી white precipitate of 2,4,6-tribromophenol મળે છે.",
+    "why": "Non-aqueous, controlled bromination માં mono-substitution possibilities અલગ હોઈ શકે છે. Medium product count નક્કી કરવામાં મહત્વનું છે.",
+    "steps": [
+      "OH ના ortho/para sites identify કરો.",
+      "Aqueous bromine માટે 2,4,6 positions fill કરો.",
+      "Three ring H replace થયા છે તે check કરો."
+    ],
+    "trap": "Phenol + bromine water ને bromobenzene formation સાથે confuse ન કરો.",
+    "quiz": {
+      "question": "What precipitate is obtained from phenol with bromine water?",
+      "answer": "2,4,6-Tribromophenol",
+      "distractors": [
+        "Bromobenzene",
+        "Benzyl bromide",
+        "Cyclohexyl bromide"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-phenol-nitration-conditions",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Phenol nitration: dilute vs concentrated acid",
+    "pages": [
+      211,
+      212
+    ],
+    "equation": "Dilute HNO₃ → o-/p-nitrophenol   |   concentrated conditions → picric acid",
+    "structures": [
+      {
+        "name": "o-Nitrophenol",
+        "smiles": "Oc1ccccc1[N+](=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "p-Nitrophenol",
+        "smiles": "Oc1ccc([N+](=O)[O-])cc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Picric acid",
+        "smiles": "Oc1c([N+](=O)[O-])cc([N+](=O)[O-])cc1[N+](=O)[O-]",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Nitrating strength and conditions control substitution extent",
+    "summary": "Dilute HNO₃ સાથે phenol o- અને p-nitrophenol આપે છે. Strong nitrating conditions માં 2,4,6-trinitrophenol એટલે picric acid મળી શકે છે.",
+    "why": "Ortho isomer માં intramolecular H-bonding અને para isomer માં intermolecular interactions તેમના physical behaviour ને affect કરે છે.",
+    "steps": [
+      "OH ની ortho/para direction યાદ રાખો.",
+      "Reagent strength પરથી mono vs multiple nitration પસંદ કરો.",
+      "Nitro groups ની exact positions count કરો."
+    ],
+    "trap": "Picric acid માં three NO₂ groups છે; તે simple p-nitrophenol નથી.",
+    "quiz": {
+      "question": "What is the common name of 2,4,6-trinitrophenol?",
+      "answer": "Picric acid",
+      "distractors": [
+        "Salicylic acid",
+        "Benzoic acid",
+        "p-Anisic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-phenol-zinc-dust",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Phenol with zinc dust gives benzene",
+    "pages": [
+      213
+    ],
+    "equation": "C₆H₅OH + Zn → C₆H₆ + ZnO",
+    "structures": [
+      {
+        "name": "Phenol",
+        "smiles": "Oc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Benzene",
+        "smiles": "c1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Zn dust; heating",
+    "summary": "Phenolic O દૂર થાય છે અને ring carbon ને H મળે છે. Benzene product છે; aromatic ring hydrogenate થતી નથી.",
+    "why": "આ net deoxygenation છે. Zinc oxide formation સાથે oxygen accounting કરી શકાય છે; heterogeneous detailed mechanism માટે fabricated universal arrows ન આપો.",
+    "steps": [
+      "Phenolic C–O bond નું change ઓળખો.",
+      "Aromatic skeleton same રાખો.",
+      "Organic benzene અને inorganic ZnO બંને count કરો."
+    ],
+    "trap": "Phenol થી cyclohexane આ conditions માં predict ન કરો.",
+    "quiz": {
+      "question": "Which organic product forms when phenol is heated with zinc dust?",
+      "answer": "Benzene",
+      "distractors": [
+        "Cyclohexanol",
+        "Cyclohexane",
+        "Benzoic acid"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-ether-hi-cleavage",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Ether cleavage with HI: break the correct C–O bond",
+    "pages": [
+      217,
+      219
+    ],
+    "equation": "Anisole + HI → phenol + CH₃I",
+    "structures": [
+      {
+        "name": "Anisole",
+        "smiles": "COc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Phenol",
+        "smiles": "Oc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Iodomethane",
+        "smiles": "CI",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "HI or HBr; substrate-dependent ether cleavage",
+    "summary": "Ether O protonate થતાં C–O cleavage સરળ થાય છે. Anisole માં iodide methyl carbon પર attack કરે છે; phenyl–O bond ordinary SN2 થી તૂટતો નથી.",
+    "why": "Primary unsymmetrical ethers માં less hindered carbon પર SN2 cleavage useful છે; tertiary centres માટે carbocation/elimination pathways હોઈ શકે છે.",
+    "steps": [
+      "Aryl અને alkyl C–O bonds અલગ mark કરો.",
+      "Suitable alkyl attack site ઓળખો.",
+      "Anisole માટે phenol + methyl iodide લખો."
+    ],
+    "trap": "Anisole + HI માટે iodobenzene + methanol લખવું ખોટું છે.",
+    "quiz": {
+      "question": "Which products form from anisole with HI?",
+      "answer": "Phenol and iodomethane",
+      "distractors": [
+        "Iodobenzene and methanol",
+        "Benzene and formaldehyde",
+        "Benzyl iodide and water"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-anisole-directing",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Anisole electrophilic substitution",
+    "pages": [
+      219,
+      220
+    ],
+    "equation": "Anisole + Br₂ → o-/p-bromoanisole",
+    "structures": [
+      {
+        "name": "Anisole",
+        "smiles": "COc1ccccc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "p-Bromoanisole",
+        "smiles": "COc1ccc(Br)cc1",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "o-Bromoanisole",
+        "smiles": "COc1ccccc1Br",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Controlled aromatic bromination; para commonly favoured",
+    "summary": "Methoxy group resonance donation થી aromatic ring activate કરે છે અને ortho/para direction આપે છે.",
+    "why": "Para product steric reasons થી often favoured છે, પરંતુ ortho product પણ શક્ય છે. Reaction માં ether linkage retained રહે છે.",
+    "steps": [
+      "OMe group ની resonance donation ઓળખો.",
+      "Ortho અને para positions mark કરો.",
+      "Ring substitution ને ether cleavage થી અલગ રાખો."
+    ],
+    "trap": "Anisole માં O હાજર છે એટલે reagent હંમેશાં C–O bond તોડશે એવું નથી.",
+    "quiz": {
+      "question": "Which positions are favoured in anisole electrophilic substitution?",
+      "answer": "Ortho and para",
+      "distractors": [
+        "Meta only",
+        "Only the methyl carbon",
+        "All positions are always equal"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-methanol-ethanol-comparison",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "concept",
+    "name": "Methanol and ethanol: important textbook identities",
+    "pages": [
+      214
+    ],
+    "equation": "CH₃OH → HCHO   |   CH₃CH₂OH → CH₃CHO",
+    "structures": [
+      {
+        "name": "Methanol",
+        "smiles": "CO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Methanal",
+        "smiles": "C=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanol",
+        "smiles": "CCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Ethanal",
+        "smiles": "CC=O",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "Controlled oxidation/dehydrogenation comparisons",
+    "summary": "One-carbon methanol થી methanal અને two-carbon ethanol થી ethanal બની શકે છે. Carbon skeleton oxidation દરમિયાન retain થાય છે.",
+    "why": "Alcohol અને carbonyl common names connect કરો: methanol/methyl alcohol, methanal/formaldehyde, ethanol/ethyl alcohol, ethanal/acetaldehyde.",
+    "steps": [
+      "Starting alcohol માં carbon count કરો.",
+      "Primary alcohol થી matching aldehyde બનાવો.",
+      "Common name અને IUPAC name pair કરો."
+    ],
+    "trap": "Methanol અને ethanol interchangeable substances નથી; textbook identity અને chemistry અલગ રાખો.",
+    "quiz": {
+      "question": "Which aldehyde corresponds to controlled oxidation of methanol?",
+      "answer": "Methanal",
+      "distractors": [
+        "Ethanal",
+        "Propanal",
+        "Benzaldehyde"
+      ],
+      "level": "slot1"
+    }
+  },
+  {
+    "id": "ncert-book-alkene-hydroboration",
+    "level": "slot1",
+    "type": "ncert",
+    "chapterId": "alcohols",
+    "kind": "reaction",
+    "name": "Hydroboration–oxidation: anti-Markovnikov alcohol",
+    "pages": [
+      200
+    ],
+    "equation": "CH₃CH=CH₂ → CH₃CH₂CH₂OH",
+    "structures": [
+      {
+        "name": "Propene",
+        "smiles": "CC=C",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      },
+      {
+        "name": "Propan-1-ol",
+        "smiles": "CCCO",
+        "caption": "Skeletal connectivity",
+        "level": "slot1"
+      }
+    ],
+    "conditions": "1. BH₃/THF  2. H₂O₂/OH⁻",
+    "summary": "B સામાન્ય રીતે less substituted carbon પર add થાય છે. Oxidation માં C–B સ્થાન પર C–O bond આવે છે; અંતે propan-1-ol મળે છે.",
+    "why": "Hydroboration concerted syn process છે. Oxidation migration carbon પર configuration retain કરે છે; free carbocation pathway જરૂરી નથી.",
+    "steps": [
+      "H/B addition માં less substituted B-bearing carbon ઓળખો.",
+      "Peroxide oxidation માં B ને O થી replace થતું track કરો.",
+      "Work-up પછી OH placement check કરો."
+    ],
+    "trap": "Anti-Markovnikov એટલે anti stereochemistry નથી; hydroboration ની addition syn છે.",
+    "quiz": {
+      "question": "Which alcohol forms from propene by hydroboration–oxidation?",
+      "answer": "Propan-1-ol",
+      "distractors": [
+        "Propan-2-ol",
+        "Methanol",
+        "tert-Butanol"
+      ],
+      "level": "slot1"
+    },
+    "mechanismPathId": "bh3-alkene"
+  }
+]
